@@ -10,9 +10,11 @@
     "figma:export": "node scripts/figma-export.js",
     "figma:components": "node scripts/list-components.js",
     "figma:usage": "node scripts/analyze-usage.js",
+    "figma:icons": "node scripts/export-icons.js",
     "tokens:transform": "token-transformer tokens/figma-tokens.json tokens/transformed-tokens.json",
     "tokens:build": "style-dictionary build --config style-dictionary.config.cjs",
-    "build": "npm run tokens:build && tsc",
+    "build": "npm run tokens:build && tsc && npm run build:copy-assets",
+    "build:copy-assets": "node scripts/copy-build-assets.js",
     "dev": "npm run storybook"
   },
   "keywords": [

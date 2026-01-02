@@ -10,8 +10,44 @@ const meta: Meta<typeof Accordion> = {
       type: 'figma',
       url: 'https://www.figma.com/file/XKxVlFf9TfWBHosOInkJXA/T-Suite-Design-System',
     },
+    docs: {
+      description: {
+        component: `Collapsible accordion component for organizing content.
+
+## Usage
+\`\`\`tsx
+import { Accordion } from './components/Accordion';
+
+<Accordion title="Section Title" defaultExpanded={false}>
+  <p>Your content here...</p>
+</Accordion>
+\`\`\`
+
+## Features
+- Click title bar to expand/collapse
+- Optional defaultExpanded prop
+- Smooth animations
+- Accessible keyboard navigation
+
+Click the accordions below to test the expand/collapse behavior.`,
+      },
+    },
   },
   tags: ['autodocs'],
+  argTypes: {
+    title: {
+      control: 'text',
+      description: 'Header text displayed in the accordion',
+    },
+    defaultExpanded: {
+      control: 'boolean',
+      description: 'Whether the accordion starts expanded',
+    },
+    children: {
+      control: 'text',
+      description: 'Content shown when expanded',
+    },
+  },
 };
 
 export default meta;
@@ -62,6 +98,28 @@ export const WithRichContent: Story = {
         <h4>Detailed Information</h4>
         <p>This accordion can contain any React content.</p>
         <button onClick={() => alert('Button clicked!')}>Click me</button>
+      </div>
+    ),
+    defaultExpanded: false,
+  },
+};
+
+export const LongContent: Story = {
+  args: {
+    title: 'Documentation',
+    children: (
+      <div>
+        <p>The Accordion component is a collapsible content container that allows users to expand and collapse sections of content.</p>
+        <h4>Features:</h4>
+        <ul>
+          <li>Expandable/collapsible sections</li>
+          <li>Customizable titles</li>
+          <li>Support for rich content</li>
+          <li>Keyboard accessible</li>
+          <li>Automatic state management</li>
+        </ul>
+        <h4>Usage:</h4>
+        <pre>{'<Accordion title="My Section">\n  Content goes here\n</Accordion>'}</pre>
       </div>
     ),
     defaultExpanded: false,

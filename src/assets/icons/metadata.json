@@ -1,0 +1,34 @@
+{
+  "local-parking--enabled": {
+    "name": "local-parking--enabled",
+    "originalName": "local_parking/Property 1=Enabled",
+    "nodeId": "1065:6377",
+    "description": "",
+    "componentSetName": "local_parking",
+    "key": ""
+  },
+  "local-parking--hovred": {
+    "name": "local-parking--hovred",
+    "originalName": "local_parking/Property 1=Hovred",
+    "nodeId": "3797:54269",
+    "description": "",
+    "componentSetName": "local_parking",
+    "key": ""
+  },
+  "local-parking--focused": {
+    "name": "local-parking--focused",
+    "originalName": "local_parking/Property 1=Focused",
+    "nodeId": "3797:54271",
+    "description": "",
+    "componentSetName": "local_parking",
+    "key": ""
+  },
+  "local-parking--disable": {
+    "name": "local-parking--disable",
+    "originalName": "local_parking/Property 1=Disable",
+    "nodeId": "3838:102508",
+    "description": "",
+    "componentSetName": "local_parking",
+    "key": ""
+  }
+}

@@ -116,27 +116,75 @@ import Link from '@docusaurus/Link';
 ### Option 3: Storybook Addon
 Install `@storybook/addon-docs` and generate MDX files that can be imported into Docusaurus.
 
-## 🎨 Using Design Tokens
+## 🎨 Using the Design System
 
-### In CSS:
-```css
-.my-component {
-  color: var(--color-primary);
-  padding: var(--spacing-md);
-  border-radius: var(--border-radius-md);
+### Installation
+
+```bash
+npm install @tsuite/design-system
+# or
+yarn add @tsuite/design-system
+```
+
+### Import Components
+
+```tsx
+import { Button, Input, Switch } from '@tsuite/design-system';
+
+function MyApp() {
+  return (
+    <>
+      <Button variant="primary" size="medium" onClick={() => alert('Clicked!')}>
+        Click me
+      </Button>
+      
+      <Input 
+        placeholder="Enter text..."
+        onChange={(e) => console.log(e.target.value)}
+      />
+      
+      <Switch 
+        checked={isOn}
+        onChange={setIsOn}
+        label="Enable feature"
+      />
+    </>
+  );
 }
 ```
 
-### In React:
+### Using Design Tokens
+
+#### In CSS:
+```css
+/* Tokens are automatically available as CSS variables */
+.my-component {
+  color: var(--colors-brand-color-brand-700);
+  background: var(--colors-neutral-neutral-100);
+  padding: 16px;
+}
+```
+
+#### In TypeScript/React:
 ```tsx
-import { tokens } from '@tsuite/design-system';
+import { ColorsBrandColorBrand700 } from '@tsuite/design-system';
 
 const MyComponent = () => (
-  <div style={{ color: tokens.color.primary }}>
-    Hello World
+  <div style={{ color: ColorsBrandColorBrand700 }}>
+    Styled with design tokens
   </div>
 );
 ```
+
+### View Live Components
+
+**Storybook:** https://t-hive-io.github.io/tsuite.design-system/
+
+All components have:
+- ✅ Interactive controls to test props
+- ✅ Actions panel to see events
+- ✅ Code examples you can copy
+- ✅ TypeScript types included
 
 ## 🔄 Workflow
 

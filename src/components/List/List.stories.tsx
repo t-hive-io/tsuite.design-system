@@ -2,7 +2,7 @@ import type { Meta, StoryObj } from '@storybook/react';
 import { List, ListItem } from './List';
 
 const meta: Meta<typeof List> = {
-  title: 'Components/List',
+  title: 'Components/Tree view',
   component: List,
   parameters: {
     layout: 'padded',
@@ -10,8 +10,18 @@ const meta: Meta<typeof List> = {
       type: 'figma',
       url: 'https://www.figma.com/file/XKxVlFf9TfWBHosOInkJXA/T-Suite-Design-System?node-id=1522:9414',
     },
+    docs: {
+      description: {
+        component: 'Tree/List view component for hierarchical navigation. Supports selection, nesting, locked states, and expand/collapse. Synced from T-Suite Design System in Figma.',
+      },
+    },
   },
   tags: ['autodocs'],
+  argTypes: {
+    children: {
+      description: 'ListItem components to display in the tree',
+    },
+  },
 };
 
 export default meta;
@@ -80,6 +90,22 @@ export const AllStates: Story = {
       <ListItem secondLevel>Second level</ListItem>
       <ListItem secondLevel selected>Second level selected</ListItem>
       <ListItem expanded>Expanded</ListItem>
+    </List>
+  ),
+};
+
+export const FileTree: Story = {
+  render: () => (
+    <List>
+      <ListItem expanded visible>📁 src</ListItem>
+      <ListItem secondLevel expanded visible>📁 components</ListItem>
+      <ListItem secondLevel>📄 Button.tsx</ListItem>
+      <ListItem secondLevel selected>📄 Input.tsx</ListItem>
+      <ListItem secondLevel>📄 Switch.tsx</ListItem>
+      <ListItem secondLevel>📁 assets</ListItem>
+      <ListItem secondLevel>📄 App.tsx</ListItem>
+      <ListItem>📁 public</ListItem>
+      <ListItem locked>🔒 node_modules</ListItem>
     </List>
   ),
 };

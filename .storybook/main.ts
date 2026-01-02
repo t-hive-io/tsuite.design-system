@@ -14,7 +14,7 @@ const config: StorybookConfig = {
   docs: {
     autodocs: "tag",
   },
-  staticDirs: ["../public"],
+  staticDirs: ["../public", "../src/assets"],
   // GitHub Pages base path
   viteFinal: async (config) => {
     config.base = process.env.NODE_ENV === 'production' ? '/tsuite.design-system/' : '/';

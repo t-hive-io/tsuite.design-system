@@ -1,9 +1,9 @@
+/** @jsxImportSource react */
 import type { Meta } from '@storybook/react';
-import React from 'react';
 import colors from '../../../tokens/figma-tokens.json';
 
 const meta: Meta = {
-  title: 'Design Tokens/Colors',
+  title: 'Foundations/Colors',
   parameters: {
     design: {
       type: 'figma',
@@ -11,13 +11,55 @@ const meta: Meta = {
     },
     docs: {
       description: {
-        component: 'Color palette from T-Suite Design System. Auto-synced from Figma styles.',
+        component: `Complete color palette from T-Suite Design System, auto-synced from Figma.
+
+## Usage
+All colors are available in \`tokens/figma-tokens.json\` and can be imported:
+
+\`\`\`tsx
+import colors from './tokens/figma-tokens.json';
+
+const brandPrimary = colors.brand.primary.value; // #007AFF
+\`\`\`
+
+## Categories
+- **Brand**: Core brand identity colors
+- **Primary**: Main UI colors (blue, green, red, yellow)
+- **Feedback**: Status colors (success, error, warning, info)
+- **Neutral**: Grayscale palette
+
+Browse all colors below and copy the hex values directly.`,
       },
     },
   },
 };
 
 export default meta;
+
+export const Overview = () => {
+  const allColors = Object.entries(colors.colors);
+  const brandCount = allColors.filter(([name]) => name.startsWith('Brand Color')).length;
+  const primaryCount = allColors.filter(([name]) => name.startsWith('Primary Color')).length;
+  const feedbackCount = allColors.filter(([name]) => name.startsWith('Feedback')).length;
+  const neutralCount = allColors.filter(([name]) => name.startsWith('Neutral')).length;
+
+  return (
+    <div>
+      <h2>Colors</h2>
+      <p>Total colors synced from Figma: {allColors.length}</p>
+      <ul>
+        <li>Brand: {brandCount}</li>
+        <li>Primary: {primaryCount}</li>
+        <li>Feedback: {feedbackCount}</li>
+        <li>Neutral: {neutralCount}</li>
+      </ul>
+      <p>
+        Use the stories below to browse each category. These categories are derived from token naming
+        in <code>tokens/figma-tokens.json</code>.
+      </p>
+    </div>
+  );
+};
 
 const ColorSwatch = ({ name, value, styleId }: { name: string; value: string; styleId: string }) => (
   <div style={{
@@ -68,6 +110,8 @@ export const BrandColors = () => {
   );
 };
 
+BrandColors.storyName = 'Brand colors';
+
 export const PrimaryColors = () => {
   const primaryColors = Object.entries(colors.colors)
     .filter(([name]) => name.startsWith('Primary Color'));
@@ -89,6 +133,8 @@ export const PrimaryColors = () => {
     </div>
   );
 };
+
+PrimaryColors.storyName = 'Primary colors';
 
 export const FeedbackColors = () => {
   const feedbackColors = Object.entries(colors.colors)
@@ -113,6 +159,8 @@ export const FeedbackColors = () => {
   );
 };
 
+FeedbackColors.storyName = 'Feedback colors';
+
 export const NeutralColors = () => {
   const neutralColors = Object.entries(colors.colors)
     .filter(([name]) => name.startsWith('Neutral'));
@@ -135,6 +183,8 @@ export const NeutralColors = () => {
   );
 };
 
+NeutralColors.storyName = 'Neutral colors';
+
 export const AllColors = () => {
   const allColors = Object.entries(colors.colors);
   
@@ -155,3 +205,5 @@ export const AllColors = () => {
     </div>
   );
 };
+
+AllColors.storyName = 'All colors';

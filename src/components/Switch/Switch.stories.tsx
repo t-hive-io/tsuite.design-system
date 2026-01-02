@@ -1,4 +1,5 @@
 import type { Meta, StoryObj } from '@storybook/react';
+import { useArgs } from '@storybook/preview-api';
 import { Switch } from './Switch';
 
 const meta: Meta<typeof Switch> = {
@@ -11,12 +12,36 @@ const meta: Meta<typeof Switch> = {
     },
     docs: {
       description: {
-        component: 'Toggle switch component for binary choices. Connected to T-Suite Design System in Figma.',
+        component: `Interactive toggle switch for on/off states.
+
+## Usage
+\`\`\`tsx
+import { Switch } from './components/Switch';
+
+const [checked, setChecked] = useState(false);
+
+<Switch 
+  checked={checked} 
+  onChange={setChecked}
+  label="Enable notifications"
+/>
+\`\`\`
+
+## Features
+- Fully controlled component
+- Accessible keyboard navigation
+- Optional labels and disabled state
+
+Try toggling the switch below - onChange events are logged in the **Actions** panel.`,
       },
     },
   },
   tags: ['autodocs'],
   argTypes: {
+    onChange: {
+      action: 'onChange',
+      description: 'Change handler (logged in Actions panel)',
+    },
     checked: {
       control: 'boolean',
       description: 'Whether the switch is on or off',
@@ -40,19 +65,38 @@ const meta: Meta<typeof Switch> = {
 export default meta;
 type Story = StoryObj<typeof Switch>;
 
+const InteractiveTemplate: Story = {
+  render: (args: any) => {
+    const [{ checked }, updateArgs] = useArgs();
+    return (
+      <Switch
+        {...args}
+        checked={checked as boolean}
+        onChange={(nextChecked: boolean) => {
+          args.onChange?.(nextChecked);
+          updateArgs({ checked: nextChecked });
+        }}
+      />
+    );
+  },
+};
+
 export const Default: Story = {
+  ...InteractiveTemplate,
   args: {
     checked: false,
   },
 };
 
 export const Checked: Story = {
+  ...InteractiveTemplate,
   args: {
     checked: true,
   },
 };
 
 export const WithLabel: Story = {
+  ...InteractiveTemplate,
   args: {
     checked: true,
     label: 'Enable notifications',
@@ -76,6 +120,7 @@ export const DisabledChecked: Story = {
 };
 
 export const Small: Story = {
+  ...InteractiveTemplate,
   args: {
     checked: true,
     size: 'small',
@@ -84,6 +129,7 @@ export const Small: Story = {
 };
 
 export const Large: Story = {
+  ...InteractiveTemplate,
   args: {
     checked: true,
     size: 'large',
