@@ -1,0 +1,6 @@
+import{a as c}from"./jsx-runtime-DlfvymUh.js";import{f as p}from"./figma-docs-BG7XTolv.js";import"./index-uubelm5h.js";const a=({className:n,children:o})=>c("div",{className:`expandedheadersectionelements ${n||""}`,children:o||"Expanded header section elements"});try{a.displayName="Expandedheadersectionelements",a.__docgenInfo={description:`Expanded header section elements
+Maps to Figma component: "Expanded header section elements"`,displayName:"Expandedheadersectionelements",props:{className:{defaultValue:null,description:"",name:"className",required:!1,type:{name:"string"}}}}}catch{}var s;const h={title:"Components/Expandedheadersectionelements",component:a,parameters:{layout:"centered",docs:{description:{component:((s=p["Expanded header section elements"])==null?void 0:s.description)||""}}},tags:["autodocs"]},e={args:{children:"Expanded header section elements"}};var t,d,r;e.parameters={...e.parameters,docs:{...(t=e.parameters)==null?void 0:t.docs,source:{originalSource:`{
+  args: {
+    children: 'Expanded header section elements'
+  }
+}`,...(r=(d=e.parameters)==null?void 0:d.docs)==null?void 0:r.source}}};const x=["Default"];export{e as Default,x as __namedExportsOrder,h as default};

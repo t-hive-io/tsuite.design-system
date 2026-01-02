@@ -1,0 +1,6 @@
+import{a as l}from"./jsx-runtime-DlfvymUh.js";import{f as p}from"./figma-docs-BG7XTolv.js";import"./index-uubelm5h.js";const r=({className:n,children:o})=>l("div",{className:`areamarginandgapillustrations ${n||""}`,children:o||"Area: Margin and gap illustrations"});try{r.displayName="AreaMarginandgapillustrations",r.__docgenInfo={description:`Area: Margin and gap illustrations
+Maps to Figma component: "Area: Margin and gap illustrations"`,displayName:"AreaMarginandgapillustrations",props:{className:{defaultValue:null,description:"",name:"className",required:!1,type:{name:"string"}}}}}catch{}var e;const m={title:"Components/AreaMarginandgapillustrations",component:r,parameters:{layout:"centered",docs:{description:{component:((e=p["Area: Margin and gap illustrations"])==null?void 0:e.description)||""}}},tags:["autodocs"]},a={args:{children:"Area: Margin and gap illustrations"}};var s,t,i;a.parameters={...a.parameters,docs:{...(s=a.parameters)==null?void 0:s.docs,source:{originalSource:`{
+  args: {
+    children: 'Area: Margin and gap illustrations'
+  }
+}`,...(i=(t=a.parameters)==null?void 0:t.docs)==null?void 0:i.source}}};const u=["Default"];export{a as Default,u as __namedExportsOrder,m as default};

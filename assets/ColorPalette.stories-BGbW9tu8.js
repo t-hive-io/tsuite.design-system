@@ -1,0 +1,92 @@
+import{j as o,a as r}from"./jsx-runtime-DlfvymUh.js";import{f as D}from"./figma-docs-BG7XTolv.js";import"./index-uubelm5h.js";const E={"Brand Color/Brand 700":{type:"color",value:"#ffc338",description:"",figmaStyleId:"5989f2ee18afbe3f94bbad432ff4d78247332816"},"Brand Color/Brand 600":{type:"color",value:"#ffdd8f",description:"",figmaStyleId:"e844115e6ea5a32024c91ab6db8d29f6a74becd2"},"Areas/Exit Entry/Vehicle":{type:"color",value:"#7ca4df",description:"",figmaStyleId:"8723b77a8e9964578a46af134ed5a74df31c72e8"},"Primary Color/Blue 500":{type:"color",value:"#959df9",description:"",figmaStyleId:"4ea683a7edb653a2a99250802fdfd93dce7f0cc2"},"Neutral/Neutral 400":{type:"color",value:"#e6e6e6",description:"Separators, Border, Stroke",figmaStyleId:"6ef57fd09b13fb2a3fff0dc32f4d548669e47f42"},"Feedback/Warning/Orange 200":{type:"color",value:"#fde3c1",description:"",figmaStyleId:"d4843261a029d56bc71c2a1e5d754682b248ebf4"},"Brand Color/Brand 100":{type:"color",value:"#fffcf5",description:"",figmaStyleId:"d66c67c5c045fde67e1f305b36a1e298b8e2157a"},"Feedback/Information/Blue 100":{type:"color",value:"#eaf4fe",description:"Notification, background",figmaStyleId:"f7b2b2e06185779f4defc85581166bfa81a826e9"},"Areas/Charging/Vehicle":{type:"color",value:"#b0b0b2",description:"",figmaStyleId:"82a88f736626e87a51449a9d09f814a1886e952f"},"Areas/Highway/Vehicle":{type:"color",value:"#dacce5",description:"",figmaStyleId:"b1280991bed935bccef203c422e3f94b357cfbb2"},"Feedback/Success/Green 300":{type:"color",value:"#05603a",description:"Tag, Notification",figmaStyleId:"bda85e3140ad82aba84d354ef50c6fd296b481d6"},"Feedback/Warning/Orange 300":{type:"color",value:"#a15c00",description:"Tag, Notification",figmaStyleId:"582ca949d18eb08b111b91ece2251d1600db924a"},"Feedback/Error/Red 300":{type:"color",value:"#b42318",description:"Tag, Notification",figmaStyleId:"d4ee61200720198226c79ebae32cd8277a176f09"},"Feedback/Error/Red 100":{type:"color",value:"#fce8e8",description:"Notification, background",figmaStyleId:"51a795f7401ae58f6742585477013545e2e0da53"},"Neutral/Neutral 100":{type:"color",value:"#ffffff",description:"Background",figmaStyleId:"1e33f22b3d9088d3051617b97f95a59a92dfacbf"},"Areas/Process Two/Vehicle":{type:"color",value:"#b8d8da",description:"",figmaStyleId:"fd2cbe330a0afb6c58aa918d69656d48a0449cad"},"Areas/Process One/Background":{type:"color",value:"#f3d8ce",description:"Process Background",figmaStyleId:"304b7ab9bc54e30e5e4baf90c8b193dd4fc7b473"},"Areas/Parking/Point":{type:"color",value:"#557260",description:"",figmaStyleId:"17582bec9641b82c1ca0f5ad6adadf6e028215c9"},"Neutral/Neutral 800":{type:"color",value:"#222222",description:"Primary typography, icon",figmaStyleId:"3451062d0af062a3997a1848945d0b961ba91bb9"},"Primary Color/Blue 200":{type:"color",value:"#f5f6fe",description:"",figmaStyleId:"8e29b7fb753d001893ada1ee27cd0f62ccff4d2a"},"Areas/Delivery/Vehicle":{type:"color",value:"#e0d1a8",description:"",figmaStyleId:"c609efbffce2c3e7a4bc77cb02321df59c349601"},"Neutral/Neutral  300":{type:"color",value:"#f7f7f7",description:"Background",figmaStyleId:"0eebfa6b15ee572fbf1e9df4abff141f6c617460"},"Brand Color/Brand 500":{type:"color",value:"#ffe8b2",description:"",figmaStyleId:"7b0442861af01bf3d962d92f8351e7f0dd5ad997"},"Primary Color/Blue 800":{type:"color",value:"#0c1eda",description:"",figmaStyleId:"c481d3ce9e434eead42079b000c23f97dfc9e511"},"Areas/Storage/Vehicle":{type:"color",value:"#c4d2b8",description:"",figmaStyleId:"3ae993799addb7710c3fa3546a502e3d58a331ca"},"Feedback/Success/Green 100":{type:"color",value:"#eaf8ee",description:"Notification, background",figmaStyleId:"855eeaa08080f40f581edaa5dd78c3deddedbfd8"},"Areas/Exit Entry/Background":{type:"color",value:"#ceddf3",description:"",figmaStyleId:"2031816a406285adbc5248133d65dd2534f5c497"},"Primary Color/Blue 300":{type:"color",value:"#dfe5fc",description:"Background, on surface",figmaStyleId:"43fb47e095fdf0fb473bc93299199c2841646cae"},"Primary Color/Blue 700":{type:"color",value:"#2537f3",description:"Enabled state for interactive elements",figmaStyleId:"0af13f3d09b4e223882c6d18f25ee40e01e7a839"},"Primary Color/Blue 400":{type:"color",value:"#cfd3fc",description:"",figmaStyleId:"5bccc290a1584954e5ab1afcefb45603e5dc4519"},"Neutral/Neutral  700":{type:"color",value:"#808080",description:"Secondary typography, icon",figmaStyleId:"970759bea7c92060bd8f15e2d444b9a110350d52"},"Neutral/Neutral 200":{type:"color",value:"#fcfcfc",description:"Background secondary",figmaStyleId:"d724e7cf6d1d274598c6f1974fdb29eccd352ce4"},"Brand Color/Brand 400":{type:"color",value:"#fff4db",description:"",figmaStyleId:"b1e499dec402b25d303d0d90151ad1bc5352cada"},"Neutral/Neutral  600":{type:"color",value:"#b3b3b3",description:"Disable typography, icon",figmaStyleId:"17bdda441d5c5d223a45a41dddc5b47aff3334a5"},"Feedback/Information/Blue 200":{type:"color",value:"#d0e7fd",description:"",figmaStyleId:"09656420abf51d377572ea786b5c3e39c69728ad"},"Neutral/Neutral  500":{type:"color",value:"#d9d9d9",description:"Disabled",figmaStyleId:"77dfc42cdd806a93399c4a9a059dad012358f9e3"},"Primary Color/Blue 900":{type:"color",value:"#0917a9",description:"",figmaStyleId:"57347befb8f6323ee34a0570a6e08b0d49335f41"},"Areas/Highway/Background":{type:"color",value:"#f0e0fb",description:"",figmaStyleId:"20c87aa202173a4a099141565a7b33c50270dd80"},"Areas/Delivery/LoadCarrier":{type:"color",value:"#edcb68",description:"",figmaStyleId:"fe1499d3d142109a18d099a7be5ba56ee934bcf3"},"Areas/Parking/Vehicle":{type:"color",value:"#e0e8e3",description:"",figmaStyleId:"f3adb911016bf7c72bf1eaf16c339a064407517e"},"Areas/Parking/Background":{type:"color",value:"#edf1f0",description:"Parking Background",figmaStyleId:"fbf5441dada0966695e01c1e1b18da1730c97169"},"Feedback/Error/Red 200":{type:"color",value:"#f9d0d0",description:"",figmaStyleId:"4dfa52598eefdd15f011284f25dc192f69fc9f51"},"Feedback/Success/Green 200":{type:"color",value:"#c9edd6",description:"",figmaStyleId:"9802935e614f9b220a14612c8229e0a23c2f0bec"},"Areas/Charging/Point":{type:"color",value:"#75f94c",description:"",figmaStyleId:"e206ed7e5ec48fb0e36d26c3975b01e96fce8e7b"},"Areas/Storage/LoadCarrier":{type:"color",value:"#aecc8d",description:"",figmaStyleId:"75eddd91e7bf5e304cf0ee15fc523d967f662c3a"},"Brand Color/Brand 800":{type:"color",value:"#f2a900",description:"",figmaStyleId:"8aa20396fc7a5f2ef56afe039d5b0cb0197bb10b"},"Feedback/Information/Blue 300":{type:"color",value:"#026aa2",description:"Tag, Notification",figmaStyleId:"f318c7c2871a171e73f3fd25c59c7795b261c07a"},"Areas/Process Two/Backgrouund":{type:"color",value:"#c6eef1",description:"",figmaStyleId:"ee3a48a73e1bec147011961aa3cdf331d9948d8c"},"Areas/Process One/LoadCarrier":{type:"color",value:"#dea98e",description:"",figmaStyleId:"deed65c793e1d782ec76aa4174afcf8c77815a5d"},"Areas/Intake/Background":{type:"color",value:"#b6dffd",description:"Intake Background",figmaStyleId:"b80f07266ccfb8f0197721d9ed6b8455fbf98291"},"Areas/Intake/Vehicle":{type:"color",value:"#a3c8e3",description:"Intake",figmaStyleId:"04da86046eaa606b686843bc56605b5e67f679c8"},"Areas/Highway/Point":{type:"color",value:"#8f1dde",description:"",figmaStyleId:"cf8746b7f76372c0bc11fb157e32373ad86d4ded"},"Areas/Exit Entry/LoadCarrier":{type:"color",value:"#306cc5",description:"",figmaStyleId:"25784e766cf234b85d2c0ebddd3824d2726143dd"},"Areas/Storage/Background":{type:"color",value:"#dbeacd",description:"Delivery Background",figmaStyleId:"74cc7d153960cccca4a186aa04d04a7c62a7e0aa"},"Areas/Process Two/LoadCarrier":{type:"color",value:"#6bc3c9",description:"",figmaStyleId:"81fc48f9b2ffd6048110b8a97171da0eac8e38ff"},"Primary Color/Blue 600":{type:"color",value:"#4c5bf5",description:"",figmaStyleId:"7ce82a70edf783a167b7389261adccf31d297aba"},"Feedback/Warning/Orange 100":{type:"color",value:"#fef4e6",description:"Notification, background",figmaStyleId:"74541635d9cff8f67cced48f667ab1207c5741c8"},"Areas/Storage/Point":{type:"color",value:"#627c46",description:"",figmaStyleId:"de296c6a55cd8993f92901291a89cafb2d7151d4"},"Areas/Process One/Vehicle":{type:"color",value:"#dac3b8",description:"",figmaStyleId:"268b6b3f7afcedf14d7da00e6d591c4c530a80a9"},"Areas/Delivery/Point":{type:"color",value:"#b34624",description:"",figmaStyleId:"4f756457a3051e83820bc16860505635a263f1a9"},"Areas/Intake/Point":{type:"color",value:"#0a1e89",description:"",figmaStyleId:"7cb9ca46fc79b361f3487bf3690d2c22621cb35a"},"Areas/Intake/LoadCarrier":{type:"color",value:"#62b5ef",description:"Intake",figmaStyleId:"3c4b94b470b461e7f79442c45f318e3f372f7f74"},"Areas/Charging/Background":{type:"color",value:"#d6d6d9",description:"Charging Background",figmaStyleId:"44adde4b4bd711c1e412f145f10519549e46069e"},"Areas/Delivery/Background":{type:"color",value:"#fae9bb",description:"Storage Background",figmaStyleId:"e42ba9d857cfa877ecdd79096a931a1775b4129e"}},t={colors:E};var y;const H={title:"Foundations/Colors",parameters:{design:{type:"figma",url:"https://www.figma.com/design/XKxVlFf9TfWBHosOInkJXA/T-Suite-Design-System"},docs:{description:{component:((y=D.Colors)==null?void 0:y.description)||""}}}},m=()=>{const a=Object.entries(t.colors),e=a.filter(([d])=>d.startsWith("Brand Color")).length,l=a.filter(([d])=>d.startsWith("Primary Color")).length,W=a.filter(([d])=>d.startsWith("Feedback")).length,j=a.filter(([d])=>d.startsWith("Neutral")).length;return o("div",{children:[r("h2",{children:"Colors"}),o("p",{children:["Total colors synced from Figma: ",a.length]}),o("ul",{children:[o("li",{children:["Brand: ",e]}),o("li",{children:["Primary: ",l]}),o("li",{children:["Feedback: ",W]}),o("li",{children:["Neutral: ",j]})]}),o("p",{children:["Use the stories below to browse each category. These categories are derived from token naming in ",r("code",{children:"tokens/figma-tokens.json"}),"."]})]})},p=({name:a,value:e,styleId:l})=>o("div",{style:{display:"flex",flexDirection:"column",gap:"8px",padding:"16px",border:"1px solid #e0e0e0",borderRadius:"8px",backgroundColor:"white"},children:[r("div",{style:{width:"100%",height:"80px",borderRadius:"4px",backgroundColor:e,border:"1px solid #ccc"}}),r("div",{style:{fontSize:"12px",fontWeight:"600"},children:a}),r("div",{style:{fontSize:"11px",color:"#666",fontFamily:"monospace"},children:e}),o("div",{style:{fontSize:"10px",color:"#999",fontFamily:"monospace"},children:["ID: ",l.substring(0,8),"..."]})]}),c=()=>{const a=Object.entries(t.colors).filter(([e])=>e.startsWith("Brand Color"));return o("div",{children:[r("h2",{children:"Brand Colors"}),o("p",{children:["Total: ",a.length," colors"]}),r("div",{style:{display:"grid",gridTemplateColumns:"repeat(auto-fill, minmax(200px, 1fr))",gap:"16px",marginTop:"24px"},children:a.map(([e,l])=>r(p,{name:e,value:l.value,styleId:l.figmaStyleId},e))})]})};c.storyName="Brand colors";const i=()=>{const a=Object.entries(t.colors).filter(([e])=>e.startsWith("Primary Color"));return o("div",{children:[r("h2",{children:"Primary Colors"}),o("p",{children:["Total: ",a.length," colors"]}),r("div",{style:{display:"grid",gridTemplateColumns:"repeat(auto-fill, minmax(200px, 1fr))",gap:"16px",marginTop:"24px"},children:a.map(([e,l])=>r(p,{name:e,value:l.value,styleId:l.figmaStyleId},e))})]})};i.storyName="Primary colors";const n=()=>{const a=Object.entries(t.colors).filter(([e])=>e.startsWith("Feedback"));return o("div",{children:[r("h2",{children:"Feedback Colors"}),r("p",{children:"Used for warnings, errors, success states"}),o("p",{children:["Total: ",a.length," colors"]}),r("div",{style:{display:"grid",gridTemplateColumns:"repeat(auto-fill, minmax(200px, 1fr))",gap:"16px",marginTop:"24px"},children:a.map(([e,l])=>r(p,{name:e,value:l.value,styleId:l.figmaStyleId},e))})]})};n.storyName="Feedback colors";const s=()=>{const a=Object.entries(t.colors).filter(([e])=>e.startsWith("Neutral"));return o("div",{children:[r("h2",{children:"Neutral Colors"}),o("p",{children:["Total: ",a.length," colors"]}),r("div",{style:{display:"grid",gridTemplateColumns:"repeat(auto-fill, minmax(200px, 1fr))",gap:"16px",marginTop:"24px"},children:a.map(([e,l])=>r(p,{name:e,value:l.value,styleId:l.figmaStyleId},e))})]})};s.storyName="Neutral colors";const f=()=>{const a=Object.entries(t.colors);return o("div",{children:[r("h2",{children:"All T-Suite Colors"}),o("p",{children:["Complete color palette - ",a.length," total colors synced from Figma"]}),r("div",{style:{display:"grid",gridTemplateColumns:"repeat(auto-fill, minmax(180px, 1fr))",gap:"12px",marginTop:"24px"},children:a.map(([e,l])=>r(p,{name:e,value:l.value,styleId:l.figmaStyleId},e))})]})};f.storyName="All colors";var u,b,g;m.parameters={...m.parameters,docs:{...(u=m.parameters)==null?void 0:u.docs,source:{originalSource:`() => {
+  const allColors = Object.entries(colors.colors);
+  const brandCount = allColors.filter(([name]) => name.startsWith('Brand Color')).length;
+  const primaryCount = allColors.filter(([name]) => name.startsWith('Primary Color')).length;
+  const feedbackCount = allColors.filter(([name]) => name.startsWith('Feedback')).length;
+  const neutralCount = allColors.filter(([name]) => name.startsWith('Neutral')).length;
+  return <div>
+      <h2>Colors</h2>
+      <p>Total colors synced from Figma: {allColors.length}</p>
+      <ul>
+        <li>Brand: {brandCount}</li>
+        <li>Primary: {primaryCount}</li>
+        <li>Feedback: {feedbackCount}</li>
+        <li>Neutral: {neutralCount}</li>
+      </ul>
+      <p>
+        Use the stories below to browse each category. These categories are derived from token naming
+        in <code>tokens/figma-tokens.json</code>.
+      </p>
+    </div>;
+}`,...(g=(b=m.parameters)==null?void 0:b.docs)==null?void 0:g.source}}};var v,h,C;c.parameters={...c.parameters,docs:{...(v=c.parameters)==null?void 0:v.docs,source:{originalSource:`() => {
+  const brandColors = Object.entries(colors.colors).filter(([name]) => name.startsWith('Brand Color'));
+  return <div>
+      <h2>Brand Colors</h2>
+      <p>Total: {brandColors.length} colors</p>
+      <div style={{
+      display: 'grid',
+      gridTemplateColumns: 'repeat(auto-fill, minmax(200px, 1fr))',
+      gap: '16px',
+      marginTop: '24px'
+    }}>
+        {brandColors.map(([name, data]) => <ColorSwatch key={name} name={name} value={data.value} styleId={data.figmaStyleId} />)}
+      </div>
+    </div>;
+}`,...(C=(h=c.parameters)==null?void 0:h.docs)==null?void 0:C.source}}};var S,I,k;i.parameters={...i.parameters,docs:{...(S=i.parameters)==null?void 0:S.docs,source:{originalSource:`() => {
+  const primaryColors = Object.entries(colors.colors).filter(([name]) => name.startsWith('Primary Color'));
+  return <div>
+      <h2>Primary Colors</h2>
+      <p>Total: {primaryColors.length} colors</p>
+      <div style={{
+      display: 'grid',
+      gridTemplateColumns: 'repeat(auto-fill, minmax(200px, 1fr))',
+      gap: '16px',
+      marginTop: '24px'
+    }}>
+        {primaryColors.map(([name, data]) => <ColorSwatch key={name} name={name} value={data.value} styleId={data.figmaStyleId} />)}
+      </div>
+    </div>;
+}`,...(k=(I=i.parameters)==null?void 0:I.docs)==null?void 0:k.source}}};var x,B,T;n.parameters={...n.parameters,docs:{...(x=n.parameters)==null?void 0:x.docs,source:{originalSource:`() => {
+  const feedbackColors = Object.entries(colors.colors).filter(([name]) => name.startsWith('Feedback'));
+  return <div>
+      <h2>Feedback Colors</h2>
+      <p>Used for warnings, errors, success states</p>
+      <p>Total: {feedbackColors.length} colors</p>
+      <div style={{
+      display: 'grid',
+      gridTemplateColumns: 'repeat(auto-fill, minmax(200px, 1fr))',
+      gap: '16px',
+      marginTop: '24px'
+    }}>
+        {feedbackColors.map(([name, data]) => <ColorSwatch key={name} name={name} value={data.value} styleId={data.figmaStyleId} />)}
+      </div>
+    </div>;
+}`,...(T=(B=n.parameters)==null?void 0:B.docs)==null?void 0:T.source}}};var N,P,A;s.parameters={...s.parameters,docs:{...(N=s.parameters)==null?void 0:N.docs,source:{originalSource:`() => {
+  const neutralColors = Object.entries(colors.colors).filter(([name]) => name.startsWith('Neutral'));
+  return <div>
+      <h2>Neutral Colors</h2>
+      <p>Total: {neutralColors.length} colors</p>
+      <div style={{
+      display: 'grid',
+      gridTemplateColumns: 'repeat(auto-fill, minmax(200px, 1fr))',
+      gap: '16px',
+      marginTop: '24px'
+    }}>
+        {neutralColors.map(([name, data]) => <ColorSwatch key={name} name={name} value={data.value} styleId={data.figmaStyleId} />)}
+      </div>
+    </div>;
+}`,...(A=(P=s.parameters)==null?void 0:P.docs)==null?void 0:A.source}}};var F,w,O;f.parameters={...f.parameters,docs:{...(F=f.parameters)==null?void 0:F.docs,source:{originalSource:`() => {
+  const allColors = Object.entries(colors.colors);
+  return <div>
+      <h2>All T-Suite Colors</h2>
+      <p>Complete color palette - {allColors.length} total colors synced from Figma</p>
+      <div style={{
+      display: 'grid',
+      gridTemplateColumns: 'repeat(auto-fill, minmax(180px, 1fr))',
+      gap: '12px',
+      marginTop: '24px'
+    }}>
+        {allColors.map(([name, data]) => <ColorSwatch key={name} name={name} value={data.value} styleId={data.figmaStyleId} />)}
+      </div>
+    </div>;
+}`,...(O=(w=f.parameters)==null?void 0:w.docs)==null?void 0:O.source}}};const U=["Overview","BrandColors","PrimaryColors","FeedbackColors","NeutralColors","AllColors"];export{f as AllColors,c as BrandColors,n as FeedbackColors,s as NeutralColors,m as Overview,i as PrimaryColors,U as __namedExportsOrder,H as default};
