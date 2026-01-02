@@ -1,6 +1,7 @@
 {
   "name": "@tsuite/design-system",
   "version": "0.1.0",
+  "type": "module",
   "description": "TSuite Design System - Figma to Code automation",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -18,7 +19,12 @@
     "tokens:build": "style-dictionary build --config style-dictionary.config.cjs",
     "build": "npm run tokens:build && tsc && npm run build:copy-assets",
     "build:copy-assets": "node scripts/copy-build-assets.js",
-    "dev": "npm run storybook"
+    "dev": "npm run storybook",
+    "lint": "eslint . --max-warnings=0",
+    "lint:fix": "eslint . --fix",
+    "format": "prettier --write \"**/*.{ts,tsx,js,jsx,json,md}\"",
+    "format:check": "prettier --check \"**/*.{ts,tsx,js,jsx,json,md}\"",
+    "prepare": "husky"
   },
   "keywords": [
     "design-system",
@@ -27,6 +33,7 @@
     "design-tokens"
   ],
   "devDependencies": {
+    "@eslint/js": "^9.39.2",
     "@figma/code-connect": "^1.0.0",
     "@storybook/addon-designs": "^7.0.5",
     "@storybook/addon-essentials": "^7.6.7",
@@ -36,7 +43,15 @@
     "@storybook/react-vite": "^7.6.7",
     "@types/react": "^18.2.45",
     "@types/react-dom": "^18.2.18",
+    "@typescript-eslint/eslint-plugin": "^8.51.0",
+    "@typescript-eslint/parser": "^8.51.0",
     "axios": "^1.6.2",
+    "eslint": "^9.39.2",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-react": "^7.37.5",
+    "eslint-plugin-react-hooks": "^7.0.1",
+    "husky": "^9.1.7",
+    "lint-staged": "^16.2.7",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "storybook": "^7.6.7",
@@ -52,5 +67,14 @@
   },
   "dependencies": {
     "dotenv": "^17.2.3"
+  },
+  "lint-staged": {
+    "*.{ts,tsx,js,jsx}": [
+      "eslint --fix",
+      "prettier --write"
+    ],
+    "*.{json,md}": [
+      "prettier --write"
+    ]
   }
 }
