@@ -1,0 +1,50 @@
+{
+  "name": "@tsuite/design-system",
+  "version": "0.1.0",
+  "description": "TSuite Design System - Figma to Code automation",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build",
+    "figma:export": "node scripts/figma-export.js",
+    "figma:components": "node scripts/list-components.js",
+    "figma:usage": "node scripts/analyze-usage.js",
+    "tokens:transform": "token-transformer tokens/figma-tokens.json tokens/transformed-tokens.json",
+    "tokens:build": "style-dictionary build",
+    "build": "npm run tokens:build && tsc",
+    "dev": "npm run storybook"
+  },
+  "keywords": [
+    "design-system",
+    "figma",
+    "storybook",
+    "design-tokens"
+  ],
+  "devDependencies": {
+    "@figma/code-connect": "^1.0.0",
+    "@storybook/addon-designs": "^7.0.5",
+    "@storybook/addon-essentials": "^7.6.7",
+    "@storybook/addon-links": "^7.6.7",
+    "@storybook/blocks": "^7.6.7",
+    "@storybook/react": "^7.6.7",
+    "@storybook/react-vite": "^7.6.7",
+    "@types/react": "^18.2.45",
+    "@types/react-dom": "^18.2.18",
+    "axios": "^1.6.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "storybook": "^7.6.7",
+    "style-dictionary": "^3.9.0",
+    "token-transformer": "^0.0.33",
+    "typescript": "^5.3.3",
+    "vite": "^5.0.8"
+  },
+  "peerDependencies": {
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.3"
+  }
+}
