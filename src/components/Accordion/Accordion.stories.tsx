@@ -1,5 +1,6 @@
 import type { Meta, StoryObj } from '@storybook/react';
 import { Accordion } from './Accordion';
+import figmaDocs from '../../figma-docs.json';
 
 const meta: Meta<typeof Accordion> = {
   title: 'Components/Accordion',
@@ -12,24 +13,7 @@ const meta: Meta<typeof Accordion> = {
     },
     docs: {
       description: {
-        component: `Collapsible accordion component for organizing content.
-
-## Usage
-\`\`\`tsx
-import { Accordion } from './components/Accordion';
-
-<Accordion title="Section Title" defaultExpanded={false}>
-  <p>Your content here...</p>
-</Accordion>
-\`\`\`
-
-## Features
-- Click title bar to expand/collapse
-- Optional defaultExpanded prop
-- Smooth animations
-- Accessible keyboard navigation
-
-Click the accordions below to test the expand/collapse behavior.`,
+        component: figmaDocs.Accordion?.description || '',
       },
     },
   },

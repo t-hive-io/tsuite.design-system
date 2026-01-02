@@ -1,6 +1,7 @@
 /** @jsxImportSource react */
 import type { Meta } from '@storybook/react';
 import colors from '../../../tokens/figma-tokens.json';
+import figmaDocs from '../../figma-docs.json';
 
 const meta: Meta = {
   title: 'Foundations/Colors',
@@ -11,24 +12,7 @@ const meta: Meta = {
     },
     docs: {
       description: {
-        component: `Complete color palette from T-Suite Design System, auto-synced from Figma.
-
-## Usage
-All colors are available in \`tokens/figma-tokens.json\` and can be imported:
-
-\`\`\`tsx
-import colors from './tokens/figma-tokens.json';
-
-const brandPrimary = colors.brand.primary.value; // #007AFF
-\`\`\`
-
-## Categories
-- **Brand**: Core brand identity colors
-- **Primary**: Main UI colors (blue, green, red, yellow)
-- **Feedback**: Status colors (success, error, warning, info)
-- **Neutral**: Grayscale palette
-
-Browse all colors below and copy the hex values directly.`,
+        component: figmaDocs.Colors?.description || '',
       },
     },
   },

@@ -1,6 +1,7 @@
 import type { Meta, StoryObj } from '@storybook/react';
 import React from 'react';
 import { Tabs, Tab } from './Tabs';
+import figmaDocs from '../../figma-docs.json';
 
 const meta: Meta<typeof Tabs> = {
   title: 'Components/Tabs',
@@ -13,30 +14,7 @@ const meta: Meta<typeof Tabs> = {
     },
     docs: {
       description: {
-        component: `Tabbed navigation for organizing content into separate views.
-
-## Usage
-\`\`\`tsx
-import { Tabs } from './components/Tabs';
-
-const tabs = [
-  { id: 'tab1', label: 'Overview' },
-  { id: 'tab2', label: 'Details' }
-];
-
-<Tabs 
-  tabs={tabs} 
-  activeTab="tab1"
-  onChange={(tabId) => console.log('Changed to:', tabId)}
-/>
-\`\`\`
-
-## Features
-- Multiple tab sizes (small, medium, large)
-- onChange callback for tab switching
-- Keyboard navigation support
-
-Click the tabs below to test switching - events are logged in **Actions** panel.`,
+        component: figmaDocs['Tab item']?.description || '',
       },
     },
   },

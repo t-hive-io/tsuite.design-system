@@ -7,7 +7,9 @@
   "scripts": {
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
-    "figma:export": "node scripts/figma-export.js",
+    "figma:export": "node scripts/figma-export.js && node scripts/export-component-docs.js",
+    "figma:docs": "node scripts/export-component-docs.js",
+    "figma:connect": "figma connect publish",
     "figma:components": "node scripts/list-components.js",
     "figma:usage": "node scripts/analyze-usage.js",
     "figma:icons": "node scripts/export-icons.js",

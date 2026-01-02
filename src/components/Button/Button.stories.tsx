@@ -1,9 +1,11 @@
 import type { Meta, StoryObj } from '@storybook/react';
 import { Button } from './Button';
 import './Button.css';
+import figmaDocs from '../../figma-docs.json';
 
 /**
  * Button component from T-Suite Design System
+ * Description automatically synced from Figma
  */
 const meta: Meta<typeof Button> = {
   title: 'Components/Buttons',
@@ -11,29 +13,11 @@ const meta: Meta<typeof Button> = {
   parameters: {
     design: {
       type: 'figma',
-      url: 'https://www.figma.com/design/XKxVlFf9TfWBHosOInkJXA/T-Suite-Design-System',
+      url: 'https://www.figma.com/design/XKxVlFf9TfWBHosOInkJXA/T-Suite-Design-System?node-id=1428-9176',
     },
     docs: {
       description: {
-        component: `Primary button component with multiple variants and states.
-
-## Usage
-\`\`\`tsx
-import { Button } from './components/Button';
-
-<Button variant="primary" size="medium" onClick={() => console.log('clicked')}>
-  Click me
-</Button>
-\`\`\`
-
-## Variants
-- **primary**: Main call-to-action buttons
-- **secondary**: Secondary actions
-- **tertiary**: Tertiary actions
-- **outlined**: Outlined style
-- **link**: Link style buttons
-
-Use the **Controls** panel below to test different combinations interactively.`,
+        component: figmaDocs.Buttons?.description || 'Button component',
       },
     },
   },

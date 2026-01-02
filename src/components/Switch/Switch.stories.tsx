@@ -1,6 +1,7 @@
 import type { Meta, StoryObj } from '@storybook/react';
 import { useArgs } from '@storybook/preview-api';
 import { Switch } from './Switch';
+import figmaDocs from '../../figma-docs.json';
 
 const meta: Meta<typeof Switch> = {
   title: 'Components/Switch',
@@ -12,27 +13,7 @@ const meta: Meta<typeof Switch> = {
     },
     docs: {
       description: {
-        component: `Interactive toggle switch for on/off states.
-
-## Usage
-\`\`\`tsx
-import { Switch } from './components/Switch';
-
-const [checked, setChecked] = useState(false);
-
-<Switch 
-  checked={checked} 
-  onChange={setChecked}
-  label="Enable notifications"
-/>
-\`\`\`
-
-## Features
-- Fully controlled component
-- Accessible keyboard navigation
-- Optional labels and disabled state
-
-Try toggling the switch below - onChange events are logged in the **Actions** panel.`,
+        component: figmaDocs.Switch?.description || '',
       },
     },
   },

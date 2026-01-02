@@ -1,0 +1,9 @@
+{
+  "codeConnect": {
+    "include": ["src/**/*.figma.{ts,tsx}"],
+    "exclude": ["node_modules/**", "dist/**"]
+  },
+  "documentUrlSubstitutions": {
+    "LOCAL_FILE_KEY": "XKxVlFf9TfWBHosOInkJXA"
+  }
+}

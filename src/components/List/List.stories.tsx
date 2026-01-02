@@ -1,5 +1,6 @@
 import type { Meta, StoryObj } from '@storybook/react';
 import { List, ListItem } from './List';
+import figmaDocs from '../../figma-docs.json';
 
 const meta: Meta<typeof List> = {
   title: 'Components/Tree view',
@@ -12,7 +13,7 @@ const meta: Meta<typeof List> = {
     },
     docs: {
       description: {
-        component: 'Tree/List view component for hierarchical navigation. Supports selection, nesting, locked states, and expand/collapse. Synced from T-Suite Design System in Figma.',
+        component: figmaDocs.List?.description || '',
       },
     },
   },

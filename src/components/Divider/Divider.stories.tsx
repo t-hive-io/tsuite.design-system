@@ -1,5 +1,6 @@
 import type { Meta, StoryObj } from '@storybook/react';
 import { Divider } from './Divider';
+import figmaDocs from '../../figma-docs.json';
 
 const meta: Meta<typeof Divider> = {
   title: 'Components/Divider',
@@ -9,6 +10,11 @@ const meta: Meta<typeof Divider> = {
     design: {
       type: 'figma',
       url: 'https://www.figma.com/file/XKxVlFf9TfWBHosOInkJXA/T-Suite-Design-System',
+    },
+    docs: {
+      description: {
+        component: figmaDocs.Dividers?.description || '',
+      },
     },
   },
   tags: ['autodocs'],

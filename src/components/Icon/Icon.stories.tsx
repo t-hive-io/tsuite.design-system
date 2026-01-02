@@ -1,5 +1,6 @@
 import type { Meta, StoryObj } from '@storybook/react';
 import { Icon } from './Icon';
+import figmaDocs from '../../figma-docs.json';
 
 const meta: Meta<typeof Icon> = {
   title: 'Components/Icon',
@@ -9,6 +10,11 @@ const meta: Meta<typeof Icon> = {
     design: {
       type: 'figma',
       url: 'https://www.figma.com/file/XKxVlFf9TfWBHosOInkJXA/T-Suite-Design-System?node-id=1106:6756',
+    },
+    docs: {
+      description: {
+        component: figmaDocs.Icon?.description || '',
+      },
     },
   },
   tags: ['autodocs'],

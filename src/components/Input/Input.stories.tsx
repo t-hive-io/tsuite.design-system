@@ -1,6 +1,7 @@
 import type { Meta, StoryObj } from '@storybook/react';
 import { useArgs } from '@storybook/preview-api';
 import { Input } from './Input';
+import figmaDocs from '../../figma-docs.json';
 
 const meta: Meta<typeof Input> = {
   title: 'Components/Input',
@@ -13,29 +14,7 @@ const meta: Meta<typeof Input> = {
     },
     docs: {
       description: {
-        component: `Text and number input component with validation states.
-
-## Usage
-\`\`\`tsx
-import { Input } from './components/Input';
-
-const [value, setValue] = useState('');
-
-<Input 
-  value={value}
-  onChange={(e) => setValue(e.target.value)}
-  placeholder="Enter text..."
-  label="Username"
-/>
-\`\`\`
-
-## States
-- **default**: Normal input state
-- **error**: Shows validation errors
-- **disabled**: Non-interactive state
-- **readonly**: View-only mode
-
-Type in the input below - all changes are logged in the **Actions** panel.`,
+        component: figmaDocs['Input – Text']?.description || '',
       },
     },
   },
