@@ -260,7 +260,7 @@ const BestPracticesContent = () => {
           see the complete documentation:
         </p>
         <a 
-          href="https://github.com/your-repo/docs/FIGMA_NAMING_BEST_PRACTICES.md" 
+          href="https://github.com/t-hive-io/tsuite.design-system/blob/main/docs/FIGMA_NAMING_BEST_PRACTICES.md" 
           target="_blank"
           style={{ 
             color: '#0066ff', 
