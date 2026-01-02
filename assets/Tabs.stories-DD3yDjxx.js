@@ -1,0 +1,19 @@
+import{a as S,j as a}from"./jsx-runtime-DHuurbBU.js";import{r as e}from"./index-uubelm5h.js";const f=t=>e.createElement("svg",{width:41,height:53,viewBox:"0 0 41 53",fill:"none",xmlns:"http://www.w3.org/2000/svg",...t},e.createElement("path",{d:"M9.39471 21.8182V32H8.20153L2.65323 24.0057H2.5538V32H1.32085V21.8182H2.51403L8.08221 29.8324H8.18164V21.8182H9.39471ZM12.2795 32H10.9869L14.7255 21.8182H15.9982L19.7369 32H18.4442L15.4016 23.429H15.3221L12.2795 32ZM12.7567 28.0227H17.967V29.1165H12.7567V28.0227ZM21.3228 21.8182H22.7944L26.2546 30.2699H26.3739L29.8342 21.8182H31.3058V32H30.1523V24.2642H30.0529L26.8711 32H25.7575L22.5756 24.2642H22.4762V32H21.3228V21.8182ZM33.7779 32V21.8182H39.9228V22.9119H35.0108V26.3523H39.6046V27.446H35.0108V30.9062H40.0023V32H33.7779Z",fill:"#808080"})),L=t=>e.createElement("svg",{width:42,height:48,viewBox:"0 0 42 48",fill:"none",xmlns:"http://www.w3.org/2000/svg",...t},e.createElement("mask",{id:"path-1-inside-1_1085_6703",fill:"white"},e.createElement("path",{d:"M0 0H42V48H0V0Z"})),e.createElement("path",{d:"M42 46H0V50H42V46Z",fill:"#222222",mask:"url(#path-1-inside-1_1085_6703)"}),e.createElement("path",{d:"M9.70579 19.8182V30H8.29386L3.11843 22.5327H3.02397V30H1.48775V19.8182H2.90962L8.09002 27.2955H8.18448V19.8182H9.70579ZM12.8068 30H11.1761L14.8402 19.8182H16.6151L20.2791 30H18.6484L15.7699 21.6676H15.6903L12.8068 30ZM13.0803 26.0128H18.37V27.3054H13.0803V26.0128ZM21.7495 19.8182H23.6138L26.8553 27.733H26.9746L30.2161 19.8182H32.0804V30H30.6188V22.6321H30.5243L27.5215 29.9851H26.3084L23.3056 22.6271H23.2111V30H21.7495V19.8182ZM34.3139 30V19.8182H40.6974V21.1406H35.8501V24.2429H40.3643V25.5604H35.8501V28.6776H40.7571V30H34.3139Z",fill:"#222222"})),n=({Selected:t=!1})=>t?a(L,{}):a(f,{}),w={title:"3. Component Category Pages/Tabs",component:n,parameters:{layout:"centered",figma:{pageId:"5177:45732",componentId:"1085:6700",components:1,totalVariants:2}},tags:["autodocs"],argTypes:{Selected:{control:"boolean",description:'Tab selected state (matches Figma "Selected" property)'}},args:{Selected:!1}},r={args:{Selected:!0}},s={args:{Selected:!1}},l={render:()=>S("div",{style:{display:"flex",gap:"0"},children:[a(n,{Selected:!0}),a(n,{Selected:!1}),a(n,{Selected:!1})]}),name:"All Variants"};var c,o,H;r.parameters={...r.parameters,docs:{...(c=r.parameters)==null?void 0:c.docs,source:{originalSource:`{
+  args: {
+    Selected: true
+  }
+}`,...(H=(o=r.parameters)==null?void 0:o.docs)==null?void 0:H.source}}};var d,m,i;s.parameters={...s.parameters,docs:{...(d=s.parameters)==null?void 0:d.docs,source:{originalSource:`{
+  args: {
+    Selected: false
+  }
+}`,...(i=(m=s.parameters)==null?void 0:m.docs)==null?void 0:i.source}}};var V,p,g;l.parameters={...l.parameters,docs:{...(V=l.parameters)==null?void 0:V.docs,source:{originalSource:`{
+  render: () => <div style={{
+    display: 'flex',
+    gap: '0'
+  }}>
+      <TabItem Selected={true} />
+      <TabItem Selected={false} />
+      <TabItem Selected={false} />
+    </div>,
+  name: 'All Variants'
+}`,...(g=(p=l.parameters)==null?void 0:p.docs)==null?void 0:g.source}}};const M=["Selected","NotSelected","AllVariants"];export{l as AllVariants,s as NotSelected,r as Selected,M as __namedExportsOrder,w as default};

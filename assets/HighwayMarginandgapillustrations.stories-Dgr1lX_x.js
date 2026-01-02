@@ -1,6 +1,0 @@
-import{a as g}from"./jsx-runtime-DlfvymUh.js";import{f as l}from"./figma-docs-BG7XTolv.js";import"./index-uubelm5h.js";const i=({className:n,children:o})=>g("div",{className:`highwaymarginandgapillustrations ${n||""}`,children:o||"Highway: Margin and gap illustrations"});try{i.displayName="HighwayMarginandgapillustrations",i.__docgenInfo={description:`Highway: Margin and gap illustrations
-Maps to Figma component: "Highway: Margin and gap illustrations"`,displayName:"HighwayMarginandgapillustrations",props:{className:{defaultValue:null,description:"",name:"className",required:!1,type:{name:"string"}}}}}catch{}var r;const m={title:"Components/HighwayMarginandgapillustrations",component:i,parameters:{layout:"centered",docs:{description:{component:((r=l["Highway: Margin and gap illustrations"])==null?void 0:r.description)||""}}},tags:["autodocs"]},a={args:{children:"Highway: Margin and gap illustrations"}};var s,t,e;a.parameters={...a.parameters,docs:{...(s=a.parameters)==null?void 0:s.docs,source:{originalSource:`{
-  args: {
-    children: 'Highway: Margin and gap illustrations'
-  }
-}`,...(e=(t=a.parameters)==null?void 0:t.docs)==null?void 0:e.source}}};const u=["Default"];export{a as Default,u as __namedExportsOrder,m as default};
