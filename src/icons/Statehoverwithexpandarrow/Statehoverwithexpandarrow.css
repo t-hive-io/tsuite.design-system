@@ -1,0 +1,10 @@
+.statehoverwithexpandarrow {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+}
+
+.statehoverwithexpandarrow svg {
+  width: 100%;
+  height: 100%;
+}

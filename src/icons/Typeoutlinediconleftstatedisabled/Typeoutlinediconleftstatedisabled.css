@@ -1,0 +1,10 @@
+.typeoutlinediconleftstatedisabled {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+}
+
+.typeoutlinediconleftstatedisabled svg {
+  width: 100%;
+  height: 100%;
+}

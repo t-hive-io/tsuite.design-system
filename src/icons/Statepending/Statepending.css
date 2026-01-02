@@ -1,0 +1,10 @@
+.statepending {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+}
+
+.statepending svg {
+  width: 100%;
+  height: 100%;
+}

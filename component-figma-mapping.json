@@ -1,0 +1,213 @@
+{
+  "componentMapping": {
+    "Accordion": "Right bar - Expansion panel - 2",
+    "Badge": "Small badge",
+    "Banner": "Information banner",
+    "BottomBars": "Zoom menu",
+    "BreadCrumbs": null,
+    "Button": "Buttons",
+    "CanvasObjects": "Area",
+    "Card": "Simulation card",
+    "CheckboxRadio": "Checkbox",
+    "ChipsTags": "Input chips",
+    "Cursor": null,
+    "DataTable": "Table rows",
+    "Dialogs": "Order profile modal",
+    "Divider": "Dividers",
+    "Icon": null,
+    "Illustrations": "Rack",
+    "Input": "Input",
+    "LargeComponents": "Floorplan card",
+    "Menus": "Dropdown menu item",
+    "ProgressIndicators": "Loading Spinner 3",
+    "PropertyPanels": "Property panel - Setup, Layout, Simulation, 3D",
+    "RackingData": "Francks racking data set",
+    "Slider": "Slider",
+    "Switch": "Switch",
+    "Tabs": "Tab item",
+    "ToolRail": "Tool rail sub",
+    "Tooltip": "Explenation tooltip",
+    "TreeView": "Layers",
+    "UIShellHeader": "Top bars",
+    "UIShellRightPanel": "Reference image"
+  },
+  "results": [
+    {
+      "folder": "Accordion",
+      "figmaName": "Right bar - Expansion panel - 2",
+      "status": "found",
+      "output": "[dotenv@17.2.3] injecting env (3) from .env -- tip: ⚙️  write to custom object with { processEnv: myObject }\n\n🔍 Looking for component: \"Right bar - Expansion panel - 2\"\n\n✅ Found component: Right bar - Expansion panel - 2\n   ID: 1106:6750\n   Type: COMPONENT_SET\n\n📋 Component Properties:\n\n   Property: Instance#1904:0\n   - Type: INSTANCE_SWAP\n   - Default: 1074:6382\n\n   Property: Property 1\n   - Type: VARIANT\n   - Default: False\n   - Options: True, False\n\n🔢 Variants (2 total):\n\n   1. Property 1=True\n\n   2. Property 1=False\n"
+    },
+    {
+      "folder": "Badge",
+      "figmaName": "Small badge",
+      "status": "found",
+      "output": "[dotenv@17.2.3] injecting env (3) from .env -- tip: 🗂️ backup and recover secrets: https://dotenvx.com/ops\n\n🔍 Looking for component: \"Small badge\"\n\n✅ Found component: Small badge\n   ID: 1570:9638\n   Type: COMPONENT_SET\n\n📋 Component Properties:\n\n   Property: State\n   - Type: VARIANT\n   - Default: New message\n   - Options: New message, Large badge red plus, Large badge Red\n\n   Property: Darkmode\n   - Type: VARIANT\n   - Default: False\n   - Options: False\n\n   Property: Property 3\n   - Type: VARIANT\n   - Default: False\n   - Options: False\n\n🔢 Variants (3 total):\n\n   1. State=New message, Darkmode=False, Property 3=False\n\n   2. State=Large badge Red, Darkmode=False, Property 3=False\n\n   3. State=Large badge red plus, Darkmode=False, Property 3=False\n"
+    },
+    {
+      "folder": "Banner",
+      "figmaName": "Information banner",
+      "status": "found",
+      "output": "[dotenv@17.2.3] injecting env (3) from .env -- tip: 🛠️  run anywhere with `dotenvx run -- yourcommand`\n\n🔍 Looking for component: \"Information banner\"\n\n✅ Found component: Information banner\n   ID: 1325:9049\n   Type: COMPONENT_SET\n\n📋 Component Properties:\n\n   Property: Content\n   - Type: VARIANT\n   - Default: Text + X\n   - Options: Text + X\n\n🔢 Variants (1 total):\n\n   1. Content=Text + X\n"
+    },
+    {
+      "folder": "BottomBars",
+      "figmaName": "Zoom menu",
+      "status": "found",
+      "output": "[dotenv@17.2.3] injecting env (3) from .env -- tip: 🔐 prevent committing .env to code: https://dotenvx.com/precommit\n\n🔍 Looking for component: \"Zoom menu\"\n\n✅ Found component: Zoom menu\n   ID: 1081:6485\n   Type: COMPONENT_SET\n\n📋 Component Properties:\n\n   Property: State\n   - Type: VARIANT\n   - Default: Default\n   - Options: Default\n\n🔢 Variants (1 total):\n\n   1. State=Default\n"
+    },
+    {
+      "folder": "BreadCrumbs",
+      "status": "skipped",
+      "reason": "No component sets found"
+    },
+    {
+      "folder": "Button",
+      "figmaName": "Buttons",
+      "status": "found",
+      "output": "[dotenv@17.2.3] injecting env (3) from .env -- tip: ⚙️  enable debug logging with { debug: true }\n\n🔍 Looking for component: \"Buttons\"\n\n✅ Found component: Buttons\n   ID: 1428:9176\n   Type: COMPONENT_SET\n\n🔢 Variants (28 total):\n\n   1. Type=Outlined, Icon=No icon, State=Enabled\n\n   2. Type=Link button, Icon=No icon, State=Enabled\n\n   3. Type=Link button, Icon=No icon, State=Hovered\n\n   4. Type=Link button, Icon=No icon, State=Focused\n\n   5. Type=Link button, Icon=No icon, State=Pressed\n\n   6. Type=Link button, Icon=No icon, State=Disabled\n\n   7. Type=Primary, Icon=No icon, State=Enabled\n\n   8. Type=Primary, Icon=No icon, State=Hovered\n\n   9. Type=Primary, Icon=No icon, State=Focused\n\n   10. Type=Primary, Icon=No icon, State=Pressed\n\n   11. Type=Primary, Icon=No icon, State=Disabled\n\n   12. Type=Outlined, Icon=Left, State=Enabled\n\n   13. Type=Outlined, Icon=Left, State=Hovered\n\n   14. Type=Outlined, Icon=Left, State=Focused\n\n   15. Type=Outlined, Icon=Left, State=Pressed\n\n   16. Type=Outlined, Icon=Left, State=Disabled\n\n   17. Type=Primary, Icon=Left, State=Enabled\n\n   18. Type=Primary, Icon=Left, State=Hovered\n\n   19. Type=Primary, Icon=Left, State=Focused\n\n   20. Type=Primary, Icon=Left, State=Pressed\n\n   21. Type=Primary, Icon=Left, State=Disabled\n\n   22. Type=Outlined, Icon=No icon, State=Hovered\n\n   23. Type=Outlined, Icon=No icon, State=Focused\n\n   24. Type=Outlined, Icon=No icon, State=Pressed\n\n   25. Type=Outlined, Icon=No icon, State=Disabled\n\n   26. Type=Primary, Icon=No icon, State=Enabled\n\n   27. Type=Primary, Icon=No icon, State=Enabled\n\n   28. Type=Primary, Icon=No icon, State=Enabled\n"
+    },
+    {
+      "folder": "CanvasObjects",
+      "figmaName": "Area",
+      "status": "found",
+      "output": "[dotenv@17.2.3] injecting env (3) from .env -- tip: 🗂️ backup and recover secrets: https://dotenvx.com/ops\n\n🔍 Looking for component: \"Area\"\n\n✅ Found component: Area\n   ID: 1843:8669\n   Type: COMPONENT_SET\n\n📋 Component Properties:\n\n   Property: State\n   - Type: VARIANT\n   - Default: Default\n   - Options: Flow, Default, Resize, Defaul\n\n   Property: Type\n   - Type: VARIANT\n   - Default: Process\n   - Options: Process, Delivery, Intake, Storage, Charging, Parking, Hand-over, Small, Exit Entry, Manual process area\n\n🔢 Variants (24 total):\n\n   1. State=Default, Type=Process\n\n   2. State=Default, Type=Hand-over\n\n   3. State=Default, Type=Delivery\n\n   4. State=Default, Type=Intake\n\n   5. State=Default, Type=Storage\n\n   6. State=Default, Type=Charging\n\n   7. State=Default, Type=Parking\n\n   8. State=Flow, Type=Process\n\n   9. State=Flow, Type=Hand-over\n\n   10. State=Flow, Type=Delivery\n\n   11. State=Flow, Type=Intake\n\n   12. State=Flow, Type=Storage\n\n   13. State=Flow, Type=Charging\n\n   14. State=Flow, Type=Parking\n\n   15. State=Resize, Type=Process\n\n   16. State=Resize, Type=Hand-over\n\n   17. State=Resize, Type=Delivery\n\n   18. State=Resize, Type=Intake\n\n   19. State=Resize, Type=Storage\n\n   20. State=Resize, Type=Charging\n\n   21. State=Resize, Type=Parking\n\n   22. State=Default, Type=Small\n\n   23. State=Defaul, Type=Exit Entry\n\n   24. State=Default, Type=Manual process area\n"
+    },
+    {
+      "folder": "Card",
+      "figmaName": "Simulation card",
+      "status": "found",
+      "output": "[dotenv@17.2.3] injecting env (3) from .env -- tip: 🔄 add secrets lifecycle management: https://dotenvx.com/ops\n\n🔍 Looking for component: \"Simulation card\"\n\n✅ Found component: Simulation card\n   ID: 1289:8365\n   Type: COMPONENT_SET\n\n📋 Component Properties:\n\n   Property: Status\n   - Type: VARIANT\n   - Default: Active\n   - Options: Active, Default, Complete, Order profile\n\n   Property: State\n   - Type: VARIANT\n   - Default: Draft\n   - Options: Default, Hover, Draft\n\n🔢 Variants (7 total):\n\n   1. Status=Active, State=Default\n\n   2. Status=Active, State=Hover\n\n   3. Status=Complete, State=Default\n\n   4. Status=Order profile, State=Default\n\n   5. Status=Complete, State=Hover\n\n   6. Status=Active, State=Draft\n\n   7. Status=Default, State=Default\n"
+    },
+    {
+      "folder": "CheckboxRadio",
+      "figmaName": "Checkbox",
+      "status": "found",
+      "output": "[dotenv@17.2.3] injecting env (3) from .env -- tip: 🔑 add access controls to secrets: https://dotenvx.com/ops\n\n🔍 Looking for component: \"Checkbox\"\n\n✅ Found component: Checkbox\n   ID: 1754:8350\n   Type: COMPONENT_SET\n\n📋 Component Properties:\n\n   Property: State\n   - Type: VARIANT\n   - Default: Checked\n   - Options: Checked, Unchecked, Not all checked\n\n🔢 Variants (3 total):\n\n   1. State=Unchecked\n\n   2. State=Not all checked\n\n   3. State=Checked\n"
+    },
+    {
+      "folder": "ChipsTags",
+      "figmaName": "Input chips",
+      "status": "found",
+      "output": "[dotenv@17.2.3] injecting env (3) from .env -- tip: 🔐 encrypt with Dotenvx: https://dotenvx.com\n\n🔍 Looking for component: \"Input chips\"\n\n✅ Found component: Input chips\n   ID: 2451:5\n   Type: COMPONENT_SET\n\n📋 Component Properties:\n\n   Property: Property 1\n   - Type: VARIANT\n   - Default: Vehicle\n   - Options: Vehicle, Load carrier 1, Load carrier 2\n\n🔢 Variants (3 total):\n\n   1. Property 1=Vehicle\n\n   2. Property 1=Load carrier 1\n\n   3. Property 1=Load carrier 2\n"
+    },
+    {
+      "folder": "Cursor",
+      "status": "skipped",
+      "reason": "No component sets found"
+    },
+    {
+      "folder": "DataTable",
+      "figmaName": "Table rows",
+      "status": "found",
+      "output": "[dotenv@17.2.3] injecting env (3) from .env -- tip: 📡 add observability to secrets: https://dotenvx.com/ops\n\n🔍 Looking for component: \"Table rows\"\n\n✅ Found component: Table rows\n   ID: 1759:8338\n   Type: COMPONENT_SET\n\n📋 Component Properties:\n\n   Property: Type\n   - Type: VARIANT\n   - Default: Table row\n   - Options: Table row, Rows with tag, Row tag\n\n   Property: Selected\n   - Type: VARIANT\n   - Default: False\n   - Options: False, True, Default, Selected\n\n🔢 Variants (4 total):\n\n   1. Type=Table row, Selected=False\n\n   2. Type=Table row, Selected=True\n\n   3. Type=Row tag, Selected=Default\n\n   4. Type=Rows with tag, Selected=Selected\n"
+    },
+    {
+      "folder": "Dialogs",
+      "figmaName": "Order profile modal",
+      "status": "found",
+      "output": "[dotenv@17.2.3] injecting env (3) from .env -- tip: 👥 sync secrets across teammates & machines: https://dotenvx.com/ops\n\n🔍 Looking for component: \"Order profile modal\"\n\n✅ Found component: Order profile modal\n   ID: 3095:9273\n   Type: COMPONENT_SET\n\n📋 Component Properties:\n\n   Property: Property 1\n   - Type: VARIANT\n   - Default: Default\n   - Options: Default, Complete, Upload, Two files\n\n🔢 Variants (4 total):\n\n   1. Property 1=Complete\n\n   2. Property 1=Upload\n\n   3. Property 1=Default\n\n   4. Property 1=Two files\n"
+    },
+    {
+      "folder": "Divider",
+      "figmaName": "Dividers",
+      "status": "found",
+      "output": "[dotenv@17.2.3] injecting env (3) from .env -- tip: 🔐 prevent building .env in docker: https://dotenvx.com/prebuild\n\n🔍 Looking for component: \"Dividers\"\n\n✅ Found component: Dividers\n   ID: 1573:9990\n   Type: COMPONENT_SET\n\n📋 Component Properties:\n\n   Property: Size\n   - Type: VARIANT\n   - Default: Vertical\n   - Options: Vertical, Horizontal\n\n🔢 Variants (2 total):\n\n   1. Size=Vertical\n\n   2. Size=Horizontal\n"
+    },
+    {
+      "folder": "Icon",
+      "status": "skipped",
+      "reason": "No component sets found"
+    },
+    {
+      "folder": "Illustrations",
+      "figmaName": "Rack",
+      "status": "found",
+      "output": "[dotenv@17.2.3] injecting env (3) from .env -- tip: ⚙️  override existing env vars with { override: true }\n\n🔍 Looking for component: \"Rack\"\n\n✅ Found component: Rack\n   ID: 4607:42679\n   Type: COMPONENT_SET\n\n📋 Component Properties:\n\n   Property: Property 1\n   - Type: VARIANT\n   - Default: Defaul racking\n   - Options: Beam height, Defaul racking, First shelf height, Gap between loads, Number of cells (depth), Post width, Side margin racking, Top margin, Total level depth\n\n🔢 Variants (9 total):\n\n   1. Property 1=Side margin racking\n\n   2. Property 1=Defaul racking\n\n   3. Property 1=Gap between loads\n\n   4. Property 1=Top margin\n\n   5. Property 1=Beam height\n\n   6. Property 1=Post width\n\n   7. Property 1=First shelf height\n\n   8. Property 1=Total level depth\n\n   9. Property 1=Number of cells (depth)\n"
+    },
+    {
+      "folder": "Input",
+      "figmaName": "Input",
+      "status": "found",
+      "output": "[dotenv@17.2.3] injecting env (3) from .env -- tip: 📡 add observability to secrets: https://dotenvx.com/ops\n\n🔍 Looking for component: \"Input\"\n\n✅ Found component: Input\n   ID: 3811:36790\n   Type: COMPONENT_SET\n\n📋 Component Properties:\n\n   Property: Property 1\n   - Type: VARIANT\n   - Default: Title\n   - Options: Dropdown, Dropdown Advanced, Label, Label Advanced, Title Icon, Title italic, Title, Icon label x2, Dimension Icon label x1, Dimension Input x2, Icon x3 Advanced, Vehicle Label Icon 1, Vehicle label icon 2, Load carrier label icon, Label expand, Load carrier type dropdown 1, Vehicle type dropdown 1, Vehicle type dropdown 2, Load carrier type dropdown 2, First dropdown, Label and Add, Slider, Dimension letter and icon\n\n🔢 Variants (23 total):\n\n   1. Property 1=Label\n\n   2. Property 1=Dropdown Advanced\n\n   3. Property 1=Label Advanced\n\n   4. Property 1=Label expand\n\n   5. Property 1=Dropdown\n\n   6. Property 1=Title Icon\n\n   7. Property 1=Title italic\n\n   8. Property 1=Title\n\n   9. Property 1=Icon label x2\n\n   10. Property 1=Dimension Icon label x1\n\n   11. Property 1=Dimension Input x2\n\n   12. Property 1=Icon x3 Advanced\n\n   13. Property 1=Vehicle Label Icon 1\n\n   14. Property 1=Vehicle label icon 2\n\n   15. Property 1=Load carrier label icon\n\n   16. Property 1=Vehicle type dropdown 1\n\n   17. Property 1=Load carrier type dropdown 1\n\n   18. Property 1=Vehicle type dropdown 2\n\n   19. Property 1=Load carrier type dropdown 2\n\n   20. Property 1=First dropdown\n\n   21. Property 1=Label and Add\n\n   22. Property 1=Slider\n\n   23. Property 1=Dimension letter and icon\n"
+    },
+    {
+      "folder": "LargeComponents",
+      "figmaName": "Floorplan card",
+      "status": "found",
+      "output": "[dotenv@17.2.3] injecting env (3) from .env -- tip: 🔄 add secrets lifecycle management: https://dotenvx.com/ops\n\n🔍 Looking for component: \"Floorplan card\"\n\n✅ Found component: Floorplan card\n   ID: 3142:9601\n   Type: COMPONENT_SET\n\n📋 Component Properties:\n\n   Property: Property 1\n   - Type: VARIANT\n   - Default: New floorplan\n   - Options: Default, Hover, New floorplan\n\n🔢 Variants (3 total):\n\n   1. Property 1=New floorplan\n\n   2. Property 1=Hover\n\n   3. Property 1=Default\n"
+    },
+    {
+      "folder": "Menus",
+      "figmaName": "Dropdown menu item",
+      "status": "found",
+      "output": "[dotenv@17.2.3] injecting env (3) from .env -- tip: 🔐 prevent committing .env to code: https://dotenvx.com/precommit\n\n🔍 Looking for component: \"Dropdown menu item\"\n\n✅ Found component: Dropdown menu item\n   ID: 1523:9626\n   Type: COMPONENT_SET\n\n📋 Component Properties:\n\n   Property: State\n   - Type: VARIANT\n   - Default: Default\n   - Options: Selected, Hover, Default, Disable, Icon + expand, Pressed\n\n   Property: Right content\n   - Type: VARIANT\n   - Default: None\n   - Options: None, Icon, Short key\n\n   Property: Divider\n   - Type: VARIANT\n   - Default: False\n   - Options: False\n\n   Property: Type\n   - Type: VARIANT\n   - Default: Label\n   - Options: Label, Multiselect, Icon left\n\n   Property: Left icon\n   - Type: VARIANT\n   - Default: False\n   - Options: False, True\n\n🔢 Variants (23 total):\n\n   1. State=Selected, Right content=None, Divider=False, Type=Label, Left icon=False\n\n   2. State=Default, Right content=None, Divider=False, Type=Label, Left icon=False\n\n   3. State=Disable, Right content=None, Divider=False, Type=Label, Left icon=False\n\n   4. State=Default, Right content=None, Divider=False, Type=Multiselect, Left icon=False\n\n   5. State=Icon + expand, Right content=None, Divider=False, Type=Multiselect, Left icon=False\n\n   6. State=Default, Right content=None, Divider=False, Type=Icon left, Left icon=False\n\n   7. State=Hover, Right content=None, Divider=False, Type=Multiselect, Left icon=False\n\n   8. State=Pressed, Right content=None, Divider=False, Type=Multiselect, Left icon=False\n\n   9. State=Selected, Right content=None, Divider=False, Type=Multiselect, Left icon=False\n\n   10. State=Icon + expand, Right content=Icon, Divider=False, Type=Label, Left icon=False\n\n   11. State=Default, Right content=Icon, Divider=False, Type=Label, Left icon=True\n\n   12. State=Hover, Right content=Icon, Divider=False, Type=Label, Left icon=False\n\n   13. State=Pressed, Right content=Icon, Divider=False, Type=Label, Left icon=False\n\n   14. State=Hover, Right content=Icon, Divider=False, Type=Label, Left icon=True\n\n   15. State=Pressed, Right content=Icon, Divider=False, Type=Label, Left icon=True\n\n   16. State=Selected, Right content=Icon, Divider=False, Type=Label, Left icon=False\n\n   17. State=Selected, Right content=Icon, Divider=False, Type=Label, Left icon=True\n\n   18. State=Default, Right content=Short key, Divider=False, Type=Label, Left icon=False\n\n   19. State=Hover, Right content=Short key, Divider=False, Type=Label, Left icon=False\n\n   20. State=Pressed, Right content=Short key, Divider=False, Type=Label, Left icon=False\n\n   21. State=Selected, Right content=Short key, Divider=False, Type=Label, Left icon=False\n\n   22. State=Hover, Right content=None, Divider=False, Type=Label, Left icon=False\n\n   23. State=Pressed, Right content=None, Divider=False, Type=Label, Left icon=False\n"
+    },
+    {
+      "folder": "ProgressIndicators",
+      "figmaName": "Loading Spinner 3",
+      "status": "found",
+      "output": "[dotenv@17.2.3] injecting env (3) from .env -- tip: 🛠️  run anywhere with `dotenvx run -- yourcommand`\n\n🔍 Looking for component: \"Loading Spinner 3\"\n\n✅ Found component: Loading Spinner 3\n   ID: 1554:9408\n   Type: COMPONENT_SET\n\n📋 Component Properties:\n\n   Property: Position\n   - Type: VARIANT\n   - Default: 1\n   - Options: 1, 2, 3, 4\n\n🔢 Variants (4 total):\n\n   1. Position=1\n\n   2. Position=2\n\n   3. Position=3\n\n   4. Position=4\n"
+    },
+    {
+      "folder": "PropertyPanels",
+      "figmaName": "Property panel - Setup, Layout, Simulation, 3D",
+      "status": "not-found",
+      "output": "[dotenv@17.2.3] injecting env (3) from .env -- tip: 👥 sync secrets across teammates & machines: https://dotenvx.com/ops\n\n🔍 Looking for component: \"Property panel - Setup, Layout, Simulation, 3D\"\n❌ Component \"Property panel - Setup, Layout, Simulation, 3D\" not found\n"
+    },
+    {
+      "folder": "RackingData",
+      "figmaName": "Francks racking data set",
+      "status": "found",
+      "output": "[dotenv@17.2.3] injecting env (3) from .env -- tip: 👥 sync secrets across teammates & machines: https://dotenvx.com/ops\n\n🔍 Looking for component: \"Francks racking data set\"\n\n✅ Found component: Francks racking data set\n   ID: 4020:34800\n   Type: COMPONENT_SET\n\n📋 Component Properties:\n\n   Property: Property 1\n   - Type: VARIANT\n   - Default: 1. Frame length\n   - Options: 1. Frame length, 10. Clearance in between, 11. Clearance top, 12. Overhang front, 13. Overhang back, 14. Max height of pallet, 2. Frame depth, 3. Frame height, 4. Beam length, 5. Beam height, 6. Shelf 1 height, 7. Shelf 2 height, 8. Shelf n height, 9. Clearance side, Shelf height MVP, Beam width\n\n🔢 Variants (16 total):\n\n   1. Property 1=10. Clearance in between\n\n   2. Property 1=11. Clearance top\n\n   3. Property 1=9. Clearance side\n\n   4. Property 1=2. Frame depth\n\n   5. Property 1=13. Overhang back\n\n   6. Property 1=14. Max height of pallet\n\n   7. Property 1=12. Overhang front\n\n   8. Property 1=1. Frame length\n\n   9. Property 1=4. Beam length\n\n   10. Property 1=5. Beam height\n\n   11. Property 1=6. Shelf 1 height\n\n   12. Property 1=7. Shelf 2 height\n\n   13. Property 1=8. Shelf n height\n\n   14. Property 1=3. Frame height\n\n   15. Property 1=Shelf height MVP\n\n   16. Property 1=Beam width\n"
+    },
+    {
+      "folder": "Slider",
+      "figmaName": "Slider",
+      "status": "found",
+      "output": "[dotenv@17.2.3] injecting env (3) from .env -- tip: ⚙️  specify custom .env file path with { path: '/custom/path/.env' }\n\n🔍 Looking for component: \"Slider\"\n\n✅ Found component: Slider\n   ID: 5246:36965\n   Type: COMPONENT_SET\n\n📋 Component Properties:\n\n   Property: State\n   - Type: VARIANT\n   - Default: 0\n   - Options: 0, +1\n\n🔢 Variants (2 total):\n\n   1. State=+1\n\n   2. State=0\n"
+    },
+    {
+      "folder": "Switch",
+      "figmaName": "Switch",
+      "status": "found",
+      "output": "[dotenv@17.2.3] injecting env (3) from .env -- tip: 🔐 encrypt with Dotenvx: https://dotenvx.com\n\n🔍 Looking for component: \"Switch\"\n\n✅ Found component: Switch\n   ID: 1894:8776\n   Type: COMPONENT_SET\n\n📋 Component Properties:\n\n   Property: State\n   - Type: VARIANT\n   - Default: off\n   - Options: off, on\n\n🔢 Variants (2 total):\n\n   1. State=off\n\n   2. State=on\n"
+    },
+    {
+      "folder": "Tabs",
+      "figmaName": "Tab item",
+      "status": "found",
+      "output": "[dotenv@17.2.3] injecting env (3) from .env -- tip: 🔄 add secrets lifecycle management: https://dotenvx.com/ops\n\n🔍 Looking for component: \"Tab item\"\n\n✅ Found component: Tab item\n   ID: 1085:6700\n   Type: COMPONENT_SET\n\n📋 Component Properties:\n\n   Property: Selected\n   - Type: VARIANT\n   - Default: False\n   - Options: False, True\n\n🔢 Variants (2 total):\n\n   1. Selected=False\n\n   2. Selected=True\n"
+    },
+    {
+      "folder": "ToolRail",
+      "figmaName": "Tool rail sub",
+      "status": "found",
+      "output": "[dotenv@17.2.3] injecting env (3) from .env -- tip: ⚙️  write to custom object with { processEnv: myObject }\n\n🔍 Looking for component: \"Tool rail sub\"\n\n✅ Found component: Tool rail sub\n   ID: 1081:6534\n   Type: COMPONENT_SET\n\n📋 Component Properties:\n\n   Property: State\n   - Type: VARIANT\n   - Default: Wall and obstacle\n   - Options: Areas, Wall and obstacle\n\n🔢 Variants (2 total):\n\n   1. State=Wall and obstacle\n\n   2. State=Areas\n"
+    },
+    {
+      "folder": "Tooltip",
+      "figmaName": "Explenation tooltip",
+      "status": "found",
+      "output": "[dotenv@17.2.3] injecting env (3) from .env -- tip: 📡 add observability to secrets: https://dotenvx.com/ops\n\n🔍 Looking for component: \"Explenation tooltip\"\n\n✅ Found component: Explenation tooltip\n   ID: 1262:8263\n   Type: COMPONENT_SET\n\n📋 Component Properties:\n\n   Property: Arrow\n   - Type: VARIANT\n   - Default: Right\n   - Options: Right, Left, Top left, Top right, Top Center shortcutkey, Top right shortcutkey, Top left shortcutkey, Bottom left shortcutkey, Bottom right shortcutkey, Bottom center shortcutkey, Bottom Center, Top Center\n\n   Property: Light\n   - Type: VARIANT\n   - Default: true\n   - Options: true\n\n🔢 Variants (12 total):\n\n   1. Arrow=Right, Light=true\n\n   2. Arrow=Bottom Center, Light=true\n\n   3. Arrow=Bottom right shortcutkey, Light=true\n\n   4. Arrow=Bottom center shortcutkey, Light=true\n\n   5. Arrow=Top right, Light=true\n\n   6. Arrow=Top right shortcutkey, Light=true\n\n   7. Arrow=Top Center, Light=true\n\n   8. Arrow=Top Center shortcutkey, Light=true\n\n   9. Arrow=Left, Light=true\n\n   10. Arrow=Bottom left shortcutkey, Light=true\n\n   11. Arrow=Top left, Light=true\n\n   12. Arrow=Top left shortcutkey, Light=true\n"
+    },
+    {
+      "folder": "TreeView",
+      "figmaName": "Layers",
+      "status": "found",
+      "output": "[dotenv@17.2.3] injecting env (3) from .env -- tip: 🔐 encrypt with Dotenvx: https://dotenvx.com\n\n🔍 Looking for component: \"Layers\"\n\n✅ Found component: Layers\n   ID: 1521:9120\n   Type: COMPONENT_SET\n\n📋 Component Properties:\n\n   Property: Selected\n   - Type: VARIANT\n   - Default: False\n   - Options: False, True\n\n   Property: 2nd level\n   - Type: VARIANT\n   - Default: True\n   - Options: True, False\n\n   Property: Hover\n   - Type: VARIANT\n   - Default: False\n   - Options: True, False\n\n   Property: Hide\n   - Type: VARIANT\n   - Default: False\n   - Options: True, False\n\n🔢 Variants (10 total):\n\n   1. Selected=False, 2nd level=False, Hover=False, Hide=False\n\n   2. Selected=False, 2nd level=False, Hover=False, Hide=True\n\n   3. Selected=False, 2nd level=True, Hover=False, Hide=False\n\n   4. Selected=False, 2nd level=True, Hover=False, Hide=True\n\n   5. Selected=False, 2nd level=False, Hover=True, Hide=False\n\n   6. Selected=False, 2nd level=True, Hover=True, Hide=False\n\n   7. Selected=True, 2nd level=False, Hover=False, Hide=False\n\n   8. Selected=True, 2nd level=True, Hover=False, Hide=False\n\n   9. Selected=True, 2nd level=False, Hover=True, Hide=False\n\n   10. Selected=True, 2nd level=True, Hover=True, Hide=False\n"
+    },
+    {
+      "folder": "UIShellHeader",
+      "figmaName": "Top bars",
+      "status": "found",
+      "output": "[dotenv@17.2.3] injecting env (3) from .env -- tip: 🔄 add secrets lifecycle management: https://dotenvx.com/ops\n\n🔍 Looking for component: \"Top bars\"\n\n✅ Found component: Top bars\n   ID: 1364:9832\n   Type: COMPONENT_SET\n\n📋 Component Properties:\n\n   Property: Variant\n   - Type: VARIANT\n   - Default: Digital twin\n   - Options: Digital twin, Spinner\n\n🔢 Variants (2 total):\n\n   1. Variant=Digital twin\n\n   2. Variant=Spinner\n"
+    },
+    {
+      "folder": "UIShellRightPanel",
+      "figmaName": "Reference image",
+      "status": "found",
+      "output": "[dotenv@17.2.3] injecting env (3) from .env -- tip: 🔄 add secrets lifecycle management: https://dotenvx.com/ops\n\n🔍 Looking for component: \"Reference image\"\n\n✅ Found component: Reference image\n   ID: 2992:2811\n   Type: COMPONENT_SET\n\n📋 Component Properties:\n\n   Property: Property 1\n   - Type: VARIANT\n   - Default: Default\n   - Options: Default, Upload file, File uploaded, Reflector map uploaded\n\n🔢 Variants (4 total):\n\n   1. Property 1=Default\n\n   2. Property 1=Upload file\n\n   3. Property 1=File uploaded\n\n   4. Property 1=Reflector map uploaded\n"
+    }
+  ]
+}

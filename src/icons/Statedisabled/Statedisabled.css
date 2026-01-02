@@ -1,0 +1,10 @@
+.statedisabled {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+}
+
+.statedisabled svg {
+  width: 100%;
+  height: 100%;
+}

@@ -1,0 +1,10 @@
+.typename {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+}
+
+.typename svg {
+  width: 100%;
+  height: 100%;
+}

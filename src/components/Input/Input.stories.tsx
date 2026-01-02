@@ -1,159 +1,177 @@
 import type { Meta, StoryObj } from '@storybook/react';
-import { useArgs } from '@storybook/preview-api';
 import { Input } from './Input';
-import figmaDocs from '../../figma-docs.json';
 
-const meta: Meta<typeof Input> = {
-  title: 'Components/Input',
+const meta = {
+  title: '3. Component Category Pages/Input',
   component: Input,
   parameters: {
-    layout: 'padded',
-    design: {
-      type: 'figma',
-      url: 'https://www.figma.com/file/XKxVlFf9TfWBHosOInkJXA/T-Suite-Design-System',
-    },
-    docs: {
-      description: {
-        component: figmaDocs['Input – Text']?.description || '',
-      },
+    layout: 'centered',
+    figma: {
+      pageId: '5180:45691',
+      components: 2,
+      totalVariants: 46,
     },
   },
   tags: ['autodocs'],
   argTypes: {
-    onChange: {
-      action: 'onChange',
-      description: 'Change handler (logged in Actions panel)',
-    },
-    value: {
-      control: 'text',
-      description: 'Input value (updated live when you type)',
-    },
-    label: {
-      control: 'text',
-    },
-    placeholder: {
-      control: 'text',
-    },
-    icon: {
-      control: 'text',
-    },
-    unit: {
-      control: 'text',
-    },
     type: {
       control: 'select',
-      options: ['text', 'number', 'icon+val', 'val+unit', 'val+icon'],
+      options: ['text', 'email', 'password', 'number', 'tel', 'url', 'search'],
+      description: 'Input type',
     },
-    state: {
+    size: {
       control: 'select',
-      options: ['enabled', 'disabled', 'error', 'focused'],
+      options: ['small', 'medium', 'large'],
+    },
+    disabled: {
+      control: 'boolean',
+    },
+    required: {
+      control: 'boolean',
+    },
+    fullWidth: {
+      control: 'boolean',
     },
   },
-};
+} satisfies Meta<typeof Input>;
 
 export default meta;
-type Story = StoryObj<typeof Input>;
+type Story = StoryObj<typeof meta>;
 
-const InteractiveTemplate: Story = {
-  render: (args: any) => {
-    const [{ value }, updateArgs] = useArgs();
-    return (
-      <Input
-        {...args}
-        value={String(value ?? '')}
-        onChange={(nextValue: string) => {
-          args.onChange?.(nextValue);
-          updateArgs({ value: nextValue });
-        }}
-      />
-    );
-  },
-};
-
-export const Text: Story = {
-  ...InteractiveTemplate,
+export const Default: Story = {
   args: {
-    type: 'text',
-    state: 'enabled',
-    value: '',
     placeholder: 'Enter text...',
-    label: 'Text Input',
   },
 };
 
-export const Number: Story = {
-  ...InteractiveTemplate,
+export const WithLabel: Story = {
   args: {
-    type: 'number',
-    state: 'enabled',
-    value: '',
-    placeholder: '0',
-    label: 'Number Input',
+    label: 'Username',
+    placeholder: 'Enter your username',
   },
 };
 
-export const IconValue: Story = {
-  ...InteractiveTemplate,
+export const Required: Story = {
   args: {
-    type: 'icon+val',
-    state: 'enabled',
-    value: '',
-    icon: '🔍',
-    placeholder: 'Search...',
-    label: 'Icon + Value',
+    label: 'Email',
+    type: 'email',
+    placeholder: 'Enter your email',
+    required: true,
   },
 };
 
-export const ValueUnit: Story = {
-  ...InteractiveTemplate,
+export const WithError: Story = {
   args: {
-    type: 'val+unit',
-    state: 'enabled',
-    value: '',
-    unit: 'px',
-    placeholder: '100',
-    label: 'Value + Unit',
+    label: 'Password',
+    type: 'password',
+    placeholder: 'Enter your password',
+    error: 'Password must be at least 8 characters',
   },
 };
 
-export const ValueIcon: Story = {
-  ...InteractiveTemplate,
+export const WithHelperText: Story = {
   args: {
-    type: 'val+icon',
-    state: 'enabled',
-    value: '',
-    icon: '📍',
-    placeholder: 'Enter location...',
-    label: 'Value + Icon',
+    label: 'Username',
+    placeholder: 'johndoe',
+    helperText: 'Choose a unique username',
+  },
+};
+
+export const Small: Story = {
+  args: {
+    size: 'small',
+    placeholder: 'Small input',
+  },
+};
+
+export const Medium: Story = {
+  args: {
+    size: 'medium',
+    placeholder: 'Medium input',
+  },
+};
+
+export const Large: Story = {
+  args: {
+    size: 'large',
+    placeholder: 'Large input',
   },
 };
 
 export const Disabled: Story = {
-  ...InteractiveTemplate,
   args: {
-    type: 'text',
-    state: 'disabled',
-    value: 'Disabled input',
-    label: 'Disabled State',
+    label: 'Disabled Input',
+    placeholder: 'Cannot edit this',
+    disabled: true,
+    value: 'Disabled value',
   },
 };
 
-export const Error: Story = {
-  ...InteractiveTemplate,
+export const FullWidth: Story = {
   args: {
-    type: 'text',
-    state: 'error',
-    value: 'Invalid input',
-    label: 'Error State',
+    label: 'Full Width Input',
+    placeholder: 'This input takes full width',
+    fullWidth: true,
+  },
+  parameters: {
+    layout: 'padded',
   },
 };
 
-export const Focused: Story = {
-  ...InteractiveTemplate,
+export const WithIconLeft: Story = {
   args: {
-    type: 'text',
-    state: 'focused',
-    value: 'Focused input',
-    label: 'Focused State',
+    label: 'Search',
+    placeholder: 'Search...',
+    iconLeft: (
+      <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor">
+        <path d="M11.742 10.344a6.5 6.5 0 10-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 001.415-1.414l-3.85-3.85a1.007 1.007 0 00-.115-.1zM12 6.5a5.5 5.5 0 11-11 0 5.5 5.5 0 0111 0z" />
+      </svg>
+    ),
+  },
+};
+
+export const WithIconRight: Story = {
+  args: {
+    label: 'Password',
+    type: 'password',
+    placeholder: 'Enter password',
+    iconRight: (
+      <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor">
+        <path d="M8 5.5a2.5 2.5 0 100 5 2.5 2.5 0 000-5zM4.5 8a3.5 3.5 0 117 0 3.5 3.5 0 01-7 0z" />
+        <path d="M8 0C4.146 0 .986 2.175 0 5.227c.986 3.052 4.146 5.227 8 5.227s7.014-2.175 8-5.227C15.014 2.175 11.854 0 8 0zM1.173 5.227C2.072 2.866 4.85 1 8 1s5.928 1.866 6.827 4.227C13.928 7.588 11.15 9.454 8 9.454s-5.928-1.866-6.827-4.227z" />
+      </svg>
+    ),
+  },
+};
+
+export const AllInputTypes: Story = {
+  render: () => (
+    <div style={{ display: 'flex', flexDirection: 'column', gap: '1.5rem', padding: '2rem', width: '400px' }}>
+      <h3 style={{ marginBottom: '0.5rem' }}>All Input Types</h3>
+      <Input type="text" label="Text Input" placeholder="Enter text" />
+      <Input type="email" label="Email Input" placeholder="user@example.com" />
+      <Input type="password" label="Password Input" placeholder="Enter password" />
+      <Input type="number" label="Number Input" placeholder="123" />
+      <Input type="tel" label="Phone Input" placeholder="+1 234 567 8900" />
+      <Input type="url" label="URL Input" placeholder="https://example.com" />
+      <Input type="search" label="Search Input" placeholder="Search..." />
+    </div>
+  ),
+  parameters: {
+    layout: 'fullscreen',
+  },
+};
+
+export const AllSizes: Story = {
+  render: () => (
+    <div style={{ display: 'flex', flexDirection: 'column', gap: '1.5rem', padding: '2rem', width: '400px' }}>
+      <h3 style={{ marginBottom: '0.5rem' }}>All Sizes</h3>
+      <Input size="small" label="Small" placeholder="Small input" />
+      <Input size="medium" label="Medium" placeholder="Medium input" />
+      <Input size="large" label="Large" placeholder="Large input" />
+    </div>
+  ),
+  parameters: {
+    layout: 'fullscreen',
   },
 };

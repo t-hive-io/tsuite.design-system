@@ -1,0 +1,10 @@
+.property1beamheight {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+}
+
+.property1beamheight svg {
+  width: 100%;
+  height: 100%;
+}

@@ -1,0 +1,10 @@
+.labelsizelarge {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+}
+
+.labelsizelarge svg {
+  width: 100%;
+  height: 100%;
+}

@@ -1,0 +1,10 @@
+.activetrueiconfalse {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+}
+
+.activetrueiconfalse svg {
+  width: 100%;
+  height: 100%;
+}

@@ -2,55 +2,132 @@ import React from 'react';
 import './Input.css';
 
 export interface InputProps {
-  type?: 'text' | 'number' | 'icon+val' | 'val+unit' | 'val+icon';
-  state?: 'enabled' | 'disabled' | 'error' | 'focused';
-  value?: string;
-  placeholder?: string;
+  /**
+   * Input type
+   */
+  type?: 'text' | 'email' | 'password' | 'number' | 'tel' | 'url' | 'search';
+  /**
+   * Input size
+   */
+  size?: 'small' | 'medium' | 'large';
+  /**
+   * Input label
+   */
   label?: string;
-  icon?: string;
-  unit?: string;
-  onChange?: (value: string) => void;
-  className?: string;
+  /**
+   * Input placeholder
+   */
+  placeholder?: string;
+  /**
+   * Input value
+   */
+  value?: string;
+  /**
+   * Is input disabled?
+   */
+  disabled?: boolean;
+  /**
+   * Is input required?
+   */
+  required?: boolean;
+  /**
+   * Error message
+   */
+  error?: string;
+  /**
+   * Helper text
+   */
+  helperText?: string;
+  /**
+   * Full width input
+   */
+  fullWidth?: boolean;
+  /**
+   * Icon to display before input
+   */
+  iconLeft?: React.ReactNode;
+  /**
+   * Icon to display after input
+   */
+  iconRight?: React.ReactNode;
+  /**
+   * Change handler
+   */
+  onChange?: (event: React.ChangeEvent<HTMLInputElement>) => void;
+  /**
+   * Blur handler
+   */
+  onBlur?: (event: React.FocusEvent<HTMLInputElement>) => void;
+  /**
+   * Focus handler
+   */
+  onFocus?: (event: React.FocusEvent<HTMLInputElement>) => void;
 }
 
-export const Input: React.FC<InputProps> = ({
+/**
+ * Primary UI component for user text input
+ */
+export const Input = ({
   type = 'text',
-  state = 'enabled',
-  value = '',
-  placeholder = '',
+  size = 'medium',
   label,
-  icon,
-  unit,
+  placeholder,
+  value,
+  disabled = false,
+  required = false,
+  error,
+  helperText,
+  fullWidth = false,
+  iconLeft,
+  iconRight,
   onChange,
-  className = '',
-}) => {
-  const classes = [
-    'input-wrapper',
-    `input--${state}`,
-    className,
-  ].filter(Boolean).join(' ');
+  onBlur,
+  onFocus,
+}: InputProps) => {
+  const containerClassName = [
+    'tsuite-input-container',
+    fullWidth && 'tsuite-input-container--full-width',
+  ]
+    .filter(Boolean)
+    .join(' ');
+
+  const wrapperClassName = [
+    'tsuite-input-wrapper',
+    `tsuite-input-wrapper--${size}`,
+    error && 'tsuite-input-wrapper--error',
+    disabled && 'tsuite-input-wrapper--disabled',
+  ]
+    .filter(Boolean)
+    .join(' ');
 
   return (
-    <div className={classes}>
-      {label && <label className="input-label">{label}</label>}
-      <div className="input-container">
-        {(type === 'icon+val' || type === 'val+icon') && icon && (
-          <span className={`input-icon ${type === 'val+icon' ? 'input-icon--right' : ''}`}>
-            {icon}
-          </span>
-        )}
+    <div className={containerClassName}>
+      {label && (
+        <label className="tsuite-input-label">
+          {label}
+          {required && <span className="tsuite-input-label__required">*</span>}
+        </label>
+      )}
+      <div className={wrapperClassName}>
+        {iconLeft && <span className="tsuite-input__icon-left">{iconLeft}</span>}
         <input
-          type={type === 'number' ? 'number' : 'text'}
-          className="input-field"
-          value={value}
+          type={type}
+          className="tsuite-input"
           placeholder={placeholder}
-          disabled={state === 'disabled'}
-          onChange={(e) => onChange?.(e.target.value)}
+          value={value}
+          disabled={disabled}
+          required={required}
+          onChange={onChange}
+          onBlur={onBlur}
+          onFocus={onFocus}
         />
-        {type === 'val+unit' && unit && (
-          <span className="input-unit">{unit}</span>
-        )}
+        {iconRight && <span className="tsuite-input__icon-right">{iconRight}</span>}
       </div>
+      {(error || helperText) && (
+        <div className={error ? 'tsuite-input-error' : 'tsuite-input-helper'}>
+          {error || helperText}
+        </div>
+      )}
     </div>
   );
 };

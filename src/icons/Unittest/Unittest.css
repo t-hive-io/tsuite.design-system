@@ -1,0 +1,10 @@
+.unittest {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+}
+
+.unittest svg {
+  width: 100%;
+  height: 100%;
+}

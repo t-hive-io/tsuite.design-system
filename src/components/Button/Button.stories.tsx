@@ -1,36 +1,23 @@
 import type { Meta, StoryObj } from '@storybook/react';
 import { Button } from './Button';
-import './Button.css';
-import figmaDocs from '../../figma-docs.json';
 
-/**
- * Button component from T-Suite Design System
- * Description automatically synced from Figma
- */
-const meta: Meta<typeof Button> = {
-  title: 'Components/Buttons',
+const meta = {
+  title: '3. Component Category Pages/Buttons',
   component: Button,
   parameters: {
-    design: {
-      type: 'figma',
-      url: 'https://www.figma.com/design/XKxVlFf9TfWBHosOInkJXA/T-Suite-Design-System?node-id=1428-9176',
-    },
-    docs: {
-      description: {
-        component: figmaDocs.Buttons?.description || 'Button component',
-      },
+    layout: 'centered',
+    figma: {
+      pageId: '5170:45280',
+      components: 3,
+      totalVariants: 36,
     },
   },
   tags: ['autodocs'],
   argTypes: {
-    onClick: {
-      action: 'onClick',
-      description: 'Click handler (logged in Actions panel)',
-    },
     variant: {
       control: 'select',
-      options: ['primary', 'secondary', 'tertiary', 'outlined', 'link'],
-      description: 'Button style variant',
+      options: ['primary', 'secondary', 'outlined', 'text'],
+      description: 'Button variant style',
     },
     size: {
       control: 'select',
@@ -39,21 +26,15 @@ const meta: Meta<typeof Button> = {
     },
     disabled: {
       control: 'boolean',
-      description: 'Disabled state',
     },
-    active: {
+    fullWidth: {
       control: 'boolean',
-      description: 'Active state',
-    },
-    icon: {
-      control: 'boolean',
-      description: 'Show icon',
     },
   },
-};
+} satisfies Meta<typeof Button>;
 
 export default meta;
-type Story = StoryObj<typeof Button>;
+type Story = StoryObj<typeof meta>;
 
 export const Primary: Story = {
   args: {
@@ -69,26 +50,17 @@ export const Secondary: Story = {
   },
 };
 
-export const WithIcon: Story = {
+export const Outlined: Story = {
   args: {
-    variant: 'primary',
-    icon: true,
-    children: 'Button with icon',
+    variant: 'outlined',
+    children: 'Outlined Button',
   },
 };
 
-export const Disabled: Story = {
+export const Text: Story = {
   args: {
-    variant: 'primary',
-    disabled: true,
-    children: 'Disabled Button',
-  },
-};
-
-export const Large: Story = {
-  args: {
-    size: 'large',
-    children: 'Large Button',
+    variant: 'text',
+    children: 'Text Button',
   },
 };
 
@@ -99,31 +71,87 @@ export const Small: Story = {
   },
 };
 
-export const Tertiary: Story = {
+export const Medium: Story = {
   args: {
-    variant: 'tertiary',
-    children: 'Tertiary Button',
+    size: 'medium',
+    children: 'Medium Button',
   },
 };
 
-export const Outlined: Story = {
+export const Large: Story = {
   args: {
-    variant: 'outlined',
-    children: 'Outlined Button',
+    size: 'large',
+    children: 'Large Button',
   },
 };
 
-export const Link: Story = {
+export const Disabled: Story = {
   args: {
-    variant: 'link',
-    children: 'Link Button',
+    disabled: true,
+    children: 'Disabled Button',
   },
 };
 
-export const Active: Story = {
+export const FullWidth: Story = {
   args: {
-    variant: 'primary',
-    children: 'Active Button',
-    active: true,
+    fullWidth: true,
+    children: 'Full Width Button',
+  },
+  parameters: {
+    layout: 'padded',
+  },
+};
+
+export const WithIconLeft: Story = {
+  args: {
+    children: 'Button with Icon',
+    iconLeft: (
+      <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor">
+        <path d="M8 0a8 8 0 100 16A8 8 0 008 0zm1 11H7V7h2v4zm0-5H7V4h2v2z" />
+      </svg>
+    ),
+  },
+};
+
+export const WithIconRight: Story = {
+  args: {
+    children: 'Button with Icon',
+    iconRight: (
+      <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor">
+        <path d="M4.646 4.646a.5.5 0 01.708 0L8 7.293l2.646-2.647a.5.5 0 01.708.708L8.707 8l2.647 2.646a.5.5 0 01-.708.708L8 8.707l-2.646 2.647a.5.5 0 01-.708-.708L7.293 8 4.646 5.354a.5.5 0 010-.708z" />
+      </svg>
+    ),
+  },
+};
+
+export const AllVariants: Story = {
+  render: () => (
+    <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem', padding: '2rem' }}>
+      <h3 style={{ marginBottom: '0.5rem' }}>All Button Variants</h3>
+      <div style={{ display: 'flex', gap: '1rem', flexWrap: 'wrap' }}>
+        <Button variant="primary">Primary</Button>
+        <Button variant="secondary">Secondary</Button>
+        <Button variant="outlined">Outlined</Button>
+        <Button variant="text">Text</Button>
+      </div>
+      
+      <h3 style={{ marginBottom: '0.5rem', marginTop: '1rem' }}>All Sizes</h3>
+      <div style={{ display: 'flex', gap: '1rem', alignItems: 'center', flexWrap: 'wrap' }}>
+        <Button size="small">Small</Button>
+        <Button size="medium">Medium</Button>
+        <Button size="large">Large</Button>
+      </div>
+      
+      <h3 style={{ marginBottom: '0.5rem', marginTop: '1rem' }}>Disabled States</h3>
+      <div style={{ display: 'flex', gap: '1rem', flexWrap: 'wrap' }}>
+        <Button variant="primary" disabled>Primary Disabled</Button>
+        <Button variant="secondary" disabled>Secondary Disabled</Button>
+        <Button variant="outlined" disabled>Outlined Disabled</Button>
+        <Button variant="text" disabled>Text Disabled</Button>
+      </div>
+    </div>
+  ),
+  parameters: {
+    layout: 'fullscreen',
   },
 };

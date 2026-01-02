@@ -48,17 +48,50 @@ if (fs.existsSync(componentsDir)) {
   
   for (let component of components) {
     const componentSrc = path.join(componentsDir, component);
-    const componentDist = path.join(distComponentsDir, component);
+    const stat = fs.statSync(componentSrc);
     
-    if (fs.statSync(componentSrc).isDirectory()) {
-      const files = fs.readdirSync(componentSrc);
+    if (stat.isDirectory()) {
+      const cssFiles = fs.readdirSync(componentSrc).filter(f => f.endsWith('.css'));
       
-      for (let file of files) {
-        if (file.endsWith('.css')) {
-          const srcFile = path.join(componentSrc, file);
-          const destFile = path.join(componentDist, file);
-          fs.copyFileSync(srcFile, destFile);
-          console.log(`  ✓ ${destFile}`);
+      if (cssFiles.length > 0) {
+        const componentDest = path.join(distComponentsDir, component);
+        fs.mkdirSync(componentDest, { recursive: true });
+        
+        for (let cssFile of cssFiles) {
+          const srcPath = path.join(componentSrc, cssFile);
+          const destPath = path.join(componentDest, cssFile);
+          fs.copyFileSync(srcPath, destPath);
+          console.log(`  ✓ ${destPath}`);
+        }
+      }
+    }
+  }
+}
+
+// Copy CSS files from icons
+console.log('\nCopying icon CSS files...');
+const iconsDir = 'src/icons';
+const distIconsDir = 'dist/icons';
+
+if (fs.existsSync(iconsDir)) {
+  const icons = fs.readdirSync(iconsDir);
+  
+  for (let icon of icons) {
+    const iconSrc = path.join(iconsDir, icon);
+    const stat = fs.statSync(iconSrc);
+    
+    if (stat.isDirectory()) {
+      const cssFiles = fs.readdirSync(iconSrc).filter(f => f.endsWith('.css'));
+      
+      if (cssFiles.length > 0) {
+        const iconDest = path.join(distIconsDir, icon);
+        fs.mkdirSync(iconDest, { recursive: true });
+        
+        for (let cssFile of cssFiles) {
+          const srcPath = path.join(iconSrc, cssFile);
+          const destPath = path.join(iconDest, cssFile);
+          fs.copyFileSync(srcPath, destPath);
+          console.log(`  ✓ ${destPath}`);
         }
       }
     }

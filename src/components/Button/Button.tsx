@@ -2,40 +2,77 @@ import React from 'react';
 import './Button.css';
 
 export interface ButtonProps {
-  variant?: 'primary' | 'secondary' | 'tertiary' | 'outlined' | 'link';
+  /**
+   * Button variant
+   */
+  variant?: 'primary' | 'secondary' | 'outlined' | 'text';
+  /**
+   * Button size
+   */
   size?: 'small' | 'medium' | 'large';
-  children: React.ReactNode;
-  onClick?: () => void;
+  /**
+   * Is button disabled?
+   */
   disabled?: boolean;
-  active?: boolean;
-  icon?: boolean;
+  /**
+   * Button contents
+   */
+  children: React.ReactNode;
+  /**
+   * Optional click handler
+   */
+  onClick?: () => void;
+  /**
+   * Button type
+   */
+  type?: 'button' | 'submit' | 'reset';
+  /**
+   * Full width button
+   */
+  fullWidth?: boolean;
+  /**
+   * Icon to display before text
+   */
+  iconLeft?: React.ReactNode;
+  /**
+   * Icon to display after text
+   */
+  iconRight?: React.ReactNode;
 }
 
-export const Button: React.FC<ButtonProps> = ({
+/**
+ * Primary UI component for user interaction
+ */
+export const Button = ({
   variant = 'primary',
   size = 'medium',
+  disabled = false,
   children,
   onClick,
-  disabled = false,
-  active = false,
-  icon = false,
-}) => {
-  const classes = [
-    'btn',
-    `btn--${variant}`,
-    `btn--${size}`,
-    active && 'btn--active',
-    icon && 'btn--with-icon',
-  ].filter(Boolean).join(' ');
+  type = 'button',
+  fullWidth = false,
+  iconLeft,
+  iconRight,
+}: ButtonProps) => {
+  const classNames = [
+    'tsuite-button',
+    `tsuite-button--${variant}`,
+    `tsuite-button--${size}`,
+    fullWidth && 'tsuite-button--full-width',
+  ]
+    .filter(Boolean)
+    .join(' ');
 
   return (
     <button
-      className={classes}
-      onClick={onClick}
+      type={type}
+      className={classNames}
       disabled={disabled}
+      onClick={onClick}
     >
-      {icon && <span className="btn__icon">+</span>}
-      {children}
+      {iconLeft && <span className="tsuite-button__icon-left">{iconLeft}</span>}
+      <span className="tsuite-button__text">{children}</span>
+      {iconRight && <span className="tsuite-button__icon-right">{iconRight}</span>}
     </button>
   );
 };

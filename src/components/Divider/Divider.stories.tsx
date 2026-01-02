@@ -1,52 +1,49 @@
 import type { Meta, StoryObj } from '@storybook/react';
-import { Divider } from './Divider';
-import figmaDocs from '../../figma-docs.json';
+import Sizevertical from '../../assets/icons/Sizevertical--1081-6483.svg?react';
+import Sizehorizontal from '../../assets/icons/Sizehorizontal--1125-9012.svg?react';
 
-const meta: Meta<typeof Divider> = {
-  title: 'Components/Divider',
+const Divider = ({ Size = 'Vertical' }: { Size?: 'Vertical' | 'Horizontal' }) => {
+  return Size === 'Horizontal' ? <Sizehorizontal /> : <Sizevertical />;
+};
+
+const meta = {
+  title: '3. Component Category Pages/Divider',
   component: Divider,
   parameters: {
-    layout: 'padded',
-    design: {
-      type: 'figma',
-      url: 'https://www.figma.com/file/XKxVlFf9TfWBHosOInkJXA/T-Suite-Design-System',
-    },
-    docs: {
-      description: {
-        component: figmaDocs.Dividers?.description || '',
-      },
+    layout: 'centered',
+    figma: {
+      pageId: '5182:37137',
+      componentId: '1573:9990',
+      figmaComponent: 'Dividers',
+      components: 1,
+      totalVariants: 2,
     },
   },
   tags: ['autodocs'],
-};
+  argTypes: {
+    Size: {
+      control: 'select',
+      options: ['Vertical', 'Horizontal'],
+      description: 'Divider size/orientation (matches Figma "Size" property)',
+    },
+  },
+  args: {
+    Size: 'Vertical',
+  },
+} satisfies Meta<typeof Divider>;
 
 export default meta;
-type Story = StoryObj<typeof Divider>;
+type Story = StoryObj<typeof meta>;
 
-export const Horizontal: Story = {
-  args: {
-    orientation: 'horizontal',
-  },
-};
+export const Vertical: Story = { args: { Size: 'Vertical' } };
+export const Horizontal: Story = { args: { Size: 'Horizontal' } };
 
-export const Vertical: Story = {
+export const AllVariants: Story = {
   render: () => (
-    <div style={{ display: 'flex', height: '100px', alignItems: 'center' }}>
-      <span>Left</span>
-      <Divider orientation="vertical" />
-      <span>Right</span>
+    <div style={{ display: 'flex', gap: '1rem', alignItems: 'center' }}>
+      <Divider Size="Vertical" />
+      <Divider Size="Horizontal" />
     </div>
   ),
-};
-
-export const InContent: Story = {
-  render: () => (
-    <div>
-      <p>Section 1</p>
-      <Divider />
-      <p>Section 2</p>
-      <Divider />
-      <p>Section 3</p>
-    </div>
-  ),
+  name: 'All Variants',
 };

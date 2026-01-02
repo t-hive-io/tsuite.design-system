@@ -1,0 +1,10 @@
+.property1selected {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+}
+
+.property1selected svg {
+  width: 100%;
+  height: 100%;
+}

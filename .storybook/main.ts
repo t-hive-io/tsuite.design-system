@@ -1,4 +1,5 @@
 import type { StorybookConfig } from "@storybook/react-vite";
+import svgr from 'vite-plugin-svgr';
 
 const config: StorybookConfig = {
   stories: ["../src/**/*.mdx", "../src/**/*.stories.@(js|jsx|mjs|ts|tsx)"],
@@ -18,6 +19,15 @@ const config: StorybookConfig = {
   // GitHub Pages base path
   viteFinal: async (config) => {
     config.base = process.env.NODE_ENV === 'production' ? '/tsuite.design-system/' : '/';
+    // Add SVGR plugin to handle SVG imports as React components
+    config.plugins = config.plugins || [];
+    config.plugins.push(
+      svgr({
+        svgrOptions: {
+          exportType: 'default',
+        },
+      })
+    );
     return config;
   },
 };

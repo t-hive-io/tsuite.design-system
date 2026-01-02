@@ -1,0 +1,109 @@
+.tsuite-card {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  border-radius: 0.5rem;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  text-align: left;
+  border: none;
+  width: fit-content;
+}
+
+.tsuite-card--default {
+  border: 1px solid #e0e0e0;
+}
+
+.tsuite-card--outlined {
+  border: 2px solid #2196f3;
+}
+
+.tsuite-card--elevated {
+  border: 1px solid #e0e0e0;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.2s ease;
+}
+
+.tsuite-card--elevated:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.tsuite-card--full-width {
+  width: 100%;
+}
+
+.tsuite-card--clickable {
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.tsuite-card--clickable:hover {
+  transform: translateY(-2px);
+}
+
+.tsuite-card--clickable:active {
+  transform: translateY(0);
+}
+
+.tsuite-card--clickable:focus-visible {
+  outline: 2px solid #2196f3;
+  outline-offset: 2px;
+}
+
+/* Padding */
+.tsuite-card--padding-none {
+  padding: 0;
+}
+
+.tsuite-card--padding-none .tsuite-card__header,
+.tsuite-card--padding-none .tsuite-card__body,
+.tsuite-card--padding-none .tsuite-card__footer {
+  padding: 0;
+}
+
+.tsuite-card--padding-small {
+  padding: 0;
+}
+
+.tsuite-card--padding-small .tsuite-card__header,
+.tsuite-card--padding-small .tsuite-card__body,
+.tsuite-card--padding-small .tsuite-card__footer {
+  padding: 0.75rem;
+}
+
+.tsuite-card--padding-medium {
+  padding: 0;
+}
+
+.tsuite-card--padding-medium .tsuite-card__header,
+.tsuite-card--padding-medium .tsuite-card__body,
+.tsuite-card--padding-medium .tsuite-card__footer {
+  padding: 1.25rem;
+}
+
+.tsuite-card--padding-large {
+  padding: 0;
+}
+
+.tsuite-card--padding-large .tsuite-card__header,
+.tsuite-card--padding-large .tsuite-card__body,
+.tsuite-card--padding-large .tsuite-card__footer {
+  padding: 1.5rem;
+}
+
+.tsuite-card__header {
+  border-bottom: 1px solid #e0e0e0;
+  font-weight: 600;
+  font-size: 1.125rem;
+  color: #212121;
+}
+
+.tsuite-card__body {
+  flex: 1;
+  color: #424242;
+}
+
+.tsuite-card__footer {
+  border-top: 1px solid #e0e0e0;
+  color: #757575;
+  font-size: 0.875rem;
+}

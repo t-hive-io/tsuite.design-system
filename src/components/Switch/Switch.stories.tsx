@@ -1,119 +1,48 @@
 import type { Meta, StoryObj } from '@storybook/react';
-import { useArgs } from '@storybook/preview-api';
-import { Switch } from './Switch';
-import figmaDocs from '../../figma-docs.json';
+import Stateoff from '../../assets/icons/Stateoff--1894-8775.svg?react';
+import Stateon from '../../assets/icons/Stateon--1894-8777.svg?react';
 
-const meta: Meta<typeof Switch> = {
-  title: 'Components/Switch',
+const Switch = ({ State = 'off' }: { State?: 'off' | 'on' }) => {
+  return State === 'on' ? <Stateon /> : <Stateoff />;
+};
+
+const meta = {
+  title: '3. Component Category Pages/Switch',
   component: Switch,
   parameters: {
-    design: {
-      type: 'figma',
-      url: 'https://www.figma.com/design/XKxVlFf9TfWBHosOInkJXA/T-Suite-Design-System',
-    },
-    docs: {
-      description: {
-        component: figmaDocs.Switch?.description || '',
-      },
+    layout: 'centered',
+    figma: {
+      pageId: '5185:37161',
+      componentId: '1894:8776',
+      components: 1,
+      totalVariants: 2,
     },
   },
   tags: ['autodocs'],
   argTypes: {
-    onChange: {
-      action: 'onChange',
-      description: 'Change handler (logged in Actions panel)',
-    },
-    checked: {
-      control: 'boolean',
-      description: 'Whether the switch is on or off',
-    },
-    disabled: {
-      control: 'boolean',
-      description: 'Whether the switch is disabled',
-    },
-    size: {
+    State: {
       control: 'select',
-      options: ['small', 'medium', 'large'],
-      description: 'Size of the switch',
-    },
-    label: {
-      control: 'text',
-      description: 'Optional label text',
+      options: ['off', 'on'],
+      description: 'Switch state (matches Figma "State" property)',
     },
   },
-};
+  args: {
+    State: 'off',
+  },
+} satisfies Meta<typeof Switch>;
 
 export default meta;
-type Story = StoryObj<typeof Switch>;
+type Story = StoryObj<typeof meta>;
 
-const InteractiveTemplate: Story = {
-  render: (args: any) => {
-    const [{ checked }, updateArgs] = useArgs();
-    return (
-      <Switch
-        {...args}
-        checked={checked as boolean}
-        onChange={(nextChecked: boolean) => {
-          args.onChange?.(nextChecked);
-          updateArgs({ checked: nextChecked });
-        }}
-      />
-    );
-  },
-};
+export const Off: Story = { args: { State: 'off' } };
+export const On: Story = { args: { State: 'on' } };
 
-export const Default: Story = {
-  ...InteractiveTemplate,
-  args: {
-    checked: false,
-  },
-};
-
-export const Checked: Story = {
-  ...InteractiveTemplate,
-  args: {
-    checked: true,
-  },
-};
-
-export const WithLabel: Story = {
-  ...InteractiveTemplate,
-  args: {
-    checked: true,
-    label: 'Enable notifications',
-  },
-};
-
-export const Disabled: Story = {
-  args: {
-    checked: false,
-    disabled: true,
-    label: 'Disabled switch',
-  },
-};
-
-export const DisabledChecked: Story = {
-  args: {
-    checked: true,
-    disabled: true,
-    label: 'Disabled & Checked',
-  },
-};
-
-export const Small: Story = {
-  ...InteractiveTemplate,
-  args: {
-    checked: true,
-    size: 'small',
-    label: 'Small switch',
-  },
-};
-
-export const Large: Story = {
-  ...InteractiveTemplate,
-  args: {
-    checked: true,
-    size: 'large',
-    label: 'Large switch',
-  },
+export const AllVariants: Story = {
+  render: () => (
+    <div style={{ display: 'flex', gap: '1rem', flexWrap: 'wrap', alignItems: 'center' }}>
+      <Switch State="off" />
+      <Switch State="on" />
+    </div>
+  ),
+  name: 'All Variants',
 };

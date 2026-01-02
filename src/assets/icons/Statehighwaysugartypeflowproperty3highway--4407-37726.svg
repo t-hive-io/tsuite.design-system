@@ -1,0 +1,14 @@
+<svg width="540" height="34" viewBox="0 0 540 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect x="5" y="5" width="530" height="24" fill="#F0E0FB"/>
+<rect x="5" y="5" width="530" height="24" stroke="#F325A7" stroke-width="2" stroke-dasharray="6 6"/>
+<rect width="36" height="11" transform="translate(14 11.5)" fill="#DACCE5"/>
+<rect width="36" height="11" transform="translate(82 11.5)" fill="#DACCE5"/>
+<rect width="36" height="11" transform="translate(150 11.5)" fill="#DACCE5"/>
+<rect width="36" height="11" transform="translate(218 11.5)" fill="#DACCE5"/>
+<rect width="36" height="11" transform="translate(286 11.5)" fill="#DACCE5"/>
+<rect width="36" height="11" transform="translate(354 11.5)" fill="#DACCE5"/>
+<rect width="36" height="11" transform="translate(422 11.5)" fill="#DACCE5"/>
+<rect width="36" height="11" transform="translate(490 11.5)" fill="#DACCE5"/>
+<path d="M270.088 22.6154L269.38 21.9077L273.974 17.3077L269.38 12.7077L270.088 12L275.395 17.3077L270.088 22.6154ZM276.188 22.6154L275.48 21.9077L280.074 17.3077L275.48 12.7077L276.188 12L281.495 17.3077L276.188 22.6154Z" fill="#222222"/>
+<path d="M263.928 22.6154L258.62 17.3077L263.928 12L264.635 12.7077L260.041 17.3077L264.635 21.9077L263.928 22.6154ZM270.028 22.6154L264.72 17.3077L270.028 12L270.735 12.7077L266.141 17.3077L270.735 21.9077L270.028 22.6154Z" fill="#222222"/>
+</svg>

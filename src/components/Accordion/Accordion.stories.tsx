@@ -1,111 +1,57 @@
 import type { Meta, StoryObj } from '@storybook/react';
-import { Accordion } from './Accordion';
-import figmaDocs from '../../figma-docs.json';
+import Property1false from '../../assets/icons/Property1false--1106-6756.svg?react';
+import Property1true from '../../assets/icons/Property1true--1106-6751.svg?react';
 
-const meta: Meta<typeof Accordion> = {
-  title: 'Components/Accordion',
+const Accordion = ({ Property1 = false }: { Property1?: boolean }) => {
+  return Property1 ? <Property1true /> : <Property1false />;
+};
+
+const meta = {
+  title: '3. Component Category Pages/Accordion',
   component: Accordion,
   parameters: {
-    layout: 'padded',
-    design: {
-      type: 'figma',
-      url: 'https://www.figma.com/file/XKxVlFf9TfWBHosOInkJXA/T-Suite-Design-System',
-    },
-    docs: {
-      description: {
-        component: figmaDocs.Accordion?.description || '',
-      },
+    layout: 'centered',
+    figma: {
+      pageId: '5193:36784',
+      componentId: '1106:6750',
+      figmaComponent: 'Right bar - Expansion panel - 2',
+      components: 3,
+      totalVariants: 8,
     },
   },
   tags: ['autodocs'],
   argTypes: {
-    title: {
-      control: 'text',
-      description: 'Header text displayed in the accordion',
-    },
-    defaultExpanded: {
+    Property1: {
       control: 'boolean',
-      description: 'Whether the accordion starts expanded',
-    },
-    children: {
-      control: 'text',
-      description: 'Content shown when expanded',
+      description: 'Expansion state (matches Figma "Property 1" property: True=expanded, False=collapsed)',
     },
   },
-};
+  args: {
+    Property1: false,
+  },
+} satisfies Meta<typeof Accordion>;
 
 export default meta;
-type Story = StoryObj<typeof Accordion>;
+type Story = StoryObj<typeof meta>;
 
-export const Collapsed: Story = {
+export const Collapsed: Story = { 
   args: {
-    title: 'Click to expand',
-    children: 'This is the accordion content.',
-    defaultExpanded: false,
+    Property1: false,
   },
 };
 
-export const Expanded: Story = {
+export const Expanded: Story = { 
   args: {
-    title: 'Already expanded',
-    children: 'This content is visible by default.',
-    defaultExpanded: true,
+    Property1: true,
   },
 };
 
-export const Multiple: Story = {
+export const AllVariants: Story = {
   render: () => (
-    <div>
-      <Accordion title="Section 1" defaultExpanded={true}>
-        <p>Content for section 1</p>
-      </Accordion>
-      <Accordion title="Section 2">
-        <p>Content for section 2</p>
-      </Accordion>
-      <Accordion title="Section 3">
-        <p>Content for section 3</p>
-        <ul>
-          <li>Item 1</li>
-          <li>Item 2</li>
-          <li>Item 3</li>
-        </ul>
-      </Accordion>
+    <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
+      <Accordion Property1={false} />
+      <Accordion Property1={true} />
     </div>
   ),
-};
-
-export const WithRichContent: Story = {
-  args: {
-    title: 'Rich Content Example',
-    children: (
-      <div>
-        <h4>Detailed Information</h4>
-        <p>This accordion can contain any React content.</p>
-        <button onClick={() => alert('Button clicked!')}>Click me</button>
-      </div>
-    ),
-    defaultExpanded: false,
-  },
-};
-
-export const LongContent: Story = {
-  args: {
-    title: 'Documentation',
-    children: (
-      <div>
-        <p>The Accordion component is a collapsible content container that allows users to expand and collapse sections of content.</p>
-        <h4>Features:</h4>
-        <ul>
-          <li>Expandable/collapsible sections</li>
-          <li>Customizable titles</li>
-          <li>Support for rich content</li>
-          <li>Keyboard accessible</li>
-          <li>Automatic state management</li>
-        </ul>
-        <h4>Usage:</h4>
-        <pre>{'<Accordion title="My Section">\n  Content goes here\n</Accordion>'}</pre>
-      </div>
-    ),
-    defaultExpanded: false,
-  },
+  name: 'All Variants',
 };

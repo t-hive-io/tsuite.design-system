@@ -6,6 +6,11 @@
 
 Your workflow remains exactly the same - design in Figma, and everything else happens automatically.
 
+## 📚 Essential Reading
+
+Before you start, please read:
+- **[Figma Naming Best Practices](./FIGMA_NAMING_BEST_PRACTICES.md)** - Learn how to name components for React and Angular
+
 ## Daily Workflow
 
 ### 1. Design in Figma (as usual)
@@ -59,6 +64,19 @@ Your changes will sync to the codebase:
 - **Instantly**: With webhook setup (optional)
 
 ## Best Practices
+
+### Naming Components
+**⚠️ Important:** Component names in Figma directly become React/Angular component names!
+
+Read the complete guide: **[Figma Naming Best Practices](./FIGMA_NAMING_BEST_PRACTICES.md)**
+
+Quick tips:
+- Use descriptive names: `User Profile` not `Component 1`
+- Avoid special characters: `@`, `#`, `$`, etc.
+- Use spaces, hyphens, or underscores as separators
+- Examples: `search_icon` → `SearchIcon`, `primary-button` → `PrimaryButton`
+
+### Design Tokens
 
 ### ✅ DO:
 - Use Figma Variables for colors, spacing, typography

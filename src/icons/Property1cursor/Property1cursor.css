@@ -1,0 +1,10 @@
+.property1cursor {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+}
+
+.property1cursor svg {
+  width: 100%;
+  height: 100%;
+}

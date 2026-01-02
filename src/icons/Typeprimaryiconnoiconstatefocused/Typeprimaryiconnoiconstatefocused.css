@@ -1,0 +1,10 @@
+.typeprimaryiconnoiconstatefocused {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+}
+
+.typeprimaryiconnoiconstatefocused svg {
+  width: 100%;
+  height: 100%;
+}

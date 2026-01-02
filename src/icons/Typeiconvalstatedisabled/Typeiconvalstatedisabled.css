@@ -1,0 +1,10 @@
+.typeiconvalstatedisabled {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+}
+
+.typeiconvalstatedisabled svg {
+  width: 100%;
+  height: 100%;
+}

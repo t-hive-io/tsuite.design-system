@@ -1,0 +1,10 @@
+.listsection {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+}
+
+.listsection svg {
+  width: 100%;
+  height: 100%;
+}

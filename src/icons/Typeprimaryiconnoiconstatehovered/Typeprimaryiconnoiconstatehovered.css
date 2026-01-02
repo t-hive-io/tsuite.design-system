@@ -1,0 +1,10 @@
+.typeprimaryiconnoiconstatehovered {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+}
+
+.typeprimaryiconnoiconstatehovered svg {
+  width: 100%;
+  height: 100%;
+}
