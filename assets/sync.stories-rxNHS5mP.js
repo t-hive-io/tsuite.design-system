@@ -1,0 +1,17 @@
+import{j as t}from"./jsx-runtime-DHuurbBU.js";import{r}from"./index-uubelm5h.js";const c=e=>r.createElement("svg",{width:24,height:24,viewBox:"0 0 24 24",fill:"none",xmlns:"http://www.w3.org/2000/svg",...e},r.createElement("path",{d:"M7 20.3077L2.6923 16L7 11.6923L7.71347 12.4L4.61347 15.5H20.5V16.5H4.61347L7.71347 19.6L7 20.3077ZM17 12.3077L16.2865 11.6L19.3865 8.49996H3.5V7.49996H19.3865L16.2865 4.39996L17 3.69226L21.3077 7.99996L17 12.3077Z",fill:"#B3B3B3"})),H=e=>r.createElement("svg",{width:24,height:24,viewBox:"0 0 24 24",fill:"none",xmlns:"http://www.w3.org/2000/svg",...e},r.createElement("path",{d:"M7 20.3077L2.6923 16L7 11.6923L7.71347 12.4L4.61347 15.5H20.5V16.5H4.61347L7.71347 19.6L7 20.3077ZM17 12.3077L16.2865 11.6L19.3865 8.49996H3.5V7.49996H19.3865L16.2865 4.39996L17 3.69226L21.3077 7.99996L17 12.3077Z",fill:"#222222"})),E=e=>r.createElement("svg",{width:24,height:24,viewBox:"0 0 24 24",fill:"none",xmlns:"http://www.w3.org/2000/svg",...e},r.createElement("rect",{width:24,height:24,rx:2,fill:"#FDE2F3"}),r.createElement("path",{d:"M7 20.3077L2.6923 16L7 11.6923L7.71347 12.4L4.61347 15.5H20.5V16.5H4.61347L7.71347 19.6L7 20.3077ZM17 12.3077L16.2865 11.6L19.3865 8.49996H3.5V7.49996H19.3865L16.2865 4.39996L17 3.69226L21.3077 7.99996L17 12.3077Z",fill:"#F325A7"})),P=e=>r.createElement("svg",{width:24,height:24,viewBox:"0 0 24 24",fill:"none",xmlns:"http://www.w3.org/2000/svg",...e},r.createElement("rect",{width:24,height:24,rx:2,fill:"#F7F7F7"}),r.createElement("path",{d:"M7 20.3077L2.6923 16L7 11.6923L7.71347 12.4L4.61347 15.5H20.5V16.5H4.61347L7.71347 19.6L7 20.3077ZM17 12.3077L16.2865 11.6L19.3865 8.49996H3.5V7.49996H19.3865L16.2865 4.39996L17 3.69226L21.3077 7.99996L17 12.3077Z",fill:"#222222"})),f=({Property1:e}={Property1:"Enabled"})=>e==="Enabled"?t(H,{}):e==="Hovred"?t(P,{}):e==="Focused"?t(E,{}):e==="Disable"?t(c,{}):t(c,{}),F={title:"3. Component Category Pages/Icon/sync",component:f,parameters:{layout:"centered",figma:{pageId:"5193:37078",componentId:"3838:102379",figmaComponent:"sync"}},tags:["autodocs"],argTypes:{Property1:{control:"select",options:["Enabled","Hovred","Focused","Disable"],description:'Matches Figma "Property 1" property'}},args:{Property1:"Enabled"}},o={args:{Property1:"Enabled"}},s={args:{Property1:"Hovred"}},a={args:{Property1:"Focused"}},n={args:{Property1:"Disable"}};var p,l,i;o.parameters={...o.parameters,docs:{...(p=o.parameters)==null?void 0:p.docs,source:{originalSource:`{
+  args: {
+    Property1: 'Enabled'
+  }
+}`,...(i=(l=o.parameters)==null?void 0:l.docs)==null?void 0:i.source}}};var d,L,m;s.parameters={...s.parameters,docs:{...(d=s.parameters)==null?void 0:d.docs,source:{originalSource:`{
+  args: {
+    Property1: 'Hovred'
+  }
+}`,...(m=(L=s.parameters)==null?void 0:L.docs)==null?void 0:m.source}}};var g,y,h;a.parameters={...a.parameters,docs:{...(g=a.parameters)==null?void 0:g.docs,source:{originalSource:`{
+  args: {
+    Property1: 'Focused'
+  }
+}`,...(h=(y=a.parameters)==null?void 0:y.docs)==null?void 0:h.source}}};var u,w,v;n.parameters={...n.parameters,docs:{...(u=n.parameters)==null?void 0:u.docs,source:{originalSource:`{
+  args: {
+    Property1: 'Disable'
+  }
+}`,...(v=(w=n.parameters)==null?void 0:w.docs)==null?void 0:v.source}}};const M=["Property1Enabled","Property1Hovred","Property1Focused","Property1Disable"];export{n as Property1Disable,o as Property1Enabled,a as Property1Focused,s as Property1Hovred,M as __namedExportsOrder,F as default};

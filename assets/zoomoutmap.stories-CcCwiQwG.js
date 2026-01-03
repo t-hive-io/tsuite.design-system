@@ -1,0 +1,17 @@
+import{j as a}from"./jsx-runtime-DHuurbBU.js";import{r as t}from"./index-uubelm5h.js";const c=e=>t.createElement("svg",{width:24,height:24,viewBox:"0 0 24 24",fill:"none",xmlns:"http://www.w3.org/2000/svg",...e},t.createElement("path",{d:"M4 20V15H5V18.2923L8.6 14.6923L9.3077 15.4L5.7077 19H9V20H4ZM15 20V19H18.2923L14.6923 15.4L15.4 14.6923L19 18.2923V15H20V20H15ZM8.6 9.3077L5 5.7077V9H4V4H9V5H5.7077L9.3077 8.6L8.6 9.3077ZM15.4 9.3077L14.6923 8.6L18.2923 5H15V4H20V9H19V5.7077L15.4 9.3077Z",fill:"#B3B3B3"})),w=e=>t.createElement("svg",{width:24,height:24,viewBox:"0 0 24 24",fill:"none",xmlns:"http://www.w3.org/2000/svg",...e},t.createElement("path",{d:"M4 20V15H5V18.2923L8.6 14.6923L9.3077 15.4L5.7077 19H9V20H4ZM15 20V19H18.2923L14.6923 15.4L15.4 14.6923L19 18.2923V15H20V20H15ZM8.6 9.3077L5 5.7077V9H4V4H9V5H5.7077L9.3077 8.6L8.6 9.3077ZM15.4 9.3077L14.6923 8.6L18.2923 5H15V4H20V9H19V5.7077L15.4 9.3077Z",fill:"#222222"})),v=e=>t.createElement("svg",{width:24,height:24,viewBox:"0 0 24 24",fill:"none",xmlns:"http://www.w3.org/2000/svg",...e},t.createElement("rect",{width:24,height:24,rx:2,fill:"#FDE2F3"}),t.createElement("path",{d:"M4 20V15H5V18.2923L8.6 14.6923L9.3077 15.4L5.7077 19H9V20H4ZM15 20V19H18.2923L14.6923 15.4L15.4 14.6923L19 18.2923V15H20V20H15ZM8.6 9.3077L5 5.7077V9H4V4H9V5H5.7077L9.3077 8.6L8.6 9.3077ZM15.4 9.3077L14.6923 8.6L18.2923 5H15V4H20V9H19V5.7077L15.4 9.3077Z",fill:"#F325A7"})),E=e=>t.createElement("svg",{width:24,height:24,viewBox:"0 0 24 24",fill:"none",xmlns:"http://www.w3.org/2000/svg",...e},t.createElement("rect",{width:24,height:24,rx:2,fill:"#F7F7F7"}),t.createElement("path",{d:"M4 20V15H5V18.2923L8.6 14.6923L9.3077 15.4L5.7077 19H9V20H4ZM15 20V19H18.2923L14.6923 15.4L15.4 14.6923L19 18.2923V15H20V20H15ZM8.6 9.3077L5 5.7077V9H4V4H9V5H5.7077L9.3077 8.6L8.6 9.3077ZM15.4 9.3077L14.6923 8.6L18.2923 5H15V4H20V9H19V5.7077L15.4 9.3077Z",fill:"#222222"})),f=({State:e}={State:"Enabled"})=>e==="Enabled"?a(w,{}):e==="Hovered"?a(E,{}):e==="Focused"?a(v,{}):e==="Disable"?a(c,{}):a(c,{}),b={title:"3. Component Category Pages/Icon/zoom_out_map",component:f,parameters:{layout:"centered",figma:{pageId:"5193:37078",componentId:"3838:100675",figmaComponent:"zoom_out_map"}},tags:["autodocs"],argTypes:{State:{control:"select",options:["Enabled","Hovered","Focused","Disable"],description:'Matches Figma "State" property'}},args:{State:"Enabled"}},r={args:{State:"Enabled"}},o={args:{State:"Hovered"}},s={args:{State:"Focused"}},n={args:{State:"Disable"}};var l,d,i;r.parameters={...r.parameters,docs:{...(l=r.parameters)==null?void 0:l.docs,source:{originalSource:`{
+  args: {
+    State: 'Enabled'
+  }
+}`,...(i=(d=r.parameters)==null?void 0:d.docs)==null?void 0:i.source}}};var H,m,L;o.parameters={...o.parameters,docs:{...(H=o.parameters)==null?void 0:H.docs,source:{originalSource:`{
+  args: {
+    State: 'Hovered'
+  }
+}`,...(L=(m=o.parameters)==null?void 0:m.docs)==null?void 0:L.source}}};var V,g,p;s.parameters={...s.parameters,docs:{...(V=s.parameters)==null?void 0:V.docs,source:{originalSource:`{
+  args: {
+    State: 'Focused'
+  }
+}`,...(p=(g=s.parameters)==null?void 0:g.docs)==null?void 0:p.source}}};var u,S,h;n.parameters={...n.parameters,docs:{...(u=n.parameters)==null?void 0:u.docs,source:{originalSource:`{
+  args: {
+    State: 'Disable'
+  }
+}`,...(h=(S=n.parameters)==null?void 0:S.docs)==null?void 0:h.source}}};const x=["StateEnabled","StateHovered","StateFocused","StateDisable"];export{n as StateDisable,r as StateEnabled,s as StateFocused,o as StateHovered,x as __namedExportsOrder,b as default};
