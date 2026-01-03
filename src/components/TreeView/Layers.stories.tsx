@@ -10,25 +10,103 @@ import Selectedtrue2ndlevelfalsehovertruehidefalse15229531 from '../../assets/ic
 import Selectedtrue2ndleveltruehoverfalsehidefalse15229680 from '../../assets/icons/Selectedtrue2ndleveltruehoverfalsehidefalse--1522-9680.svg?react';
 import Selectedtrue2ndleveltruehovertruehidefalse15229685 from '../../assets/icons/Selectedtrue2ndleveltruehovertruehidefalse--1522-9685.svg?react';
 
-const Layers = ({ Selected, _2ndlevel, Hover, Hide }: {
-  Selected?: 'False' | 'True';
-  _2ndlevel?: 'True' | 'False';
-  Hover?: 'True' | 'False';
-  Hide?: 'True' | 'False';
-} = {
+const Layers = (
+  {
+    Selected,
+    _2ndlevel,
+    Hover,
+    Hide,
+  }: {
+    Selected?: 'False' | 'True';
+    _2ndlevel?: 'True' | 'False';
+    Hover?: 'True' | 'False';
+    Hide?: 'True' | 'False';
+  } = {
     Selected: 'False',
     _2ndlevel: 'True',
     Hover: 'False',
-    Hide: 'False'
-  }) => {
-  if (Selected === 'False') return <Selectedfalse2ndlevelfalsehoverfalsehidefalse15219121 />;
-  if (Selected === 'True') return <Selectedfalse2ndlevelfalsehoverfalsehidetrue15229822 />;
-  if (_2ndlevel === 'True') return <Selectedfalse2ndlevelfalsehoverfalsehidetrue15229822 />;
-  if (_2ndlevel === 'False') return <Selectedfalse2ndlevelfalsehoverfalsehidefalse15219121 />;
-  if (Hover === 'True') return <Selectedfalse2ndlevelfalsehoverfalsehidetrue15229822 />;
-  if (Hover === 'False') return <Selectedfalse2ndlevelfalsehoverfalsehidefalse15219121 />;
-  if (Hide === 'True') return <Selectedfalse2ndlevelfalsehoverfalsehidetrue15229822 />;
-  if (Hide === 'False') return <Selectedfalse2ndlevelfalsehoverfalsehidefalse15219121 />;
+    Hide: 'False',
+  }
+) => {
+  // Selected=False, _2ndlevel=False combinations
+  if (
+    Selected === 'False' &&
+    _2ndlevel === 'False' &&
+    Hover === 'False' &&
+    Hide === 'False'
+  )
+    return <Selectedfalse2ndlevelfalsehoverfalsehidefalse15219121 />;
+  if (
+    Selected === 'False' &&
+    _2ndlevel === 'False' &&
+    Hover === 'False' &&
+    Hide === 'True'
+  )
+    return <Selectedfalse2ndlevelfalsehoverfalsehidetrue15229822 />;
+  if (
+    Selected === 'False' &&
+    _2ndlevel === 'False' &&
+    Hover === 'True' &&
+    Hide === 'False'
+  )
+    return <Selectedfalse2ndlevelfalsehovertruehidefalse15229142 />;
+
+  // Selected=False, _2ndlevel=True combinations
+  if (
+    Selected === 'False' &&
+    _2ndlevel === 'True' &&
+    Hover === 'False' &&
+    Hide === 'False'
+  )
+    return <Selectedfalse2ndleveltruehoverfalsehidefalse15229670 />;
+  if (
+    Selected === 'False' &&
+    _2ndlevel === 'True' &&
+    Hover === 'False' &&
+    Hide === 'True'
+  )
+    return <Selectedfalse2ndleveltruehoverfalsehidetrue15229827 />;
+  if (
+    Selected === 'False' &&
+    _2ndlevel === 'True' &&
+    Hover === 'True' &&
+    Hide === 'False'
+  )
+    return <Selectedfalse2ndleveltruehovertruehidefalse15229675 />;
+
+  // Selected=True, _2ndlevel=False combinations
+  if (
+    Selected === 'True' &&
+    _2ndlevel === 'False' &&
+    Hover === 'False' &&
+    Hide === 'False'
+  )
+    return <Selectedtrue2ndlevelfalsehoverfalsehidefalse15219128 />;
+  if (
+    Selected === 'True' &&
+    _2ndlevel === 'False' &&
+    Hover === 'True' &&
+    Hide === 'False'
+  )
+    return <Selectedtrue2ndlevelfalsehovertruehidefalse15229531 />;
+
+  // Selected=True, _2ndlevel=True combinations
+  if (
+    Selected === 'True' &&
+    _2ndlevel === 'True' &&
+    Hover === 'False' &&
+    Hide === 'False'
+  )
+    return <Selectedtrue2ndleveltruehoverfalsehidefalse15229680 />;
+  if (
+    Selected === 'True' &&
+    _2ndlevel === 'True' &&
+    Hover === 'True' &&
+    Hide === 'False'
+  )
+    return <Selectedtrue2ndleveltruehovertruehidefalse15229685 />;
+
+  // Default fallback
   return <Selectedfalse2ndlevelfalsehoverfalsehidefalse15219121 />;
 };
 
@@ -37,6 +115,12 @@ const meta = {
   component: Layers,
   parameters: {
     layout: 'centered',
+    docs: {
+      description: {
+        component:
+          '⚠️ **Figma Description Missing** - Please add a description in Figma for this component.',
+      },
+    },
     figma: {
       pageId: '5200:798',
       componentId: '1521:9120',
@@ -77,38 +161,80 @@ const meta = {
 export default meta;
 type Story = StoryObj<typeof meta>;
 
-export const SelectedFalse: Story = { 
+export const Default: Story = {};
+
+// First level, not selected
+export const FirstLevelDefault: Story = {
   args: {
     Selected: 'False',
+    _2ndlevel: 'False',
+    Hover: 'False',
+    Hide: 'False',
   },
 };
 
-export const SelectedTrue: Story = { 
+export const FirstLevelHovered: Story = {
+  args: {
+    Selected: 'False',
+    _2ndlevel: 'False',
+    Hover: 'True',
+    Hide: 'False',
+  },
+};
+
+// Second level, not selected
+export const SecondLevelDefault: Story = {
+  args: {
+    Selected: 'False',
+    _2ndlevel: 'True',
+    Hover: 'False',
+    Hide: 'False',
+  },
+};
+
+export const SecondLevelHovered: Story = {
+  args: {
+    Selected: 'False',
+    _2ndlevel: 'True',
+    Hover: 'True',
+    Hide: 'False',
+  },
+};
+
+// First level, selected
+export const FirstLevelSelected: Story = {
   args: {
     Selected: 'True',
-  },
-};
-
-export const _2ndlevelTrue: Story = { 
-  args: {
-    _2ndlevel: 'True',
-  },
-};
-
-export const _2ndlevelFalse: Story = { 
-  args: {
     _2ndlevel: 'False',
-  },
-};
-
-export const HoverTrue: Story = { 
-  args: {
-    Hover: 'True',
-  },
-};
-
-export const HoverFalse: Story = { 
-  args: {
     Hover: 'False',
+    Hide: 'False',
+  },
+};
+
+export const FirstLevelSelectedHovered: Story = {
+  args: {
+    Selected: 'True',
+    _2ndlevel: 'False',
+    Hover: 'True',
+    Hide: 'False',
+  },
+};
+
+// Second level, selected
+export const SecondLevelSelected: Story = {
+  args: {
+    Selected: 'True',
+    _2ndlevel: 'True',
+    Hover: 'False',
+    Hide: 'False',
+  },
+};
+
+export const SecondLevelSelectedHovered: Story = {
+  args: {
+    Selected: 'True',
+    _2ndlevel: 'True',
+    Hover: 'True',
+    Hide: 'False',
   },
 };
