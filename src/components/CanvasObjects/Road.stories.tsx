@@ -8,24 +8,52 @@ import Statehighwaylargetypeflowproperty3large440737760 from '../../assets/icons
 import Statehighwaysugartypedefaultproperty3highway440337840 from '../../assets/icons/Statehighwaysugartypedefaultproperty3highway--4403-37840.svg?react';
 import Statehighwaysugartypeflowproperty3highway440737726 from '../../assets/icons/Statehighwaysugartypeflowproperty3highway--4407-37726.svg?react';
 
-const Road = ({ State, Type, Property3 }: {
-  State?: 'Area' | 'Highway sugar' | 'Highway large';
-  Type?: 'Resize' | 'Default' | 'Flow';
-  Property3?: 'Highway' | 'Large' | 'Large arrows';
-} = {
+const Road = (
+  {
+    State,
+    Type,
+    Property3,
+  }: {
+    State?: 'Area' | 'Highway sugar' | 'Highway large';
+    Type?: 'Resize' | 'Default' | 'Flow';
+    Property3?: 'Highway' | 'Large' | 'Large arrows';
+  } = {
     State: 'Area',
     Type: 'Default',
-    Property3: 'Highway'
-  }) => {
-  if (State === 'Area') return <Stateareatypedefaultproperty3highway21388450 />;
-  if (State === 'Highway sugar') return <Statehighwaysugartypedefaultproperty3highway440337840 />;
-  if (State === 'Highway large') return <Statehighwaylargetypedefaultproperty3large440737701 />;
-  if (Type === 'Resize') return <Stateareatyperesizeproperty3highway21388795 />;
-  if (Type === 'Default') return <Stateareatypedefaultproperty3highway21388450 />;
-  if (Type === 'Flow') return <Stateareatypeflowproperty3highway21388760 />;
-  if (Property3 === 'Highway') return <Stateareatypedefaultproperty3highway21388450 />;
-  if (Property3 === 'Large') return <Statehighwaylargetypedefaultproperty3large440737701 />;
-  if (Property3 === 'Large arrows') return <Statehighwaylargetypedefaultproperty3largearrows441137619 />;
+    Property3: 'Highway',
+  }
+) => {
+  // State=Area combinations (Property3=Highway)
+  if (State === 'Area' && Type === 'Default' && Property3 === 'Highway')
+    return <Stateareatypedefaultproperty3highway21388450 />;
+  if (State === 'Area' && Type === 'Flow' && Property3 === 'Highway')
+    return <Stateareatypeflowproperty3highway21388760 />;
+  if (State === 'Area' && Type === 'Resize' && Property3 === 'Highway')
+    return <Stateareatyperesizeproperty3highway21388795 />;
+
+  // State=Highway sugar combinations (Property3=Highway)
+  if (
+    State === 'Highway sugar' &&
+    Type === 'Default' &&
+    Property3 === 'Highway'
+  )
+    return <Statehighwaysugartypedefaultproperty3highway440337840 />;
+  if (State === 'Highway sugar' && Type === 'Flow' && Property3 === 'Highway')
+    return <Statehighwaysugartypeflowproperty3highway440737726 />;
+
+  // State=Highway large combinations (Property3=Large and Large arrows)
+  if (State === 'Highway large' && Type === 'Default' && Property3 === 'Large')
+    return <Statehighwaylargetypedefaultproperty3large440737701 />;
+  if (
+    State === 'Highway large' &&
+    Type === 'Default' &&
+    Property3 === 'Large arrows'
+  )
+    return <Statehighwaylargetypedefaultproperty3largearrows441137619 />;
+  if (State === 'Highway large' && Type === 'Flow' && Property3 === 'Large')
+    return <Statehighwaylargetypeflowproperty3large440737760 />;
+
+  // Default fallback
   return <Stateareatypedefaultproperty3highway21388450 />;
 };
 
@@ -34,6 +62,12 @@ const meta = {
   component: Road,
   parameters: {
     layout: 'centered',
+    docs: {
+      description: {
+        component:
+          '⚠️ **Figma Description Missing** - Please add a description in Figma for this component.',
+      },
+    },
     figma: {
       pageId: '5170:45525',
       componentId: '2921:1631',
@@ -68,38 +102,71 @@ const meta = {
 export default meta;
 type Story = StoryObj<typeof meta>;
 
-export const StateArea: Story = { 
+export const Default: Story = {};
+
+// State=Area combinations (Property3=Highway)
+export const AreaDefault: Story = {
   args: {
     State: 'Area',
+    Type: 'Default',
+    Property3: 'Highway',
   },
 };
 
-export const StateHighwaysugar: Story = { 
+export const AreaFlow: Story = {
+  args: {
+    State: 'Area',
+    Type: 'Flow',
+    Property3: 'Highway',
+  },
+};
+
+export const AreaResize: Story = {
+  args: {
+    State: 'Area',
+    Type: 'Resize',
+    Property3: 'Highway',
+  },
+};
+
+// State=Highway sugar combinations (Property3=Highway)
+export const HighwaySugarDefault: Story = {
   args: {
     State: 'Highway sugar',
+    Type: 'Default',
+    Property3: 'Highway',
   },
 };
 
-export const StateHighwaylarge: Story = { 
+export const HighwaySugarFlow: Story = {
+  args: {
+    State: 'Highway sugar',
+    Type: 'Flow',
+    Property3: 'Highway',
+  },
+};
+
+// State=Highway large combinations (Property3=Large and Large arrows)
+export const HighwayLargeDefault: Story = {
   args: {
     State: 'Highway large',
-  },
-};
-
-export const TypeResize: Story = { 
-  args: {
-    Type: 'Resize',
-  },
-};
-
-export const TypeDefault: Story = { 
-  args: {
     Type: 'Default',
+    Property3: 'Large',
   },
 };
 
-export const TypeFlow: Story = { 
+export const HighwayLargeDefaultWithArrows: Story = {
   args: {
+    State: 'Highway large',
+    Type: 'Default',
+    Property3: 'Large arrows',
+  },
+};
+
+export const HighwayLargeFlow: Story = {
+  args: {
+    State: 'Highway large',
     Type: 'Flow',
+    Property3: 'Large',
   },
 };

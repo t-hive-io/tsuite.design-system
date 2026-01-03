@@ -2,15 +2,22 @@ import type { Meta, StoryObj } from '@storybook/react';
 import Statedefault12178498 from '../../assets/icons/Statedefault--1217-8498.svg?react';
 import Statedisabled15359375 from '../../assets/icons/Statedisabled--1535-9375.svg?react';
 
-const Inputtext = ({ Text41120, State }: {
-  Text41120?: boolean;
-  State?: 'Default' | 'disabled';
-} = {
+const Inputtext = (
+  {
+    State,
+  }: {
+    Text41120?: boolean;
+    State?: 'Default' | 'disabled';
+  } = {
     Text41120: false,
-    State: 'Default'
-  }) => {
+    State: 'Default',
+  }
+) => {
+  // State combinations (Text41120 not used in variants)
   if (State === 'Default') return <Statedefault12178498 />;
   if (State === 'disabled') return <Statedisabled15359375 />;
+
+  // Default fallback
   return <Statedefault12178498 />;
 };
 
@@ -19,6 +26,12 @@ const meta = {
   component: Inputtext,
   parameters: {
     layout: 'centered',
+    docs: {
+      description: {
+        component:
+          '⚠️ **Figma Description Missing** - Please add a description in Figma for this component.',
+      },
+    },
     figma: {
       pageId: '5236:21016',
       componentId: '1535:9374',
@@ -46,25 +59,15 @@ const meta = {
 export default meta;
 type Story = StoryObj<typeof meta>;
 
-export const Text41120True: Story = { 
-  args: {
-    Text41120: true,
-  },
-};
+export const Default: Story = {};
 
-export const Text41120False: Story = { 
-  args: {
-    Text41120: false,
-  },
-};
-
-export const StateDefault: Story = { 
+export const DefaultState: Story = {
   args: {
     State: 'Default',
   },
 };
 
-export const Statedisabled: Story = { 
+export const DisabledState: Story = {
   args: {
     State: 'disabled',
   },

@@ -12,27 +12,58 @@ import Arrowtopleftshortcutkeylighttrue3259160791 from '../../assets/icons/Arrow
 import Arrowtoprightlighttrue12638352 from '../../assets/icons/Arrowtoprightlighttrue--1263-8352.svg?react';
 import Arrowtoprightshortcutkeylighttrue3259160786 from '../../assets/icons/Arrowtoprightshortcutkeylighttrue--3259-160786.svg?react';
 
-const Explenationtooltip = ({ Arrow, Light }: {
-  Arrow?: 'Right' | 'Left' | 'Top left' | 'Top right' | 'Top Center shortcutkey' | 'Top right shortcutkey' | 'Top left shortcutkey' | 'Bottom left shortcutkey' | 'Bottom right shortcutkey' | 'Bottom center shortcutkey' | 'Bottom Center' | 'Top Center';
-  Light?: 'true';
-} = {
+const Explenationtooltip = (
+  {
+    Arrow,
+    Light,
+  }: {
+    Arrow?:
+      | 'Right'
+      | 'Left'
+      | 'Top left'
+      | 'Top right'
+      | 'Top Center shortcutkey'
+      | 'Top right shortcutkey'
+      | 'Top left shortcutkey'
+      | 'Bottom left shortcutkey'
+      | 'Bottom right shortcutkey'
+      | 'Bottom center shortcutkey'
+      | 'Bottom Center'
+      | 'Top Center';
+    Light?: 'true';
+  } = {
     Arrow: 'Right',
-    Light: 'true'
-  }) => {
-  if (Arrow === 'Right') return <Arrowbottomrightshortcutkeylighttrue3259160801 />;
-  if (Arrow === 'Left') return <Arrowbottomleftshortcutkeylighttrue3259160796 />;
-  if (Arrow === 'Top left') return <Arrowtopleftlighttrue12638347 />;
-  if (Arrow === 'Top right') return <Arrowtoprightlighttrue12638352 />;
-  if (Arrow === 'Top Center shortcutkey') return <Arrowtopcentershortcutkeylighttrue3259160781 />;
-  if (Arrow === 'Top right shortcutkey') return <Arrowtoprightshortcutkeylighttrue3259160786 />;
-  if (Arrow === 'Top left shortcutkey') return <Arrowtopleftshortcutkeylighttrue3259160791 />;
-  if (Arrow === 'Bottom left shortcutkey') return <Arrowbottomleftshortcutkeylighttrue3259160796 />;
-  if (Arrow === 'Bottom right shortcutkey') return <Arrowbottomrightshortcutkeylighttrue3259160801 />;
-  if (Arrow === 'Bottom center shortcutkey') return <Arrowbottomcentershortcutkeylighttrue326619 />;
-  if (Arrow === 'Bottom Center') return <Arrowbottomcenterlighttrue326625 />;
-  if (Arrow === 'Top Center') return <Arrowtopcenterlighttrue3236159372 />;
-  if (Light === 'true') return <Arrowbottomcenterlighttrue326625 />;
-  return <Arrowbottomcenterlighttrue326625 />;
+    Light: 'true',
+  }
+) => {
+  // Light=true combinations (only option available)
+  if (Arrow === 'Left' && Light === 'true')
+    return <Arrowleftlighttrue12628264 />;
+  if (Arrow === 'Right' && Light === 'true')
+    return <Arrowrightlighttrue12628262 />;
+  if (Arrow === 'Top left' && Light === 'true')
+    return <Arrowtopleftlighttrue12638347 />;
+  if (Arrow === 'Top right' && Light === 'true')
+    return <Arrowtoprightlighttrue12638352 />;
+  if (Arrow === 'Top Center' && Light === 'true')
+    return <Arrowtopcenterlighttrue3236159372 />;
+  if (Arrow === 'Bottom Center' && Light === 'true')
+    return <Arrowbottomcenterlighttrue326625 />;
+  if (Arrow === 'Top Center shortcutkey' && Light === 'true')
+    return <Arrowtopcentershortcutkeylighttrue3259160781 />;
+  if (Arrow === 'Top left shortcutkey' && Light === 'true')
+    return <Arrowtopleftshortcutkeylighttrue3259160791 />;
+  if (Arrow === 'Top right shortcutkey' && Light === 'true')
+    return <Arrowtoprightshortcutkeylighttrue3259160786 />;
+  if (Arrow === 'Bottom left shortcutkey' && Light === 'true')
+    return <Arrowbottomleftshortcutkeylighttrue3259160796 />;
+  if (Arrow === 'Bottom right shortcutkey' && Light === 'true')
+    return <Arrowbottomrightshortcutkeylighttrue3259160801 />;
+  if (Arrow === 'Bottom center shortcutkey' && Light === 'true')
+    return <Arrowbottomcentershortcutkeylighttrue326619 />;
+
+  // Default fallback
+  return <Arrowrightlighttrue12628262 />;
 };
 
 const meta = {
@@ -40,6 +71,12 @@ const meta = {
   component: Explenationtooltip,
   parameters: {
     layout: 'centered',
+    docs: {
+      description: {
+        component:
+          '⚠️ **Figma Description Missing** - Please add a description in Figma for this component.',
+      },
+    },
     figma: {
       pageId: '5194:45501',
       componentId: '1262:8263',
@@ -50,7 +87,20 @@ const meta = {
   argTypes: {
     Arrow: {
       control: 'select',
-      options: ['Right', 'Left', 'Top left', 'Top right', 'Top Center shortcutkey', 'Top right shortcutkey', 'Top left shortcutkey', 'Bottom left shortcutkey', 'Bottom right shortcutkey', 'Bottom center shortcutkey', 'Bottom Center', 'Top Center'],
+      options: [
+        'Right',
+        'Left',
+        'Top left',
+        'Top right',
+        'Top Center shortcutkey',
+        'Top right shortcutkey',
+        'Top left shortcutkey',
+        'Bottom left shortcutkey',
+        'Bottom right shortcutkey',
+        'Bottom center shortcutkey',
+        'Bottom Center',
+        'Top Center',
+      ],
       description: 'Matches Figma "Arrow" property',
     },
     Light: {
@@ -68,32 +118,47 @@ const meta = {
 export default meta;
 type Story = StoryObj<typeof meta>;
 
-export const ArrowRight: Story = { 
-  args: {
-    Arrow: 'Right',
-  },
-};
+export const Default: Story = {};
 
-export const ArrowLeft: Story = { 
+// Light=true combinations (only option available)
+export const ArrowLeft: Story = {
   args: {
     Arrow: 'Left',
+    Light: 'true',
   },
 };
 
-export const ArrowTopleft: Story = { 
+export const ArrowRight: Story = {
+  args: {
+    Arrow: 'Right',
+    Light: 'true',
+  },
+};
+
+export const ArrowTopLeft: Story = {
   args: {
     Arrow: 'Top left',
+    Light: 'true',
   },
 };
 
-export const ArrowTopright: Story = { 
+export const ArrowTopRight: Story = {
   args: {
     Arrow: 'Top right',
+    Light: 'true',
   },
 };
 
-export const Lighttrue: Story = { 
+export const ArrowTopCenter: Story = {
   args: {
+    Arrow: 'Top Center',
+    Light: 'true',
+  },
+};
+
+export const ArrowBottomCenter: Story = {
+  args: {
+    Arrow: 'Bottom Center',
     Light: 'true',
   },
 };

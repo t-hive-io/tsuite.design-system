@@ -3,18 +3,28 @@ import Stateactiveexpandablefalse10816452 from '../../assets/icons/Stateactiveex
 import Statedefaultexpandablefalse10816442 from '../../assets/icons/Statedefaultexpandablefalse--1081-6442.svg?react';
 import Statehoverexpandablefalse10816447 from '../../assets/icons/Statehoverexpandablefalse--1081-6447.svg?react';
 
-const Toolrailmainitems = ({ State, Expandable }: {
-  State?: 'Active' | 'Default' | 'Hover';
-  Expandable?: 'False';
-} = {
+const Toolrailmainitems = (
+  {
+    State,
+    Expandable,
+  }: {
+    State?: 'Active' | 'Default' | 'Hover';
+    Expandable?: 'False';
+  } = {
     State: 'Default',
-    Expandable: 'False'
-  }) => {
-  if (State === 'Active') return <Stateactiveexpandablefalse10816452 />;
-  if (State === 'Default') return <Statedefaultexpandablefalse10816442 />;
-  if (State === 'Hover') return <Statehoverexpandablefalse10816447 />;
-  if (Expandable === 'False') return <Stateactiveexpandablefalse10816452 />;
-  return <Stateactiveexpandablefalse10816452 />;
+    Expandable: 'False',
+  }
+) => {
+  // Expandable=False combinations (only option available)
+  if (State === 'Default' && Expandable === 'False')
+    return <Statedefaultexpandablefalse10816442 />;
+  if (State === 'Hover' && Expandable === 'False')
+    return <Statehoverexpandablefalse10816447 />;
+  if (State === 'Active' && Expandable === 'False')
+    return <Stateactiveexpandablefalse10816452 />;
+
+  // Default fallback
+  return <Statedefaultexpandablefalse10816442 />;
 };
 
 const meta = {
@@ -22,6 +32,12 @@ const meta = {
   component: Toolrailmainitems,
   parameters: {
     layout: 'centered',
+    docs: {
+      description: {
+        component:
+          '⚠️ **Figma Description Missing** - Please add a description in Figma for this component.',
+      },
+    },
     figma: {
       pageId: '5194:45487',
       componentId: '1081:6441',
@@ -50,26 +66,26 @@ const meta = {
 export default meta;
 type Story = StoryObj<typeof meta>;
 
-export const StateActive: Story = { 
-  args: {
-    State: 'Active',
-  },
-};
+export const Default: Story = {};
 
-export const StateDefault: Story = { 
+// Expandable=False combinations (only option available)
+export const DefaultState: Story = {
   args: {
     State: 'Default',
+    Expandable: 'False',
   },
 };
 
-export const StateHover: Story = { 
+export const HoverState: Story = {
   args: {
     State: 'Hover',
+    Expandable: 'False',
   },
 };
 
-export const ExpandableFalse: Story = { 
+export const ActiveState: Story = {
   args: {
+    State: 'Active',
     Expandable: 'False',
   },
 };
