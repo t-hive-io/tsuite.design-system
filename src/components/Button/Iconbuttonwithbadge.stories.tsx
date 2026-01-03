@@ -4,18 +4,31 @@ import Statesenabledbadgevisibleredwarning473140962 from '../../assets/icons/Sta
 import Statesenabledbadgevisibletrue12578857 from '../../assets/icons/Statesenabledbadgevisibletrue--1257-8857.svg?react';
 import Statestestbadgevisibleredwarning473140951 from '../../assets/icons/Statestestbadgevisibleredwarning--4731-40951.svg?react';
 
-const Iconbuttonwithbadge = ({ States, Badgevisible }: {
-  States?: 'Enabled' | 'Test';
-  Badgevisible?: 'False' | 'True' | 'Red warning';
-} = {
+const Iconbuttonwithbadge = (
+  {
+    States,
+    Badgevisible,
+  }: {
+    States?: 'Enabled' | 'Test';
+    Badgevisible?: 'False' | 'True' | 'Red warning';
+  } = {
     States: 'Enabled',
-    Badgevisible: 'False'
-  }) => {
-  if (States === 'Enabled') return <Statesenabledbadgevisiblefalse12578855 />;
-  if (States === 'Test') return <Statestestbadgevisibleredwarning473140951 />;
-  if (Badgevisible === 'False') return <Statesenabledbadgevisiblefalse12578855 />;
-  if (Badgevisible === 'True') return <Statesenabledbadgevisibletrue12578857 />;
-  if (Badgevisible === 'Red warning') return <Statesenabledbadgevisibleredwarning473140962 />;
+    Badgevisible: 'False',
+  }
+) => {
+  // States=Enabled combinations
+  if (States === 'Enabled' && Badgevisible === 'False')
+    return <Statesenabledbadgevisiblefalse12578855 />;
+  if (States === 'Enabled' && Badgevisible === 'True')
+    return <Statesenabledbadgevisibletrue12578857 />;
+  if (States === 'Enabled' && Badgevisible === 'Red warning')
+    return <Statesenabledbadgevisibleredwarning473140962 />;
+
+  // States=Test combinations
+  if (States === 'Test' && Badgevisible === 'Red warning')
+    return <Statestestbadgevisibleredwarning473140951 />;
+
+  // Default fallback
   return <Statesenabledbadgevisiblefalse12578855 />;
 };
 
@@ -24,6 +37,12 @@ const meta = {
   component: Iconbuttonwithbadge,
   parameters: {
     layout: 'centered',
+    docs: {
+      description: {
+        component:
+          '⚠️ **Figma Description Missing** - Please add a description in Figma for this component.',
+      },
+    },
     figma: {
       pageId: '5170:45280',
       componentId: '1257:8856',
@@ -52,32 +71,34 @@ const meta = {
 export default meta;
 type Story = StoryObj<typeof meta>;
 
-export const StatesEnabled: Story = { 
+export const Default: Story = {};
+
+// States=Enabled combinations
+export const EnabledNoBadge: Story = {
   args: {
     States: 'Enabled',
-  },
-};
-
-export const StatesTest: Story = { 
-  args: {
-    States: 'Test',
-  },
-};
-
-export const BadgevisibleFalse: Story = { 
-  args: {
     Badgevisible: 'False',
   },
 };
 
-export const BadgevisibleTrue: Story = { 
+export const EnabledWithBadge: Story = {
   args: {
+    States: 'Enabled',
     Badgevisible: 'True',
   },
 };
 
-export const BadgevisibleRedwarning: Story = { 
+export const EnabledRedWarning: Story = {
   args: {
+    States: 'Enabled',
+    Badgevisible: 'Red warning',
+  },
+};
+
+// States=Test combinations
+export const TestRedWarning: Story = {
+  args: {
+    States: 'Test',
     Badgevisible: 'Red warning',
   },
 };
