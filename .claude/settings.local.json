@@ -9,7 +9,8 @@
       "Bash(ls:*)",
       "Bash(xargs:*)",
       "Bash(git add:*)",
-      "Bash(git commit -m \"$\\(cat <<''EOF''\ndocs: Add Figma description warnings to all fixed components\n\n- Add missing description warnings to Area, Simulation card, and Small badge\n- Create PROGRESS-REPORT.md documenting all fixes completed\n- Components now display warning in Storybook Docs prompting designers to add Figma descriptions\n\nThis ensures designers are reminded to add component descriptions in Figma,\nwhich will then automatically appear in Storybook documentation.\n\n🤖 Generated with [Claude Code]\\(https://claude.com/claude-code\\)\n\nCo-Authored-By: Claude Sonnet 4.5 <noreply@anthropic.com>\nEOF\n\\)\")"
+      "Bash(git commit -m \"$\\(cat <<''EOF''\ndocs: Add Figma description warnings to all fixed components\n\n- Add missing description warnings to Area, Simulation card, and Small badge\n- Create PROGRESS-REPORT.md documenting all fixes completed\n- Components now display warning in Storybook Docs prompting designers to add Figma descriptions\n\nThis ensures designers are reminded to add component descriptions in Figma,\nwhich will then automatically appear in Storybook documentation.\n\n🤖 Generated with [Claude Code]\\(https://claude.com/claude-code\\)\n\nCo-Authored-By: Claude Sonnet 4.5 <noreply@anthropic.com>\nEOF\n\\)\")",
+      "Bash(git commit:*)"
     ]
   }
 }
