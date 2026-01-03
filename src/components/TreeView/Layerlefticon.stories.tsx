@@ -2,17 +2,25 @@ import type { Meta, StoryObj } from '@storybook/react';
 import Expandedfalsevisibletrue15229583 from '../../assets/icons/Expandedfalsevisibletrue--1522-9583.svg?react';
 import Expandedtruevisibletrue15229584 from '../../assets/icons/Expandedtruevisibletrue--1522-9584.svg?react';
 
-const Layerlefticon = ({ Expanded, Visible }: {
-  Expanded?: 'True' | 'False';
-  Visible?: 'True' | 'False';
-} = {
+const Layerlefticon = (
+  {
+    Expanded,
+    Visible,
+  }: {
+    Expanded?: 'True' | 'False';
+    Visible?: 'True' | 'False';
+  } = {
     Expanded: 'False',
-    Visible: 'True'
-  }) => {
-  if (Expanded === 'True') return <Expandedfalsevisibletrue15229583 />;
-  if (Expanded === 'False') return <Expandedfalsevisibletrue15229583 />;
-  if (Visible === 'True') return <Expandedfalsevisibletrue15229583 />;
-  if (Visible === 'False') return <Expandedfalsevisibletrue15229583 />;
+    Visible: 'True',
+  }
+) => {
+  // Visible=True combinations (only combinations available in Figma)
+  if (Expanded === 'False' && Visible === 'True')
+    return <Expandedfalsevisibletrue15229583 />;
+  if (Expanded === 'True' && Visible === 'True')
+    return <Expandedtruevisibletrue15229584 />;
+
+  // Default fallback for Visible=False (no specific variant in Figma)
   return <Expandedfalsevisibletrue15229583 />;
 };
 
@@ -21,6 +29,12 @@ const meta = {
   component: Layerlefticon,
   parameters: {
     layout: 'centered',
+    docs: {
+      description: {
+        component:
+          '⚠️ **Figma Description Missing** - Please add a description in Figma for this component.',
+      },
+    },
     figma: {
       pageId: '5200:798',
       componentId: '1522:9585',
@@ -49,26 +63,19 @@ const meta = {
 export default meta;
 type Story = StoryObj<typeof meta>;
 
-export const ExpandedTrue: Story = { 
-  args: {
-    Expanded: 'True',
-  },
-};
+export const Default: Story = {};
 
-export const ExpandedFalse: Story = { 
+// Visible=True combinations (only combinations available in Figma)
+export const NotExpandedVisible: Story = {
   args: {
     Expanded: 'False',
-  },
-};
-
-export const VisibleTrue: Story = { 
-  args: {
     Visible: 'True',
   },
 };
 
-export const VisibleFalse: Story = { 
+export const ExpandedVisible: Story = {
   args: {
-    Visible: 'False',
+    Expanded: 'True',
+    Visible: 'True',
   },
 };

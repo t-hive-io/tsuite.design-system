@@ -4,19 +4,31 @@ import Horizontalfalseforkliftright18449723 from '../../assets/icons/Horizontalf
 import Horizontaltrueforkliftdown18449066 from '../../assets/icons/Horizontaltrueforkliftdown--1844-9066.svg?react';
 import Horizontaltrueforkliftup18449565 from '../../assets/icons/Horizontaltrueforkliftup--1844-9565.svg?react';
 
-const Layoutobject = ({ Horizontal, Forklift }: {
-  Horizontal?: 'True' | 'False';
-  Forklift?: 'Down' | 'Up' | 'Right' | 'Left';
-} = {
+const Layoutobject = (
+  {
+    Horizontal,
+    Forklift,
+  }: {
+    Horizontal?: 'True' | 'False';
+    Forklift?: 'Down' | 'Up' | 'Right' | 'Left';
+  } = {
     Horizontal: 'True',
-    Forklift: 'Down'
-  }) => {
-  if (Horizontal === 'True') return <Horizontaltrueforkliftdown18449066 />;
-  if (Horizontal === 'False') return <Horizontalfalseforkliftleft18449941 />;
-  if (Forklift === 'Down') return <Horizontaltrueforkliftdown18449066 />;
-  if (Forklift === 'Up') return <Horizontaltrueforkliftup18449565 />;
-  if (Forklift === 'Right') return <Horizontalfalseforkliftright18449723 />;
-  if (Forklift === 'Left') return <Horizontalfalseforkliftleft18449941 />;
+    Forklift: 'Down',
+  }
+) => {
+  // Horizontal=False combinations (vertical orientation uses Left/Right)
+  if (Horizontal === 'False' && Forklift === 'Left')
+    return <Horizontalfalseforkliftleft18449941 />;
+  if (Horizontal === 'False' && Forklift === 'Right')
+    return <Horizontalfalseforkliftright18449723 />;
+
+  // Horizontal=True combinations (horizontal orientation uses Up/Down)
+  if (Horizontal === 'True' && Forklift === 'Down')
+    return <Horizontaltrueforkliftdown18449066 />;
+  if (Horizontal === 'True' && Forklift === 'Up')
+    return <Horizontaltrueforkliftup18449565 />;
+
+  // Default fallback
   return <Horizontalfalseforkliftleft18449941 />;
 };
 
@@ -25,6 +37,12 @@ const meta = {
   component: Layoutobject,
   parameters: {
     layout: 'centered',
+    docs: {
+      description: {
+        component:
+          '⚠️ **Figma Description Missing** - Please add a description in Figma for this component.',
+      },
+    },
     figma: {
       pageId: '5170:45525',
       componentId: '1844:9564',
@@ -53,38 +71,34 @@ const meta = {
 export default meta;
 type Story = StoryObj<typeof meta>;
 
-export const HorizontalTrue: Story = { 
-  args: {
-    Horizontal: 'True',
-  },
-};
+export const Default: Story = {};
 
-export const HorizontalFalse: Story = { 
+// Horizontal=False combinations (vertical orientation uses Left/Right)
+export const VerticalLeft: Story = {
   args: {
     Horizontal: 'False',
+    Forklift: 'Left',
   },
 };
 
-export const ForkliftDown: Story = { 
+export const VerticalRight: Story = {
   args: {
-    Forklift: 'Down',
-  },
-};
-
-export const ForkliftUp: Story = { 
-  args: {
-    Forklift: 'Up',
-  },
-};
-
-export const ForkliftRight: Story = { 
-  args: {
+    Horizontal: 'False',
     Forklift: 'Right',
   },
 };
 
-export const ForkliftLeft: Story = { 
+// Horizontal=True combinations (horizontal orientation uses Up/Down)
+export const HorizontalDown: Story = {
   args: {
-    Forklift: 'Left',
+    Horizontal: 'True',
+    Forklift: 'Down',
+  },
+};
+
+export const HorizontalUp: Story = {
+  args: {
+    Horizontal: 'True',
+    Forklift: 'Up',
   },
 };

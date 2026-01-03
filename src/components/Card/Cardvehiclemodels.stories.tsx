@@ -4,17 +4,31 @@ import Hoverfalseselectedtrue24571803 from '../../assets/icons/Hoverfalseselecte
 import Hovertrueselectedfalse24531769 from '../../assets/icons/Hovertrueselectedfalse--2453-1769.svg?react';
 import Hovertrueselectedtrue2456111 from '../../assets/icons/Hovertrueselectedtrue--2456-111.svg?react';
 
-const Cardvehiclemodels = ({ Hover, Selected }: {
-  Hover?: 'True' | 'False';
-  Selected?: 'True' | 'False';
-} = {
+const Cardvehiclemodels = (
+  {
+    Hover,
+    Selected,
+  }: {
+    Hover?: 'True' | 'False';
+    Selected?: 'True' | 'False';
+  } = {
     Hover: 'False',
-    Selected: 'False'
-  }) => {
-  if (Hover === 'True') return <Hoverfalseselectedtrue24571803 />;
-  if (Hover === 'False') return <Hoverfalseselectedfalse24531752 />;
-  if (Selected === 'True') return <Hoverfalseselectedtrue24571803 />;
-  if (Selected === 'False') return <Hoverfalseselectedfalse24531752 />;
+    Selected: 'False',
+  }
+) => {
+  // Hover=False combinations
+  if (Hover === 'False' && Selected === 'False')
+    return <Hoverfalseselectedfalse24531752 />;
+  if (Hover === 'False' && Selected === 'True')
+    return <Hoverfalseselectedtrue24571803 />;
+
+  // Hover=True combinations
+  if (Hover === 'True' && Selected === 'False')
+    return <Hovertrueselectedfalse24531769 />;
+  if (Hover === 'True' && Selected === 'True')
+    return <Hovertrueselectedtrue2456111 />;
+
+  // Default fallback
   return <Hoverfalseselectedfalse24531752 />;
 };
 
@@ -23,6 +37,12 @@ const meta = {
   component: Cardvehiclemodels,
   parameters: {
     layout: 'centered',
+    docs: {
+      description: {
+        component:
+          '⚠️ **Figma Description Missing** - Please add a description in Figma for this component.',
+      },
+    },
     figma: {
       pageId: '5171:45784',
       componentId: '2453:1751',
@@ -51,26 +71,34 @@ const meta = {
 export default meta;
 type Story = StoryObj<typeof meta>;
 
-export const HoverTrue: Story = { 
-  args: {
-    Hover: 'True',
-  },
-};
+export const Default: Story = {};
 
-export const HoverFalse: Story = { 
+// Hover=False combinations
+export const NotHoveredNotSelected: Story = {
   args: {
     Hover: 'False',
+    Selected: 'False',
   },
 };
 
-export const SelectedTrue: Story = { 
+export const NotHoveredSelected: Story = {
   args: {
+    Hover: 'False',
     Selected: 'True',
   },
 };
 
-export const SelectedFalse: Story = { 
+// Hover=True combinations
+export const HoveredNotSelected: Story = {
   args: {
+    Hover: 'True',
     Selected: 'False',
+  },
+};
+
+export const HoveredSelected: Story = {
+  args: {
+    Hover: 'True',
+    Selected: 'True',
   },
 };

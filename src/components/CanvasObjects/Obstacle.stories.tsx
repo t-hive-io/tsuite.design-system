@@ -3,17 +3,27 @@ import Statedefaulttypeobstical21518413 from '../../assets/icons/Statedefaulttyp
 import Stateflowtypeobstical21518426 from '../../assets/icons/Stateflowtypeobstical--2151-8426.svg?react';
 import Stateresizetypeobstical21518429 from '../../assets/icons/Stateresizetypeobstical--2151-8429.svg?react';
 
-const Obstacle = ({ State, Type }: {
-  State?: 'Resize' | 'Default' | 'Flow';
-  Type?: 'Obstical';
-} = {
+const Obstacle = (
+  {
+    State,
+    Type,
+  }: {
+    State?: 'Resize' | 'Default' | 'Flow';
+    Type?: 'Obstical';
+  } = {
     State: 'Default',
-    Type: 'Obstical'
-  }) => {
-  if (State === 'Resize') return <Stateresizetypeobstical21518429 />;
-  if (State === 'Default') return <Statedefaulttypeobstical21518413 />;
-  if (State === 'Flow') return <Stateflowtypeobstical21518426 />;
-  if (Type === 'Obstical') return <Statedefaulttypeobstical21518413 />;
+    Type: 'Obstical',
+  }
+) => {
+  // Type=Obstical combinations (only type available)
+  if (State === 'Default' && Type === 'Obstical')
+    return <Statedefaulttypeobstical21518413 />;
+  if (State === 'Flow' && Type === 'Obstical')
+    return <Stateflowtypeobstical21518426 />;
+  if (State === 'Resize' && Type === 'Obstical')
+    return <Stateresizetypeobstical21518429 />;
+
+  // Default fallback
   return <Statedefaulttypeobstical21518413 />;
 };
 
@@ -22,6 +32,12 @@ const meta = {
   component: Obstacle,
   parameters: {
     layout: 'centered',
+    docs: {
+      description: {
+        component:
+          '⚠️ **Figma Description Missing** - Please add a description in Figma for this component.',
+      },
+    },
     figma: {
       pageId: '5170:45525',
       componentId: '2921:846',
@@ -50,26 +66,26 @@ const meta = {
 export default meta;
 type Story = StoryObj<typeof meta>;
 
-export const StateResize: Story = { 
-  args: {
-    State: 'Resize',
-  },
-};
+export const Default: Story = {};
 
-export const StateDefault: Story = { 
+// Type=Obstical combinations (only type available)
+export const DefaultState: Story = {
   args: {
     State: 'Default',
+    Type: 'Obstical',
   },
 };
 
-export const StateFlow: Story = { 
+export const FlowState: Story = {
   args: {
     State: 'Flow',
+    Type: 'Obstical',
   },
 };
 
-export const TypeObstical: Story = { 
+export const ResizeState: Story = {
   args: {
+    State: 'Resize',
     Type: 'Obstical',
   },
 };
