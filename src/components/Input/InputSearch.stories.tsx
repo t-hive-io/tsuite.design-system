@@ -4,18 +4,29 @@ import Statefilledtypeicontext17288538 from '../../assets/icons/Statefilledtypei
 import Statefocusedtypeicontext17288537 from '../../assets/icons/Statefocusedtypeicontext--1728-8537.svg?react';
 import Statehoveredtypeicontext5306206922 from '../../assets/icons/Statehoveredtypeicontext--5306-206922.svg?react';
 
-const InputSearch = ({ State, Type }: {
-  State?: 'Enabled' | 'Focused' | 'Hovered' | 'Filled';
-  Type?: 'Icon + text';
-} = {
+const InputSearch = (
+  {
+    State,
+    Type,
+  }: {
+    State?: 'Enabled' | 'Focused' | 'Hovered' | 'Filled';
+    Type?: 'Icon + text';
+  } = {
     State: 'Enabled',
-    Type: 'Icon + text'
-  }) => {
-  if (State === 'Enabled') return <Stateenabledtypeicontext16888237 />;
-  if (State === 'Focused') return <Statefocusedtypeicontext17288537 />;
-  if (State === 'Hovered') return <Statehoveredtypeicontext5306206922 />;
-  if (State === 'Filled') return <Statefilledtypeicontext17288538 />;
-  if (Type === 'Icon + text') return <Stateenabledtypeicontext16888237 />;
+    Type: 'Icon + text',
+  }
+) => {
+  // Type only has one option, so we check State + Type combinations
+  if (State === 'Enabled' && Type === 'Icon + text')
+    return <Stateenabledtypeicontext16888237 />;
+  if (State === 'Focused' && Type === 'Icon + text')
+    return <Statefocusedtypeicontext17288537 />;
+  if (State === 'Hovered' && Type === 'Icon + text')
+    return <Statehoveredtypeicontext5306206922 />;
+  if (State === 'Filled' && Type === 'Icon + text')
+    return <Statefilledtypeicontext17288538 />;
+
+  // Default fallback
   return <Stateenabledtypeicontext16888237 />;
 };
 
@@ -24,6 +35,12 @@ const meta = {
   component: InputSearch,
   parameters: {
     layout: 'centered',
+    docs: {
+      description: {
+        component:
+          '⚠️ **Figma Description Missing** - Please add a description in Figma for this component.',
+      },
+    },
     figma: {
       pageId: '5193:38949',
       componentId: '1728:8539',
@@ -52,31 +69,31 @@ const meta = {
 export default meta;
 type Story = StoryObj<typeof meta>;
 
-export const StateEnabled: Story = { 
+export const StateEnabled: Story = {
   args: {
     State: 'Enabled',
   },
 };
 
-export const StateFocused: Story = { 
+export const StateFocused: Story = {
   args: {
     State: 'Focused',
   },
 };
 
-export const StateHovered: Story = { 
+export const StateHovered: Story = {
   args: {
     State: 'Hovered',
   },
 };
 
-export const StateFilled: Story = { 
+export const StateFilled: Story = {
   args: {
     State: 'Filled',
   },
 };
 
-export const TypeIcontext: Story = { 
+export const TypeIcontext: Story = {
   args: {
     Type: 'Icon + text',
   },

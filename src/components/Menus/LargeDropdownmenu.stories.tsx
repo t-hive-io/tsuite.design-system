@@ -2,11 +2,15 @@ import type { Meta, StoryObj } from '@storybook/react';
 import Property1default16138188 from '../../assets/icons/Property1default--1613-8188.svg?react';
 import Property1emptylabels31309225 from '../../assets/icons/Property1emptylabels--3130-9225.svg?react';
 
-const LargeDropdownmenu = ({ Property1 }: {
-  Property1?: 'Default' | 'Empty labels';
-} = {
-    Property1: 'Default'
-  }) => {
+const LargeDropdownmenu = (
+  {
+    Property1,
+  }: {
+    Property1?: 'Default' | 'Empty labels';
+  } = {
+    Property1: 'Default',
+  }
+) => {
   if (Property1 === 'Default') return <Property1default16138188 />;
   if (Property1 === 'Empty labels') return <Property1emptylabels31309225 />;
   return <Property1default16138188 />;
@@ -17,6 +21,12 @@ const meta = {
   component: LargeDropdownmenu,
   parameters: {
     layout: 'centered',
+    docs: {
+      description: {
+        component:
+          '⚠️ **Figma Description Missing** - Please add a description in Figma for this component.',
+      },
+    },
     figma: {
       pageId: '5193:45251',
       componentId: '3130:9224',
@@ -39,13 +49,13 @@ const meta = {
 export default meta;
 type Story = StoryObj<typeof meta>;
 
-export const Property1Default: Story = { 
+export const Property1Default: Story = {
   args: {
     Property1: 'Default',
   },
 };
 
-export const Property1Emptylabels: Story = { 
+export const Property1Emptylabels: Story = {
   args: {
     Property1: 'Empty labels',
   },

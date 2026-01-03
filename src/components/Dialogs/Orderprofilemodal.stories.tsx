@@ -4,11 +4,15 @@ import Property1default30959267 from '../../assets/icons/Property1default--3095-
 import Property1twofiles552234312 from '../../assets/icons/Property1twofiles--5522-34312.svg?react';
 import Property1upload30959268 from '../../assets/icons/Property1upload--3095-9268.svg?react';
 
-const Orderprofilemodal = ({ Property1 }: {
-  Property1?: 'Default' | 'Complete' | 'Upload' | 'Two files';
-} = {
-    Property1: 'Default'
-  }) => {
+const Orderprofilemodal = (
+  {
+    Property1,
+  }: {
+    Property1?: 'Default' | 'Complete' | 'Upload' | 'Two files';
+  } = {
+    Property1: 'Default',
+  }
+) => {
   if (Property1 === 'Default') return <Property1default30959267 />;
   if (Property1 === 'Complete') return <Property1complete30959270 />;
   if (Property1 === 'Upload') return <Property1upload30959268 />;
@@ -21,6 +25,12 @@ const meta = {
   component: Orderprofilemodal,
   parameters: {
     layout: 'centered',
+    docs: {
+      description: {
+        component:
+          '⚠️ **Figma Description Missing** - Please add a description in Figma for this component.',
+      },
+    },
     figma: {
       pageId: '5175:37036',
       componentId: '3095:9273',
@@ -43,25 +53,25 @@ const meta = {
 export default meta;
 type Story = StoryObj<typeof meta>;
 
-export const Property1Default: Story = { 
+export const Property1Default: Story = {
   args: {
     Property1: 'Default',
   },
 };
 
-export const Property1Complete: Story = { 
+export const Property1Complete: Story = {
   args: {
     Property1: 'Complete',
   },
 };
 
-export const Property1Upload: Story = { 
+export const Property1Upload: Story = {
   args: {
     Property1: 'Upload',
   },
 };
 
-export const Property1Twofiles: Story = { 
+export const Property1Twofiles: Story = {
   args: {
     Property1: 'Two files',
   },

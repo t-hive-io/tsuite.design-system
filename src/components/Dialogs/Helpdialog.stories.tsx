@@ -2,11 +2,15 @@ import type { Meta, StoryObj } from '@storybook/react';
 import Property1scaletool31791020 from '../../assets/icons/Property1scaletool--3179-1020.svg?react';
 import Property1setscale3179958 from '../../assets/icons/Property1setscale--3179-958.svg?react';
 
-const Helpdialog = ({ Property1 }: {
-  Property1?: 'Set scale' | 'Scale tool';
-} = {
-    Property1: 'Set scale'
-  }) => {
+const Helpdialog = (
+  {
+    Property1,
+  }: {
+    Property1?: 'Set scale' | 'Scale tool';
+  } = {
+    Property1: 'Set scale',
+  }
+) => {
   if (Property1 === 'Set scale') return <Property1setscale3179958 />;
   if (Property1 === 'Scale tool') return <Property1scaletool31791020 />;
   return <Property1scaletool31791020 />;
@@ -17,6 +21,12 @@ const meta = {
   component: Helpdialog,
   parameters: {
     layout: 'centered',
+    docs: {
+      description: {
+        component:
+          '⚠️ **Figma Description Missing** - Please add a description in Figma for this component.',
+      },
+    },
     figma: {
       pageId: '5175:37036',
       componentId: '3179:960',
@@ -39,13 +49,13 @@ const meta = {
 export default meta;
 type Story = StoryObj<typeof meta>;
 
-export const Property1Setscale: Story = { 
+export const Property1Setscale: Story = {
   args: {
     Property1: 'Set scale',
   },
 };
 
-export const Property1Scaletool: Story = { 
+export const Property1Scaletool: Story = {
   args: {
     Property1: 'Scale tool',
   },

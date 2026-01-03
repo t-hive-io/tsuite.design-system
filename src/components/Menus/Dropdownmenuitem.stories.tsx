@@ -23,35 +23,255 @@ import Stateselectedrightcontentnonedividerfalsetypelabellefticonfalse15239618 f
 import Stateselectedrightcontentnonedividerfalsetypemultiselectlefticonfalse20418168 from '../../assets/icons/Stateselectedrightcontentnonedividerfalsetypemultiselectlefticonfalse--2041-8168.svg?react';
 import Stateselectedrightcontentshortkeydividerfalsetypelabellefticonfalse18568761 from '../../assets/icons/Stateselectedrightcontentshortkeydividerfalsetypelabellefticonfalse--1856-8761.svg?react';
 
-const Dropdownmenuitem = ({ State, Rightcontent, Divider, Type, Lefticon }: {
-  State?: 'Selected' | 'Hover' | 'Default' | 'Disable' | 'Icon + expand' | 'Pressed';
-  Rightcontent?: 'None' | 'Icon' | 'Short key';
-  Divider?: 'False';
-  Type?: 'Label' | 'Multiselect' | 'Icon left';
-  Lefticon?: 'False' | 'True';
-} = {
+const Dropdownmenuitem = (
+  {
+    State,
+    Rightcontent,
+    Type,
+    Lefticon,
+  }: {
+    State?:
+      | 'Default'
+      | 'Hover'
+      | 'Selected'
+      | 'Pressed'
+      | 'Disable'
+      | 'Icon + expand';
+    Rightcontent?: 'None' | 'Icon' | 'Short key';
+    Type?: 'Label' | 'Multiselect' | 'Icon left';
+    Lefticon?: 'False' | 'True';
+  } = {
     State: 'Default',
     Rightcontent: 'None',
-    Divider: 'False',
     Type: 'Label',
-    Lefticon: 'False'
-  }) => {
-  if (State === 'Selected') return <Stateselectedrightcontenticondividerfalsetypelabellefticonfalse18568756 />;
-  if (State === 'Hover') return <Statehoverrightcontenticondividerfalsetypelabellefticonfalse18558746 />;
-  if (State === 'Default') return <Statedefaultrightcontenticondividerfalsetypelabellefticontrue2429183 />;
-  if (State === 'Disable') return <Statedisablerightcontentnonedividerfalsetypelabellefticonfalse23268550 />;
-  if (State === 'Icon + expand') return <Stateiconexpandrightcontenticondividerfalsetypelabellefticonfalse31501050 />;
-  if (State === 'Pressed') return <Statepressedrightcontenticondividerfalsetypelabellefticonfalse547937050 />;
-  if (Rightcontent === 'None') return <Statedefaultrightcontentnonedividerfalsetypeiconleftlefticonfalse2687270 />;
-  if (Rightcontent === 'Icon') return <Statedefaultrightcontenticondividerfalsetypelabellefticontrue2429183 />;
-  if (Rightcontent === 'Short key') return <Statedefaultrightcontentshortkeydividerfalsetypelabellefticonfalse17978366 />;
-  if (Divider === 'False') return <Statedefaultrightcontenticondividerfalsetypelabellefticontrue2429183 />;
-  if (Type === 'Label') return <Statedefaultrightcontenticondividerfalsetypelabellefticontrue2429183 />;
-  if (Type === 'Multiselect') return <Statedefaultrightcontentnonedividerfalsetypemultiselectlefticonfalse20418057 />;
-  if (Type === 'Icon left') return <Statedefaultrightcontentnonedividerfalsetypeiconleftlefticonfalse2687270 />;
-  if (Lefticon === 'False') return <Statedefaultrightcontenticondividerfalsetypelabellefticontrue2429183 />;
-  if (Lefticon === 'True') return <Statedefaultrightcontenticondividerfalsetypelabellefticontrue2429183 />;
-  return <Statedefaultrightcontenticondividerfalsetypelabellefticontrue2429183 />;
+    Lefticon: 'False',
+  }
+) => {
+  // Divider is always False, so we don't need it as a parameter
+
+  // State=Selected combinations
+  if (
+    State === 'Selected' &&
+    Rightcontent === 'None' &&
+    Type === 'Label' &&
+    Lefticon === 'False'
+  )
+    return (
+      <Stateselectedrightcontentnonedividerfalsetypelabellefticonfalse15239618 />
+    );
+  if (
+    State === 'Selected' &&
+    Rightcontent === 'None' &&
+    Type === 'Multiselect' &&
+    Lefticon === 'False'
+  )
+    return (
+      <Stateselectedrightcontentnonedividerfalsetypemultiselectlefticonfalse20418168 />
+    );
+  if (
+    State === 'Selected' &&
+    Rightcontent === 'Icon' &&
+    Type === 'Label' &&
+    Lefticon === 'False'
+  )
+    return (
+      <Stateselectedrightcontenticondividerfalsetypelabellefticonfalse18568756 />
+    );
+  if (
+    State === 'Selected' &&
+    Rightcontent === 'Icon' &&
+    Type === 'Label' &&
+    Lefticon === 'True'
+  )
+    return (
+      <Stateselectedrightcontenticondividerfalsetypelabellefticontrue2429189 />
+    );
+  if (
+    State === 'Selected' &&
+    Rightcontent === 'Short key' &&
+    Type === 'Label' &&
+    Lefticon === 'False'
+  )
+    return (
+      <Stateselectedrightcontentshortkeydividerfalsetypelabellefticonfalse18568761 />
+    );
+
+  // State=Default combinations
+  if (
+    State === 'Default' &&
+    Rightcontent === 'None' &&
+    Type === 'Label' &&
+    Lefticon === 'False'
+  )
+    return (
+      <Statedefaultrightcontentnonedividerfalsetypelabellefticonfalse17928354 />
+    );
+  if (
+    State === 'Default' &&
+    Rightcontent === 'None' &&
+    Type === 'Multiselect' &&
+    Lefticon === 'False'
+  )
+    return (
+      <Statedefaultrightcontentnonedividerfalsetypemultiselectlefticonfalse20418057 />
+    );
+  if (
+    State === 'Default' &&
+    Rightcontent === 'None' &&
+    Type === 'Icon left' &&
+    Lefticon === 'False'
+  )
+    return (
+      <Statedefaultrightcontentnonedividerfalsetypeiconleftlefticonfalse2687270 />
+    );
+  if (
+    State === 'Default' &&
+    Rightcontent === 'Icon' &&
+    Type === 'Label' &&
+    Lefticon === 'True'
+  )
+    return (
+      <Statedefaultrightcontenticondividerfalsetypelabellefticontrue2429183 />
+    );
+  if (
+    State === 'Default' &&
+    Rightcontent === 'Short key' &&
+    Type === 'Label' &&
+    Lefticon === 'False'
+  )
+    return (
+      <Statedefaultrightcontentshortkeydividerfalsetypelabellefticonfalse17978366 />
+    );
+
+  // State=Disable combinations
+  if (
+    State === 'Disable' &&
+    Rightcontent === 'None' &&
+    Type === 'Label' &&
+    Lefticon === 'False'
+  )
+    return (
+      <Statedisablerightcontentnonedividerfalsetypelabellefticonfalse23268550 />
+    );
+
+  // State=Hover combinations
+  if (
+    State === 'Hover' &&
+    Rightcontent === 'None' &&
+    Type === 'Label' &&
+    Lefticon === 'False'
+  )
+    return (
+      <Statehoverrightcontentnonedividerfalsetypelabellefticonfalse15239656 />
+    );
+  if (
+    State === 'Hover' &&
+    Rightcontent === 'None' &&
+    Type === 'Multiselect' &&
+    Lefticon === 'False'
+  )
+    return (
+      <Statehoverrightcontentnonedividerfalsetypemultiselectlefticonfalse20418075 />
+    );
+  if (
+    State === 'Hover' &&
+    Rightcontent === 'Icon' &&
+    Type === 'Label' &&
+    Lefticon === 'False'
+  )
+    return (
+      <Statehoverrightcontenticondividerfalsetypelabellefticonfalse18558746 />
+    );
+  if (
+    State === 'Hover' &&
+    Rightcontent === 'Icon' &&
+    Type === 'Label' &&
+    Lefticon === 'True'
+  )
+    return (
+      <Statehoverrightcontenticondividerfalsetypelabellefticontrue2429186 />
+    );
+  if (
+    State === 'Hover' &&
+    Rightcontent === 'Short key' &&
+    Type === 'Label' &&
+    Lefticon === 'False'
+  )
+    return (
+      <Statehoverrightcontentshortkeydividerfalsetypelabellefticonfalse18568751 />
+    );
+
+  // State=Pressed combinations
+  if (
+    State === 'Pressed' &&
+    Rightcontent === 'None' &&
+    Type === 'Label' &&
+    Lefticon === 'False'
+  )
+    return (
+      <Statepressedrightcontentnonedividerfalsetypelabellefticonfalse547937048 />
+    );
+  if (
+    State === 'Pressed' &&
+    Rightcontent === 'None' &&
+    Type === 'Multiselect' &&
+    Lefticon === 'False'
+  )
+    return (
+      <Statepressedrightcontentnonedividerfalsetypemultiselectlefticonfalse547937062 />
+    );
+  if (
+    State === 'Pressed' &&
+    Rightcontent === 'Icon' &&
+    Type === 'Label' &&
+    Lefticon === 'False'
+  )
+    return (
+      <Statepressedrightcontenticondividerfalsetypelabellefticonfalse547937050 />
+    );
+  if (
+    State === 'Pressed' &&
+    Rightcontent === 'Icon' &&
+    Type === 'Label' &&
+    Lefticon === 'True'
+  )
+    return (
+      <Statepressedrightcontenticondividerfalsetypelabellefticontrue547937066 />
+    );
+  if (
+    State === 'Pressed' &&
+    Rightcontent === 'Short key' &&
+    Type === 'Label' &&
+    Lefticon === 'False'
+  )
+    return (
+      <Statepressedrightcontentshortkeydividerfalsetypelabellefticonfalse547937053 />
+    );
+
+  // State=Icon + expand combinations
+  if (
+    State === 'Icon + expand' &&
+    Rightcontent === 'None' &&
+    Type === 'Multiselect' &&
+    Lefticon === 'False'
+  )
+    return (
+      <Stateiconexpandrightcontentnonedividerfalsetypemultiselectlefticonfalse31511068 />
+    );
+  if (
+    State === 'Icon + expand' &&
+    Rightcontent === 'Icon' &&
+    Type === 'Label' &&
+    Lefticon === 'False'
+  )
+    return (
+      <Stateiconexpandrightcontenticondividerfalsetypelabellefticonfalse31501050 />
+    );
+
+  // Default fallback
+  return (
+    <Statedefaultrightcontentnonedividerfalsetypelabellefticonfalse17928354 />
+  );
 };
 
 const meta = {
@@ -59,6 +279,12 @@ const meta = {
   component: Dropdownmenuitem,
   parameters: {
     layout: 'centered',
+    docs: {
+      description: {
+        component:
+          '⚠️ **Figma Description Missing** - Please add a description in Figma for this component.',
+      },
+    },
     figma: {
       pageId: '5193:45251',
       componentId: '1523:9626',
@@ -69,18 +295,20 @@ const meta = {
   argTypes: {
     State: {
       control: 'select',
-      options: ['Selected', 'Hover', 'Default', 'Disable', 'Icon + expand', 'Pressed'],
+      options: [
+        'Default',
+        'Hover',
+        'Selected',
+        'Pressed',
+        'Disable',
+        'Icon + expand',
+      ],
       description: 'Matches Figma "State" property',
     },
     Rightcontent: {
       control: 'select',
       options: ['None', 'Icon', 'Short key'],
       description: 'Matches Figma "Right content" property',
-    },
-    Divider: {
-      control: 'select',
-      options: ['False'],
-      description: 'Matches Figma "Divider" property',
     },
     Type: {
       control: 'select',
@@ -96,7 +324,6 @@ const meta = {
   args: {
     State: 'Default',
     Rightcontent: 'None',
-    Divider: 'False',
     Type: 'Label',
     Lefticon: 'False',
   },
@@ -105,38 +332,67 @@ const meta = {
 export default meta;
 type Story = StoryObj<typeof meta>;
 
-export const StateSelected: Story = { 
-  args: {
-    State: 'Selected',
-  },
+export const Default: Story = {};
+
+// Label type with different states
+export const LabelDefault: Story = {
+  args: { State: 'Default', Rightcontent: 'None', Type: 'Label' },
 };
 
-export const StateHover: Story = { 
-  args: {
-    State: 'Hover',
-  },
+export const LabelHover: Story = {
+  args: { State: 'Hover', Rightcontent: 'None', Type: 'Label' },
 };
 
-export const StateDefault: Story = { 
+export const LabelSelected: Story = {
+  args: { State: 'Selected', Rightcontent: 'None', Type: 'Label' },
+};
+
+export const LabelDisabled: Story = {
+  args: { State: 'Disable', Rightcontent: 'None', Type: 'Label' },
+};
+
+// Label with icon
+export const LabelWithIcon: Story = {
   args: {
     State: 'Default',
-  },
-};
-
-export const StateDisable: Story = { 
-  args: {
-    State: 'Disable',
-  },
-};
-
-export const RightcontentNone: Story = { 
-  args: {
-    Rightcontent: 'None',
-  },
-};
-
-export const RightcontentIcon: Story = { 
-  args: {
     Rightcontent: 'Icon',
+    Type: 'Label',
+    Lefticon: 'True',
   },
+};
+
+export const LabelWithIconHover: Story = {
+  args: {
+    State: 'Hover',
+    Rightcontent: 'Icon',
+    Type: 'Label',
+    Lefticon: 'True',
+  },
+};
+
+// Label with shortkey
+export const LabelWithShortkey: Story = {
+  args: { State: 'Default', Rightcontent: 'Short key', Type: 'Label' },
+};
+
+export const LabelWithShortkeyHover: Story = {
+  args: { State: 'Hover', Rightcontent: 'Short key', Type: 'Label' },
+};
+
+// Multiselect type
+export const MultiselectDefault: Story = {
+  args: { State: 'Default', Rightcontent: 'None', Type: 'Multiselect' },
+};
+
+export const MultiselectHover: Story = {
+  args: { State: 'Hover', Rightcontent: 'None', Type: 'Multiselect' },
+};
+
+export const MultiselectExpanded: Story = {
+  args: { State: 'Icon + expand', Rightcontent: 'None', Type: 'Multiselect' },
+};
+
+// Icon left type
+export const IconLeftDefault: Story = {
+  args: { State: 'Default', Rightcontent: 'None', Type: 'Icon left' },
 };

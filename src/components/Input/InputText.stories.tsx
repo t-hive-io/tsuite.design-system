@@ -42,30 +42,129 @@ import Typevalunitstateerrorhover546116776 from '../../assets/icons/Typevalunits
 import Typevalunitstatefocused17288354 from '../../assets/icons/Typevalunitstatefocused--1728-8354.svg?react';
 import Typevalunitstatehovered17288422 from '../../assets/icons/Typevalunitstatehovered--1728-8422.svg?react';
 
-const InputText = ({ Text41123, Type, State }: {
-  Text41123?: boolean;
-  Type?: 'Number' | 'val + unit' | 'icon + val + unit' | 'val + icon' | 'text' | 'number' | 'icon + val';
-  State?: 'Enabled' | 'Focused' | 'Error focus and hover' | 'Hovered' | 'Disabled' | 'Error enabled' | 'Error hover';
-} = {
-    Text41123: false,
-    Type: 'val + unit',
-    State: 'Enabled'
-  }) => {
-  if (Type === 'Number') return <Typenumberstatedisabled355141700 />;
-  if (Type === 'val + unit') return <Typeiconvalunitstatedisabled355141684 />;
-  if (Type === 'icon + val + unit') return <Typeiconvalunitstatedisabled355141684 />;
-  if (Type === 'val + icon') return <Typevaliconstatedisabled355141692 />;
-  if (Type === 'text') return <Typetextstatedisabled355141697 />;
-  if (Type === 'number') return <Typenumberstatedisabled355141700 />;
-  if (Type === 'icon + val') return <Typeiconvalstatedisabled355141703 />;
-  if (State === 'Enabled') return <Typeiconvalstateenabled17288336 />;
-  if (State === 'Focused') return <Typeiconvalstatefocused17288482 />;
-  if (State === 'Error focus and hover') return <Typeiconvalstateerrorfocusandhover355141671 />;
-  if (State === 'Hovered') return <Typeiconvalstatehovered17288430 />;
-  if (State === 'Disabled') return <Typeiconvalstatedisabled355141703 />;
-  if (State === 'Error enabled') return <Typeiconvalstateerrorenabled546016713 />;
-  if (State === 'Error hover') return <Typeiconvalstateerrorhover546116784 />;
-  return <Typeiconvalstatedisabled355141703 />;
+const InputText = (
+  {
+    Type,
+    State,
+  }: {
+    Type?:
+      | 'text'
+      | 'number'
+      | 'icon + val'
+      | 'val + icon'
+      | 'icon + val + unit'
+      | 'val + unit';
+    State?:
+      | 'Enabled'
+      | 'Focused'
+      | 'Hovered'
+      | 'Disabled'
+      | 'Error enabled'
+      | 'Error hover'
+      | 'Error focus and hover';
+  } = {
+    Type: 'text',
+    State: 'Enabled',
+  }
+) => {
+  // Text type combinations
+  if (Type === 'text' && State === 'Enabled')
+    return <Typetextstateenabled17288335 />;
+  if (Type === 'text' && State === 'Focused')
+    return <Typetextstatefocused17288490 />;
+  if (Type === 'text' && State === 'Hovered')
+    return <Typetextstatehovered17288438 />;
+  if (Type === 'text' && State === 'Disabled')
+    return <Typetextstatedisabled355141697 />;
+  if (Type === 'text' && State === 'Error enabled')
+    return <Typetextstateerrorenabled546016720 />;
+  if (Type === 'text' && State === 'Error hover')
+    return <Typetextstateerrorhover546116792 />;
+  if (Type === 'text' && State === 'Error focus and hover')
+    return <Typetextstateerrorfocusandhover355141665 />;
+
+  // Number type combinations
+  if (Type === 'number' && State === 'Enabled')
+    return <Typenumberstateenabled17288360 />;
+  if (Type === 'number' && State === 'Focused')
+    return <Typenumberstatefocused17288334 />;
+  if (Type === 'number' && State === 'Hovered')
+    return <Typenumberstatehovered17288440 />;
+  if (Type === 'number' && State === 'Disabled')
+    return <Typenumberstatedisabled355141700 />;
+  if (Type === 'number' && State === 'Error enabled')
+    return <Typenumberstateerrorenabled546016718 />;
+  if (Type === 'number' && State === 'Error hover')
+    return <Typenumberstateerrorhover546116794 />;
+  if (Type === 'number' && State === 'Error focus and hover')
+    return <Typenumberstateerrorfocusandhover355141668 />;
+
+  // icon + val type combinations
+  if (Type === 'icon + val' && State === 'Enabled')
+    return <Typeiconvalstateenabled17288336 />;
+  if (Type === 'icon + val' && State === 'Focused')
+    return <Typeiconvalstatefocused17288482 />;
+  if (Type === 'icon + val' && State === 'Hovered')
+    return <Typeiconvalstatehovered17288430 />;
+  if (Type === 'icon + val' && State === 'Disabled')
+    return <Typeiconvalstatedisabled355141703 />;
+  if (Type === 'icon + val' && State === 'Error enabled')
+    return <Typeiconvalstateerrorenabled546016713 />;
+  if (Type === 'icon + val' && State === 'Error hover')
+    return <Typeiconvalstateerrorhover546116784 />;
+  if (Type === 'icon + val' && State === 'Error focus and hover')
+    return <Typeiconvalstateerrorfocusandhover355141671 />;
+
+  // val + icon type combinations
+  if (Type === 'val + icon' && State === 'Enabled')
+    return <Typevaliconstateenabled17288338 />;
+  if (Type === 'val + icon' && State === 'Focused')
+    return <Typevaliconstatefocused17288487 />;
+  if (Type === 'val + icon' && State === 'Hovered')
+    return <Typevaliconstatehovered17288435 />;
+  if (Type === 'val + icon' && State === 'Disabled')
+    return <Typevaliconstatedisabled355141692 />;
+  if (Type === 'val + icon' && State === 'Error enabled')
+    return <Typevaliconstateerrorenabled546016722 />;
+  if (Type === 'val + icon' && State === 'Error hover')
+    return <Typevaliconstateerrorhover546116789 />;
+  if (Type === 'val + icon' && State === 'Error focus and hover')
+    return <Typevaliconstateerrorfocusandhover355141660 />;
+
+  // icon + val + unit type combinations
+  if (Type === 'icon + val + unit' && State === 'Enabled')
+    return <Typeiconvalunitstateenabled17288337 />;
+  if (Type === 'icon + val + unit' && State === 'Focused')
+    return <Typeiconvalunitstatefocused17288477 />;
+  if (Type === 'icon + val + unit' && State === 'Hovered')
+    return <Typeiconvalunitstatehovered17288425 />;
+  if (Type === 'icon + val + unit' && State === 'Disabled')
+    return <Typeiconvalunitstatedisabled355141684 />;
+  if (Type === 'icon + val + unit' && State === 'Error enabled')
+    return <Typeiconvalunitstateerrorenabled546016725 />;
+  if (Type === 'icon + val + unit' && State === 'Error hover')
+    return <Typeiconvalunitstateerrorhover546116779 />;
+  if (Type === 'icon + val + unit' && State === 'Error focus and hover')
+    return <Typeiconvalunitstateerrorfocusandhover355141652 />;
+
+  // val + unit type combinations
+  if (Type === 'val + unit' && State === 'Enabled')
+    return <Typevalunitstateenabled17288339 />;
+  if (Type === 'val + unit' && State === 'Focused')
+    return <Typevalunitstatefocused17288354 />;
+  if (Type === 'val + unit' && State === 'Hovered')
+    return <Typevalunitstatehovered17288422 />;
+  if (Type === 'val + unit' && State === 'Disabled')
+    return <Typevalunitstatedisabled355141679 />;
+  if (Type === 'val + unit' && State === 'Error enabled')
+    return <Typevalunitstateerrorenabled546016730 />;
+  if (Type === 'val + unit' && State === 'Error hover')
+    return <Typevalunitstateerrorhover546116776 />;
+  if (Type === 'val + unit' && State === 'Error focus and hover')
+    return <Typevalunitstateerrorfocusandhover355141647 />;
+
+  // Default fallback
+  return <Typetextstateenabled17288335 />;
 };
 
 const meta = {
@@ -73,6 +172,12 @@ const meta = {
   component: InputText,
   parameters: {
     layout: 'centered',
+    docs: {
+      description: {
+        component:
+          '⚠️ **Figma Description Missing** - Please add a description in Figma for this component.',
+      },
+    },
     figma: {
       pageId: '5193:38949',
       componentId: '1728:8340',
@@ -81,24 +186,34 @@ const meta = {
   },
   tags: ['autodocs'],
   argTypes: {
-    Text41123: {
-      control: 'boolean',
-      description: 'Matches Figma "Text#4112:3" property',
-    },
     Type: {
       control: 'select',
-      options: ['Number', 'val + unit', 'icon + val + unit', 'val + icon', 'text', 'number', 'icon + val'],
+      options: [
+        'text',
+        'number',
+        'icon + val',
+        'val + icon',
+        'icon + val + unit',
+        'val + unit',
+      ],
       description: 'Matches Figma "Type" property',
     },
     State: {
       control: 'select',
-      options: ['Enabled', 'Focused', 'Error focus and hover', 'Hovered', 'Disabled', 'Error enabled', 'Error hover'],
+      options: [
+        'Enabled',
+        'Focused',
+        'Hovered',
+        'Disabled',
+        'Error enabled',
+        'Error hover',
+        'Error focus and hover',
+      ],
       description: 'Matches Figma "State" property',
     },
   },
   args: {
-    Text41123: false,
-    Type: 'val + unit',
+    Type: 'text',
     State: 'Enabled',
   },
 } satisfies Meta<typeof InputText>;
@@ -106,38 +221,66 @@ const meta = {
 export default meta;
 type Story = StoryObj<typeof meta>;
 
-export const Text41123True: Story = { 
-  args: {
-    Text41123: true,
-  },
+export const Default: Story = {};
+
+// Text type examples
+export const TextEnabled: Story = {
+  args: { Type: 'text', State: 'Enabled' },
 };
 
-export const Text41123False: Story = { 
-  args: {
-    Text41123: false,
-  },
+export const TextFocused: Story = {
+  args: { Type: 'text', State: 'Focused' },
 };
 
-export const TypeNumber: Story = { 
-  args: {
-    Type: 'Number',
-  },
+export const TextHovered: Story = {
+  args: { Type: 'text', State: 'Hovered' },
 };
 
-export const Typevalunit: Story = { 
-  args: {
-    Type: 'val + unit',
-  },
+export const TextError: Story = {
+  args: { Type: 'text', State: 'Error enabled' },
 };
 
-export const Typeiconvalunit: Story = { 
-  args: {
-    Type: 'icon + val + unit',
-  },
+// Number type examples
+export const NumberEnabled: Story = {
+  args: { Type: 'number', State: 'Enabled' },
 };
 
-export const Typevalicon: Story = { 
-  args: {
-    Type: 'val + icon',
-  },
+export const NumberFocused: Story = {
+  args: { Type: 'number', State: 'Focused' },
+};
+
+// Icon + val examples
+export const IconValEnabled: Story = {
+  args: { Type: 'icon + val', State: 'Enabled' },
+};
+
+export const IconValHovered: Story = {
+  args: { Type: 'icon + val', State: 'Hovered' },
+};
+
+// Val + icon examples
+export const ValIconEnabled: Story = {
+  args: { Type: 'val + icon', State: 'Enabled' },
+};
+
+export const ValIconDisabled: Story = {
+  args: { Type: 'val + icon', State: 'Disabled' },
+};
+
+// Icon + val + unit examples
+export const IconValUnitEnabled: Story = {
+  args: { Type: 'icon + val + unit', State: 'Enabled' },
+};
+
+export const IconValUnitError: Story = {
+  args: { Type: 'icon + val + unit', State: 'Error hover' },
+};
+
+// Val + unit examples
+export const ValUnitEnabled: Story = {
+  args: { Type: 'val + unit', State: 'Enabled' },
+};
+
+export const ValUnitFocused: Story = {
+  args: { Type: 'val + unit', State: 'Focused' },
 };
