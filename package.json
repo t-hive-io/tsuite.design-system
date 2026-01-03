@@ -18,7 +18,7 @@
     "tokens:transform": "token-transformer tokens/figma-tokens.json tokens/transformed-tokens.json",
     "tokens:build": "style-dictionary build --config style-dictionary.config.cjs",
     "build": "npm run tokens:build && tsc && npm run build:copy-assets",
-    "build:copy-assets": "node scripts/copy-build-assets.js",
+    "build:copy-assets": "node scripts/copy-build-assets.cjs",
     "dev": "npm run storybook",
     "lint": "eslint . --max-warnings=0",
     "lint:fix": "eslint . --fix",
