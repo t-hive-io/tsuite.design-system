@@ -1,0 +1,52 @@
+import type { Meta, StoryObj } from '@storybook/react';
+import Variantdigitaltwin10319656 from '../../assets/icons/Variantdigitaltwin--1031-9656.svg?react';
+import Variantspinner2704580 from '../../assets/icons/Variantspinner--2704-580.svg?react';
+
+const Topbars = ({ Variant }: {
+  Variant?: 'Digital twin' | 'Spinner';
+} = {
+    Variant: 'Digital twin'
+  }) => {
+  if (Variant === 'Digital twin') return <Variantdigitaltwin10319656 />;
+  if (Variant === 'Spinner') return <Variantspinner2704580 />;
+  return <Variantdigitaltwin10319656 />;
+};
+
+const meta = {
+  title: '3. Component Category Pages/U I Shell Header/Top bars',
+  component: Topbars,
+  parameters: {
+    layout: 'centered',
+    figma: {
+      pageId: '5236:21014',
+      componentId: '1364:9832',
+      figmaComponent: 'Top bars',
+    },
+  },
+  tags: ['autodocs'],
+  argTypes: {
+    Variant: {
+      control: 'select',
+      options: ['Digital twin', 'Spinner'],
+      description: 'Matches Figma "Variant" property',
+    },
+  },
+  args: {
+    Variant: 'Digital twin',
+  },
+} satisfies Meta<typeof Topbars>;
+
+export default meta;
+type Story = StoryObj<typeof meta>;
+
+export const VariantDigitaltwin: Story = { 
+  args: {
+    Variant: 'Digital twin',
+  },
+};
+
+export const VariantSpinner: Story = { 
+  args: {
+    Variant: 'Spinner',
+  },
+};

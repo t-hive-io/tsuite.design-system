@@ -1,21 +1,26 @@
 import type { Meta, StoryObj } from '@storybook/react';
-import Stateoff from '../../assets/icons/Stateoff--1894-8775.svg?react';
-import Stateon from '../../assets/icons/Stateon--1894-8777.svg?react';
+import Stateoff18948775 from '../../assets/icons/Stateoff--1894-8775.svg?react';
+import Stateon18948777 from '../../assets/icons/Stateon--1894-8777.svg?react';
 
-const Switch = ({ State = 'off' }: { State?: 'off' | 'on' }) => {
-  return State === 'on' ? <Stateon /> : <Stateoff />;
+const Switch = ({ State }: {
+  State?: 'off' | 'on';
+} = {
+    State: 'off'
+  }) => {
+  if (State === 'off') return <Stateoff18948775 />;
+  if (State === 'on') return <Stateon18948777 />;
+  return <Stateoff18948775 />;
 };
 
 const meta = {
-  title: '3. Component Category Pages/Switch',
+  title: '3. Component Category Pages/Switch/Switch',
   component: Switch,
   parameters: {
     layout: 'centered',
     figma: {
-      pageId: '5185:37161',
+      pageId: '5194:45454',
       componentId: '1894:8776',
-      components: 1,
-      totalVariants: 2,
+      figmaComponent: 'Switch',
     },
   },
   tags: ['autodocs'],
@@ -23,7 +28,7 @@ const meta = {
     State: {
       control: 'select',
       options: ['off', 'on'],
-      description: 'Switch state (matches Figma "State" property)',
+      description: 'Matches Figma "State" property',
     },
   },
   args: {
@@ -34,15 +39,14 @@ const meta = {
 export default meta;
 type Story = StoryObj<typeof meta>;
 
-export const Off: Story = { args: { State: 'off' } };
-export const On: Story = { args: { State: 'on' } };
+export const Stateoff: Story = { 
+  args: {
+    State: 'off',
+  },
+};
 
-export const AllVariants: Story = {
-  render: () => (
-    <div style={{ display: 'flex', gap: '1rem', flexWrap: 'wrap', alignItems: 'center' }}>
-      <Switch State="off" />
-      <Switch State="on" />
-    </div>
-  ),
-  name: 'All Variants',
+export const Stateon: Story = { 
+  args: {
+    State: 'on',
+  },
 };

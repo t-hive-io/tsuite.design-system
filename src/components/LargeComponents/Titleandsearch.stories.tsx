@@ -1,0 +1,52 @@
+import type { Meta, StoryObj } from '@storybook/react';
+import Property1default31409498 from '../../assets/icons/Property1default--3140-9498.svg?react';
+import Property1selected31429716 from '../../assets/icons/Property1selected--3142-9716.svg?react';
+
+const Titleandsearch = ({ Property1 }: {
+  Property1?: 'Default' | 'Selected';
+} = {
+    Property1: 'Default'
+  }) => {
+  if (Property1 === 'Default') return <Property1default31409498 />;
+  if (Property1 === 'Selected') return <Property1selected31429716 />;
+  return <Property1default31409498 />;
+};
+
+const meta = {
+  title: '3. Component Category Pages/Large Components/Title and search',
+  component: Titleandsearch,
+  parameters: {
+    layout: 'centered',
+    figma: {
+      pageId: '5193:39157',
+      componentId: '3142:9636',
+      figmaComponent: 'Title and search',
+    },
+  },
+  tags: ['autodocs'],
+  argTypes: {
+    Property1: {
+      control: 'select',
+      options: ['Default', 'Selected'],
+      description: 'Matches Figma "Property 1" property',
+    },
+  },
+  args: {
+    Property1: 'Default',
+  },
+} satisfies Meta<typeof Titleandsearch>;
+
+export default meta;
+type Story = StoryObj<typeof meta>;
+
+export const Property1Default: Story = { 
+  args: {
+    Property1: 'Default',
+  },
+};
+
+export const Property1Selected: Story = { 
+  args: {
+    Property1: 'Selected',
+  },
+};

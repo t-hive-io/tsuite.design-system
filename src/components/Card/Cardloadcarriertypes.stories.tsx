@@ -1,0 +1,76 @@
+import type { Meta, StoryObj } from '@storybook/react';
+import Hoverfalseselectedfalse24531693 from '../../assets/icons/Hoverfalseselectedfalse--2453-1693.svg?react';
+import Hoverfalseselectedtrue2456145 from '../../assets/icons/Hoverfalseselectedtrue--2456-145.svg?react';
+import Hovertrueselectedfalse24531720 from '../../assets/icons/Hovertrueselectedfalse--2453-1720.svg?react';
+import Hovertrueselectedtrue2456169 from '../../assets/icons/Hovertrueselectedtrue--2456-169.svg?react';
+
+const Cardloadcarriertypes = ({ Hover, Selected }: {
+  Hover?: 'False' | 'True';
+  Selected?: 'True' | 'False';
+} = {
+    Hover: 'False',
+    Selected: 'False'
+  }) => {
+  if (Hover === 'False') return <Hoverfalseselectedfalse24531693 />;
+  if (Hover === 'True') return <Hoverfalseselectedtrue2456145 />;
+  if (Selected === 'True') return <Hoverfalseselectedtrue2456145 />;
+  if (Selected === 'False') return <Hoverfalseselectedfalse24531693 />;
+  return <Hoverfalseselectedfalse24531693 />;
+};
+
+const meta = {
+  title: '3. Component Category Pages/Card/Card load carrier types',
+  component: Cardloadcarriertypes,
+  parameters: {
+    layout: 'centered',
+    figma: {
+      pageId: '5171:45784',
+      componentId: '2453:1719',
+      figmaComponent: 'Card load carrier types',
+    },
+  },
+  tags: ['autodocs'],
+  argTypes: {
+    Hover: {
+      control: 'select',
+      options: ['False', 'True'],
+      description: 'Matches Figma "Hover" property',
+    },
+    Selected: {
+      control: 'select',
+      options: ['True', 'False'],
+      description: 'Matches Figma "Selected" property',
+    },
+  },
+  args: {
+    Hover: 'False',
+    Selected: 'False',
+  },
+} satisfies Meta<typeof Cardloadcarriertypes>;
+
+export default meta;
+type Story = StoryObj<typeof meta>;
+
+export const HoverFalse: Story = { 
+  args: {
+    Hover: 'False',
+  },
+};
+
+export const HoverTrue: Story = { 
+  args: {
+    Hover: 'True',
+  },
+};
+
+export const SelectedTrue: Story = { 
+  args: {
+    Selected: 'True',
+  },
+};
+
+export const SelectedFalse: Story = { 
+  args: {
+    Selected: 'False',
+  },
+};
