@@ -2,20 +2,26 @@ import type { Meta, StoryObj } from '@storybook/react';
 
 const BreadCrumbs = () => (
   <nav style={{ fontFamily: 'system-ui' }}>
-    <ol style={{ 
-      display: 'flex', 
-      listStyle: 'none', 
-      padding: 0, 
-      margin: 0,
-      fontSize: '0.875rem',
-      color: '#666'
-    }}>
+    <ol
+      style={{
+        display: 'flex',
+        listStyle: 'none',
+        padding: 0,
+        margin: 0,
+        fontSize: '0.875rem',
+        color: '#666',
+      }}
+    >
       <li>
-        <a href="#" style={{ color: '#1976d2', textDecoration: 'none' }}>Home</a>
+        <a href="#" style={{ color: '#1976d2', textDecoration: 'none' }}>
+          Home
+        </a>
       </li>
       <li style={{ margin: '0 0.5rem' }}>/</li>
       <li>
-        <a href="#" style={{ color: '#1976d2', textDecoration: 'none' }}>Projects</a>
+        <a href="#" style={{ color: '#1976d2', textDecoration: 'none' }}>
+          Projects
+        </a>
       </li>
       <li style={{ margin: '0 0.5rem' }}>/</li>
       <li style={{ color: '#424242' }}>Current Project</li>
@@ -28,6 +34,12 @@ const meta = {
   component: BreadCrumbs,
   parameters: {
     layout: 'padded',
+    docs: {
+      description: {
+        component:
+          '⚠️ **Figma Description Missing** - Please add a description in Figma for this component.',
+      },
+    },
     figma: {
       pageId: '5170:45474',
     },

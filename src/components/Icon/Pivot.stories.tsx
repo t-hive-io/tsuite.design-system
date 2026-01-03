@@ -4,11 +4,15 @@ import Property1variant2538627095 from '../../assets/icons/Property1variant2--53
 import Property1variant3538627097 from '../../assets/icons/Property1variant3--5386-27097.svg?react';
 import Property1variant4538627099 from '../../assets/icons/Property1variant4--5386-27099.svg?react';
 
-const Pivot = ({ Property1 }: {
-  Property1?: 'Default' | 'Variant2' | 'Variant3' | 'Variant4';
-} = {
-    Property1: 'Default'
-  }) => {
+const Pivot = (
+  {
+    Property1,
+  }: {
+    Property1?: 'Default' | 'Variant2' | 'Variant3' | 'Variant4';
+  } = {
+    Property1: 'Default',
+  }
+) => {
   if (Property1 === 'Default') return <Property1default538627093 />;
   if (Property1 === 'Variant2') return <Property1variant2538627095 />;
   if (Property1 === 'Variant3') return <Property1variant3538627097 />;
@@ -21,6 +25,12 @@ const meta = {
   component: Pivot,
   parameters: {
     layout: 'centered',
+    docs: {
+      description: {
+        component:
+          '⚠️ **Figma Description Missing** - Please add a description in Figma for this component.',
+      },
+    },
     figma: {
       pageId: '5193:37078',
       componentId: '5386:27094',
@@ -43,25 +53,25 @@ const meta = {
 export default meta;
 type Story = StoryObj<typeof meta>;
 
-export const Property1Default: Story = { 
+export const Property1Default: Story = {
   args: {
     Property1: 'Default',
   },
 };
 
-export const Property1Variant2: Story = { 
+export const Property1Variant2: Story = {
   args: {
     Property1: 'Variant2',
   },
 };
 
-export const Property1Variant3: Story = { 
+export const Property1Variant3: Story = {
   args: {
     Property1: 'Variant3',
   },
 };
 
-export const Property1Variant4: Story = { 
+export const Property1Variant4: Story = {
   args: {
     Property1: 'Variant4',
   },

@@ -5,11 +5,15 @@ import Property1tools316810773 from '../../assets/icons/Property1tools--3168-107
 import Property1view316810774 from '../../assets/icons/Property1view--3168-10774.svg?react';
 import Property1zoom316810775 from '../../assets/icons/Property1zoom--3168-10775.svg?react';
 
-const Keyboardshortcutssection = ({ Property1 }: {
-  Property1?: 'Tools' | 'View' | 'Zoom' | 'Cursor' | 'Edit';
-} = {
-    Property1: 'Tools'
-  }) => {
+const Keyboardshortcutssection = (
+  {
+    Property1,
+  }: {
+    Property1?: 'Tools' | 'View' | 'Zoom' | 'Cursor' | 'Edit';
+  } = {
+    Property1: 'Tools',
+  }
+) => {
   if (Property1 === 'Tools') return <Property1tools316810773 />;
   if (Property1 === 'View') return <Property1view316810774 />;
   if (Property1 === 'Zoom') return <Property1zoom316810775 />;
@@ -19,10 +23,17 @@ const Keyboardshortcutssection = ({ Property1 }: {
 };
 
 const meta = {
-  title: '3. Component Category Pages/Large Components/Keyboard shortcuts section',
+  title:
+    '3. Component Category Pages/Large Components/Keyboard shortcuts section',
   component: Keyboardshortcutssection,
   parameters: {
     layout: 'centered',
+    docs: {
+      description: {
+        component:
+          '⚠️ **Figma Description Missing** - Please add a description in Figma for this component.',
+      },
+    },
     figma: {
       pageId: '5193:39157',
       componentId: '3168:10778',
@@ -45,25 +56,25 @@ const meta = {
 export default meta;
 type Story = StoryObj<typeof meta>;
 
-export const Property1Tools: Story = { 
+export const Property1Tools: Story = {
   args: {
     Property1: 'Tools',
   },
 };
 
-export const Property1View: Story = { 
+export const Property1View: Story = {
   args: {
     Property1: 'View',
   },
 };
 
-export const Property1Zoom: Story = { 
+export const Property1Zoom: Story = {
   args: {
     Property1: 'Zoom',
   },
 };
 
-export const Property1Cursor: Story = { 
+export const Property1Cursor: Story = {
   args: {
     Property1: 'Cursor',
   },

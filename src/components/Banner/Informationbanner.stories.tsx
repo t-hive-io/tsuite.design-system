@@ -1,11 +1,7 @@
 import type { Meta, StoryObj } from '@storybook/react';
 import Contenttextx13258164 from '../../assets/icons/Contenttextx--1325-8164.svg?react';
 
-const Informationbanner = ({ Content }: {
-  Content?: 'Text + X';
-} = {
-    Content: 'Text + X'
-  }) => {
+const Informationbanner = () => {
   return <Contenttextx13258164 />;
 };
 
@@ -14,6 +10,12 @@ const meta = {
   component: Informationbanner,
   parameters: {
     layout: 'centered',
+    docs: {
+      description: {
+        component:
+          '⚠️ **Figma Description Missing** - Please add a description in Figma for this component.',
+      },
+    },
     figma: {
       pageId: '5248:20526',
       componentId: '1325:9049',
@@ -36,7 +38,7 @@ const meta = {
 export default meta;
 type Story = StoryObj<typeof meta>;
 
-export const ContentTextX: Story = { 
+export const ContentTextX: Story = {
   args: {
     Content: 'Text + X',
   },

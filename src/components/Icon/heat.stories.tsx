@@ -5,11 +5,15 @@ import Property1focused538627107 from '../../assets/icons/Property1focused--5386
 import Property1hovred538627103 from '../../assets/icons/Property1hovred--5386-27103.svg?react';
 import Property1pressed538627105 from '../../assets/icons/Property1pressed--5386-27105.svg?react';
 
-const Heat = ({ Property1 }: {
-  Property1?: 'Default' | 'Hovred' | 'Pressed' | 'Focused' | 'Disable';
-} = {
-    Property1: 'Default'
-  }) => {
+const Heat = (
+  {
+    Property1,
+  }: {
+    Property1?: 'Default' | 'Hovred' | 'Pressed' | 'Focused' | 'Disable';
+  } = {
+    Property1: 'Default',
+  }
+) => {
   if (Property1 === 'Default') return <Property1default538627101 />;
   if (Property1 === 'Hovred') return <Property1hovred538627103 />;
   if (Property1 === 'Pressed') return <Property1pressed538627105 />;
@@ -23,6 +27,12 @@ const meta = {
   component: Heat,
   parameters: {
     layout: 'centered',
+    docs: {
+      description: {
+        component:
+          '⚠️ **Figma Description Missing** - Please add a description in Figma for this component.',
+      },
+    },
     figma: {
       pageId: '5193:37078',
       componentId: '5386:27102',
@@ -45,25 +55,25 @@ const meta = {
 export default meta;
 type Story = StoryObj<typeof meta>;
 
-export const Property1Default: Story = { 
+export const Property1Default: Story = {
   args: {
     Property1: 'Default',
   },
 };
 
-export const Property1Hovred: Story = { 
+export const Property1Hovred: Story = {
   args: {
     Property1: 'Hovred',
   },
 };
 
-export const Property1Pressed: Story = { 
+export const Property1Pressed: Story = {
   args: {
     Property1: 'Pressed',
   },
 };
 
-export const Property1Focused: Story = { 
+export const Property1Focused: Story = {
   args: {
     Property1: 'Focused',
   },

@@ -8,11 +8,23 @@ import Property1rea25024531743 from '../../assets/icons/Property1rea250--2453-17
 import Property1sae160120024531745 from '../../assets/icons/Property1sae1601200--2453-1745.svg?react';
 import Property1sae160160024531746 from '../../assets/icons/Property1sae1601600--2453-1746.svg?react';
 
-const Vehiclemodelslarge = ({ Property1 }: {
-  Property1?: 'Raymond' | 'REA160' | 'SAE160_1200' | 'SAE160_1600' | 'REA250' | 'CDI' | 'Charm' | 'CB18';
-} = {
-    Property1: 'REA160'
-  }) => {
+const Vehiclemodelslarge = (
+  {
+    Property1,
+  }: {
+    Property1?:
+      | 'Raymond'
+      | 'REA160'
+      | 'SAE160_1200'
+      | 'SAE160_1600'
+      | 'REA250'
+      | 'CDI'
+      | 'Charm'
+      | 'CB18';
+  } = {
+    Property1: 'REA160',
+  }
+) => {
   if (Property1 === 'Raymond') return <Property1raymond24531747 />;
   if (Property1 === 'REA160') return <Property1rea16024531749 />;
   if (Property1 === 'SAE160_1200') return <Property1sae160120024531745 />;
@@ -29,6 +41,12 @@ const meta = {
   component: Vehiclemodelslarge,
   parameters: {
     layout: 'centered',
+    docs: {
+      description: {
+        component:
+          '⚠️ **Figma Description Missing** - Please add a description in Figma for this component.',
+      },
+    },
     figma: {
       pageId: '5193:37078',
       componentId: '2453:1750',
@@ -39,7 +57,16 @@ const meta = {
   argTypes: {
     Property1: {
       control: 'select',
-      options: ['Raymond', 'REA160', 'SAE160_1200', 'SAE160_1600', 'REA250', 'CDI', 'Charm', 'CB18'],
+      options: [
+        'Raymond',
+        'REA160',
+        'SAE160_1200',
+        'SAE160_1600',
+        'REA250',
+        'CDI',
+        'Charm',
+        'CB18',
+      ],
       description: 'Matches Figma "Property 1" property',
     },
   },
@@ -51,25 +78,25 @@ const meta = {
 export default meta;
 type Story = StoryObj<typeof meta>;
 
-export const Property1Raymond: Story = { 
+export const Property1Raymond: Story = {
   args: {
     Property1: 'Raymond',
   },
 };
 
-export const Property1REA160: Story = { 
+export const Property1REA160: Story = {
   args: {
     Property1: 'REA160',
   },
 };
 
-export const Property1SAE1601200: Story = { 
+export const Property1SAE1601200: Story = {
   args: {
     Property1: 'SAE160_1200',
   },
 };
 
-export const Property1SAE1601600: Story = { 
+export const Property1SAE1601600: Story = {
   args: {
     Property1: 'SAE160_1600',
   },

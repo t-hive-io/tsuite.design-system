@@ -6,17 +6,32 @@ import Property1rotatedimension531542963 from '../../assets/icons/Property1rotat
 import Property1texticon531535975 from '../../assets/icons/Property1texticon--5315-35975.svg?react';
 import Property1verticalgapbetweenvehicles531173038 from '../../assets/icons/Property1verticalgapbetweenvehicles--5311-73038.svg?react';
 
-const Gapandmargin = ({ Property1 }: {
-  Property1?: 'Horizontal gap between vehicles' | 'Margin left right' | 'Margin top bottom' | 'Vertical gap between vehicles' | 'TEXT ICON' | 'Rotate dimension';
-} = {
-    Property1: 'Margin top bottom'
-  }) => {
-  if (Property1 === 'Horizontal gap between vehicles') return <Property1horizontalgapbetweenvehicles531173037 />;
-  if (Property1 === 'Margin left right') return <Property1marginleftright531173035 />;
-  if (Property1 === 'Margin top bottom') return <Property1margintopbottom531173036 />;
-  if (Property1 === 'Vertical gap between vehicles') return <Property1verticalgapbetweenvehicles531173038 />;
+const Gapandmargin = (
+  {
+    Property1,
+  }: {
+    Property1?:
+      | 'Horizontal gap between vehicles'
+      | 'Margin left right'
+      | 'Margin top bottom'
+      | 'Vertical gap between vehicles'
+      | 'TEXT ICON'
+      | 'Rotate dimension';
+  } = {
+    Property1: 'Margin top bottom',
+  }
+) => {
+  if (Property1 === 'Horizontal gap between vehicles')
+    return <Property1horizontalgapbetweenvehicles531173037 />;
+  if (Property1 === 'Margin left right')
+    return <Property1marginleftright531173035 />;
+  if (Property1 === 'Margin top bottom')
+    return <Property1margintopbottom531173036 />;
+  if (Property1 === 'Vertical gap between vehicles')
+    return <Property1verticalgapbetweenvehicles531173038 />;
   if (Property1 === 'TEXT ICON') return <Property1texticon531535975 />;
-  if (Property1 === 'Rotate dimension') return <Property1rotatedimension531542963 />;
+  if (Property1 === 'Rotate dimension')
+    return <Property1rotatedimension531542963 />;
   return <Property1horizontalgapbetweenvehicles531173037 />;
 };
 
@@ -25,6 +40,12 @@ const meta = {
   component: Gapandmargin,
   parameters: {
     layout: 'centered',
+    docs: {
+      description: {
+        component:
+          '⚠️ **Figma Description Missing** - Please add a description in Figma for this component.',
+      },
+    },
     figma: {
       pageId: '5193:37078',
       componentId: '5311:73039',
@@ -35,7 +56,14 @@ const meta = {
   argTypes: {
     Property1: {
       control: 'select',
-      options: ['Horizontal gap between vehicles', 'Margin left right', 'Margin top bottom', 'Vertical gap between vehicles', 'TEXT ICON', 'Rotate dimension'],
+      options: [
+        'Horizontal gap between vehicles',
+        'Margin left right',
+        'Margin top bottom',
+        'Vertical gap between vehicles',
+        'TEXT ICON',
+        'Rotate dimension',
+      ],
       description: 'Matches Figma "Property 1" property',
     },
   },
@@ -47,25 +75,25 @@ const meta = {
 export default meta;
 type Story = StoryObj<typeof meta>;
 
-export const Property1Horizontalgapbetweenvehicles: Story = { 
+export const Property1Horizontalgapbetweenvehicles: Story = {
   args: {
     Property1: 'Horizontal gap between vehicles',
   },
 };
 
-export const Property1Marginleftright: Story = { 
+export const Property1Marginleftright: Story = {
   args: {
     Property1: 'Margin left right',
   },
 };
 
-export const Property1Margintopbottom: Story = { 
+export const Property1Margintopbottom: Story = {
   args: {
     Property1: 'Margin top bottom',
   },
 };
 
-export const Property1Verticalgapbetweenvehicles: Story = { 
+export const Property1Verticalgapbetweenvehicles: Story = {
   args: {
     Property1: 'Vertical gap between vehicles',
   },

@@ -2,11 +2,15 @@ import type { Meta, StoryObj } from '@storybook/react';
 import Selectedfalse10856701 from '../../assets/icons/Selectedfalse--1085-6701.svg?react';
 import Selectedtrue10856703 from '../../assets/icons/Selectedtrue--1085-6703.svg?react';
 
-const Tabitem = ({ Selected }: {
-  Selected?: 'False' | 'True';
-} = {
-    Selected: 'False'
-  }) => {
+const Tabitem = (
+  {
+    Selected,
+  }: {
+    Selected?: 'False' | 'True';
+  } = {
+    Selected: 'False',
+  }
+) => {
   if (Selected === 'False') return <Selectedfalse10856701 />;
   if (Selected === 'True') return <Selectedtrue10856703 />;
   return <Selectedfalse10856701 />;
@@ -17,6 +21,12 @@ const meta = {
   component: Tabitem,
   parameters: {
     layout: 'centered',
+    docs: {
+      description: {
+        component:
+          '⚠️ **Figma Description Missing** - Please add a description in Figma for this component.',
+      },
+    },
     figma: {
       pageId: '5194:45468',
       componentId: '1085:6700',
@@ -39,13 +49,13 @@ const meta = {
 export default meta;
 type Story = StoryObj<typeof meta>;
 
-export const SelectedFalse: Story = { 
+export const SelectedFalse: Story = {
   args: {
     Selected: 'False',
   },
 };
 
-export const SelectedTrue: Story = { 
+export const SelectedTrue: Story = {
   args: {
     Selected: 'True',
   },

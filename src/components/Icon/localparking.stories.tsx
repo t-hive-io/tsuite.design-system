@@ -4,11 +4,15 @@ import Property1enabled10656377 from '../../assets/icons/Property1enabled--1065-
 import Property1focused379754271 from '../../assets/icons/Property1focused--3797-54271.svg?react';
 import Property1hovred379754269 from '../../assets/icons/Property1hovred--3797-54269.svg?react';
 
-const Localparking = ({ Property1 }: {
-  Property1?: 'Enabled' | 'Hovred' | 'Focused' | 'Disable';
-} = {
-    Property1: 'Enabled'
-  }) => {
+const Localparking = (
+  {
+    Property1,
+  }: {
+    Property1?: 'Enabled' | 'Hovred' | 'Focused' | 'Disable';
+  } = {
+    Property1: 'Enabled',
+  }
+) => {
   if (Property1 === 'Enabled') return <Property1enabled10656377 />;
   if (Property1 === 'Hovred') return <Property1hovred379754269 />;
   if (Property1 === 'Focused') return <Property1focused379754271 />;
@@ -21,6 +25,12 @@ const meta = {
   component: Localparking,
   parameters: {
     layout: 'centered',
+    docs: {
+      description: {
+        component:
+          '⚠️ **Figma Description Missing** - Please add a description in Figma for this component.',
+      },
+    },
     figma: {
       pageId: '5193:37078',
       componentId: '3797:54268',
@@ -43,25 +53,25 @@ const meta = {
 export default meta;
 type Story = StoryObj<typeof meta>;
 
-export const Property1Enabled: Story = { 
+export const Property1Enabled: Story = {
   args: {
     Property1: 'Enabled',
   },
 };
 
-export const Property1Hovred: Story = { 
+export const Property1Hovred: Story = {
   args: {
     Property1: 'Hovred',
   },
 };
 
-export const Property1Focused: Story = { 
+export const Property1Focused: Story = {
   args: {
     Property1: 'Focused',
   },
 };
 
-export const Property1Disable: Story = { 
+export const Property1Disable: Story = {
   args: {
     Property1: 'Disable',
   },

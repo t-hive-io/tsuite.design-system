@@ -4,11 +4,15 @@ import Property1enabled2632268 from '../../assets/icons/Property1enabled--2632-2
 import Property1focused379754254 from '../../assets/icons/Property1focused--3797-54254.svg?react';
 import Property1hovered379754252 from '../../assets/icons/Property1hovered--3797-54252.svg?react';
 
-const Checkcircle = ({ Property1 }: {
-  Property1?: 'Enabled' | 'Hovered' | 'Focused' | 'Disable';
-} = {
-    Property1: 'Enabled'
-  }) => {
+const Checkcircle = (
+  {
+    Property1,
+  }: {
+    Property1?: 'Enabled' | 'Hovered' | 'Focused' | 'Disable';
+  } = {
+    Property1: 'Enabled',
+  }
+) => {
   if (Property1 === 'Enabled') return <Property1enabled2632268 />;
   if (Property1 === 'Hovered') return <Property1hovered379754252 />;
   if (Property1 === 'Focused') return <Property1focused379754254 />;
@@ -21,6 +25,12 @@ const meta = {
   component: Checkcircle,
   parameters: {
     layout: 'centered',
+    docs: {
+      description: {
+        component:
+          '⚠️ **Figma Description Missing** - Please add a description in Figma for this component.',
+      },
+    },
     figma: {
       pageId: '5193:37078',
       componentId: '3797:54251',
@@ -43,25 +53,25 @@ const meta = {
 export default meta;
 type Story = StoryObj<typeof meta>;
 
-export const Property1Enabled: Story = { 
+export const Property1Enabled: Story = {
   args: {
     Property1: 'Enabled',
   },
 };
 
-export const Property1Hovered: Story = { 
+export const Property1Hovered: Story = {
   args: {
     Property1: 'Hovered',
   },
 };
 
-export const Property1Focused: Story = { 
+export const Property1Focused: Story = {
   args: {
     Property1: 'Focused',
   },
 };
 
-export const Property1Disable: Story = { 
+export const Property1Disable: Story = {
   args: {
     Property1: 'Disable',
   },

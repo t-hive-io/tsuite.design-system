@@ -3,11 +3,15 @@ import Property1loadcarrier124516 from '../../assets/icons/Property1loadcarrier1
 import Property1loadcarrier2245119 from '../../assets/icons/Property1loadcarrier2--2451-19.svg?react';
 import Property1vehicle17418316 from '../../assets/icons/Property1vehicle--1741-8316.svg?react';
 
-const Inputchips = ({ Property1 }: {
-  Property1?: 'Vehicle' | 'Load carrier 1' | 'Load carrier 2';
-} = {
-    Property1: 'Vehicle'
-  }) => {
+const Inputchips = (
+  {
+    Property1,
+  }: {
+    Property1?: 'Vehicle' | 'Load carrier 1' | 'Load carrier 2';
+  } = {
+    Property1: 'Vehicle',
+  }
+) => {
   if (Property1 === 'Vehicle') return <Property1vehicle17418316 />;
   if (Property1 === 'Load carrier 1') return <Property1loadcarrier124516 />;
   if (Property1 === 'Load carrier 2') return <Property1loadcarrier2245119 />;
@@ -19,6 +23,12 @@ const meta = {
   component: Inputchips,
   parameters: {
     layout: 'centered',
+    docs: {
+      description: {
+        component:
+          '⚠️ **Figma Description Missing** - Please add a description in Figma for this component.',
+      },
+    },
     figma: {
       pageId: '5172:38144',
       componentId: '2451:5',
@@ -41,19 +51,19 @@ const meta = {
 export default meta;
 type Story = StoryObj<typeof meta>;
 
-export const Property1Vehicle: Story = { 
+export const Property1Vehicle: Story = {
   args: {
     Property1: 'Vehicle',
   },
 };
 
-export const Property1Loadcarrier1: Story = { 
+export const Property1Loadcarrier1: Story = {
   args: {
     Property1: 'Load carrier 1',
   },
 };
 
-export const Property1Loadcarrier2: Story = { 
+export const Property1Loadcarrier2: Story = {
   args: {
     Property1: 'Load carrier 2',
   },

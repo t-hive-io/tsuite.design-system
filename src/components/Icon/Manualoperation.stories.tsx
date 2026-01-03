@@ -4,11 +4,15 @@ import Property1variant2482237876 from '../../assets/icons/Property1variant2--48
 import Property1variant3482237886 from '../../assets/icons/Property1variant3--4822-37886.svg?react';
 import Property1variant4482237896 from '../../assets/icons/Property1variant4--4822-37896.svg?react';
 
-const Manualoperation = ({ Property1 }: {
-  Property1?: 'Default' | 'Variant2' | 'Variant3' | 'Variant4';
-} = {
-    Property1: 'Default'
-  }) => {
+const Manualoperation = (
+  {
+    Property1,
+  }: {
+    Property1?: 'Default' | 'Variant2' | 'Variant3' | 'Variant4';
+  } = {
+    Property1: 'Default',
+  }
+) => {
   if (Property1 === 'Default') return <Property1default482237874 />;
   if (Property1 === 'Variant2') return <Property1variant2482237876 />;
   if (Property1 === 'Variant3') return <Property1variant3482237886 />;
@@ -21,6 +25,12 @@ const meta = {
   component: Manualoperation,
   parameters: {
     layout: 'centered',
+    docs: {
+      description: {
+        component:
+          '⚠️ **Figma Description Missing** - Please add a description in Figma for this component.',
+      },
+    },
     figma: {
       pageId: '5193:37078',
       componentId: '4822:37875',
@@ -43,25 +53,25 @@ const meta = {
 export default meta;
 type Story = StoryObj<typeof meta>;
 
-export const Property1Default: Story = { 
+export const Property1Default: Story = {
   args: {
     Property1: 'Default',
   },
 };
 
-export const Property1Variant2: Story = { 
+export const Property1Variant2: Story = {
   args: {
     Property1: 'Variant2',
   },
 };
 
-export const Property1Variant3: Story = { 
+export const Property1Variant3: Story = {
   args: {
     Property1: 'Variant3',
   },
 };
 
-export const Property1Variant4: Story = { 
+export const Property1Variant4: Story = {
   args: {
     Property1: 'Variant4',
   },

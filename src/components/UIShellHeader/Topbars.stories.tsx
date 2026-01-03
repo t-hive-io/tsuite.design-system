@@ -2,11 +2,15 @@ import type { Meta, StoryObj } from '@storybook/react';
 import Variantdigitaltwin10319656 from '../../assets/icons/Variantdigitaltwin--1031-9656.svg?react';
 import Variantspinner2704580 from '../../assets/icons/Variantspinner--2704-580.svg?react';
 
-const Topbars = ({ Variant }: {
-  Variant?: 'Digital twin' | 'Spinner';
-} = {
-    Variant: 'Digital twin'
-  }) => {
+const Topbars = (
+  {
+    Variant,
+  }: {
+    Variant?: 'Digital twin' | 'Spinner';
+  } = {
+    Variant: 'Digital twin',
+  }
+) => {
   if (Variant === 'Digital twin') return <Variantdigitaltwin10319656 />;
   if (Variant === 'Spinner') return <Variantspinner2704580 />;
   return <Variantdigitaltwin10319656 />;
@@ -17,6 +21,12 @@ const meta = {
   component: Topbars,
   parameters: {
     layout: 'centered',
+    docs: {
+      description: {
+        component:
+          '⚠️ **Figma Description Missing** - Please add a description in Figma for this component.',
+      },
+    },
     figma: {
       pageId: '5236:21014',
       componentId: '1364:9832',
@@ -39,13 +49,13 @@ const meta = {
 export default meta;
 type Story = StoryObj<typeof meta>;
 
-export const VariantDigitaltwin: Story = { 
+export const VariantDigitaltwin: Story = {
   args: {
     Variant: 'Digital twin',
   },
 };
 
-export const VariantSpinner: Story = { 
+export const VariantSpinner: Story = {
   args: {
     Variant: 'Spinner',
   },

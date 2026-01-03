@@ -10,11 +10,25 @@ import Statepreparing12898307 from '../../assets/icons/Statepreparing--1289-8307
 import Staterunning12898311 from '../../assets/icons/Staterunning--1289-8311.svg?react';
 import Statescheduled12898309 from '../../assets/icons/Statescheduled--1289-8309.svg?react';
 
-const CardTag = ({ State }: {
-  State?: 'Preparing' | 'Scheduled' | 'Running' | 'Pending' | 'Complete' | 'Failed' | 'Aborted' | 'Draft' | 'Commission' | 'BETA';
-} = {
-    State: 'Pending'
-  }) => {
+const CardTag = (
+  {
+    State,
+  }: {
+    State?:
+      | 'Preparing'
+      | 'Scheduled'
+      | 'Running'
+      | 'Pending'
+      | 'Complete'
+      | 'Failed'
+      | 'Aborted'
+      | 'Draft'
+      | 'Commission'
+      | 'BETA';
+  } = {
+    State: 'Pending',
+  }
+) => {
   if (State === 'Preparing') return <Statepreparing12898307 />;
   if (State === 'Scheduled') return <Statescheduled12898309 />;
   if (State === 'Running') return <Staterunning12898311 />;
@@ -33,6 +47,12 @@ const meta = {
   component: CardTag,
   parameters: {
     layout: 'centered',
+    docs: {
+      description: {
+        component:
+          '⚠️ **Figma Description Missing** - Please add a description in Figma for this component.',
+      },
+    },
     figma: {
       pageId: '5172:38144',
       componentId: '1289:8306',
@@ -43,7 +63,18 @@ const meta = {
   argTypes: {
     State: {
       control: 'select',
-      options: ['Preparing', 'Scheduled', 'Running', 'Pending', 'Complete', 'Failed', 'Aborted', 'Draft', 'Commission', 'BETA'],
+      options: [
+        'Preparing',
+        'Scheduled',
+        'Running',
+        'Pending',
+        'Complete',
+        'Failed',
+        'Aborted',
+        'Draft',
+        'Commission',
+        'BETA',
+      ],
       description: 'Matches Figma "State" property',
     },
   },
@@ -55,25 +86,25 @@ const meta = {
 export default meta;
 type Story = StoryObj<typeof meta>;
 
-export const StatePreparing: Story = { 
+export const StatePreparing: Story = {
   args: {
     State: 'Preparing',
   },
 };
 
-export const StateScheduled: Story = { 
+export const StateScheduled: Story = {
   args: {
     State: 'Scheduled',
   },
 };
 
-export const StateRunning: Story = { 
+export const StateRunning: Story = {
   args: {
     State: 'Running',
   },
 };
 
-export const StatePending: Story = { 
+export const StatePending: Story = {
   args: {
     State: 'Pending',
   },

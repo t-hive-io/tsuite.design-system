@@ -5,11 +5,20 @@ import Statefocus487538629 from '../../assets/icons/Statefocus--4875-38629.svg?r
 import Statehoverclose497138837 from '../../assets/icons/Statehoverclose--4971-38837.svg?react';
 import Statepressed487538653 from '../../assets/icons/Statepressed--4875-38653.svg?react';
 
-const NotificationFatal = ({ State }: {
-  State?: 'Enabeled' | 'Enabeled no badge' | 'Focus' | 'Pressed' | 'Hover close';
-} = {
-    State: 'Enabeled'
-  }) => {
+const NotificationFatal = (
+  {
+    State,
+  }: {
+    State?:
+      | 'Enabeled'
+      | 'Enabeled no badge'
+      | 'Focus'
+      | 'Pressed'
+      | 'Hover close';
+  } = {
+    State: 'Enabeled',
+  }
+) => {
   if (State === 'Enabeled') return <Stateenabeled487538184 />;
   if (State === 'Enabeled no badge') return <Stateenabelednobadge487538605 />;
   if (State === 'Focus') return <Statefocus487538629 />;
@@ -23,6 +32,12 @@ const meta = {
   component: NotificationFatal,
   parameters: {
     layout: 'centered',
+    docs: {
+      description: {
+        component:
+          '⚠️ **Figma Description Missing** - Please add a description in Figma for this component.',
+      },
+    },
     figma: {
       pageId: '5171:45784',
       componentId: '4875:38604',
@@ -33,7 +48,13 @@ const meta = {
   argTypes: {
     State: {
       control: 'select',
-      options: ['Enabeled', 'Enabeled no badge', 'Focus', 'Pressed', 'Hover close'],
+      options: [
+        'Enabeled',
+        'Enabeled no badge',
+        'Focus',
+        'Pressed',
+        'Hover close',
+      ],
       description: 'Matches Figma "State" property',
     },
   },
@@ -45,25 +66,25 @@ const meta = {
 export default meta;
 type Story = StoryObj<typeof meta>;
 
-export const StateEnabeled: Story = { 
+export const StateEnabeled: Story = {
   args: {
     State: 'Enabeled',
   },
 };
 
-export const StateEnabelednobadge: Story = { 
+export const StateEnabelednobadge: Story = {
   args: {
     State: 'Enabeled no badge',
   },
 };
 
-export const StateFocus: Story = { 
+export const StateFocus: Story = {
   args: {
     State: 'Focus',
   },
 };
 
-export const StatePressed: Story = { 
+export const StatePressed: Story = {
   args: {
     State: 'Pressed',
   },

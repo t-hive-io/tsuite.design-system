@@ -4,11 +4,15 @@ import Stateenabled10656390 from '../../assets/icons/Stateenabled--1065-6390.svg
 import Statefocused3838100736 from '../../assets/icons/Statefocused--3838-100736.svg?react';
 import Statehovered3838100676 from '../../assets/icons/Statehovered--3838-100676.svg?react';
 
-const Zoomoutmap = ({ State }: {
-  State?: 'Enabled' | 'Hovered' | 'Focused' | 'Disable';
-} = {
-    State: 'Enabled'
-  }) => {
+const Zoomoutmap = (
+  {
+    State,
+  }: {
+    State?: 'Enabled' | 'Hovered' | 'Focused' | 'Disable';
+  } = {
+    State: 'Enabled',
+  }
+) => {
   if (State === 'Enabled') return <Stateenabled10656390 />;
   if (State === 'Hovered') return <Statehovered3838100676 />;
   if (State === 'Focused') return <Statefocused3838100736 />;
@@ -21,6 +25,12 @@ const meta = {
   component: Zoomoutmap,
   parameters: {
     layout: 'centered',
+    docs: {
+      description: {
+        component:
+          '⚠️ **Figma Description Missing** - Please add a description in Figma for this component.',
+      },
+    },
     figma: {
       pageId: '5193:37078',
       componentId: '3838:100675',
@@ -43,25 +53,25 @@ const meta = {
 export default meta;
 type Story = StoryObj<typeof meta>;
 
-export const StateEnabled: Story = { 
+export const StateEnabled: Story = {
   args: {
     State: 'Enabled',
   },
 };
 
-export const StateHovered: Story = { 
+export const StateHovered: Story = {
   args: {
     State: 'Hovered',
   },
 };
 
-export const StateFocused: Story = { 
+export const StateFocused: Story = {
   args: {
     State: 'Focused',
   },
 };
 
-export const StateDisable: Story = { 
+export const StateDisable: Story = {
   args: {
     State: 'Disable',
   },

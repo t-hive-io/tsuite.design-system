@@ -3,11 +3,15 @@ import Property1column524638435 from '../../assets/icons/Property1column--5246-3
 import Property1depth524638436 from '../../assets/icons/Property1depth--5246-38436.svg?react';
 import Property1heigh524638434 from '../../assets/icons/Property1heigh--5246-38434.svg?react';
 
-const Shuttle = ({ Property1 }: {
-  Property1?: 'Column' | 'Heigh' | 'Depth';
-} = {
-    Property1: 'Column'
-  }) => {
+const Shuttle = (
+  {
+    Property1,
+  }: {
+    Property1?: 'Column' | 'Heigh' | 'Depth';
+  } = {
+    Property1: 'Column',
+  }
+) => {
   if (Property1 === 'Column') return <Property1column524638435 />;
   if (Property1 === 'Heigh') return <Property1heigh524638434 />;
   if (Property1 === 'Depth') return <Property1depth524638436 />;
@@ -19,6 +23,12 @@ const meta = {
   component: Shuttle,
   parameters: {
     layout: 'centered',
+    docs: {
+      description: {
+        component:
+          '⚠️ **Figma Description Missing** - Please add a description in Figma for this component.',
+      },
+    },
     figma: {
       pageId: '5246:38377',
       componentId: '5246:38437',
@@ -41,19 +51,19 @@ const meta = {
 export default meta;
 type Story = StoryObj<typeof meta>;
 
-export const Property1Column: Story = { 
+export const Property1Column: Story = {
   args: {
     Property1: 'Column',
   },
 };
 
-export const Property1Heigh: Story = { 
+export const Property1Heigh: Story = {
   args: {
     Property1: 'Heigh',
   },
 };
 
-export const Property1Depth: Story = { 
+export const Property1Depth: Story = {
   args: {
     Property1: 'Depth',
   },

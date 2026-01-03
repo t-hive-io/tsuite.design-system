@@ -2,7 +2,11 @@ import type { Meta, StoryObj } from '@storybook/react';
 import Sizevertical from '../../assets/icons/Sizevertical--1081-6483.svg?react';
 import Sizehorizontal from '../../assets/icons/Sizehorizontal--1125-9012.svg?react';
 
-const Divider = ({ Size = 'Vertical' }: { Size?: 'Vertical' | 'Horizontal' }) => {
+const Divider = ({
+  Size = 'Vertical',
+}: {
+  Size?: 'Vertical' | 'Horizontal';
+}) => {
   return Size === 'Horizontal' ? <Sizehorizontal /> : <Sizevertical />;
 };
 
@@ -11,6 +15,12 @@ const meta = {
   component: Divider,
   parameters: {
     layout: 'centered',
+    docs: {
+      description: {
+        component:
+          '⚠️ **Figma Description Missing** - Please add a description in Figma for this component.',
+      },
+    },
     figma: {
       pageId: '5182:37137',
       componentId: '1573:9990',

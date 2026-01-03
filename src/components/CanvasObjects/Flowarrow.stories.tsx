@@ -4,11 +4,15 @@ import Property1abcd31319503 from '../../assets/icons/Property1abcd--3131-9503.s
 import Property1default30852638 from '../../assets/icons/Property1default--3085-2638.svg?react';
 import Property1red30932815 from '../../assets/icons/Property1red--3093-2815.svg?react';
 
-const Flowarrow = ({ Property1 }: {
-  Property1?: 'Default' | 'Red' | 'AB' | 'ABCD';
-} = {
-    Property1: 'Default'
-  }) => {
+const Flowarrow = (
+  {
+    Property1,
+  }: {
+    Property1?: 'Default' | 'Red' | 'AB' | 'ABCD';
+  } = {
+    Property1: 'Default',
+  }
+) => {
   if (Property1 === 'Default') return <Property1default30852638 />;
   if (Property1 === 'Red') return <Property1red30932815 />;
   if (Property1 === 'AB') return <Property1ab31319501 />;
@@ -21,6 +25,12 @@ const meta = {
   component: Flowarrow,
   parameters: {
     layout: 'centered',
+    docs: {
+      description: {
+        component:
+          '⚠️ **Figma Description Missing** - Please add a description in Figma for this component.',
+      },
+    },
     figma: {
       pageId: '5170:45525',
       componentId: '3093:2814',
@@ -43,25 +53,25 @@ const meta = {
 export default meta;
 type Story = StoryObj<typeof meta>;
 
-export const Property1Default: Story = { 
+export const Property1Default: Story = {
   args: {
     Property1: 'Default',
   },
 };
 
-export const Property1Red: Story = { 
+export const Property1Red: Story = {
   args: {
     Property1: 'Red',
   },
 };
 
-export const Property1AB: Story = { 
+export const Property1AB: Story = {
   args: {
     Property1: 'AB',
   },
 };
 
-export const Property1ABCD: Story = { 
+export const Property1ABCD: Story = {
   args: {
     Property1: 'ABCD',
   },

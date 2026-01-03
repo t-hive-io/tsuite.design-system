@@ -1,11 +1,7 @@
 import type { Meta, StoryObj } from '@storybook/react';
 import Property1default29651128 from '../../assets/icons/Property1default--2965-1128.svg?react';
 
-const Layergroupsection = ({ Property1 }: {
-  Property1?: 'Default';
-} = {
-    Property1: 'Default'
-  }) => {
+const Layergroupsection = () => {
   return <Property1default29651128 />;
 };
 
@@ -14,6 +10,12 @@ const meta = {
   component: Layergroupsection,
   parameters: {
     layout: 'centered',
+    docs: {
+      description: {
+        component:
+          '⚠️ **Figma Description Missing** - Please add a description in Figma for this component.',
+      },
+    },
     figma: {
       pageId: '5200:798',
       componentId: '3222:148974',
@@ -36,7 +38,7 @@ const meta = {
 export default meta;
 type Story = StoryObj<typeof meta>;
 
-export const Property1Default: Story = { 
+export const Property1Default: Story = {
   args: {
     Property1: 'Default',
   },

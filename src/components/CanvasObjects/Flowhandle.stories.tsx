@@ -3,11 +3,15 @@ import Statedefault18108562 from '../../assets/icons/Statedefault--1810-8562.svg
 import Statefill18168414 from '../../assets/icons/Statefill--1816-8414.svg?react';
 import Statehover18108558 from '../../assets/icons/Statehover--1810-8558.svg?react';
 
-const Flowhandle = ({ State }: {
-  State?: 'Default' | 'Hover' | 'Fill';
-} = {
-    State: 'Hover'
-  }) => {
+const Flowhandle = (
+  {
+    State,
+  }: {
+    State?: 'Default' | 'Hover' | 'Fill';
+  } = {
+    State: 'Hover',
+  }
+) => {
   if (State === 'Default') return <Statedefault18108562 />;
   if (State === 'Hover') return <Statehover18108558 />;
   if (State === 'Fill') return <Statefill18168414 />;
@@ -19,6 +23,12 @@ const meta = {
   component: Flowhandle,
   parameters: {
     layout: 'centered',
+    docs: {
+      description: {
+        component:
+          '⚠️ **Figma Description Missing** - Please add a description in Figma for this component.',
+      },
+    },
     figma: {
       pageId: '5170:45525',
       componentId: '1810:8563',
@@ -41,19 +51,19 @@ const meta = {
 export default meta;
 type Story = StoryObj<typeof meta>;
 
-export const StateDefault: Story = { 
+export const StateDefault: Story = {
   args: {
     State: 'Default',
   },
 };
 
-export const StateHover: Story = { 
+export const StateHover: Story = {
   args: {
     State: 'Hover',
   },
 };
 
-export const StateFill: Story = { 
+export const StateFill: Story = {
   args: {
     State: 'Fill',
   },

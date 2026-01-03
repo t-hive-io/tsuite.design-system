@@ -2,11 +2,15 @@ import type { Meta, StoryObj } from '@storybook/react';
 import Property1default300312697 from '../../assets/icons/Property1default--3003-12697.svg?react';
 import Property1hover300312699 from '../../assets/icons/Property1hover--3003-12699.svg?react';
 
-const Bars = ({ Property1 }: {
-  Property1?: 'Default' | 'Hover';
-} = {
-    Property1: 'Default'
-  }) => {
+const Bars = (
+  {
+    Property1,
+  }: {
+    Property1?: 'Default' | 'Hover';
+  } = {
+    Property1: 'Default',
+  }
+) => {
   if (Property1 === 'Default') return <Property1default300312697 />;
   if (Property1 === 'Hover') return <Property1hover300312699 />;
   return <Property1default300312697 />;
@@ -17,6 +21,12 @@ const meta = {
   component: Bars,
   parameters: {
     layout: 'centered',
+    docs: {
+      description: {
+        component:
+          '⚠️ **Figma Description Missing** - Please add a description in Figma for this component.',
+      },
+    },
     figma: {
       pageId: '5236:21016',
       componentId: '3003:12698',
@@ -39,13 +49,13 @@ const meta = {
 export default meta;
 type Story = StoryObj<typeof meta>;
 
-export const Property1Default: Story = { 
+export const Property1Default: Story = {
   args: {
     Property1: 'Default',
   },
 };
 
-export const Property1Hover: Story = { 
+export const Property1Hover: Story = {
   args: {
     Property1: 'Hover',
   },

@@ -2,21 +2,32 @@ import type { Meta, StoryObj } from '@storybook/react';
 import Property1loadcarriers31801692 from '../../assets/icons/Property1loadcarriers--3180-1692.svg?react';
 import Property1vehicles31801490 from '../../assets/icons/Property1vehicles--3180-1490.svg?react';
 
-const Selectvehiclesloadcarrier = ({ Property1 }: {
-  Property1?: 'Vehicles' | 'Load carriers';
-} = {
-    Property1: 'Vehicles'
-  }) => {
+const Selectvehiclesloadcarrier = (
+  {
+    Property1,
+  }: {
+    Property1?: 'Vehicles' | 'Load carriers';
+  } = {
+    Property1: 'Vehicles',
+  }
+) => {
   if (Property1 === 'Vehicles') return <Property1vehicles31801490 />;
   if (Property1 === 'Load carriers') return <Property1loadcarriers31801692 />;
   return <Property1loadcarriers31801692 />;
 };
 
 const meta = {
-  title: '3. Component Category Pages/Large Components/Select vehicles/load carrier',
+  title:
+    '3. Component Category Pages/Large Components/Select vehicles/load carrier',
   component: Selectvehiclesloadcarrier,
   parameters: {
     layout: 'centered',
+    docs: {
+      description: {
+        component:
+          '⚠️ **Figma Description Missing** - Please add a description in Figma for this component.',
+      },
+    },
     figma: {
       pageId: '5193:39157',
       componentId: '3180:1491',
@@ -39,13 +50,13 @@ const meta = {
 export default meta;
 type Story = StoryObj<typeof meta>;
 
-export const Property1Vehicles: Story = { 
+export const Property1Vehicles: Story = {
   args: {
     Property1: 'Vehicles',
   },
 };
 
-export const Property1Loadcarriers: Story = { 
+export const Property1Loadcarriers: Story = {
   args: {
     Property1: 'Load carriers',
   },

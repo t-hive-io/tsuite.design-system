@@ -3,13 +3,16 @@ import Labelsizeimagesmall15519378 from '../../assets/icons/Labelsizeimagesmall-
 import Labelsizelarge11259810 from '../../assets/icons/Labelsizelarge--1125-9810.svg?react';
 import Labelsizemedium16358251 from '../../assets/icons/Labelsizemedium--1635-8251.svg?react';
 import Labelsizeregular11259808 from '../../assets/icons/Labelsizeregular--1125-9808.svg?react';
-import Labelsizesmall11258920 from '../../assets/icons/Labelsizesmall--1125-8920.svg?react';
 
-const PropertiesLabel = ({ Labelsize }: {
-  Labelsize?: 'Small' | 'Regular' | 'Large' | 'Image + Small' | 'Medium';
-} = {
-    Labelsize: 'Small'
-  }) => {
+const PropertiesLabel = (
+  {
+    Labelsize,
+  }: {
+    Labelsize?: 'Small' | 'Regular' | 'Large' | 'Image + Small' | 'Medium';
+  } = {
+    Labelsize: 'Small',
+  }
+) => {
   if (Labelsize === 'Small') return <Labelsizeimagesmall15519378 />;
   if (Labelsize === 'Regular') return <Labelsizeregular11259808 />;
   if (Labelsize === 'Large') return <Labelsizelarge11259810 />;
@@ -23,6 +26,12 @@ const meta = {
   component: PropertiesLabel,
   parameters: {
     layout: 'centered',
+    docs: {
+      description: {
+        component:
+          '⚠️ **Figma Description Missing** - Please add a description in Figma for this component.',
+      },
+    },
     figma: {
       pageId: '5236:21016',
       componentId: '1125:9807',
@@ -45,25 +54,25 @@ const meta = {
 export default meta;
 type Story = StoryObj<typeof meta>;
 
-export const LabelsizeSmall: Story = { 
+export const LabelsizeSmall: Story = {
   args: {
     Labelsize: 'Small',
   },
 };
 
-export const LabelsizeRegular: Story = { 
+export const LabelsizeRegular: Story = {
   args: {
     Labelsize: 'Regular',
   },
 };
 
-export const LabelsizeLarge: Story = { 
+export const LabelsizeLarge: Story = {
   args: {
     Labelsize: 'Large',
   },
 };
 
-export const LabelsizeImageSmall: Story = { 
+export const LabelsizeImageSmall: Story = {
   args: {
     Labelsize: 'Image + Small',
   },

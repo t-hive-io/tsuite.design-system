@@ -3,11 +3,15 @@ import Statechecked17548348 from '../../assets/icons/Statechecked--1754-8348.svg
 import Statenotallchecked17548346 from '../../assets/icons/Statenotallchecked--1754-8346.svg?react';
 import Stateunchecked17548347 from '../../assets/icons/Stateunchecked--1754-8347.svg?react';
 
-const Checkbox = ({ State }: {
-  State?: 'Checked' | 'Unchecked' | 'Not all checked';
-} = {
-    State: 'Checked'
-  }) => {
+const Checkbox = (
+  {
+    State,
+  }: {
+    State?: 'Checked' | 'Unchecked' | 'Not all checked';
+  } = {
+    State: 'Checked',
+  }
+) => {
   if (State === 'Checked') return <Statechecked17548348 />;
   if (State === 'Unchecked') return <Stateunchecked17548347 />;
   if (State === 'Not all checked') return <Statenotallchecked17548346 />;
@@ -19,6 +23,12 @@ const meta = {
   component: Checkbox,
   parameters: {
     layout: 'centered',
+    docs: {
+      description: {
+        component:
+          '⚠️ **Figma Description Missing** - Please add a description in Figma for this component.',
+      },
+    },
     figma: {
       pageId: '5172:38133',
       componentId: '1754:8350',
@@ -41,19 +51,19 @@ const meta = {
 export default meta;
 type Story = StoryObj<typeof meta>;
 
-export const StateChecked: Story = { 
+export const StateChecked: Story = {
   args: {
     State: 'Checked',
   },
 };
 
-export const StateUnchecked: Story = { 
+export const StateUnchecked: Story = {
   args: {
     State: 'Unchecked',
   },
 };
 
-export const StateNotallchecked: Story = { 
+export const StateNotallchecked: Story = {
   args: {
     State: 'Not all checked',
   },
