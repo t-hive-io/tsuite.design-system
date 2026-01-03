@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm run build-storybook:*)",
+      "Bash(npm run format:check:*)",
+      "Bash(node scripts/get-component-properties.js:*)",
+      "Bash(cat:*)",
+      "Bash(for dir in src/components/*/)",
+      "Bash(ls:*)",
+      "Bash(xargs:*)"
+    ]
+  }
+}

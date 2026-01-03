@@ -24,28 +24,88 @@ import Stateresizetypeparking21368679 from '../../assets/icons/Stateresizetypepa
 import Stateresizetypeprocess21339092 from '../../assets/icons/Stateresizetypeprocess--2133-9092.svg?react';
 import Stateresizetypestorage213310448 from '../../assets/icons/Stateresizetypestorage--2133-10448.svg?react';
 
-const Area = ({ State, Type }: {
-  State?: 'Flow' | 'Default' | 'Resize' | 'Defaul';
-  Type?: 'Process' | 'Delivery' | 'Intake' | 'Storage' | 'Charging' | 'Parking' | 'Hand-over' | 'Small' | 'Exit Entry' | 'Manual process area';
-} = {
+const Area = (
+  {
+    State,
+    Type,
+  }: {
+    State?: 'Flow' | 'Default' | 'Resize' | 'Defaul';
+    Type?:
+      | 'Process'
+      | 'Delivery'
+      | 'Intake'
+      | 'Storage'
+      | 'Charging'
+      | 'Parking'
+      | 'Hand-over'
+      | 'Small'
+      | 'Exit Entry'
+      | 'Manual process area';
+  } = {
     State: 'Default',
-    Type: 'Process'
-  }) => {
-  if (State === 'Flow') return <Stateflowtypecharging21368509 />;
-  if (State === 'Default') return <Statedefaulttypecharging21368497 />;
-  if (State === 'Resize') return <Stateresizetypecharging21368500 />;
-  if (State === 'Defaul') return <Statedefaulttypecharging21368497 />;
-  if (Type === 'Process') return <Statedefaulttypemanualprocessarea536037523 />;
-  if (Type === 'Delivery') return <Statedefaulttypedelivery21339740 />;
-  if (Type === 'Intake') return <Statedefaulttypeintake213310000 />;
-  if (Type === 'Storage') return <Statedefaulttypestorage213310445 />;
-  if (Type === 'Charging') return <Statedefaulttypecharging21368497 />;
-  if (Type === 'Parking') return <Statedefaulttypeparking21368676 />;
-  if (Type === 'Hand-over') return <StatedefaulttypehandOver394532726 />;
-  if (Type === 'Small') return <Statedefaulttypesmall440638597 />;
-  if (Type === 'Exit Entry') return <Statedefaultypeexitentry530232167 />;
-  if (Type === 'Manual process area') return <Statedefaulttypemanualprocessarea536037523 />;
-  return <Statedefaulttypecharging21368497 />;
+    Type: 'Process',
+  }
+) => {
+  // Default State combinations
+  if (State === 'Default' && Type === 'Process')
+    return <Statedefaulttypeprocess21339571 />;
+  if (State === 'Default' && Type === 'Hand-over')
+    return <StatedefaulttypehandOver394532726 />;
+  if (State === 'Default' && Type === 'Delivery')
+    return <Statedefaulttypedelivery21339740 />;
+  if (State === 'Default' && Type === 'Intake')
+    return <Statedefaulttypeintake213310000 />;
+  if (State === 'Default' && Type === 'Storage')
+    return <Statedefaulttypestorage213310445 />;
+  if (State === 'Default' && Type === 'Charging')
+    return <Statedefaulttypecharging21368497 />;
+  if (State === 'Default' && Type === 'Parking')
+    return <Statedefaulttypeparking21368676 />;
+  if (State === 'Default' && Type === 'Small')
+    return <Statedefaulttypesmall440638597 />;
+  if (State === 'Default' && Type === 'Exit Entry')
+    return <Statedefaultypeexitentry530232167 />;
+  if (State === 'Default' && Type === 'Manual process area')
+    return <Statedefaulttypemanualprocessarea536037523 />;
+
+  // Flow State combinations
+  if (State === 'Flow' && Type === 'Process')
+    return <Stateflowtypeprocess21328889 />;
+  if (State === 'Flow' && Type === 'Hand-over')
+    return <StateflowtypehandOver394532753 />;
+  if (State === 'Flow' && Type === 'Delivery')
+    return <Stateflowtypedelivery21339752 />;
+  if (State === 'Flow' && Type === 'Intake')
+    return <Stateflowtypeintake213310012 />;
+  if (State === 'Flow' && Type === 'Storage')
+    return <Stateflowtypestorage213310457 />;
+  if (State === 'Flow' && Type === 'Charging')
+    return <Stateflowtypecharging21368509 />;
+  if (State === 'Flow' && Type === 'Parking')
+    return <Stateflowtypeparking21368688 />;
+
+  // Resize State combinations
+  if (State === 'Resize' && Type === 'Process')
+    return <Stateresizetypeprocess21339092 />;
+  if (State === 'Resize' && Type === 'Hand-over')
+    return <StateresizetypehandOver394532791 />;
+  if (State === 'Resize' && Type === 'Delivery')
+    return <Stateresizetypedelivery21339743 />;
+  if (State === 'Resize' && Type === 'Intake')
+    return <Stateresizetypeintake213310003 />;
+  if (State === 'Resize' && Type === 'Storage')
+    return <Stateresizetypestorage213310448 />;
+  if (State === 'Resize' && Type === 'Charging')
+    return <Stateresizetypecharging21368500 />;
+  if (State === 'Resize' && Type === 'Parking')
+    return <Stateresizetypeparking21368679 />;
+
+  // Defaul State (typo in Figma) - Exit Entry
+  if (State === 'Defaul' && Type === 'Exit Entry')
+    return <Statedefaultypeexitentry530232167 />;
+
+  // Default fallback
+  return <Statedefaulttypeprocess21339571 />;
 };
 
 const meta = {
@@ -63,12 +123,23 @@ const meta = {
   argTypes: {
     State: {
       control: 'select',
-      options: ['Flow', 'Default', 'Resize', 'Defaul'],
+      options: ['Default', 'Flow', 'Resize', 'Defaul'],
       description: 'Matches Figma "State" property',
     },
     Type: {
       control: 'select',
-      options: ['Process', 'Delivery', 'Intake', 'Storage', 'Charging', 'Parking', 'Hand-over', 'Small', 'Exit Entry', 'Manual process area'],
+      options: [
+        'Process',
+        'Delivery',
+        'Intake',
+        'Storage',
+        'Charging',
+        'Parking',
+        'Hand-over',
+        'Small',
+        'Exit Entry',
+        'Manual process area',
+      ],
       description: 'Matches Figma "Type" property',
     },
   },
@@ -81,38 +152,32 @@ const meta = {
 export default meta;
 type Story = StoryObj<typeof meta>;
 
-export const StateFlow: Story = { 
-  args: {
-    State: 'Flow',
-  },
+export const Default: Story = {};
+
+export const DefaultProcess: Story = {
+  args: { State: 'Default', Type: 'Process' },
 };
 
-export const StateDefault: Story = { 
-  args: {
-    State: 'Default',
-  },
+export const DefaultDelivery: Story = {
+  args: { State: 'Default', Type: 'Delivery' },
 };
 
-export const StateResize: Story = { 
-  args: {
-    State: 'Resize',
-  },
+export const DefaultStorage: Story = {
+  args: { State: 'Default', Type: 'Storage' },
 };
 
-export const StateDefaul: Story = { 
-  args: {
-    State: 'Defaul',
-  },
+export const FlowProcess: Story = {
+  args: { State: 'Flow', Type: 'Process' },
 };
 
-export const TypeProcess: Story = { 
-  args: {
-    Type: 'Process',
-  },
+export const FlowDelivery: Story = {
+  args: { State: 'Flow', Type: 'Delivery' },
 };
 
-export const TypeDelivery: Story = { 
-  args: {
-    Type: 'Delivery',
-  },
+export const ResizeProcess: Story = {
+  args: { State: 'Resize', Type: 'Process' },
+};
+
+export const ManualProcessArea: Story = {
+  args: { State: 'Default', Type: 'Manual process area' },
 };

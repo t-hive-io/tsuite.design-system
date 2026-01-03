@@ -7,20 +7,41 @@ import Statuscompletestatehover12968113 from '../../assets/icons/Statuscompletes
 import Statusdefaultstatedefault15509602 from '../../assets/icons/Statusdefaultstatedefault--1550-9602.svg?react';
 import Statusorderprofilestatedefault30962480 from '../../assets/icons/Statusorderprofilestatedefault--3096-2480.svg?react';
 
-const Simulationcard = ({ Status, State }: {
-  Status?: 'Active' | 'Default' | 'Complete' | 'Order profile';
-  State?: 'Default' | 'Hover' | 'Draft';
-} = {
+const Simulationcard = (
+  {
+    Status,
+    State,
+  }: {
+    Status?: 'Active' | 'Default' | 'Complete' | 'Order profile';
+    State?: 'Default' | 'Hover' | 'Draft';
+  } = {
     Status: 'Active',
-    State: 'Draft'
-  }) => {
-  if (Status === 'Active') return <Statusactivestatedefault12898358 />;
-  if (Status === 'Default') return <Statusactivestatedefault12898358 />;
-  if (Status === 'Complete') return <Statuscompletestatedefault20337919 />;
-  if (Status === 'Order profile') return <Statusorderprofilestatedefault30962480 />;
-  if (State === 'Default') return <Statusactivestatedefault12898358 />;
-  if (State === 'Hover') return <Statusactivestatehover12968130 />;
-  if (State === 'Draft') return <Statusactivestatedraft12898366 />;
+    State: 'Default',
+  }
+) => {
+  // Active status combinations
+  if (Status === 'Active' && State === 'Default')
+    return <Statusactivestatedefault12898358 />;
+  if (Status === 'Active' && State === 'Hover')
+    return <Statusactivestatehover12968130 />;
+  if (Status === 'Active' && State === 'Draft')
+    return <Statusactivestatedraft12898366 />;
+
+  // Complete status combinations
+  if (Status === 'Complete' && State === 'Default')
+    return <Statuscompletestatedefault20337919 />;
+  if (Status === 'Complete' && State === 'Hover')
+    return <Statuscompletestatehover12968113 />;
+
+  // Order profile status
+  if (Status === 'Order profile' && State === 'Default')
+    return <Statusorderprofilestatedefault30962480 />;
+
+  // Default status
+  if (Status === 'Default' && State === 'Default')
+    return <Statusdefaultstatedefault15509602 />;
+
+  // Default fallback
   return <Statusactivestatedefault12898358 />;
 };
 
@@ -50,45 +71,39 @@ const meta = {
   },
   args: {
     Status: 'Active',
-    State: 'Draft',
+    State: 'Default',
   },
 } satisfies Meta<typeof Simulationcard>;
 
 export default meta;
 type Story = StoryObj<typeof meta>;
 
-export const StatusActive: Story = { 
-  args: {
-    Status: 'Active',
-  },
+export const Default: Story = {};
+
+export const ActiveDefault: Story = {
+  args: { Status: 'Active', State: 'Default' },
 };
 
-export const StatusDefault: Story = { 
-  args: {
-    Status: 'Default',
-  },
+export const ActiveHover: Story = {
+  args: { Status: 'Active', State: 'Hover' },
 };
 
-export const StatusComplete: Story = { 
-  args: {
-    Status: 'Complete',
-  },
+export const ActiveDraft: Story = {
+  args: { Status: 'Active', State: 'Draft' },
 };
 
-export const StatusOrderprofile: Story = { 
-  args: {
-    Status: 'Order profile',
-  },
+export const CompleteDefault: Story = {
+  args: { Status: 'Complete', State: 'Default' },
 };
 
-export const StateDefault: Story = { 
-  args: {
-    State: 'Default',
-  },
+export const CompleteHover: Story = {
+  args: { Status: 'Complete', State: 'Hover' },
 };
 
-export const StateHover: Story = { 
-  args: {
-    State: 'Hover',
-  },
+export const OrderProfile: Story = {
+  args: { Status: 'Order profile', State: 'Default' },
+};
+
+export const DefaultState: Story = {
+  args: { Status: 'Default', State: 'Default' },
 };
