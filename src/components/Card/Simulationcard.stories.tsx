@@ -50,6 +50,12 @@ const meta = {
   component: Simulationcard,
   parameters: {
     layout: 'centered',
+    docs: {
+      description: {
+        component:
+          '⚠️ **Figma Description Missing** - Please add a description in Figma for this component.',
+      },
+    },
     figma: {
       pageId: '5171:45784',
       componentId: '1289:8365',

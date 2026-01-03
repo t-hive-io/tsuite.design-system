@@ -113,6 +113,12 @@ const meta = {
   component: Area,
   parameters: {
     layout: 'centered',
+    docs: {
+      description: {
+        component:
+          '⚠️ **Figma Description Missing** - Please add a description in Figma for this component.',
+      },
+    },
     figma: {
       pageId: '5170:45525',
       componentId: '1843:8669',

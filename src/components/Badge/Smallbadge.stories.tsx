@@ -26,6 +26,12 @@ const meta = {
   component: Smallbadge,
   parameters: {
     layout: 'centered',
+    docs: {
+      description: {
+        component:
+          '⚠️ **Figma Description Missing** - Please add a description in Figma for this component.',
+      },
+    },
     figma: {
       pageId: '5168:44095',
       componentId: '1570:9638',
