@@ -2,11 +2,15 @@ import type { Meta, StoryObj } from '@storybook/react';
 import Property1commissioning315811142 from '../../assets/icons/Property1commissioning--3158-11142.svg?react';
 import Property1default31588968 from '../../assets/icons/Property1default--3158-8968.svg?react';
 
-const Listsection = ({ Property1 }: {
-  Property1?: 'Commissioning' | 'Default';
-} = {
-    Property1: 'Default'
-  }) => {
+const Listsection = (
+  {
+    Property1,
+  }: {
+    Property1?: 'Commissioning' | 'Default';
+  } = {
+    Property1: 'Default',
+  }
+) => {
   if (Property1 === 'Commissioning') return <Property1commissioning315811142 />;
   if (Property1 === 'Default') return <Property1default31588968 />;
   return <Property1commissioning315811142 />;
@@ -17,6 +21,12 @@ const meta = {
   component: Listsection,
   parameters: {
     layout: 'centered',
+    docs: {
+      description: {
+        component:
+          '⚠️ **Figma Description Missing** - Please add a description in Figma for this component.',
+      },
+    },
     figma: {
       pageId: '5194:45461',
       componentId: '3158:11328',
@@ -39,13 +49,13 @@ const meta = {
 export default meta;
 type Story = StoryObj<typeof meta>;
 
-export const Property1Commissioning: Story = { 
+export const Property1Commissioning: Story = {
   args: {
     Property1: 'Commissioning',
   },
 };
 
-export const Property1Default: Story = { 
+export const Property1Default: Story = {
   args: {
     Property1: 'Default',
   },

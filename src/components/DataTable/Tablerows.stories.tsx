@@ -4,21 +4,34 @@ import Typerowtagselecteddefault315810488 from '../../assets/icons/Typerowtagsel
 import Typetablerowselectedfalse17598339 from '../../assets/icons/Typetablerowselectedfalse--1759-8339.svg?react';
 import Typetablerowselectedtrue17598346 from '../../assets/icons/Typetablerowselectedtrue--1759-8346.svg?react';
 
-const Tablerows = ({ Type, Selected }: {
-  Type?: 'Table row' | 'Rows with tag' | 'Row tag';
-  Selected?: 'False' | 'True' | 'Default' | 'Selected';
-} = {
+const Tablerows = (
+  {
+    Type,
+    Selected,
+  }: {
+    Type?: 'Table row' | 'Rows with tag' | 'Row tag';
+    Selected?: 'False' | 'True' | 'Default' | 'Selected';
+  } = {
     Type: 'Table row',
-    Selected: 'False'
-  }) => {
-  if (Type === 'Table row') return <Typetablerowselectedfalse17598339 />;
-  if (Type === 'Rows with tag') return <Typerowswithtagselectedselected315810505 />;
-  if (Type === 'Row tag') return <Typerowtagselecteddefault315810488 />;
-  if (Selected === 'False') return <Typetablerowselectedfalse17598339 />;
-  if (Selected === 'True') return <Typetablerowselectedtrue17598346 />;
-  if (Selected === 'Default') return <Typerowtagselecteddefault315810488 />;
-  if (Selected === 'Selected') return <Typerowswithtagselectedselected315810505 />;
-  return <Typerowswithtagselectedselected315810505 />;
+    Selected: 'False',
+  }
+) => {
+  // Table row type combinations
+  if (Type === 'Table row' && Selected === 'False')
+    return <Typetablerowselectedfalse17598339 />;
+  if (Type === 'Table row' && Selected === 'True')
+    return <Typetablerowselectedtrue17598346 />;
+
+  // Row tag type
+  if (Type === 'Row tag' && Selected === 'Default')
+    return <Typerowtagselecteddefault315810488 />;
+
+  // Rows with tag type
+  if (Type === 'Rows with tag' && Selected === 'Selected')
+    return <Typerowswithtagselectedselected315810505 />;
+
+  // Default fallback
+  return <Typetablerowselectedfalse17598339 />;
 };
 
 const meta = {
@@ -26,6 +39,12 @@ const meta = {
   component: Tablerows,
   parameters: {
     layout: 'centered',
+    docs: {
+      description: {
+        component:
+          '⚠️ **Figma Description Missing** - Please add a description in Figma for this component.',
+      },
+    },
     figma: {
       pageId: '5194:45461',
       componentId: '1759:8338',
@@ -54,38 +73,23 @@ const meta = {
 export default meta;
 type Story = StoryObj<typeof meta>;
 
-export const TypeTablerow: Story = { 
-  args: {
-    Type: 'Table row',
-  },
+export const Default: Story = {};
+
+// Table row type
+export const TableRowUnselected: Story = {
+  args: { Type: 'Table row', Selected: 'False' },
 };
 
-export const TypeRowswithtag: Story = { 
-  args: {
-    Type: 'Rows with tag',
-  },
+export const TableRowSelected: Story = {
+  args: { Type: 'Table row', Selected: 'True' },
 };
 
-export const TypeRowtag: Story = { 
-  args: {
-    Type: 'Row tag',
-  },
+// Row tag type
+export const RowTag: Story = {
+  args: { Type: 'Row tag', Selected: 'Default' },
 };
 
-export const SelectedFalse: Story = { 
-  args: {
-    Selected: 'False',
-  },
-};
-
-export const SelectedTrue: Story = { 
-  args: {
-    Selected: 'True',
-  },
-};
-
-export const SelectedDefault: Story = { 
-  args: {
-    Selected: 'Default',
-  },
+// Rows with tag type
+export const RowsWithTag: Story = {
+  args: { Type: 'Rows with tag', Selected: 'Selected' },
 };
