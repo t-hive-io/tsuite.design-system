@@ -1,0 +1,17 @@
+import{j as t}from"./jsx-runtime-DHuurbBU.js";import{r}from"./index-uubelm5h.js";const c=e=>r.createElement("svg",{width:24,height:24,viewBox:"0 0 24 24",fill:"none",xmlns:"http://www.w3.org/2000/svg",...e},r.createElement("path",{d:"M5 19.9999V9.4999L12 4.21143L19 9.4999V19.9999H18V9.9999L12 5.46145L6 9.9999V19.9999H5ZM8.5 18.9807H15.5V15.9807H8.5V18.9807ZM8.5 14.9807H15.5V11.9807H8.5V14.9807ZM7.5 19.9807V10.9807H16.5V19.9807H7.5Z",fill:"#B3B3B3"})),v=e=>r.createElement("svg",{width:24,height:24,viewBox:"0 0 24 24",fill:"none",xmlns:"http://www.w3.org/2000/svg",...e},r.createElement("path",{d:"M5 19.9999V9.4999L12 4.21143L19 9.4999V19.9999H18V9.9999L12 5.46145L6 9.9999V19.9999H5ZM8.5 18.9807H15.5V15.9807H8.5V18.9807ZM8.5 14.9807H15.5V11.9807H8.5V14.9807ZM7.5 19.9807V10.9807H16.5V19.9807H7.5Z",fill:"#222222"})),P=e=>r.createElement("svg",{width:24,height:24,viewBox:"0 0 24 24",fill:"none",xmlns:"http://www.w3.org/2000/svg",...e},r.createElement("rect",{width:24,height:24,rx:2,fill:"#FDE2F3"}),r.createElement("path",{d:"M5 19.9999V9.4999L12 4.21143L19 9.4999V19.9999H18V9.9999L12 5.46145L6 9.9999V19.9999H5ZM8.5 18.9807H15.5V15.9807H8.5V18.9807ZM8.5 14.9807H15.5V11.9807H8.5V14.9807ZM7.5 19.9807V10.9807H16.5V19.9807H7.5Z",fill:"#F325A7"})),E=e=>r.createElement("svg",{width:24,height:24,viewBox:"0 0 24 24",fill:"none",xmlns:"http://www.w3.org/2000/svg",...e},r.createElement("rect",{width:24,height:24,rx:2,fill:"#F7F7F7"}),r.createElement("path",{d:"M5 19.9999V9.4999L12 4.21143L19 9.4999V19.9999H18V9.9999L12 5.46145L6 9.9999V19.9999H5ZM8.5 18.9807H15.5V15.9807H8.5V18.9807ZM8.5 14.9807H15.5V11.9807H8.5V14.9807ZM7.5 19.9807V10.9807H16.5V19.9807H7.5Z",fill:"#222222"})),f=({Property1:e}={Property1:"Enabled"})=>e==="Enabled"?t(v,{}):e==="Hovered"?t(E,{}):e==="Focused"?t(P,{}):e==="Disable"?t(c,{}):t(c,{}),F={title:"3. Component Category Pages/Icon/garage_home",component:f,parameters:{layout:"centered",docs:{description:{component:"⚠️ **Figma Description Missing** - Please add a description in Figma for this component."}},figma:{pageId:"5193:37078",componentId:"3838:100635",figmaComponent:"garage_home"}},tags:["autodocs"],argTypes:{Property1:{control:"select",options:["Enabled","Hovered","Focused","Disable"],description:'Matches Figma "Property 1" property'}},args:{Property1:"Enabled"}},o={args:{Property1:"Enabled"}},a={args:{Property1:"Hovered"}},s={args:{Property1:"Focused"}},n={args:{Property1:"Disable"}};var i,p,l;o.parameters={...o.parameters,docs:{...(i=o.parameters)==null?void 0:i.docs,source:{originalSource:`{
+  args: {
+    Property1: 'Enabled'
+  }
+}`,...(l=(p=o.parameters)==null?void 0:p.docs)==null?void 0:l.source}}};var d,g,m;a.parameters={...a.parameters,docs:{...(d=a.parameters)==null?void 0:d.docs,source:{originalSource:`{
+  args: {
+    Property1: 'Hovered'
+  }
+}`,...(m=(g=a.parameters)==null?void 0:g.docs)==null?void 0:m.source}}};var V,H,h;s.parameters={...s.parameters,docs:{...(V=s.parameters)==null?void 0:V.docs,source:{originalSource:`{
+  args: {
+    Property1: 'Focused'
+  }
+}`,...(h=(H=s.parameters)==null?void 0:H.docs)==null?void 0:h.source}}};var u,w,y;n.parameters={...n.parameters,docs:{...(u=n.parameters)==null?void 0:u.docs,source:{originalSource:`{
+  args: {
+    Property1: 'Disable'
+  }
+}`,...(y=(w=n.parameters)==null?void 0:w.docs)==null?void 0:y.source}}};const L=["Property1Enabled","Property1Hovered","Property1Focused","Property1Disable"];export{n as Property1Disable,o as Property1Enabled,s as Property1Focused,a as Property1Hovered,L as __namedExportsOrder,F as default};

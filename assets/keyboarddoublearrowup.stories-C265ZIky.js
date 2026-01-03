@@ -1,0 +1,17 @@
+import{j as t}from"./jsx-runtime-DHuurbBU.js";import{r}from"./index-uubelm5h.js";const c=e=>r.createElement("svg",{width:24,height:24,viewBox:"0 0 24 24",fill:"none",xmlns:"http://www.w3.org/2000/svg",...e},r.createElement("path",{d:"M7.39999 17.7077L6.69229 17L12 11.6923L17.3077 17L16.6 17.7077L12 13.1134L7.39999 17.7077ZM7.39999 11.7077L6.69229 11L12 5.69226L17.3077 11L16.6 11.7077L12 7.11344L7.39999 11.7077Z",fill:"#B3B3B3"})),P=e=>r.createElement("svg",{width:24,height:24,viewBox:"0 0 24 24",fill:"none",xmlns:"http://www.w3.org/2000/svg",...e},r.createElement("path",{d:"M7.39999 17.7077L6.69229 17L12 11.6923L17.3077 17L16.6 17.7077L12 13.1134L7.39999 17.7077ZM7.39999 11.7077L6.69229 11L12 5.69226L17.3077 11L16.6 11.7077L12 7.11344L7.39999 11.7077Z",fill:"#222222"})),b=e=>r.createElement("svg",{width:24,height:24,viewBox:"0 0 24 24",fill:"none",xmlns:"http://www.w3.org/2000/svg",...e},r.createElement("rect",{width:24,height:24,rx:2,fill:"#FDE2F3"}),r.createElement("path",{d:"M7.39999 17.7077L6.69229 17L12 11.6923L17.3077 17L16.6 17.7077L12 13.1134L7.39999 17.7077ZM7.39999 11.7077L6.69229 11L12 5.69226L17.3077 11L16.6 11.7077L12 7.11344L7.39999 11.7077Z",fill:"#F325A7"})),E=e=>r.createElement("svg",{width:24,height:24,viewBox:"0 0 24 24",fill:"none",xmlns:"http://www.w3.org/2000/svg",...e},r.createElement("rect",{width:24,height:24,rx:2,fill:"#F7F7F7"}),r.createElement("path",{d:"M7.39999 17.7077L6.69229 17L12 11.6923L17.3077 17L16.6 17.7077L12 13.1134L7.39999 17.7077ZM7.39999 11.7077L6.69229 11L12 5.69226L17.3077 11L16.6 11.7077L12 7.11344L7.39999 11.7077Z",fill:"#222222"})),f=({Property1:e}={Property1:"Enabled"})=>e==="Enabled"?t(P,{}):e==="Hovred"?t(E,{}):e==="Focused"?t(b,{}):e==="Disable"?t(c,{}):t(c,{}),M={title:"3. Component Category Pages/Icon/keyboard_double_arrow_up",component:f,parameters:{layout:"centered",docs:{description:{component:"⚠️ **Figma Description Missing** - Please add a description in Figma for this component."}},figma:{pageId:"5193:37078",componentId:"3838:102231",figmaComponent:"keyboard_double_arrow_up"}},tags:["autodocs"],argTypes:{Property1:{control:"select",options:["Enabled","Hovred","Focused","Disable"],description:'Matches Figma "Property 1" property'}},args:{Property1:"Enabled"}},o={args:{Property1:"Enabled"}},a={args:{Property1:"Hovred"}},s={args:{Property1:"Focused"}},n={args:{Property1:"Disable"}};var p,i,d;o.parameters={...o.parameters,docs:{...(p=o.parameters)==null?void 0:p.docs,source:{originalSource:`{
+  args: {
+    Property1: 'Enabled'
+  }
+}`,...(d=(i=o.parameters)==null?void 0:i.docs)==null?void 0:d.source}}};var l,m,L;a.parameters={...a.parameters,docs:{...(l=a.parameters)==null?void 0:l.docs,source:{originalSource:`{
+  args: {
+    Property1: 'Hovred'
+  }
+}`,...(L=(m=a.parameters)==null?void 0:m.docs)==null?void 0:L.source}}};var g,u,w;s.parameters={...s.parameters,docs:{...(g=s.parameters)==null?void 0:g.docs,source:{originalSource:`{
+  args: {
+    Property1: 'Focused'
+  }
+}`,...(w=(u=s.parameters)==null?void 0:u.docs)==null?void 0:w.source}}};var h,y,v;n.parameters={...n.parameters,docs:{...(h=n.parameters)==null?void 0:h.docs,source:{originalSource:`{
+  args: {
+    Property1: 'Disable'
+  }
+}`,...(v=(y=n.parameters)==null?void 0:y.docs)==null?void 0:v.source}}};const D=["Property1Enabled","Property1Hovred","Property1Focused","Property1Disable"];export{n as Property1Disable,o as Property1Enabled,s as Property1Focused,a as Property1Hovred,D as __namedExportsOrder,M as default};
