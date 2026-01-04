@@ -1,0 +1,17 @@
+import{j as t}from"./jsx-runtime-CgAaftbv.js";import{r}from"./iframe-DwqksJCc.js";import"./preload-helper-E_wDBCPD.js";const H=e=>r.createElement("svg",{width:24,height:24,viewBox:"0 0 24 24",fill:"none",xmlns:"http://www.w3.org/2000/svg",...e},r.createElement("path",{d:"M13.5 9V4H20V9H13.5ZM4 12V4H10.5V12H4ZM13.5 20V12H20V20H13.5ZM4 20V15H10.5V20H4ZM5 11H9.5V5H5V11ZM14.5 19H19V13H14.5V19ZM14.5 8H19V5H14.5V8ZM5 19H9.5V16H5V19Z",fill:"#B3B3B3"})),w=e=>r.createElement("svg",{width:24,height:24,viewBox:"0 0 24 24",fill:"none",xmlns:"http://www.w3.org/2000/svg",...e},r.createElement("path",{d:"M13.5 9V4H20V9H13.5ZM4 12V4H10.5V12H4ZM13.5 20V12H20V20H13.5ZM4 20V15H10.5V20H4ZM5 11H9.5V5H5V11ZM14.5 19H19V13H14.5V19ZM14.5 8H19V5H14.5V8ZM5 19H9.5V16H5V19Z",fill:"#222222"})),y=e=>r.createElement("svg",{width:24,height:24,viewBox:"0 0 24 24",fill:"none",xmlns:"http://www.w3.org/2000/svg",...e},r.createElement("rect",{width:24,height:24,rx:2,fill:"#FDE2F3"}),r.createElement("path",{d:"M13.5 9V4H20V9H13.5ZM4 12V4H10.5V12H4ZM13.5 20V12H20V20H13.5ZM4 20V15H10.5V20H4ZM5 11H9.5V5H5V11ZM14.5 19H19V13H14.5V19ZM14.5 8H19V5H14.5V8ZM5 19H9.5V16H5V19Z",fill:"#F325A7"})),v=e=>r.createElement("svg",{width:24,height:24,viewBox:"0 0 24 24",fill:"none",xmlns:"http://www.w3.org/2000/svg",...e},r.createElement("rect",{width:24,height:24,rx:2,fill:"#F7F7F7"}),r.createElement("path",{d:"M13.5 9V4H20V9H13.5ZM4 12V4H10.5V12H4ZM13.5 20V12H20V20H13.5ZM4 20V15H10.5V20H4ZM5 11H9.5V5H5V11ZM14.5 19H19V13H14.5V19ZM14.5 8H19V5H14.5V8ZM5 19H9.5V16H5V19Z",fill:"#222222"})),E=({Property1:e}={Property1:"Enabled"})=>e==="Enabled"?t.jsx(w,{}):e==="Hovred"?t.jsx(v,{}):e==="Focused"?t.jsx(y,{}):e==="Disable"?t.jsx(H,{}):t.jsx(H,{}),b={title:"Components/Icon/dashboard",component:E,parameters:{layout:"centered",docs:{description:{component:"⚠️ **Figma Description Missing** - Please add a description in Figma for this component."}},figma:{pageId:"5193:37078",componentId:"3838:102389",figmaComponent:"dashboard"}},tags:["autodocs"],argTypes:{Property1:{control:"select",options:["Enabled","Hovred","Focused","Disable"],description:'Matches Figma "Property 1" property'}},args:{Property1:"Enabled"}},o={args:{Property1:"Enabled"}},s={args:{Property1:"Hovred"}},a={args:{Property1:"Focused"}},n={args:{Property1:"Disable"}};var c,i,p;o.parameters={...o.parameters,docs:{...(c=o.parameters)==null?void 0:c.docs,source:{originalSource:`{
+  args: {
+    Property1: 'Enabled'
+  }
+}`,...(p=(i=o.parameters)==null?void 0:i.docs)==null?void 0:p.source}}};var V,d,l;s.parameters={...s.parameters,docs:{...(V=s.parameters)==null?void 0:V.docs,source:{originalSource:`{
+  args: {
+    Property1: 'Hovred'
+  }
+}`,...(l=(d=s.parameters)==null?void 0:d.docs)==null?void 0:l.source}}};var m,g,M;a.parameters={...a.parameters,docs:{...(m=a.parameters)==null?void 0:m.docs,source:{originalSource:`{
+  args: {
+    Property1: 'Focused'
+  }
+}`,...(M=(g=a.parameters)==null?void 0:g.docs)==null?void 0:M.source}}};var Z,h,u;n.parameters={...n.parameters,docs:{...(Z=n.parameters)==null?void 0:Z.docs,source:{originalSource:`{
+  args: {
+    Property1: 'Disable'
+  }
+}`,...(u=(h=n.parameters)==null?void 0:h.docs)==null?void 0:u.source}}};const F=["Property1Enabled","Property1Hovred","Property1Focused","Property1Disable"];export{n as Property1Disable,o as Property1Enabled,a as Property1Focused,s as Property1Hovred,F as __namedExportsOrder,b as default};

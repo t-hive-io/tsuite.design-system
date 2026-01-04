@@ -1,0 +1,9 @@
+import{j as s}from"./jsx-runtime-CgAaftbv.js";import{r as e}from"./iframe-DwqksJCc.js";import"./preload-helper-E_wDBCPD.js";const o=t=>e.createElement("svg",{width:296,height:8,viewBox:"0 0 296 8",fill:"none",xmlns:"http://www.w3.org/2000/svg",...t},e.createElement("circle",{cx:4,cy:4,r:3.5,fill:"white",stroke:"#222222"}),e.createElement("rect",{width:280,height:2,transform:"translate(8 3)",fill:"#222222"}),e.createElement("circle",{cx:292,cy:4,r:3.5,fill:"white",stroke:"#222222"})),g=t=>e.createElement("svg",{width:296,height:2,viewBox:"0 0 296 2",fill:"none",xmlns:"http://www.w3.org/2000/svg",...t},e.createElement("rect",{width:296,height:2,fill:"#222222"})),d=({State:t}={State:"Default"})=>t==="Default"?s.jsx(g,{}):t==="Active"?s.jsx(o,{}):s.jsx(o,{}),S={title:"Components/Canvas Objects/Wall",component:d,parameters:{layout:"centered",docs:{description:{component:"⚠️ **Figma Description Missing** - Please add a description in Figma for this component."}},figma:{pageId:"5170:45525",componentId:"2921:1675",figmaComponent:"Wall"}},tags:["autodocs"],argTypes:{State:{control:"select",options:["Default","Active"],description:'Matches Figma "State" property'}},args:{State:"Default"}},a={args:{State:"Default"}},r={args:{State:"Active"}};var c,n,i;a.parameters={...a.parameters,docs:{...(c=a.parameters)==null?void 0:c.docs,source:{originalSource:`{
+  args: {
+    State: 'Default'
+  }
+}`,...(i=(n=a.parameters)==null?void 0:n.docs)==null?void 0:i.source}}};var l,m,p;r.parameters={...r.parameters,docs:{...(l=r.parameters)==null?void 0:l.docs,source:{originalSource:`{
+  args: {
+    State: 'Active'
+  }
+}`,...(p=(m=r.parameters)==null?void 0:m.docs)==null?void 0:p.source}}};const v=["StateDefault","StateActive"];export{r as StateActive,a as StateDefault,v as __namedExportsOrder,S as default};
