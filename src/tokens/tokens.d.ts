@@ -1,10 +1,6 @@
 /**
  * Do not edit directly
-<<<<<<< Updated upstream
- * Generated on Sun, 04 Jan 2026 18:21:49 GMT
-=======
- * Generated on Sun, 04 Jan 2026 20:36:37 GMT
->>>>>>> Stashed changes
+ * Generated on Sun, 04 Jan 2026 20:48:21 GMT
  */
 
 export const ColorsBrandColorBrand700 : string;
