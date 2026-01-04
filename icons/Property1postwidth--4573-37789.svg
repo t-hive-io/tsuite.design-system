@@ -1,18 +1,18 @@
 <svg width="179" height="186" viewBox="0 0 179 186" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M16 2.88675L21 5.7735L21 3.45047e-07L16 2.88675ZM33 2.88675L28 9.21009e-07L28 5.7735L33 2.88675ZM20.5 3.38675L28.5 3.38675L28.5 2.38675L20.5 2.38675L20.5 3.38675Z" fill="#222222"/>
-<path d="M146 2.88675L151 5.7735L151 3.45047e-07L146 2.88675ZM163 2.88675L158 9.21009e-07L158 5.7735L163 2.88675ZM150.5 3.38675L158.5 3.38675L158.5 2.38675L150.5 2.38675L150.5 3.38675Z" fill="#222222"/>
-<rect x="150" y="89.8868" width="4.00001" height="121" transform="rotate(90 150 89.8868)" fill="#99AFFF" stroke="#222222" stroke-width="0.5"/>
-<rect x="37" y="145.887" width="41" height="39" fill="#D9D9D9" stroke="#222222" stroke-width="0.5"/>
-<rect x="101" y="50.8868" width="41" height="39" fill="#D9D9D9" stroke="#222222" stroke-width="0.5"/>
-<rect x="101" y="145.887" width="41" height="39" fill="#D9D9D9" stroke="#222222" stroke-width="0.5"/>
-<rect x="37" y="50.8868" width="41" height="39" fill="#D9D9D9" stroke="#222222" stroke-width="0.5"/>
-<rect x="150" y="16.8868" width="9" height="167" fill="#2D71BA" stroke="#222222" stroke-width="0.5"/>
-<rect x="150" y="182.887" width="9" height="2" fill="#B42318" stroke="#222222" stroke-width="0.5"/>
-<rect x="20" y="16.8868" width="9" height="167" fill="#2D71BA" stroke="#222222" stroke-width="0.5"/>
-<rect x="20" y="182.887" width="9" height="2" fill="#B42318" stroke="#222222" stroke-width="0.5"/>
-<path d="M179 184.887L-8.27558e-06 184.887" stroke="#222222" stroke-width="0.5"/>
-<path d="M20 16.8868L20 8.88675" stroke="#222222" stroke-width="0.5"/>
-<path d="M150 16.8868L150 8.88675" stroke="#222222" stroke-width="0.5"/>
-<path d="M29 16.8868L29 8.88675" stroke="#222222" stroke-width="0.5"/>
-<path d="M159 16.8868L159 8.88675" stroke="#222222" stroke-width="0.5"/>
+<path d="M16 2.88675L21 5.7735L21 3.45047e-07L16 2.88675ZM33 2.88675L28 9.21009e-07L28 5.7735L33 2.88675ZM20.5 3.38675L28.5 3.38675L28.5 2.38675L20.5 2.38675L20.5 3.38675Z" fill="var(--colors-neutral-neutral-800)"/>
+<path d="M146 2.88675L151 5.7735L151 3.45047e-07L146 2.88675ZM163 2.88675L158 9.21009e-07L158 5.7735L163 2.88675ZM150.5 3.38675L158.5 3.38675L158.5 2.38675L150.5 2.38675L150.5 3.38675Z" fill="var(--colors-neutral-neutral-800)"/>
+<rect x="150" y="89.8868" width="4.00001" height="121" transform="rotate(90 150 89.8868)" fill="var(--colors-primary-primary-400)" stroke="var(--colors-neutral-neutral-800)" stroke-width="0.5"/>
+<rect x="37" y="145.887" width="41" height="39" fill="var(--colors-neutral-neutral-500)" stroke="var(--colors-neutral-neutral-800)" stroke-width="0.5"/>
+<rect x="101" y="50.8868" width="41" height="39" fill="var(--colors-neutral-neutral-500)" stroke="var(--colors-neutral-neutral-800)" stroke-width="0.5"/>
+<rect x="101" y="145.887" width="41" height="39" fill="var(--colors-neutral-neutral-500)" stroke="var(--colors-neutral-neutral-800)" stroke-width="0.5"/>
+<rect x="37" y="50.8868" width="41" height="39" fill="var(--colors-neutral-neutral-500)" stroke="var(--colors-neutral-neutral-800)" stroke-width="0.5"/>
+<rect x="150" y="16.8868" width="9" height="167" fill="var(--colors-primary-primary-600)" stroke="var(--colors-neutral-neutral-800)" stroke-width="0.5"/>
+<rect x="150" y="182.887" width="9" height="2" fill="var(--colors-feedback-error-red-300)" stroke="var(--colors-neutral-neutral-800)" stroke-width="0.5"/>
+<rect x="20" y="16.8868" width="9" height="167" fill="var(--colors-primary-primary-600)" stroke="var(--colors-neutral-neutral-800)" stroke-width="0.5"/>
+<rect x="20" y="182.887" width="9" height="2" fill="var(--colors-feedback-error-red-300)" stroke="var(--colors-neutral-neutral-800)" stroke-width="0.5"/>
+<path d="M179 184.887L-8.27558e-06 184.887" stroke="var(--colors-neutral-neutral-800)" stroke-width="0.5"/>
+<path d="M20 16.8868L20 8.88675" stroke="var(--colors-neutral-neutral-800)" stroke-width="0.5"/>
+<path d="M150 16.8868L150 8.88675" stroke="var(--colors-neutral-neutral-800)" stroke-width="0.5"/>
+<path d="M29 16.8868L29 8.88675" stroke="var(--colors-neutral-neutral-800)" stroke-width="0.5"/>
+<path d="M159 16.8868L159 8.88675" stroke="var(--colors-neutral-neutral-800)" stroke-width="0.5"/>
 </svg>

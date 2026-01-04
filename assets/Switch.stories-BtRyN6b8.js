@@ -1,9 +1,0 @@
-import{j as s}from"./jsx-runtime-DqDaIcEx.js";import{r as t}from"./iframe-CANxEUZ8.js";import"./preload-helper-E_wDBCPD.js";const a=e=>t.createElement("svg",{width:40,height:24,viewBox:"0 0 40 24",fill:"none",xmlns:"http://www.w3.org/2000/svg",...e},t.createElement("rect",{x:.5,y:.5,width:39,height:23,rx:11.5,fill:"white"}),t.createElement("rect",{x:.5,y:.5,width:39,height:23,rx:11.5,stroke:"#808080"}),t.createElement("circle",{cx:12,cy:12,r:9,fill:"#808080"})),l=e=>t.createElement("svg",{width:40,height:24,viewBox:"0 0 40 24",fill:"none",xmlns:"http://www.w3.org/2000/svg",...e},t.createElement("rect",{width:40,height:24,rx:12,fill:"#222222"}),t.createElement("circle",{cx:28,cy:12,r:9,fill:"white"})),g=({State:e}={State:"off"})=>e==="off"?s.jsx(a,{}):e==="on"?s.jsx(l,{}):s.jsx(a,{}),S={title:"Components/Switch/Switch",component:g,parameters:{layout:"centered",docs:{description:{component:"⚠️ **Figma Description Missing** - Please add a description in Figma for this component."}},figma:{pageId:"5194:45454",componentId:"1894:8776",figmaComponent:"Switch",url:"https://www.figma.com/design/XKxVlFf9TfWBHosOInkJXA/T-Suite-Design-System?node-id=1894-8776"}},tags:["autodocs"],argTypes:{State:{control:"select",options:["off","on"],description:'Matches Figma "State" property'}},args:{State:"off"}},o={args:{State:"off"}},r={args:{State:"on"}};var n,i,c;o.parameters={...o.parameters,docs:{...(n=o.parameters)==null?void 0:n.docs,source:{originalSource:`{
-  args: {
-    State: 'off'
-  }
-}`,...(c=(i=o.parameters)==null?void 0:i.docs)==null?void 0:c.source}}};var m,f,p;r.parameters={...r.parameters,docs:{...(m=r.parameters)==null?void 0:m.docs,source:{originalSource:`{
-  args: {
-    State: 'on'
-  }
-}`,...(p=(f=r.parameters)==null?void 0:f.docs)==null?void 0:p.source}}};const x=["Stateoff","Stateon"];export{o as Stateoff,r as Stateon,x as __namedExportsOrder,S as default};

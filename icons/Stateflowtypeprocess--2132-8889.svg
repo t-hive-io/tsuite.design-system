@@ -1,24 +1,24 @@
 <svg width="540" height="152" viewBox="0 0 540 152" fill="none" xmlns="http://www.w3.org/2000/svg">
-<rect x="6" y="6" width="528" height="140" fill="#F3D8CE"/>
-<rect x="6" y="6" width="528" height="140" stroke="#F325A7" stroke-width="2" stroke-dasharray="6 6"/>
-<rect width="32" height="48" transform="translate(38 52)" fill="#DAC3B8"/>
-<rect x="46" y="52" width="16" height="24" fill="#DEA98E"/>
-<rect width="32" height="48" transform="translate(86 52)" fill="#DAC3B8"/>
-<rect x="94" y="52" width="16" height="24" fill="#DEA98E"/>
-<rect width="32" height="48" transform="translate(134 52)" fill="#DAC3B8"/>
-<rect x="142" y="52" width="16" height="24" fill="#DEA98E"/>
-<rect width="32" height="48" transform="translate(182 52)" fill="#DAC3B8"/>
-<rect x="190" y="52" width="16" height="24" fill="#DEA98E"/>
-<rect width="32" height="48" transform="translate(230 52)" fill="#DAC3B8"/>
-<rect x="238" y="52" width="16" height="24" fill="#DEA98E"/>
-<rect width="32" height="48" transform="translate(278 52)" fill="#DAC3B8"/>
-<rect x="286" y="52" width="16" height="24" fill="#DEA98E"/>
-<rect width="32" height="48" transform="translate(326 52)" fill="#DAC3B8"/>
-<rect x="334" y="52" width="16" height="24" fill="#DEA98E"/>
-<rect width="32" height="48" transform="translate(374 52)" fill="#DAC3B8"/>
-<rect x="382" y="52" width="16" height="24" fill="#DEA98E"/>
-<rect width="32" height="48" transform="translate(422 52)" fill="#DAC3B8"/>
-<rect x="430" y="52" width="16" height="24" fill="#DEA98E"/>
-<rect width="32" height="48" transform="translate(470 52)" fill="#DAC3B8"/>
-<rect x="478" y="52" width="16" height="24" fill="#DEA98E"/>
+<rect x="6" y="6" width="528" height="140" fill="var(--colors-areas-process-one-background, #F3D8CE)"/>
+<rect x="6" y="6" width="528" height="140" stroke="var(--colors-primary-primary-700)" stroke-width="2" stroke-dasharray="6 6"/>
+<rect width="32" height="48" transform="translate(38 52)" fill="var(--colors-areas-delivery-background, #DAC3B8)"/>
+<rect x="46" y="52" width="16" height="24" fill="var(--colors-areas-delivery-load-carrier, #DEA98E)"/>
+<rect width="32" height="48" transform="translate(86 52)" fill="var(--colors-areas-delivery-background, #DAC3B8)"/>
+<rect x="94" y="52" width="16" height="24" fill="var(--colors-areas-delivery-load-carrier, #DEA98E)"/>
+<rect width="32" height="48" transform="translate(134 52)" fill="var(--colors-areas-delivery-background, #DAC3B8)"/>
+<rect x="142" y="52" width="16" height="24" fill="var(--colors-areas-delivery-load-carrier, #DEA98E)"/>
+<rect width="32" height="48" transform="translate(182 52)" fill="var(--colors-areas-delivery-background, #DAC3B8)"/>
+<rect x="190" y="52" width="16" height="24" fill="var(--colors-areas-delivery-load-carrier, #DEA98E)"/>
+<rect width="32" height="48" transform="translate(230 52)" fill="var(--colors-areas-delivery-background, #DAC3B8)"/>
+<rect x="238" y="52" width="16" height="24" fill="var(--colors-areas-delivery-load-carrier, #DEA98E)"/>
+<rect width="32" height="48" transform="translate(278 52)" fill="var(--colors-areas-delivery-background, #DAC3B8)"/>
+<rect x="286" y="52" width="16" height="24" fill="var(--colors-areas-delivery-load-carrier, #DEA98E)"/>
+<rect width="32" height="48" transform="translate(326 52)" fill="var(--colors-areas-delivery-background, #DAC3B8)"/>
+<rect x="334" y="52" width="16" height="24" fill="var(--colors-areas-delivery-load-carrier, #DEA98E)"/>
+<rect width="32" height="48" transform="translate(374 52)" fill="var(--colors-areas-delivery-background, #DAC3B8)"/>
+<rect x="382" y="52" width="16" height="24" fill="var(--colors-areas-delivery-load-carrier, #DEA98E)"/>
+<rect width="32" height="48" transform="translate(422 52)" fill="var(--colors-areas-delivery-background, #DAC3B8)"/>
+<rect x="430" y="52" width="16" height="24" fill="var(--colors-areas-delivery-load-carrier, #DEA98E)"/>
+<rect width="32" height="48" transform="translate(470 52)" fill="var(--colors-areas-delivery-background, #DAC3B8)"/>
+<rect x="478" y="52" width="16" height="24" fill="var(--colors-areas-delivery-load-carrier, #DEA98E)"/>
 </svg>

@@ -1,27 +1,27 @@
 <svg width="521" height="152" viewBox="0 0 521 152" fill="none" xmlns="http://www.w3.org/2000/svg">
 <rect width="509" height="140" transform="translate(515 146) rotate(-180)" fill="#CEDDF3"/>
-<rect x="492.5" y="106" width="24" height="30" transform="rotate(-180 492.5 106)" fill="#7CA4DF"/>
-<rect x="492.5" y="76" width="24" height="30" transform="rotate(-180 492.5 76)" fill="#306CC5"/>
-<rect x="452.5" y="106" width="24" height="30" transform="rotate(-180 452.5 106)" fill="#7CA4DF"/>
-<rect x="452.5" y="76" width="24" height="30" transform="rotate(-180 452.5 76)" fill="#306CC5"/>
-<rect x="412.5" y="106" width="24" height="30" transform="rotate(-180 412.5 106)" fill="#7CA4DF"/>
-<rect x="412.5" y="76" width="24" height="30" transform="rotate(-180 412.5 76)" fill="#306CC5"/>
-<rect x="372.5" y="106" width="24" height="30" transform="rotate(-180 372.5 106)" fill="#7CA4DF"/>
-<rect x="372.5" y="76" width="24" height="30" transform="rotate(-180 372.5 76)" fill="#306CC5"/>
-<rect x="332.5" y="106" width="24" height="30" transform="rotate(-180 332.5 106)" fill="#7CA4DF"/>
-<rect x="332.5" y="76" width="24" height="30" transform="rotate(-180 332.5 76)" fill="#306CC5"/>
-<rect x="292.5" y="106" width="24" height="30" transform="rotate(-180 292.5 106)" fill="#7CA4DF"/>
-<rect x="292.5" y="76" width="24" height="30" transform="rotate(-180 292.5 76)" fill="#306CC5"/>
-<rect x="252.5" y="106" width="24" height="30" transform="rotate(-180 252.5 106)" fill="#7CA4DF"/>
-<rect x="252.5" y="76" width="24" height="30" transform="rotate(-180 252.5 76)" fill="#306CC5"/>
-<rect x="212.5" y="106" width="24" height="30" transform="rotate(-180 212.5 106)" fill="#7CA4DF"/>
-<rect x="212.5" y="76" width="24" height="30" transform="rotate(-180 212.5 76)" fill="#306CC5"/>
-<rect x="172.5" y="106" width="24" height="30" transform="rotate(-180 172.5 106)" fill="#7CA4DF"/>
-<rect x="172.5" y="76" width="24" height="30" transform="rotate(-180 172.5 76)" fill="#306CC5"/>
-<rect x="132.5" y="106" width="24" height="30" transform="rotate(-180 132.5 106)" fill="#7CA4DF"/>
-<rect x="132.5" y="76" width="24" height="30" transform="rotate(-180 132.5 76)" fill="#306CC5"/>
-<rect x="92.5" y="106" width="24" height="30" transform="rotate(-180 92.5 106)" fill="#7CA4DF"/>
-<rect x="92.5" y="76" width="24" height="30" transform="rotate(-180 92.5 76)" fill="#306CC5"/>
-<rect x="52.5" y="106" width="24" height="30" transform="rotate(-180 52.5 106)" fill="#7CA4DF"/>
-<rect x="52.5" y="76" width="24" height="30" transform="rotate(-180 52.5 76)" fill="#306CC5"/>
+<rect x="492.5" y="106" width="24" height="30" transform="rotate(-180 492.5 106)" fill="var(--colors-areas-exit-entry-vehicle, #7CA4DF)"/>
+<rect x="492.5" y="76" width="24" height="30" transform="rotate(-180 492.5 76)" fill="var(--colors-primary-primary-700)"/>
+<rect x="452.5" y="106" width="24" height="30" transform="rotate(-180 452.5 106)" fill="var(--colors-areas-exit-entry-vehicle, #7CA4DF)"/>
+<rect x="452.5" y="76" width="24" height="30" transform="rotate(-180 452.5 76)" fill="var(--colors-primary-primary-700)"/>
+<rect x="412.5" y="106" width="24" height="30" transform="rotate(-180 412.5 106)" fill="var(--colors-areas-exit-entry-vehicle, #7CA4DF)"/>
+<rect x="412.5" y="76" width="24" height="30" transform="rotate(-180 412.5 76)" fill="var(--colors-primary-primary-700)"/>
+<rect x="372.5" y="106" width="24" height="30" transform="rotate(-180 372.5 106)" fill="var(--colors-areas-exit-entry-vehicle, #7CA4DF)"/>
+<rect x="372.5" y="76" width="24" height="30" transform="rotate(-180 372.5 76)" fill="var(--colors-primary-primary-700)"/>
+<rect x="332.5" y="106" width="24" height="30" transform="rotate(-180 332.5 106)" fill="var(--colors-areas-exit-entry-vehicle, #7CA4DF)"/>
+<rect x="332.5" y="76" width="24" height="30" transform="rotate(-180 332.5 76)" fill="var(--colors-primary-primary-700)"/>
+<rect x="292.5" y="106" width="24" height="30" transform="rotate(-180 292.5 106)" fill="var(--colors-areas-exit-entry-vehicle, #7CA4DF)"/>
+<rect x="292.5" y="76" width="24" height="30" transform="rotate(-180 292.5 76)" fill="var(--colors-primary-primary-700)"/>
+<rect x="252.5" y="106" width="24" height="30" transform="rotate(-180 252.5 106)" fill="var(--colors-areas-exit-entry-vehicle, #7CA4DF)"/>
+<rect x="252.5" y="76" width="24" height="30" transform="rotate(-180 252.5 76)" fill="var(--colors-primary-primary-700)"/>
+<rect x="212.5" y="106" width="24" height="30" transform="rotate(-180 212.5 106)" fill="var(--colors-areas-exit-entry-vehicle, #7CA4DF)"/>
+<rect x="212.5" y="76" width="24" height="30" transform="rotate(-180 212.5 76)" fill="var(--colors-primary-primary-700)"/>
+<rect x="172.5" y="106" width="24" height="30" transform="rotate(-180 172.5 106)" fill="var(--colors-areas-exit-entry-vehicle, #7CA4DF)"/>
+<rect x="172.5" y="76" width="24" height="30" transform="rotate(-180 172.5 76)" fill="var(--colors-primary-primary-700)"/>
+<rect x="132.5" y="106" width="24" height="30" transform="rotate(-180 132.5 106)" fill="var(--colors-areas-exit-entry-vehicle, #7CA4DF)"/>
+<rect x="132.5" y="76" width="24" height="30" transform="rotate(-180 132.5 76)" fill="var(--colors-primary-primary-700)"/>
+<rect x="92.5" y="106" width="24" height="30" transform="rotate(-180 92.5 106)" fill="var(--colors-areas-exit-entry-vehicle, #7CA4DF)"/>
+<rect x="92.5" y="76" width="24" height="30" transform="rotate(-180 92.5 76)" fill="var(--colors-primary-primary-700)"/>
+<rect x="52.5" y="106" width="24" height="30" transform="rotate(-180 52.5 106)" fill="var(--colors-areas-exit-entry-vehicle, #7CA4DF)"/>
+<rect x="52.5" y="76" width="24" height="30" transform="rotate(-180 52.5 76)" fill="var(--colors-primary-primary-700)"/>
 </svg>

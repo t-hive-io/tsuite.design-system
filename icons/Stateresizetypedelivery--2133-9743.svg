@@ -1,28 +1,28 @@
 <svg width="540" height="152" viewBox="0 0 540 152" fill="none" xmlns="http://www.w3.org/2000/svg">
 <rect x="6" y="6" width="528" height="140" fill="#FAE9BB"/>
-<rect x="6" y="6" width="528" height="140" stroke="#F325A7"/>
-<rect width="32" height="48" transform="translate(38 98)" fill="#E0D1A8"/>
-<rect x="46" y="98" width="16" height="24" fill="#EDCB68"/>
-<rect width="32" height="48" transform="translate(86 98)" fill="#E0D1A8"/>
-<rect x="94" y="98" width="16" height="24" fill="#EDCB68"/>
-<rect width="32" height="48" transform="translate(134 98)" fill="#E0D1A8"/>
-<rect x="142" y="98" width="16" height="24" fill="#EDCB68"/>
-<rect width="32" height="48" transform="translate(182 98)" fill="#E0D1A8"/>
-<rect x="190" y="98" width="16" height="24" fill="#EDCB68"/>
-<rect width="32" height="48" transform="translate(230 98)" fill="#E0D1A8"/>
-<rect x="238" y="98" width="16" height="24" fill="#EDCB68"/>
-<rect width="32" height="48" transform="translate(278 98)" fill="#E0D1A8"/>
-<rect x="286" y="98" width="16" height="24" fill="#EDCB68"/>
-<rect width="32" height="48" transform="translate(326 98)" fill="#E0D1A8"/>
-<rect x="334" y="98" width="16" height="24" fill="#EDCB68"/>
-<rect width="32" height="48" transform="translate(374 98)" fill="#E0D1A8"/>
-<rect x="382" y="98" width="16" height="24" fill="#EDCB68"/>
-<rect width="32" height="48" transform="translate(422 98)" fill="#E0D1A8"/>
-<rect x="430" y="98" width="16" height="24" fill="#EDCB68"/>
-<rect width="32" height="48" transform="translate(470 98)" fill="#E0D1A8"/>
-<rect x="478" y="98" width="16" height="24" fill="#EDCB68"/>
-<rect x="267.5" y="2.5" width="7" height="7" fill="white" stroke="#F325A7"/>
-<rect x="267.5" y="142.5" width="7" height="7" fill="white" stroke="#F325A7"/>
-<rect x="2.5" y="72" width="7" height="7" fill="white" stroke="#F325A7"/>
-<rect x="530.5" y="72" width="7" height="7" fill="white" stroke="#F325A7"/>
+<rect x="6" y="6" width="528" height="140" stroke="var(--colors-primary-primary-700)"/>
+<rect width="32" height="48" transform="translate(38 98)" fill="var(--colors-areas-delivery-vehicle, #E0D1A8)"/>
+<rect x="46" y="98" width="16" height="24" fill="var(--colors-areas-delivery-load-carrier, #EDCB68)"/>
+<rect width="32" height="48" transform="translate(86 98)" fill="var(--colors-areas-delivery-vehicle, #E0D1A8)"/>
+<rect x="94" y="98" width="16" height="24" fill="var(--colors-areas-delivery-load-carrier, #EDCB68)"/>
+<rect width="32" height="48" transform="translate(134 98)" fill="var(--colors-areas-delivery-vehicle, #E0D1A8)"/>
+<rect x="142" y="98" width="16" height="24" fill="var(--colors-areas-delivery-load-carrier, #EDCB68)"/>
+<rect width="32" height="48" transform="translate(182 98)" fill="var(--colors-areas-delivery-vehicle, #E0D1A8)"/>
+<rect x="190" y="98" width="16" height="24" fill="var(--colors-areas-delivery-load-carrier, #EDCB68)"/>
+<rect width="32" height="48" transform="translate(230 98)" fill="var(--colors-areas-delivery-vehicle, #E0D1A8)"/>
+<rect x="238" y="98" width="16" height="24" fill="var(--colors-areas-delivery-load-carrier, #EDCB68)"/>
+<rect width="32" height="48" transform="translate(278 98)" fill="var(--colors-areas-delivery-vehicle, #E0D1A8)"/>
+<rect x="286" y="98" width="16" height="24" fill="var(--colors-areas-delivery-load-carrier, #EDCB68)"/>
+<rect width="32" height="48" transform="translate(326 98)" fill="var(--colors-areas-delivery-vehicle, #E0D1A8)"/>
+<rect x="334" y="98" width="16" height="24" fill="var(--colors-areas-delivery-load-carrier, #EDCB68)"/>
+<rect width="32" height="48" transform="translate(374 98)" fill="var(--colors-areas-delivery-vehicle, #E0D1A8)"/>
+<rect x="382" y="98" width="16" height="24" fill="var(--colors-areas-delivery-load-carrier, #EDCB68)"/>
+<rect width="32" height="48" transform="translate(422 98)" fill="var(--colors-areas-delivery-vehicle, #E0D1A8)"/>
+<rect x="430" y="98" width="16" height="24" fill="var(--colors-areas-delivery-load-carrier, #EDCB68)"/>
+<rect width="32" height="48" transform="translate(470 98)" fill="var(--colors-areas-delivery-vehicle, #E0D1A8)"/>
+<rect x="478" y="98" width="16" height="24" fill="var(--colors-areas-delivery-load-carrier, #EDCB68)"/>
+<rect x="267.5" y="2.5" width="7" height="7" fill="white" stroke="var(--colors-primary-primary-700)"/>
+<rect x="267.5" y="142.5" width="7" height="7" fill="white" stroke="var(--colors-primary-primary-700)"/>
+<rect x="2.5" y="72" width="7" height="7" fill="white" stroke="var(--colors-primary-primary-700)"/>
+<rect x="530.5" y="72" width="7" height="7" fill="white" stroke="var(--colors-primary-primary-700)"/>
 </svg>

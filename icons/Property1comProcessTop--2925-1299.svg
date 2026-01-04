@@ -1,27 +1,27 @@
 <svg width="658" height="152" viewBox="0 0 658 152" fill="none" xmlns="http://www.w3.org/2000/svg">
-<rect width="646" height="140" transform="translate(6 6)" fill="#F3D8CE"/>
-<rect x="97" y="6" width="24" height="30" fill="#DEA98E"/>
-<rect x="97" y="36" width="24" height="30" fill="#DAC3B8"/>
-<rect x="137" y="6" width="24" height="30" fill="#DEA98E"/>
-<rect x="137" y="36" width="24" height="30" fill="#DAC3B8"/>
-<rect x="177" y="6" width="24" height="30" fill="#DEA98E"/>
-<rect x="177" y="36" width="24" height="30" fill="#DAC3B8"/>
-<rect x="217" y="6" width="24" height="30" fill="#DEA98E"/>
-<rect x="217" y="36" width="24" height="30" fill="#DAC3B8"/>
-<rect x="257" y="6" width="24" height="30" fill="#DEA98E"/>
-<rect x="257" y="36" width="24" height="30" fill="#DAC3B8"/>
-<rect x="297" y="6" width="24" height="30" fill="#DEA98E"/>
-<rect x="297" y="36" width="24" height="30" fill="#DAC3B8"/>
-<rect x="337" y="6" width="24" height="30" fill="#DEA98E"/>
-<rect x="337" y="36" width="24" height="30" fill="#DAC3B8"/>
-<rect x="377" y="6" width="24" height="30" fill="#DEA98E"/>
-<rect x="377" y="36" width="24" height="30" fill="#DAC3B8"/>
-<rect x="417" y="6" width="24" height="30" fill="#DEA98E"/>
-<rect x="417" y="36" width="24" height="30" fill="#DAC3B8"/>
-<rect x="457" y="6" width="24" height="30" fill="#DEA98E"/>
-<rect x="457" y="36" width="24" height="30" fill="#DAC3B8"/>
-<rect x="497" y="6" width="24" height="30" fill="#DEA98E"/>
-<rect x="497" y="36" width="24" height="30" fill="#DAC3B8"/>
-<rect x="537" y="6" width="24" height="30" fill="#DEA98E"/>
-<rect x="537" y="36" width="24" height="30" fill="#DAC3B8"/>
+<rect width="646" height="140" transform="translate(6 6)" fill="var(--colors-areas-process-one-background, #F3D8CE)"/>
+<rect x="97" y="6" width="24" height="30" fill="var(--colors-areas-delivery-load-carrier, #DEA98E)"/>
+<rect x="97" y="36" width="24" height="30" fill="var(--colors-areas-delivery-background, #DAC3B8)"/>
+<rect x="137" y="6" width="24" height="30" fill="var(--colors-areas-delivery-load-carrier, #DEA98E)"/>
+<rect x="137" y="36" width="24" height="30" fill="var(--colors-areas-delivery-background, #DAC3B8)"/>
+<rect x="177" y="6" width="24" height="30" fill="var(--colors-areas-delivery-load-carrier, #DEA98E)"/>
+<rect x="177" y="36" width="24" height="30" fill="var(--colors-areas-delivery-background, #DAC3B8)"/>
+<rect x="217" y="6" width="24" height="30" fill="var(--colors-areas-delivery-load-carrier, #DEA98E)"/>
+<rect x="217" y="36" width="24" height="30" fill="var(--colors-areas-delivery-background, #DAC3B8)"/>
+<rect x="257" y="6" width="24" height="30" fill="var(--colors-areas-delivery-load-carrier, #DEA98E)"/>
+<rect x="257" y="36" width="24" height="30" fill="var(--colors-areas-delivery-background, #DAC3B8)"/>
+<rect x="297" y="6" width="24" height="30" fill="var(--colors-areas-delivery-load-carrier, #DEA98E)"/>
+<rect x="297" y="36" width="24" height="30" fill="var(--colors-areas-delivery-background, #DAC3B8)"/>
+<rect x="337" y="6" width="24" height="30" fill="var(--colors-areas-delivery-load-carrier, #DEA98E)"/>
+<rect x="337" y="36" width="24" height="30" fill="var(--colors-areas-delivery-background, #DAC3B8)"/>
+<rect x="377" y="6" width="24" height="30" fill="var(--colors-areas-delivery-load-carrier, #DEA98E)"/>
+<rect x="377" y="36" width="24" height="30" fill="var(--colors-areas-delivery-background, #DAC3B8)"/>
+<rect x="417" y="6" width="24" height="30" fill="var(--colors-areas-delivery-load-carrier, #DEA98E)"/>
+<rect x="417" y="36" width="24" height="30" fill="var(--colors-areas-delivery-background, #DAC3B8)"/>
+<rect x="457" y="6" width="24" height="30" fill="var(--colors-areas-delivery-load-carrier, #DEA98E)"/>
+<rect x="457" y="36" width="24" height="30" fill="var(--colors-areas-delivery-background, #DAC3B8)"/>
+<rect x="497" y="6" width="24" height="30" fill="var(--colors-areas-delivery-load-carrier, #DEA98E)"/>
+<rect x="497" y="36" width="24" height="30" fill="var(--colors-areas-delivery-background, #DAC3B8)"/>
+<rect x="537" y="6" width="24" height="30" fill="var(--colors-areas-delivery-load-carrier, #DEA98E)"/>
+<rect x="537" y="36" width="24" height="30" fill="var(--colors-areas-delivery-background, #DAC3B8)"/>
 </svg>

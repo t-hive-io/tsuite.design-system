@@ -1,25 +1,25 @@
 <svg width="154" height="196" viewBox="0 0 154 196" fill="none" xmlns="http://www.w3.org/2000/svg">
-<rect x="16.3029" y="163.782" width="121.394" height="2.00651" fill="#F3A83E" stroke="#222222" stroke-width="0.5"/>
-<rect x="70.4788" y="165.788" width="13.0423" height="2.00651" fill="#F3A83E" stroke="#222222" stroke-width="0.5"/>
-<rect x="16.3029" y="165.788" width="13.0423" height="2.00651" fill="#F3A83E" stroke="#222222" stroke-width="0.5"/>
-<rect x="124.655" y="165.788" width="13.0423" height="2.00651" fill="#F3A83E" stroke="#222222" stroke-width="0.5"/>
-<rect x="16.3029" y="173.814" width="4.01303" height="2.00651" fill="#F3A83E" stroke="#222222" stroke-width="0.5"/>
-<rect x="16.3029" y="173.814" width="121.394" height="2.00651" fill="#F3A83E" stroke="#222222" stroke-width="0.5"/>
-<rect x="70.4788" y="167.795" width="13.0423" height="6.01954" fill="#F3A83E" stroke="#222222" stroke-width="0.5"/>
-<rect x="16.3029" y="167.795" width="13.0423" height="6.01954" fill="#F3A83E" stroke="#222222" stroke-width="0.5"/>
-<rect x="124.655" y="167.795" width="13.0423" height="6.01954" fill="#F3A83E" stroke="#222222" stroke-width="0.5"/>
-<rect x="43.3909" y="135.691" width="34.1107" height="28.0912" fill="#D9D9D9" stroke="#222222" stroke-width="0.5"/>
-<rect x="77.5016" y="135.691" width="33.1075" height="28.0912" fill="#D9D9D9" stroke="#222222" stroke-width="0.5"/>
-<rect x="57.4365" y="118.635" width="40.1303" height="17.0554" fill="#D9D9D9" stroke="#222222" stroke-width="0.5"/>
-<rect x="97.5668" y="118.635" width="56.1824" height="17.0554" fill="#D9D9D9" stroke="#222222" stroke-width="0.5"/>
-<rect x="0.250814" y="118.635" width="57.1857" height="17.0554" fill="#D9D9D9" stroke="#222222" stroke-width="0.5"/>
-<rect x="0.250814" y="135.691" width="42.1368" height="28.0912" fill="#D9D9D9" stroke="#222222" stroke-width="0.5"/>
-<rect x="110.609" y="135.691" width="43.1401" height="28.0912" fill="#D9D9D9" stroke="#222222" stroke-width="0.5"/>
-<rect x="137.697" y="0.250814" width="9.02932" height="174.567" fill="#2D71BA" stroke="#222222" stroke-width="0.5"/>
-<rect x="137.697" y="173.814" width="9.02932" height="2.00651" fill="#B42318" stroke="#222222" stroke-width="0.5"/>
-<rect x="7.27362" y="0.250814" width="9.02932" height="174.567" fill="#2D71BA" stroke="#222222" stroke-width="0.5"/>
-<rect x="7.27362" y="173.814" width="9.02932" height="2.00651" fill="#B42318" stroke="#222222" stroke-width="0.5"/>
-<path d="M4.26384 191.873L9.28013 194.769L9.28013 188.977L4.26384 191.873ZM149.736 191.873L144.72 188.977L144.72 194.769L149.736 191.873ZM8.7785 192.375L145.222 192.375L145.222 191.371L8.7785 191.371L8.7785 192.375Z" fill="#222222"/>
-<path d="M0.250814 163.782L0.250816 195.886" stroke="#222222" stroke-width="0.5"/>
-<path d="M153.749 163.782L153.749 195.886" stroke="#222222" stroke-width="0.5"/>
+<rect x="16.3029" y="163.782" width="121.394" height="2.00651" fill="var(--colors-brand-brand-700)" stroke="var(--colors-neutral-neutral-800)" stroke-width="0.5"/>
+<rect x="70.4788" y="165.788" width="13.0423" height="2.00651" fill="var(--colors-brand-brand-700)" stroke="var(--colors-neutral-neutral-800)" stroke-width="0.5"/>
+<rect x="16.3029" y="165.788" width="13.0423" height="2.00651" fill="var(--colors-brand-brand-700)" stroke="var(--colors-neutral-neutral-800)" stroke-width="0.5"/>
+<rect x="124.655" y="165.788" width="13.0423" height="2.00651" fill="var(--colors-brand-brand-700)" stroke="var(--colors-neutral-neutral-800)" stroke-width="0.5"/>
+<rect x="16.3029" y="173.814" width="4.01303" height="2.00651" fill="var(--colors-brand-brand-700)" stroke="var(--colors-neutral-neutral-800)" stroke-width="0.5"/>
+<rect x="16.3029" y="173.814" width="121.394" height="2.00651" fill="var(--colors-brand-brand-700)" stroke="var(--colors-neutral-neutral-800)" stroke-width="0.5"/>
+<rect x="70.4788" y="167.795" width="13.0423" height="6.01954" fill="var(--colors-brand-brand-700)" stroke="var(--colors-neutral-neutral-800)" stroke-width="0.5"/>
+<rect x="16.3029" y="167.795" width="13.0423" height="6.01954" fill="var(--colors-brand-brand-700)" stroke="var(--colors-neutral-neutral-800)" stroke-width="0.5"/>
+<rect x="124.655" y="167.795" width="13.0423" height="6.01954" fill="var(--colors-brand-brand-700)" stroke="var(--colors-neutral-neutral-800)" stroke-width="0.5"/>
+<rect x="43.3909" y="135.691" width="34.1107" height="28.0912" fill="var(--colors-neutral-neutral-500)" stroke="var(--colors-neutral-neutral-800)" stroke-width="0.5"/>
+<rect x="77.5016" y="135.691" width="33.1075" height="28.0912" fill="var(--colors-neutral-neutral-500)" stroke="var(--colors-neutral-neutral-800)" stroke-width="0.5"/>
+<rect x="57.4365" y="118.635" width="40.1303" height="17.0554" fill="var(--colors-neutral-neutral-500)" stroke="var(--colors-neutral-neutral-800)" stroke-width="0.5"/>
+<rect x="97.5668" y="118.635" width="56.1824" height="17.0554" fill="var(--colors-neutral-neutral-500)" stroke="var(--colors-neutral-neutral-800)" stroke-width="0.5"/>
+<rect x="0.250814" y="118.635" width="57.1857" height="17.0554" fill="var(--colors-neutral-neutral-500)" stroke="var(--colors-neutral-neutral-800)" stroke-width="0.5"/>
+<rect x="0.250814" y="135.691" width="42.1368" height="28.0912" fill="var(--colors-neutral-neutral-500)" stroke="var(--colors-neutral-neutral-800)" stroke-width="0.5"/>
+<rect x="110.609" y="135.691" width="43.1401" height="28.0912" fill="var(--colors-neutral-neutral-500)" stroke="var(--colors-neutral-neutral-800)" stroke-width="0.5"/>
+<rect x="137.697" y="0.250814" width="9.02932" height="174.567" fill="var(--colors-primary-primary-600)" stroke="var(--colors-neutral-neutral-800)" stroke-width="0.5"/>
+<rect x="137.697" y="173.814" width="9.02932" height="2.00651" fill="var(--colors-feedback-error-red-300)" stroke="var(--colors-neutral-neutral-800)" stroke-width="0.5"/>
+<rect x="7.27362" y="0.250814" width="9.02932" height="174.567" fill="var(--colors-primary-primary-600)" stroke="var(--colors-neutral-neutral-800)" stroke-width="0.5"/>
+<rect x="7.27362" y="173.814" width="9.02932" height="2.00651" fill="var(--colors-feedback-error-red-300)" stroke="var(--colors-neutral-neutral-800)" stroke-width="0.5"/>
+<path d="M4.26384 191.873L9.28013 194.769L9.28013 188.977L4.26384 191.873ZM149.736 191.873L144.72 188.977L144.72 194.769L149.736 191.873ZM8.7785 192.375L145.222 192.375L145.222 191.371L8.7785 191.371L8.7785 192.375Z" fill="var(--colors-neutral-neutral-800)"/>
+<path d="M0.250814 163.782L0.250816 195.886" stroke="var(--colors-neutral-neutral-800)" stroke-width="0.5"/>
+<path d="M153.749 163.782L153.749 195.886" stroke="var(--colors-neutral-neutral-800)" stroke-width="0.5"/>
 </svg>

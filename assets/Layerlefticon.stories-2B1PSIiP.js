@@ -1,0 +1,11 @@
+import{j as o}from"./jsx-runtime-zb3rE9aN.js";import{r as a}from"./iframe-BOAAlDHP.js";import"./preload-helper-E_wDBCPD.js";const i=e=>a.createElement("svg",{width:24,height:24,viewBox:"0 0 24 24",fill:"none",xmlns:"http://www.w3.org/2000/svg",...e},a.createElement("path",{d:"M13.9038 12.4038L10.0961 16.2115V8.59615L13.9038 12.4038Z",fill:"var(--colors-neutral-neutral-800)"})),E=e=>a.createElement("svg",{width:24,height:24,viewBox:"0 0 24 24",fill:"none",xmlns:"http://www.w3.org/2000/svg",...e},a.createElement("path",{d:"M12 14.3077L8.19229 10.5H15.8077L12 14.3077Z",fill:"var(--colors-neutral-neutral-800)"})),T=({Expanded:e,Visible:n}={Expanded:"False",Visible:"True"})=>e==="False"&&n==="True"?o.jsx(i,{}):e==="True"&&n==="True"?o.jsx(E,{}):o.jsx(i,{}),b={title:"Components/Tree View/Layer left icon",component:T,parameters:{layout:"centered",docs:{description:{component:"⚠️ **Figma Description Missing** - Please add a description in Figma for this component."}},figma:{pageId:"5200:798",componentId:"1522:9585",figmaComponent:"Layer left icon",url:"https://www.figma.com/design/XKxVlFf9TfWBHosOInkJXA/T-Suite-Design-System?node-id=1522-9585"}},tags:["autodocs"],argTypes:{Expanded:{control:"select",options:["True","False"],description:'Matches Figma "Expanded" property'},Visible:{control:"select",options:["True","False"],description:'Matches Figma "Visible" property'}},args:{Expanded:"False",Visible:"True"}},r={},s={args:{Expanded:"False",Visible:"True"}},t={args:{Expanded:"True",Visible:"True"}};var l,p,d;r.parameters={...r.parameters,docs:{...(l=r.parameters)==null?void 0:l.docs,source:{originalSource:"{}",...(d=(p=r.parameters)==null?void 0:p.docs)==null?void 0:d.source}}};var c,m,u;s.parameters={...s.parameters,docs:{...(c=s.parameters)==null?void 0:c.docs,source:{originalSource:`{
+  args: {
+    Expanded: 'False',
+    Visible: 'True'
+  }
+}`,...(u=(m=s.parameters)==null?void 0:m.docs)==null?void 0:u.source}}};var g,x,f;t.parameters={...t.parameters,docs:{...(g=t.parameters)==null?void 0:g.docs,source:{originalSource:`{
+  args: {
+    Expanded: 'True',
+    Visible: 'True'
+  }
+}`,...(f=(x=t.parameters)==null?void 0:x.docs)==null?void 0:f.source}}};const v=["Default","NotExpandedVisible","ExpandedVisible"];export{r as Default,t as ExpandedVisible,s as NotExpandedVisible,v as __namedExportsOrder,b as default};

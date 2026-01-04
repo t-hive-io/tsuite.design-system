@@ -1,13 +1,13 @@
 <svg width="107" height="120" viewBox="0 0 107 120" fill="none" xmlns="http://www.w3.org/2000/svg">
-<rect x="1.52841" width="8.40763" height="118.471" fill="#99AFFF"/>
-<rect x="96.5721" width="9.01781" height="119.236" fill="#99AFFF"/>
-<rect x="9.93613" y="93.2487" width="36.6879" height="25.2229" fill="#E6E6E6"/>
-<rect x="59.4989" y="93.1841" width="37.0732" height="26.0515" fill="#E6E6E6"/>
-<rect x="9.96598" y="0.0753442" width="36.4192" height="14.6954" fill="#E6E6E6"/>
-<rect x="59.4989" width="37.0732" height="15.0297" fill="#E6E6E6"/>
-<rect x="9.93613" y="30.9557" width="36.6879" height="46.242" fill="#E6E6E6"/>
-<rect x="59.4989" y="31.0614" width="37.0732" height="46.0911" fill="#E6E6E6"/>
-<path d="M0.764205 0V119.236H105.477V0" stroke="#222222" stroke-width="1.52564"/>
-<rect x="0.954218" y="77.7695" width="104.333" height="5.35258" fill="white" stroke="#222222" stroke-width="1.14423"/>
-<rect x="0.954218" y="15.4766" width="104.333" height="5.35258" fill="white" stroke="#222222" stroke-width="1.14423"/>
+<rect x="1.52841" width="8.40763" height="118.471" fill="var(--colors-primary-primary-400)"/>
+<rect x="96.5721" width="9.01781" height="119.236" fill="var(--colors-primary-primary-400)"/>
+<rect x="9.93613" y="93.2487" width="36.6879" height="25.2229" fill="var(--colors-neutral-neutral-400)"/>
+<rect x="59.4989" y="93.1841" width="37.0732" height="26.0515" fill="var(--colors-neutral-neutral-400)"/>
+<rect x="9.96598" y="0.0753442" width="36.4192" height="14.6954" fill="var(--colors-neutral-neutral-400)"/>
+<rect x="59.4989" width="37.0732" height="15.0297" fill="var(--colors-neutral-neutral-400)"/>
+<rect x="9.93613" y="30.9557" width="36.6879" height="46.242" fill="var(--colors-neutral-neutral-400)"/>
+<rect x="59.4989" y="31.0614" width="37.0732" height="46.0911" fill="var(--colors-neutral-neutral-400)"/>
+<path d="M0.764205 0V119.236H105.477V0" stroke="var(--colors-neutral-neutral-800)" stroke-width="1.52564"/>
+<rect x="0.954218" y="77.7695" width="104.333" height="5.35258" fill="white" stroke="var(--colors-neutral-neutral-800)" stroke-width="1.14423"/>
+<rect x="0.954218" y="15.4766" width="104.333" height="5.35258" fill="white" stroke="var(--colors-neutral-neutral-800)" stroke-width="1.14423"/>
 </svg>
