@@ -1,0 +1,16 @@
+import{j as s}from"./jsx-runtime-DqDaIcEx.js";import{r as e}from"./iframe-CANxEUZ8.js";import"./preload-helper-E_wDBCPD.js";const n=t=>e.createElement("svg",{width:540,height:152,viewBox:"0 0 540 152",fill:"none",xmlns:"http://www.w3.org/2000/svg",...t},e.createElement("rect",{width:528,height:140,transform:"translate(6 6)",fill:"#D9D9D9"})),D=t=>e.createElement("svg",{width:540,height:152,viewBox:"0 0 540 152",fill:"none",xmlns:"http://www.w3.org/2000/svg",...t},e.createElement("rect",{x:7,y:7,width:526,height:138,fill:"#D9D9D9"}),e.createElement("rect",{x:7,y:7,width:526,height:138,stroke:"#2537F3",strokeWidth:2,strokeDasharray:"6 6"})),b=t=>e.createElement("svg",{width:540,height:152,viewBox:"0 0 540 152",fill:"none",xmlns:"http://www.w3.org/2000/svg",...t},e.createElement("rect",{x:6.5,y:6.5,width:527,height:139,fill:"#D9D9D9"}),e.createElement("rect",{x:6.5,y:6.5,width:527,height:139,stroke:"#2537F3"}),e.createElement("rect",{x:267.5,y:2.5,width:7,height:7,fill:"white",stroke:"#F325A7"}),e.createElement("rect",{x:267.5,y:142.5,width:7,height:7,fill:"white",stroke:"#F325A7"}),e.createElement("rect",{x:2.5,y:72,width:7,height:7,fill:"white",stroke:"#F325A7"}),e.createElement("rect",{x:530.5,y:72,width:7,height:7,fill:"white",stroke:"#F325A7"})),O=({State:t,Type:c}={State:"Default",Type:"Obstical"})=>t==="Default"&&c==="Obstical"?s.jsx(n,{}):t==="Flow"&&c==="Obstical"?s.jsx(D,{}):t==="Resize"&&c==="Obstical"?s.jsx(b,{}):s.jsx(n,{}),T={title:"Components/Canvas Objects/Obstacle",component:O,parameters:{layout:"centered",docs:{description:{component:"⚠️ **Figma Description Missing** - Please add a description in Figma for this component."}},figma:{pageId:"5170:45525",componentId:"2921:846",figmaComponent:"Obstacle",url:"https://www.figma.com/design/XKxVlFf9TfWBHosOInkJXA/T-Suite-Design-System?node-id=2921-846"}},tags:["autodocs"],argTypes:{State:{control:"select",options:["Resize","Default","Flow"],description:'Matches Figma "State" property'},Type:{control:"select",options:["Obstical"],description:'Matches Figma "Type" property'}},args:{State:"Default",Type:"Obstical"}},a={},r={args:{State:"Default",Type:"Obstical"}},o={args:{State:"Flow",Type:"Obstical"}},i={args:{State:"Resize",Type:"Obstical"}};var l,p,m;a.parameters={...a.parameters,docs:{...(l=a.parameters)==null?void 0:l.docs,source:{originalSource:"{}",...(m=(p=a.parameters)==null?void 0:p.docs)==null?void 0:m.source}}};var h,g,d;r.parameters={...r.parameters,docs:{...(h=r.parameters)==null?void 0:h.docs,source:{originalSource:`{
+  args: {
+    State: 'Default',
+    Type: 'Obstical'
+  }
+}`,...(d=(g=r.parameters)==null?void 0:g.docs)==null?void 0:d.source}}};var w,f,u;o.parameters={...o.parameters,docs:{...(w=o.parameters)==null?void 0:w.docs,source:{originalSource:`{
+  args: {
+    State: 'Flow',
+    Type: 'Obstical'
+  }
+}`,...(u=(f=o.parameters)==null?void 0:f.docs)==null?void 0:u.source}}};var S,y,x;i.parameters={...i.parameters,docs:{...(S=i.parameters)==null?void 0:S.docs,source:{originalSource:`{
+  args: {
+    State: 'Resize',
+    Type: 'Obstical'
+  }
+}`,...(x=(y=i.parameters)==null?void 0:y.docs)==null?void 0:x.source}}};const k=["Default","DefaultState","FlowState","ResizeState"];export{a as Default,r as DefaultState,o as FlowState,i as ResizeState,k as __namedExportsOrder,T as default};
