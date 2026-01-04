@@ -1,0 +1,10 @@
+.typerightbarsegment {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+}
+
+.typerightbarsegment svg {
+  width: 100%;
+  height: 100%;
+}

@@ -1,0 +1,1628 @@
+[
+  {
+    "id": "892:6619",
+    "name": "Favicon",
+    "description": "",
+    "properties": ["Property 1"]
+  },
+  {
+    "id": "892:6628",
+    "name": "XS-logo",
+    "description": "",
+    "properties": ["Property 1"]
+  },
+  {
+    "id": "3174:999",
+    "name": "Small-logo",
+    "description": "",
+    "properties": ["Property 1"]
+  },
+  {
+    "id": "892:6637",
+    "name": "Full-logo-vector",
+    "description": "",
+    "properties": ["Property 1"]
+  },
+  {
+    "id": "1126:8185",
+    "name": "nav",
+    "description": "",
+    "properties": ["Color"]
+  },
+  {
+    "id": "4672:38270",
+    "name": "Logotype complete set",
+    "description": "",
+    "properties": ["Property 1"]
+  },
+  {
+    "id": "1084:6845",
+    "name": "Right bar- Expansion panel - 1",
+    "description": "",
+    "properties": ["Expanded"]
+  },
+  {
+    "id": "1106:6750",
+    "name": "Right bar - Expansion panel - 2",
+    "description": "",
+    "properties": ["Instance#1904:0", "Property 1"]
+  },
+  {
+    "id": "1125:9849",
+    "name": "Accordion: Right bar - Title",
+    "description": "",
+    "properties": ["Dropdown"]
+  },
+  {
+    "id": "1570:9638",
+    "name": "Small badge",
+    "description": "",
+    "properties": ["State", "Darkmode", "Property 3"]
+  },
+  {
+    "id": "1325:9049",
+    "name": "Information banner",
+    "description": "",
+    "properties": ["Content"]
+  },
+  {
+    "id": "1081:6485",
+    "name": "Zoom menu",
+    "description": "",
+    "properties": ["State"]
+  },
+  {
+    "id": "1570:9691",
+    "name": "3D menu",
+    "description": "",
+    "properties": ["Property 1"]
+  },
+  {
+    "id": "1428:9176",
+    "name": "Buttons",
+    "description": "",
+    "properties": ["Type", "Icon", "State"]
+  },
+  {
+    "id": "1257:8856",
+    "name": "Icon button with badge",
+    "description": "",
+    "properties": ["States", "Badge visible"]
+  },
+  {
+    "id": "1125:8913",
+    "name": "Atom / item",
+    "description": "",
+    "properties": ["Active", "Icon"]
+  },
+  {
+    "id": "1843:8669",
+    "name": "Area",
+    "description": "",
+    "properties": ["State", "Type"]
+  },
+  {
+    "id": "2924:862",
+    "name": "Commissioning areas",
+    "description": "",
+    "properties": ["Property 1"]
+  },
+  {
+    "id": "2921:846",
+    "name": "Obstacle",
+    "description": "",
+    "properties": ["State", "Type"]
+  },
+  {
+    "id": "2921:1631",
+    "name": "Road",
+    "description": "",
+    "properties": ["State", "Type", "Property 3"]
+  },
+  {
+    "id": "2921:1675",
+    "name": "Wall",
+    "description": "",
+    "properties": ["State"]
+  },
+  {
+    "id": "1844:9564",
+    "name": "Layout object",
+    "description": "",
+    "properties": ["Horizontal", "Forklift"]
+  },
+  {
+    "id": "2949:1508",
+    "name": "Commissioning roads",
+    "description": "",
+    "properties": ["Property 1"]
+  },
+  {
+    "id": "3054:9778",
+    "name": "Reflectors",
+    "description": "",
+    "properties": ["Property 1"]
+  },
+  {
+    "id": "1810:8563",
+    "name": "Flow handle",
+    "description": "",
+    "properties": ["State"]
+  },
+  {
+    "id": "3067:7822",
+    "name": "Connections",
+    "description": "",
+    "properties": ["Property 1"]
+  },
+  {
+    "id": "3093:2814",
+    "name": "Flow arrow",
+    "description": "",
+    "properties": ["Property 1"]
+  },
+  {
+    "id": "3093:2880",
+    "name": "Flow color modal",
+    "description": "",
+    "properties": ["Property 1"]
+  },
+  {
+    "id": "3169:1789",
+    "name": "Ruler",
+    "description": "",
+    "properties": ["Property 1"]
+  },
+  {
+    "id": "3170:1261",
+    "name": "Large Screenshot",
+    "description": "",
+    "properties": ["Property 1"]
+  },
+  {
+    "id": "3223:151232",
+    "name": "Selection point position",
+    "description": "",
+    "properties": ["Property 1"]
+  },
+  {
+    "id": "2419:632",
+    "name": "Scale",
+    "description": "",
+    "properties": ["Type"]
+  },
+  {
+    "id": "1289:8365",
+    "name": "Simulation card",
+    "description": "",
+    "properties": ["Status", "State"]
+  },
+  {
+    "id": "2453:1719",
+    "name": "Card load carrier types",
+    "description": "",
+    "properties": ["Hover", "Selected"]
+  },
+  {
+    "id": "2453:1751",
+    "name": "Card vehicle models",
+    "description": "",
+    "properties": ["Hover", "Selected"]
+  },
+  {
+    "id": "4875:38336",
+    "name": "Notification: Information",
+    "description": "",
+    "properties": ["State"]
+  },
+  {
+    "id": "4875:38397",
+    "name": "Notification: Success",
+    "description": "",
+    "properties": ["State"]
+  },
+  {
+    "id": "4875:38458",
+    "name": "Notification: Warning",
+    "description": "",
+    "properties": ["State"]
+  },
+  {
+    "id": "4875:38531",
+    "name": "Notification: Error",
+    "description": "",
+    "properties": ["State"]
+  },
+  {
+    "id": "4875:38604",
+    "name": "Notification: Fatal",
+    "description": "",
+    "properties": ["State"]
+  },
+  {
+    "id": "1754:8350",
+    "name": "Checkbox",
+    "description": "",
+    "properties": ["State"]
+  },
+  {
+    "id": "3929:109628",
+    "name": "Radio button",
+    "description": "",
+    "properties": ["Property 1"]
+  },
+  {
+    "id": "2451:5",
+    "name": "Input chips",
+    "description": "",
+    "properties": ["Property 1"]
+  },
+  {
+    "id": "1289:8306",
+    "name": "Card Tag",
+    "description": "",
+    "properties": ["State"]
+  },
+  {
+    "id": "1841:8472",
+    "name": "Layout Tag",
+    "description": "",
+    "properties": ["Type"]
+  },
+  {
+    "id": "1759:8338",
+    "name": "Table rows",
+    "description": "",
+    "properties": ["Type", "Selected"]
+  },
+  {
+    "id": "1759:8359",
+    "name": "Table header",
+    "description": "",
+    "properties": ["Sort"]
+  },
+  {
+    "id": "3158:10418",
+    "name": "Table header",
+    "description": "",
+    "properties": ["Property 1", "Property 2"]
+  },
+  {
+    "id": "3158:11328",
+    "name": "List section",
+    "description": "",
+    "properties": ["Property 1"]
+  },
+  {
+    "id": "3095:9273",
+    "name": "Order profile modal",
+    "description": "",
+    "properties": ["Property 1"]
+  },
+  {
+    "id": "3179:960",
+    "name": "Help dialog",
+    "description": "",
+    "properties": ["Property 1"]
+  },
+  {
+    "id": "1524:9911",
+    "name": "Simulation dialog",
+    "description": "",
+    "properties": ["Type"]
+  },
+  {
+    "id": "1504:9174",
+    "name": "Width dialog with action",
+    "description": "",
+    "properties": ["Type"]
+  },
+  {
+    "id": "1573:9990",
+    "name": "Dividers",
+    "description": "",
+    "properties": ["Size"]
+  },
+  {
+    "id": "2453:1535",
+    "name": "Load carrier types large",
+    "description": "",
+    "properties": ["Property 1"]
+  },
+  {
+    "id": "2453:1750",
+    "name": "Vehicle models large",
+    "description": "",
+    "properties": ["Property 1"]
+  },
+  {
+    "id": "3797:54251",
+    "name": "check_circle",
+    "description": "",
+    "properties": ["Property 1"]
+  },
+  {
+    "id": "3797:54257",
+    "name": "cancel",
+    "description": "",
+    "properties": ["Property 1"]
+  },
+  {
+    "id": "3797:54262",
+    "name": "bolt",
+    "description": "",
+    "properties": ["Property 1"]
+  },
+  {
+    "id": "3797:54268",
+    "name": "local_parking",
+    "description": "",
+    "properties": ["Property 1"]
+  },
+  {
+    "id": "3838:100635",
+    "name": "garage_home",
+    "description": "",
+    "properties": ["Property 1"]
+  },
+  {
+    "id": "3838:100640",
+    "name": "shelves",
+    "description": "",
+    "properties": ["Property 1"]
+  },
+  {
+    "id": "3838:100645",
+    "name": "ev_charger",
+    "description": "",
+    "properties": ["Property 1"]
+  },
+  {
+    "id": "3838:100650",
+    "name": "local_shipping",
+    "description": "",
+    "properties": ["Property 1"]
+  },
+  {
+    "id": "3838:100655",
+    "name": "back_hand",
+    "description": "",
+    "properties": ["Property 1"]
+  },
+  {
+    "id": "3838:100660",
+    "name": "swipe_right_alt",
+    "description": "",
+    "properties": ["Property 1"]
+  },
+  {
+    "id": "3838:100665",
+    "name": "reply",
+    "description": "",
+    "properties": ["Property 1"]
+  },
+  {
+    "id": "3838:100670",
+    "name": "forward",
+    "description": "",
+    "properties": ["Property 1"]
+  },
+  {
+    "id": "3838:100675",
+    "name": "zoom_out_map",
+    "description": "",
+    "properties": ["State"]
+  },
+  {
+    "id": "3838:100738",
+    "name": "add",
+    "description": "",
+    "properties": ["Property 1"]
+  },
+  {
+    "id": "3838:100746",
+    "name": "remove",
+    "description": "",
+    "properties": ["Property 1"]
+  },
+  {
+    "id": "3838:100842",
+    "name": "lock",
+    "description": "",
+    "properties": ["Property 1"]
+  },
+  {
+    "id": "3838:100847",
+    "name": "lock_open",
+    "description": "",
+    "properties": ["Property 1"]
+  },
+  {
+    "id": "3838:100852",
+    "name": "visibility",
+    "description": "",
+    "properties": ["Property 1"]
+  },
+  {
+    "id": "3838:100857",
+    "name": "visibility_off",
+    "description": "",
+    "properties": ["Property 1"]
+  },
+  {
+    "id": "3838:101673",
+    "name": "conveyor_belt",
+    "description": "",
+    "properties": ["Property 1"]
+  },
+  {
+    "id": "3838:101678",
+    "name": "warning",
+    "description": "",
+    "properties": ["Property 1"]
+  },
+  {
+    "id": "3838:101693",
+    "name": "expand_more",
+    "description": "",
+    "properties": ["Property 1"]
+  },
+  {
+    "id": "3838:101699",
+    "name": "expand_less",
+    "description": "",
+    "properties": ["Property 1"]
+  },
+  {
+    "id": "3838:101714",
+    "name": "task_alt",
+    "description": "",
+    "properties": ["Property 1"]
+  },
+  {
+    "id": "3838:101720",
+    "name": "info",
+    "description": "",
+    "properties": ["Property 1"]
+  },
+  {
+    "id": "3838:101796",
+    "name": "error",
+    "description": "",
+    "properties": ["Property 1"]
+  },
+  {
+    "id": "3838:101825",
+    "name": "fitbit_arrow_downward",
+    "description": "",
+    "properties": ["Property 1"]
+  },
+  {
+    "id": "3838:101855",
+    "name": "fitbit_arrow_upward",
+    "description": "",
+    "properties": ["Property 1"]
+  },
+  {
+    "id": "3838:101987",
+    "name": "arrow_drop_down",
+    "description": "",
+    "properties": ["Property 1"]
+  },
+  {
+    "id": "3838:101995",
+    "name": "align_vertical_center",
+    "description": "",
+    "properties": ["Property 1"]
+  },
+  {
+    "id": "3838:102008",
+    "name": "align_vertical_top",
+    "description": "",
+    "properties": ["Property 1"]
+  },
+  {
+    "id": "3838:102032",
+    "name": "align_vertical_bottom",
+    "description": "",
+    "properties": ["Property 1"]
+  },
+  {
+    "id": "3838:102037",
+    "name": "horizontal_distribute 1",
+    "description": "",
+    "properties": ["Property 1"]
+  },
+  {
+    "id": "3838:102042",
+    "name": "view_in_ar",
+    "description": "",
+    "properties": ["Property 1"]
+  },
+  {
+    "id": "3838:102047",
+    "name": "3d_rotation",
+    "description": "",
+    "properties": ["Property 1"]
+  },
+  {
+    "id": "3838:102052",
+    "name": "view_compact",
+    "description": "",
+    "properties": ["Property 1"]
+  },
+  {
+    "id": "3838:102057",
+    "name": "view_module",
+    "description": "",
+    "properties": ["Property 1"]
+  },
+  {
+    "id": "3838:102062",
+    "name": "crop_square",
+    "description": "",
+    "properties": ["Property 1"]
+  },
+  {
+    "id": "3838:102067",
+    "name": "keyboard_double_arrow_right",
+    "description": "",
+    "properties": ["Property 1"]
+  },
+  {
+    "id": "3838:102075",
+    "name": "361",
+    "description": "",
+    "properties": ["Property 1"]
+  },
+  {
+    "id": "3838:102080",
+    "name": "play_arrow",
+    "description": "",
+    "properties": ["Property 1"]
+  },
+  {
+    "id": "3838:102085",
+    "name": "pause",
+    "description": "",
+    "properties": ["Property 1"]
+  },
+  {
+    "id": "3838:102090",
+    "name": "keyboard_return",
+    "description": "",
+    "properties": ["Property 1"]
+  },
+  {
+    "id": "3838:102095",
+    "name": "notifications",
+    "description": "",
+    "properties": ["Property 1"]
+  },
+  {
+    "id": "3838:102119",
+    "name": "image",
+    "description": "",
+    "properties": ["Property 1"]
+  },
+  {
+    "id": "3838:102124",
+    "name": "delete",
+    "description": "",
+    "properties": ["Property 1"]
+  },
+  {
+    "id": "3838:102135",
+    "name": "download",
+    "description": "",
+    "properties": ["Property 1"]
+  },
+  {
+    "id": "3838:102140",
+    "name": "close",
+    "description": "",
+    "properties": ["Property 1"]
+  },
+  {
+    "id": "3838:102147",
+    "name": "check",
+    "description": "",
+    "properties": ["Property 1"]
+  },
+  {
+    "id": "3838:102152",
+    "name": "file_copy",
+    "description": "",
+    "properties": ["Property 1"]
+  },
+  {
+    "id": "3838:102159",
+    "name": "search",
+    "description": "",
+    "properties": ["Property 1"]
+  },
+  {
+    "id": "3838:102174",
+    "name": "zoom_in",
+    "description": "",
+    "properties": ["Property 1"]
+  },
+  {
+    "id": "3838:102179",
+    "name": "zoom_out",
+    "description": "",
+    "properties": ["Property 1"]
+  },
+  {
+    "id": "3838:102184",
+    "name": "pan_tool_alt",
+    "description": "",
+    "properties": ["Property 1"]
+  },
+  {
+    "id": "3838:102189",
+    "name": "open_in_full",
+    "description": "",
+    "properties": ["Property 1"]
+  },
+  {
+    "id": "3838:102194",
+    "name": "arrow_drop_up",
+    "description": "",
+    "properties": ["Property 1"]
+  },
+  {
+    "id": "3838:102199",
+    "name": "keyboard_double_arrow_left",
+    "description": "",
+    "properties": ["Property 1"]
+  },
+  {
+    "id": "3838:102210",
+    "name": "keyboard_double_arrow_down",
+    "description": "",
+    "properties": ["Property 1"]
+  },
+  {
+    "id": "3838:102215",
+    "name": "notes",
+    "description": "",
+    "properties": ["Property 1"]
+  },
+  {
+    "id": "3838:102220",
+    "name": "event_note",
+    "description": "",
+    "properties": ["Property 1"]
+  },
+  {
+    "id": "3838:102226",
+    "name": "calendar_add_on",
+    "description": "",
+    "properties": ["Property 1"]
+  },
+  {
+    "id": "3838:102231",
+    "name": "keyboard_double_arrow_up",
+    "description": "",
+    "properties": ["Property 1"]
+  },
+  {
+    "id": "3838:102236",
+    "name": "vertical_distribute",
+    "description": "",
+    "properties": ["Property 1"]
+  },
+  {
+    "id": "3838:102241",
+    "name": "block",
+    "description": "",
+    "properties": ["Property 1"]
+  },
+  {
+    "id": "3838:102246",
+    "name": "search_off",
+    "description": "",
+    "properties": ["Property 1"]
+  },
+  {
+    "id": "3838:102251",
+    "name": "more_horiz",
+    "description": "",
+    "properties": ["Property 1"]
+  },
+  {
+    "id": "3838:102256",
+    "name": "more_vert",
+    "description": "",
+    "properties": ["Property 1"]
+  },
+  {
+    "id": "3838:102261",
+    "name": "edit",
+    "description": "",
+    "properties": ["Property 1"]
+  },
+  {
+    "id": "3838:102266",
+    "name": "grid_view",
+    "description": "",
+    "properties": ["Property 1"]
+  },
+  {
+    "id": "3838:102271",
+    "name": "view_list",
+    "description": "",
+    "properties": ["Property 1"]
+  },
+  {
+    "id": "3838:102276",
+    "name": "list",
+    "description": "",
+    "properties": ["Property 1"]
+  },
+  {
+    "id": "3838:102281",
+    "name": "chevron_right",
+    "description": "",
+    "properties": ["Property 1"]
+  },
+  {
+    "id": "3838:102286",
+    "name": "chevron_left",
+    "description": "",
+    "properties": ["Property 1"]
+  },
+  {
+    "id": "3838:102291",
+    "name": "check_box_outline",
+    "description": "",
+    "properties": ["Property 1"]
+  },
+  {
+    "id": "3838:102308",
+    "name": "indeterminate_check_box",
+    "description": "",
+    "properties": ["Property 1"]
+  },
+  {
+    "id": "3838:102313",
+    "name": "person_add",
+    "description": "",
+    "properties": ["Property 1"]
+  },
+  {
+    "id": "3838:102318",
+    "name": "check_box_FILL_w",
+    "description": "",
+    "properties": ["Property 1"]
+  },
+  {
+    "id": "3838:102331",
+    "name": "rotate_right",
+    "description": "",
+    "properties": ["Property 1"]
+  },
+  {
+    "id": "3838:102336",
+    "name": "package_2",
+    "description": "",
+    "properties": ["Property 1"]
+  },
+  {
+    "id": "3838:102341",
+    "name": "insights",
+    "description": "",
+    "properties": ["Property 1"]
+  },
+  {
+    "id": "3838:102346",
+    "name": "attach_file",
+    "description": "",
+    "properties": ["Property 1"]
+  },
+  {
+    "id": "3838:102351",
+    "name": "upload_file",
+    "description": "",
+    "properties": ["Property 1"]
+  },
+  {
+    "id": "3838:102356",
+    "name": "straighten",
+    "description": "",
+    "properties": ["Property 1"]
+  },
+  {
+    "id": "3838:102374",
+    "name": "link",
+    "description": "",
+    "properties": ["Property 1"]
+  },
+  {
+    "id": "3838:102379",
+    "name": "sync",
+    "description": "",
+    "properties": ["Property 1"]
+  },
+  {
+    "id": "3838:102384",
+    "name": "filter_alt",
+    "description": "",
+    "properties": ["Property 1"]
+  },
+  {
+    "id": "3838:102389",
+    "name": "dashboard",
+    "description": "",
+    "properties": ["Property 1"]
+  },
+  {
+    "id": "3838:102394",
+    "name": "balance",
+    "description": "",
+    "properties": ["Property 1"]
+  },
+  {
+    "id": "3838:102399",
+    "name": "signpost",
+    "description": "",
+    "properties": ["Property 1"]
+  },
+  {
+    "id": "3838:102404",
+    "name": "align_horizontal_left",
+    "description": "",
+    "properties": ["Property 1"]
+  },
+  {
+    "id": "3838:102409",
+    "name": "align_horizontal_center",
+    "description": "",
+    "properties": ["Property 1"]
+  },
+  {
+    "id": "3838:102414",
+    "name": "align_horizontal_right",
+    "description": "",
+    "properties": ["Property 1"]
+  },
+  {
+    "id": "3838:102419",
+    "name": "align_vertical_top",
+    "description": "",
+    "properties": ["Property 1"]
+  },
+  {
+    "id": "3838:102424",
+    "name": "align_vertical_center",
+    "description": "",
+    "properties": ["Property 1"]
+  },
+  {
+    "id": "3838:102433",
+    "name": "align_vertical_bottom",
+    "description": "",
+    "properties": ["Property 1"]
+  },
+  {
+    "id": "3838:102438",
+    "name": "folder_open",
+    "description": "",
+    "properties": ["Property 1"]
+  },
+  {
+    "id": "3838:102443",
+    "name": "forklift_",
+    "description": "",
+    "properties": ["Property 1"]
+  },
+  {
+    "id": "3838:102448",
+    "name": "autorenew",
+    "description": "",
+    "properties": ["Property 1"]
+  },
+  {
+    "id": "3838:102453",
+    "name": "deployed",
+    "description": "",
+    "properties": ["Property 1"]
+  },
+  {
+    "id": "3838:102458",
+    "name": "ads_click",
+    "description": "",
+    "properties": ["Property 1"]
+  },
+  {
+    "id": "3838:102463",
+    "name": "circle",
+    "description": "",
+    "properties": ["Property 1"]
+  },
+  {
+    "id": "3838:102468",
+    "name": "filter_alt_off",
+    "description": "",
+    "properties": ["Property 1"]
+  },
+  {
+    "id": "3838:102473",
+    "name": "settings",
+    "description": "",
+    "properties": ["Property 1"]
+  },
+  {
+    "id": "3838:102478",
+    "name": "smart_toy",
+    "description": "",
+    "properties": ["Property 1"]
+  },
+  {
+    "id": "3838:102483",
+    "name": "event_available",
+    "description": "",
+    "properties": ["Property 1"]
+  },
+  {
+    "id": "3838:102488",
+    "name": "check_small",
+    "description": "",
+    "properties": ["Property 1"]
+  },
+  {
+    "id": "3838:102493",
+    "name": "linear_scale",
+    "description": "",
+    "properties": ["Property 1"]
+  },
+  {
+    "id": "3838:102498",
+    "name": "crop",
+    "description": "",
+    "properties": ["Property 1"]
+  },
+  {
+    "id": "3838:102503",
+    "name": "open_in_new",
+    "description": "",
+    "properties": ["Property 1"]
+  },
+  {
+    "id": "3838:102727",
+    "name": "near_me_customized",
+    "description": "",
+    "properties": ["Property 1"]
+  },
+  {
+    "id": "3838:102745",
+    "name": "highway_customized",
+    "description": "",
+    "properties": ["Property 1"]
+  },
+  {
+    "id": "3838:102759",
+    "name": "arrow_drop_down_customized",
+    "description": "",
+    "properties": ["Property 1"]
+  },
+  {
+    "id": "3838:102767",
+    "name": "fitbit_arrow_right_customized",
+    "description": "",
+    "properties": ["Property 1"]
+  },
+  {
+    "id": "3838:102808",
+    "name": "fitbit_arrow_left_customized",
+    "description": "",
+    "properties": ["Property 1"]
+  },
+  {
+    "id": "3838:102827",
+    "name": "keyboard_double_arrow_right_left",
+    "description": "",
+    "properties": ["Property 1"]
+  },
+  {
+    "id": "3838:102851",
+    "name": "heat_pump",
+    "description": "",
+    "properties": ["Property 1"]
+  },
+  {
+    "id": "3838:102871",
+    "name": "Load handling",
+    "description": "",
+    "properties": ["Property 1"]
+  },
+  {
+    "id": "3838:102885",
+    "name": "Preferences custom",
+    "description": "",
+    "properties": ["Property 1"]
+  },
+  {
+    "id": "3838:103038",
+    "name": "Mini icons",
+    "description": "",
+    "properties": ["Property 1"]
+  },
+  {
+    "id": "3838:103049",
+    "name": "wall_customized",
+    "description": "",
+    "properties": ["Property 1"]
+  },
+  {
+    "id": "3838:103079",
+    "name": "obstacle_customized",
+    "description": "",
+    "properties": ["Property 1"]
+  },
+  {
+    "id": "3838:103086",
+    "name": "Duplicate",
+    "description": "",
+    "properties": ["Property 1"]
+  },
+  {
+    "id": "3838:103108",
+    "name": "Duplicate 2",
+    "description": "",
+    "properties": ["Property 1"]
+  },
+  {
+    "id": "3838:103152",
+    "name": "3D icon",
+    "description": "",
+    "properties": ["Property 1"]
+  },
+  {
+    "id": "3838:103159",
+    "name": "Fishbone",
+    "description": "",
+    "properties": ["Property 1"]
+  },
+  {
+    "id": "3838:103172",
+    "name": "Vertical",
+    "description": "",
+    "properties": ["Property 1"]
+  },
+  {
+    "id": "3838:103185",
+    "name": "test more icon",
+    "description": "",
+    "properties": ["Property 1"]
+  },
+  {
+    "id": "3838:103204",
+    "name": "Rotate2",
+    "description": "",
+    "properties": ["Property 1"]
+  },
+  {
+    "id": "3948:34900",
+    "name": "quick_reorder",
+    "description": "",
+    "properties": ["Property 1"]
+  },
+  {
+    "id": "4102:34250",
+    "name": "bookmark",
+    "description": "",
+    "properties": ["Property 1"]
+  },
+  {
+    "id": "4181:36469",
+    "name": "center_focus_weak",
+    "description": "",
+    "properties": ["Property 1"]
+  },
+  {
+    "id": "4181:36476",
+    "name": "pause_circle",
+    "description": "",
+    "properties": ["Property 1"]
+  },
+  {
+    "id": "4225:36180",
+    "name": "help_center",
+    "description": "",
+    "properties": ["Property 1"]
+  },
+  {
+    "id": "4225:36190",
+    "name": "wifi",
+    "description": "",
+    "properties": ["Property 1"]
+  },
+  {
+    "id": "4225:36200",
+    "name": "family_history",
+    "description": "",
+    "properties": ["Property 1"]
+  },
+  {
+    "id": "4225:36210",
+    "name": "logout",
+    "description": "",
+    "properties": ["Property 1"]
+  },
+  {
+    "id": "4228:36170",
+    "name": "construction",
+    "description": "",
+    "properties": ["Property 1"]
+  },
+  {
+    "id": "4228:36186",
+    "name": "help",
+    "description": "",
+    "properties": ["Property 1"]
+  },
+  {
+    "id": "4228:36196",
+    "name": "translate",
+    "description": "",
+    "properties": ["Property 1"]
+  },
+  {
+    "id": "4247:36170",
+    "name": "contrast",
+    "description": "",
+    "properties": ["Property 1"]
+  },
+  {
+    "id": "4259:36181",
+    "name": "do_not_disturb_on",
+    "description": "",
+    "properties": ["Property 1"]
+  },
+  {
+    "id": "4327:36190",
+    "name": "import_contacts",
+    "description": "",
+    "properties": ["Property 1"]
+  },
+  {
+    "id": "4334:39009",
+    "name": "crossword",
+    "description": "",
+    "properties": ["Property 1"]
+  },
+  {
+    "id": "4342:39201",
+    "name": "team_dashboard 1",
+    "description": "",
+    "properties": ["Property 1"]
+  },
+  {
+    "id": "4802:37868",
+    "name": "stacked_line_chart",
+    "description": "",
+    "properties": ["Property 1"]
+  },
+  {
+    "id": "4822:37875",
+    "name": "Manual operation",
+    "description": "",
+    "properties": ["Property 1"]
+  },
+  {
+    "id": "4971:38657",
+    "name": "location_on",
+    "description": "",
+    "properties": ["Property 1"]
+  },
+  {
+    "id": "5311:73039",
+    "name": "Gap and margin",
+    "description": "",
+    "properties": ["Property 1"]
+  },
+  {
+    "id": "5374:225",
+    "name": "nearby",
+    "description": "",
+    "properties": ["Property 1"]
+  },
+  {
+    "id": "5386:27102",
+    "name": "heat",
+    "description": "",
+    "properties": ["Property 1"]
+  },
+  {
+    "id": "5386:27094",
+    "name": "Pivot",
+    "description": "",
+    "properties": ["Property 1"]
+  },
+  {
+    "id": "1728:8340",
+    "name": "Input – Text",
+    "description": "",
+    "properties": ["Text#4112:3", "Type", "State"]
+  },
+  {
+    "id": "1728:8539",
+    "name": "Input – Search",
+    "description": "",
+    "properties": ["State", "Type"]
+  },
+  {
+    "id": "4607:42679",
+    "name": "Rack",
+    "description": "",
+    "properties": ["Property 1"]
+  },
+  {
+    "id": "5246:38437",
+    "name": "Shuttle",
+    "description": "",
+    "properties": ["Property 1"]
+  },
+  {
+    "id": "3142:9601",
+    "name": "Floorplan card",
+    "description": "",
+    "properties": ["Property 1"]
+  },
+  {
+    "id": "3142:9636",
+    "name": "Title and search",
+    "description": "",
+    "properties": ["Property 1"]
+  },
+  {
+    "id": "3143:334",
+    "name": "Filter and sort",
+    "description": "",
+    "properties": ["Property 1"]
+  },
+  {
+    "id": "3144:486",
+    "name": "Large Floorplan card section",
+    "description": "",
+    "properties": ["Property 1"]
+  },
+  {
+    "id": "3168:10778",
+    "name": "Keyboard shortcuts section",
+    "description": "",
+    "properties": ["Property 1"]
+  },
+  {
+    "id": "3180:1491",
+    "name": "Select vehicles/load carrier",
+    "description": "",
+    "properties": ["Property 1"]
+  },
+  {
+    "id": "1523:9626",
+    "name": "Dropdown menu item",
+    "description": "",
+    "properties": ["State", "Right content", "Divider", "Type", "Left icon"]
+  },
+  {
+    "id": "2041:7988",
+    "name": "Medium - Dropdown menu",
+    "description": "",
+    "properties": ["Background Color"]
+  },
+  {
+    "id": "3130:9224",
+    "name": "Large - Dropdown menu",
+    "description": "",
+    "properties": ["Property 1"]
+  },
+  {
+    "id": "1554:9408",
+    "name": "Loading Spinner 3",
+    "description": "",
+    "properties": ["Position"]
+  },
+  {
+    "id": "1554:9439",
+    "name": "Loading Bar",
+    "description": "",
+    "properties": ["Position"]
+  },
+  {
+    "id": "5246:36965",
+    "name": "Slider",
+    "description": "",
+    "properties": ["State"]
+  },
+  {
+    "id": "1894:8776",
+    "name": "Switch",
+    "description": "",
+    "properties": ["State"]
+  },
+  {
+    "id": "1085:6700",
+    "name": "Tab item",
+    "description": "",
+    "properties": ["Selected"]
+  },
+  {
+    "id": "1081:6534",
+    "name": "Tool rail sub",
+    "description": "",
+    "properties": ["State"]
+  },
+  {
+    "id": "1081:6441",
+    "name": "Tool rail / main items",
+    "description": "",
+    "properties": ["State", "Expandable"]
+  },
+  {
+    "id": "1081:6457",
+    "name": "Tool rail / sub items",
+    "description": "",
+    "properties": ["State"]
+  },
+  {
+    "id": "5338:19519",
+    "name": "Tool rail expand menu",
+    "description": "",
+    "properties": ["Property 1"]
+  },
+  {
+    "id": "1262:8263",
+    "name": "Explenation tooltip",
+    "description": "",
+    "properties": ["Arrow", "Light"]
+  },
+  {
+    "id": "1521:9120",
+    "name": "Layers",
+    "description": "",
+    "properties": ["Selected", "2nd level", "Hover", "Hide"]
+  },
+  {
+    "id": "1522:9371",
+    "name": "Layer states",
+    "description": "",
+    "properties": []
+  },
+  {
+    "id": "1522:9585",
+    "name": "Layer left icon",
+    "description": "",
+    "properties": ["Expanded", "Visible"]
+  },
+  {
+    "id": "3222:148974",
+    "name": "Layer/group section",
+    "description": "",
+    "properties": ["Property 1"]
+  },
+  {
+    "id": "1364:9832",
+    "name": "Top bars",
+    "description": "",
+    "properties": ["Variant"]
+  },
+  {
+    "id": "2992:2811",
+    "name": "Reference image",
+    "description": "",
+    "properties": ["Property 1"]
+  },
+  {
+    "id": "2992:2842",
+    "name": "Scale section",
+    "description": "",
+    "properties": ["Property 1"]
+  },
+  {
+    "id": "2992:2858",
+    "name": "Vehicle and load carrier types",
+    "description": "",
+    "properties": ["Property 1"]
+  },
+  {
+    "id": "2995:4118",
+    "name": "Area sections",
+    "description": "",
+    "properties": ["Property 1"]
+  },
+  {
+    "id": "3003:11667",
+    "name": "Flow list",
+    "description": "",
+    "properties": ["Property 1"]
+  },
+  {
+    "id": "3003:12698",
+    "name": "Bars",
+    "description": "",
+    "properties": ["Property 1"]
+  },
+  {
+    "id": "3005:10695",
+    "name": "Nothing card",
+    "description": "",
+    "properties": ["Property 1"]
+  },
+  {
+    "id": "5330:50169",
+    "name": "Area sections",
+    "description": "",
+    "properties": ["Property 1"]
+  },
+  {
+    "id": "3023:9527",
+    "name": "Slider list",
+    "description": "",
+    "properties": ["Property 1"]
+  },
+  {
+    "id": "3023:9528",
+    "name": "Switch list",
+    "description": "",
+    "properties": ["Property 1"]
+  },
+  {
+    "id": "2992:2230",
+    "name": "Property panel - Setup, Layout, Simulation, 3d, Visualiation, Commissioning",
+    "description": "",
+    "properties": ["Property 1"]
+  },
+  {
+    "id": "4324:36704",
+    "name": "Visualization, job card",
+    "description": "",
+    "properties": ["Property 1"]
+  },
+  {
+    "id": "5264:22954",
+    "name": "Use range card (simulation)",
+    "description": "",
+    "properties": ["Property 1"]
+  },
+  {
+    "id": "1535:9374",
+    "name": "input text",
+    "description": "",
+    "properties": ["Text#4112:0", "State"]
+  },
+  {
+    "id": "1256:8218",
+    "name": "Right bar - input row",
+    "description": "",
+    "properties": ["Type"]
+  },
+  {
+    "id": "1125:9807",
+    "name": "Properties - Label",
+    "description": "",
+    "properties": ["Label size"]
+  },
+  {
+    "id": "3778:52096",
+    "name": "Advanced settings",
+    "description": "",
+    "properties": ["Property 1"]
+  },
+  {
+    "id": "3786:53774",
+    "name": "Atom: Tab",
+    "description": "",
+    "properties": ["Property 1"]
+  },
+  {
+    "id": "3797:54163",
+    "name": "Property: Top section with exit",
+    "description": "",
+    "properties": ["Property 1"]
+  },
+  {
+    "id": "3797:54209",
+    "name": "Search",
+    "description": "",
+    "properties": ["Property 1"]
+  },
+  {
+    "id": "3798:55167",
+    "name": "Property: Area Data card",
+    "description": "",
+    "properties": ["Property 1"]
+  },
+  {
+    "id": "3798:55266",
+    "name": "Property: Header section",
+    "description": "",
+    "properties": ["Property 1"]
+  },
+  {
+    "id": "3799:62003",
+    "name": "Expanded header section elements",
+    "description": "",
+    "properties": ["Property 1"]
+  },
+  {
+    "id": "3811:36790",
+    "name": "Input",
+    "description": "",
+    "properties": ["Property 1"]
+  },
+  {
+    "id": "3811:47134",
+    "name": "Layer components",
+    "description": "",
+    "properties": ["Opacity#3811:0", "Property 1", "State"]
+  },
+  {
+    "id": "3815:56237",
+    "name": "Upload",
+    "description": "",
+    "properties": ["Property 1"]
+  },
+  {
+    "id": "3376:20430",
+    "name": "Rack illustrations",
+    "description": "",
+    "properties": ["Property 1"]
+  },
+  {
+    "id": "3632:22148",
+    "name": "Highway: Margin and gap illustrations",
+    "description": "",
+    "properties": ["Property 1"]
+  },
+  {
+    "id": "3632:22374",
+    "name": "Area: Margin and gap illustrations",
+    "description": "",
+    "properties": ["Property 1"]
+  },
+  {
+    "id": "3778:51872",
+    "name": "Shuttle system AS/RS",
+    "description": "",
+    "properties": ["Property 1"]
+  },
+  {
+    "id": "3815:56560",
+    "name": "Property panel",
+    "description": "",
+    "properties": ["Property 1"]
+  },
+  {
+    "id": "3832:37439",
+    "name": "Start new simulation section",
+    "description": "",
+    "properties": ["Property 1"]
+  },
+  {
+    "id": "3832:44802",
+    "name": "Add link field",
+    "description": "",
+    "properties": ["Property 1"]
+  },
+  {
+    "id": "3837:52127",
+    "name": "Notification card: Validation design failed - new tag alert",
+    "description": "",
+    "properties": ["Property 1"]
+  },
+  {
+    "id": "3837:52320",
+    "name": "Version history",
+    "description": "",
+    "properties": ["Property 1"]
+  },
+  {
+    "id": "4020:34800",
+    "name": "Francks racking data set",
+    "description": "",
+    "properties": ["Property 1"]
+  }
+]

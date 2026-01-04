@@ -1,0 +1,10 @@
+.statechecked {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+}
+
+.statechecked svg {
+  width: 100%;
+  height: 100%;
+}

@@ -1,0 +1,10 @@
+.typetextstatedisabled {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+}
+
+.typetextstatedisabled svg {
+  width: 100%;
+  height: 100%;
+}

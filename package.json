@@ -1,0 +1,88 @@
+{
+  "name": "@tsuite/design-system",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "TSuite Design System - Figma to Code automation",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build",
+    "figma:export": "node scripts/figma-export.cjs && node scripts/export-component-docs.cjs",
+    "figma:docs": "node scripts/export-component-docs.cjs",
+    "figma:svgs": "node scripts/export-figma-svgs.cjs",
+    "figma:connect": "figma connect publish",
+    "figma:components": "node scripts/list-components.cjs",
+    "figma:usage": "node scripts/analyze-usage.cjs",
+    "figma:icons": "node scripts/export-icons.cjs",
+    "figma:variables": "node scripts/transform-figma-variables.cjs",
+    "tokens:transform": "token-transformer tokens/figma-tokens.json tokens/transformed-tokens.json",
+    "tokens:build": "style-dictionary build --config style-dictionary.config.cjs",
+    "build": "npm run tokens:build && tsc && npm run build:copy-assets",
+    "build:copy-assets": "node scripts/copy-build-assets.cjs",
+    "dev": "npm run storybook",
+    "lint": "eslint . --max-warnings=0",
+    "lint:fix": "eslint . --fix",
+    "format": "prettier --write \"**/*.{ts,tsx,js,jsx,json,md}\"",
+    "format:check": "prettier --check \"**/*.{ts,tsx,js,jsx,json,md}\"",
+    "test": "vitest",
+    "test:storybook": "vitest --project=storybook",
+    "test:ui": "vitest --ui",
+    "test:coverage": "vitest --coverage",
+    "prepare": "husky"
+  },
+  "keywords": [
+    "design-system",
+    "figma",
+    "storybook",
+    "design-tokens"
+  ],
+  "devDependencies": {
+    "@eslint/js": "^9.39.2",
+    "@figma/code-connect": "^1.0.0",
+    "@storybook/addon-a11y": "^10.1.11",
+    "@storybook/addon-designs": "^11.1.1",
+    "@storybook/addon-vitest": "^10.1.11",
+    "@storybook/react": "^10.1.11",
+    "@storybook/react-vite": "^10.1.11",
+    "@types/react": "^18.2.45",
+    "@types/react-dom": "^18.2.18",
+    "@typescript-eslint/eslint-plugin": "^8.51.0",
+    "@typescript-eslint/parser": "^8.51.0",
+    "@vitest/browser-playwright": "^4.0.16",
+    "@vitest/coverage-v8": "^4.0.16",
+    "axios": "^1.6.2",
+    "eslint": "^9.39.2",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-react": "^7.37.5",
+    "eslint-plugin-react-hooks": "^7.0.1",
+    "husky": "^9.1.7",
+    "lint-staged": "^16.2.7",
+    "playwright": "^1.57.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "storybook": "^10.1.11",
+    "style-dictionary": "^3.9.0",
+    "token-transformer": "^0.0.33",
+    "typescript": "^5.3.3",
+    "vite": "^5.0.8",
+    "vite-plugin-svgr": "^4.5.0",
+    "vitest": "^4.0.16"
+  },
+  "peerDependencies": {
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.3"
+  },
+  "lint-staged": {
+    "*.{ts,tsx,js,jsx}": [
+      "eslint --fix",
+      "prettier --write"
+    ],
+    "*.{json,md}": [
+      "prettier --write"
+    ]
+  }
+}

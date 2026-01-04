@@ -1,0 +1,648 @@
+[
+  {
+    "folder": "Accordion",
+    "figmaName": "Right bar - Expansion panel - 2",
+    "properties": [
+      {
+        "name": "Instance#1904:0\n   - Type: INSTANCE_SWAP\n   - Default: 1074:6382\n\n   Property: Property 1",
+        "defaultValue": "False",
+        "options": ["True", "False"]
+      }
+    ],
+    "variants": ["Property 1=True", "Property 1=False"]
+  },
+  {
+    "folder": "Badge",
+    "figmaName": "Small badge",
+    "properties": [
+      {
+        "name": "State",
+        "defaultValue": "New message",
+        "options": ["New message", "Large badge red plus", "Large badge Red"]
+      },
+      {
+        "name": "Darkmode",
+        "defaultValue": "False",
+        "options": ["False"]
+      },
+      {
+        "name": "Property 3",
+        "defaultValue": "False",
+        "options": ["False"]
+      }
+    ],
+    "variants": [
+      "State=New message, Darkmode=False, Property 3=False",
+      "State=Large badge Red, Darkmode=False, Property 3=False",
+      "State=Large badge red plus, Darkmode=False, Property 3=False"
+    ]
+  },
+  {
+    "folder": "Banner",
+    "figmaName": "Information banner",
+    "properties": [
+      {
+        "name": "Content",
+        "defaultValue": "Text + X",
+        "options": ["Text + X"]
+      }
+    ],
+    "variants": ["Content=Text + X"]
+  },
+  {
+    "folder": "BottomBars",
+    "figmaName": "Zoom menu",
+    "properties": [
+      {
+        "name": "State",
+        "defaultValue": "Default",
+        "options": ["Default"]
+      }
+    ],
+    "variants": ["State=Default"]
+  },
+  {
+    "folder": "Button",
+    "figmaName": "Buttons",
+    "properties": [],
+    "variants": [
+      "Type=Outlined, Icon=No icon, State=Enabled",
+      "Type=Link button, Icon=No icon, State=Enabled",
+      "Type=Link button, Icon=No icon, State=Hovered",
+      "Type=Link button, Icon=No icon, State=Focused",
+      "Type=Link button, Icon=No icon, State=Pressed",
+      "Type=Link button, Icon=No icon, State=Disabled",
+      "Type=Primary, Icon=No icon, State=Enabled",
+      "Type=Primary, Icon=No icon, State=Hovered",
+      "Type=Primary, Icon=No icon, State=Focused",
+      "Type=Primary, Icon=No icon, State=Pressed",
+      "Type=Primary, Icon=No icon, State=Disabled",
+      "Type=Outlined, Icon=Left, State=Enabled",
+      "Type=Outlined, Icon=Left, State=Hovered",
+      "Type=Outlined, Icon=Left, State=Focused",
+      "Type=Outlined, Icon=Left, State=Pressed",
+      "Type=Outlined, Icon=Left, State=Disabled",
+      "Type=Primary, Icon=Left, State=Enabled",
+      "Type=Primary, Icon=Left, State=Hovered",
+      "Type=Primary, Icon=Left, State=Focused",
+      "Type=Primary, Icon=Left, State=Pressed",
+      "Type=Primary, Icon=Left, State=Disabled",
+      "Type=Outlined, Icon=No icon, State=Hovered",
+      "Type=Outlined, Icon=No icon, State=Focused",
+      "Type=Outlined, Icon=No icon, State=Pressed",
+      "Type=Outlined, Icon=No icon, State=Disabled",
+      "Type=Primary, Icon=No icon, State=Enabled",
+      "Type=Primary, Icon=No icon, State=Enabled",
+      "Type=Primary, Icon=No icon, State=Enabled"
+    ]
+  },
+  {
+    "folder": "CanvasObjects",
+    "figmaName": "Area",
+    "properties": [
+      {
+        "name": "State",
+        "defaultValue": "Default",
+        "options": ["Flow", "Default", "Resize", "Defaul"]
+      },
+      {
+        "name": "Type",
+        "defaultValue": "Process",
+        "options": [
+          "Process",
+          "Delivery",
+          "Intake",
+          "Storage",
+          "Charging",
+          "Parking",
+          "Hand-over",
+          "Small",
+          "Exit Entry",
+          "Manual process area"
+        ]
+      }
+    ],
+    "variants": [
+      "State=Default, Type=Process",
+      "State=Default, Type=Hand-over",
+      "State=Default, Type=Delivery",
+      "State=Default, Type=Intake",
+      "State=Default, Type=Storage",
+      "State=Default, Type=Charging",
+      "State=Default, Type=Parking",
+      "State=Flow, Type=Process",
+      "State=Flow, Type=Hand-over",
+      "State=Flow, Type=Delivery",
+      "State=Flow, Type=Intake",
+      "State=Flow, Type=Storage",
+      "State=Flow, Type=Charging",
+      "State=Flow, Type=Parking",
+      "State=Resize, Type=Process",
+      "State=Resize, Type=Hand-over",
+      "State=Resize, Type=Delivery",
+      "State=Resize, Type=Intake",
+      "State=Resize, Type=Storage",
+      "State=Resize, Type=Charging",
+      "State=Resize, Type=Parking",
+      "State=Default, Type=Small",
+      "State=Defaul, Type=Exit Entry",
+      "State=Default, Type=Manual process area"
+    ]
+  },
+  {
+    "folder": "Card",
+    "figmaName": "Simulation card",
+    "properties": [
+      {
+        "name": "Status",
+        "defaultValue": "Active",
+        "options": ["Active", "Default", "Complete", "Order profile"]
+      },
+      {
+        "name": "State",
+        "defaultValue": "Draft",
+        "options": ["Default", "Hover", "Draft"]
+      }
+    ],
+    "variants": [
+      "Status=Active, State=Default",
+      "Status=Active, State=Hover",
+      "Status=Complete, State=Default",
+      "Status=Order profile, State=Default",
+      "Status=Complete, State=Hover",
+      "Status=Active, State=Draft",
+      "Status=Default, State=Default"
+    ]
+  },
+  {
+    "folder": "CheckboxRadio",
+    "figmaName": "Checkbox",
+    "properties": [
+      {
+        "name": "State",
+        "defaultValue": "Checked",
+        "options": ["Checked", "Unchecked", "Not all checked"]
+      }
+    ],
+    "variants": ["State=Unchecked", "State=Not all checked", "State=Checked"]
+  },
+  {
+    "folder": "ChipsTags",
+    "figmaName": "Input chips",
+    "properties": [
+      {
+        "name": "Property 1",
+        "defaultValue": "Vehicle",
+        "options": ["Vehicle", "Load carrier 1", "Load carrier 2"]
+      }
+    ],
+    "variants": [
+      "Property 1=Vehicle",
+      "Property 1=Load carrier 1",
+      "Property 1=Load carrier 2"
+    ]
+  },
+  {
+    "folder": "DataTable",
+    "figmaName": "Table rows",
+    "properties": [
+      {
+        "name": "Type",
+        "defaultValue": "Table row",
+        "options": ["Table row", "Rows with tag", "Row tag"]
+      },
+      {
+        "name": "Selected",
+        "defaultValue": "False",
+        "options": ["False", "True", "Default", "Selected"]
+      }
+    ],
+    "variants": [
+      "Type=Table row, Selected=False",
+      "Type=Table row, Selected=True",
+      "Type=Row tag, Selected=Default",
+      "Type=Rows with tag, Selected=Selected"
+    ]
+  },
+  {
+    "folder": "Dialogs",
+    "figmaName": "Order profile modal",
+    "properties": [
+      {
+        "name": "Property 1",
+        "defaultValue": "Default",
+        "options": ["Default", "Complete", "Upload", "Two files"]
+      }
+    ],
+    "variants": [
+      "Property 1=Complete",
+      "Property 1=Upload",
+      "Property 1=Default",
+      "Property 1=Two files"
+    ]
+  },
+  {
+    "folder": "Divider",
+    "figmaName": "Dividers",
+    "properties": [
+      {
+        "name": "Size",
+        "defaultValue": "Vertical",
+        "options": ["Vertical", "Horizontal"]
+      }
+    ],
+    "variants": ["Size=Vertical", "Size=Horizontal"]
+  },
+  {
+    "folder": "Illustrations",
+    "figmaName": "Rack",
+    "properties": [
+      {
+        "name": "Property 1",
+        "defaultValue": "Defaul racking",
+        "options": [
+          "Beam height",
+          "Defaul racking",
+          "First shelf height",
+          "Gap between loads",
+          "Number of cells (depth)",
+          "Post width",
+          "Side margin racking",
+          "Top margin",
+          "Total level depth"
+        ]
+      }
+    ],
+    "variants": [
+      "Property 1=Side margin racking",
+      "Property 1=Defaul racking",
+      "Property 1=Gap between loads",
+      "Property 1=Top margin",
+      "Property 1=Beam height",
+      "Property 1=Post width",
+      "Property 1=First shelf height",
+      "Property 1=Total level depth",
+      "Property 1=Number of cells (depth)"
+    ]
+  },
+  {
+    "folder": "Input",
+    "figmaName": "Input",
+    "properties": [
+      {
+        "name": "Property 1",
+        "defaultValue": "Title",
+        "options": [
+          "Dropdown",
+          "Dropdown Advanced",
+          "Label",
+          "Label Advanced",
+          "Title Icon",
+          "Title italic",
+          "Title",
+          "Icon label x2",
+          "Dimension Icon label x1",
+          "Dimension Input x2",
+          "Icon x3 Advanced",
+          "Vehicle Label Icon 1",
+          "Vehicle label icon 2",
+          "Load carrier label icon",
+          "Label expand",
+          "Load carrier type dropdown 1",
+          "Vehicle type dropdown 1",
+          "Vehicle type dropdown 2",
+          "Load carrier type dropdown 2",
+          "First dropdown",
+          "Label and Add",
+          "Slider",
+          "Dimension letter and icon"
+        ]
+      }
+    ],
+    "variants": [
+      "Property 1=Label",
+      "Property 1=Dropdown Advanced",
+      "Property 1=Label Advanced",
+      "Property 1=Label expand",
+      "Property 1=Dropdown",
+      "Property 1=Title Icon",
+      "Property 1=Title italic",
+      "Property 1=Title",
+      "Property 1=Icon label x2",
+      "Property 1=Dimension Icon label x1",
+      "Property 1=Dimension Input x2",
+      "Property 1=Icon x3 Advanced",
+      "Property 1=Vehicle Label Icon 1",
+      "Property 1=Vehicle label icon 2",
+      "Property 1=Load carrier label icon",
+      "Property 1=Vehicle type dropdown 1",
+      "Property 1=Load carrier type dropdown 1",
+      "Property 1=Vehicle type dropdown 2",
+      "Property 1=Load carrier type dropdown 2",
+      "Property 1=First dropdown",
+      "Property 1=Label and Add",
+      "Property 1=Slider",
+      "Property 1=Dimension letter and icon"
+    ]
+  },
+  {
+    "folder": "LargeComponents",
+    "figmaName": "Floorplan card",
+    "properties": [
+      {
+        "name": "Property 1",
+        "defaultValue": "New floorplan",
+        "options": ["Default", "Hover", "New floorplan"]
+      }
+    ],
+    "variants": [
+      "Property 1=New floorplan",
+      "Property 1=Hover",
+      "Property 1=Default"
+    ]
+  },
+  {
+    "folder": "Menus",
+    "figmaName": "Dropdown menu item",
+    "properties": [
+      {
+        "name": "State",
+        "defaultValue": "Default",
+        "options": [
+          "Selected",
+          "Hover",
+          "Default",
+          "Disable",
+          "Icon + expand",
+          "Pressed"
+        ]
+      },
+      {
+        "name": "Right content",
+        "defaultValue": "None",
+        "options": ["None", "Icon", "Short key"]
+      },
+      {
+        "name": "Divider",
+        "defaultValue": "False",
+        "options": ["False"]
+      },
+      {
+        "name": "Type",
+        "defaultValue": "Label",
+        "options": ["Label", "Multiselect", "Icon left"]
+      },
+      {
+        "name": "Left icon",
+        "defaultValue": "False",
+        "options": ["False", "True"]
+      }
+    ],
+    "variants": [
+      "State=Selected, Right content=None, Divider=False, Type=Label, Left icon=False",
+      "State=Default, Right content=None, Divider=False, Type=Label, Left icon=False",
+      "State=Disable, Right content=None, Divider=False, Type=Label, Left icon=False",
+      "State=Default, Right content=None, Divider=False, Type=Multiselect, Left icon=False",
+      "State=Icon + expand, Right content=None, Divider=False, Type=Multiselect, Left icon=False",
+      "State=Default, Right content=None, Divider=False, Type=Icon left, Left icon=False",
+      "State=Hover, Right content=None, Divider=False, Type=Multiselect, Left icon=False",
+      "State=Pressed, Right content=None, Divider=False, Type=Multiselect, Left icon=False",
+      "State=Selected, Right content=None, Divider=False, Type=Multiselect, Left icon=False",
+      "State=Icon + expand, Right content=Icon, Divider=False, Type=Label, Left icon=False",
+      "State=Default, Right content=Icon, Divider=False, Type=Label, Left icon=True",
+      "State=Hover, Right content=Icon, Divider=False, Type=Label, Left icon=False",
+      "State=Pressed, Right content=Icon, Divider=False, Type=Label, Left icon=False",
+      "State=Hover, Right content=Icon, Divider=False, Type=Label, Left icon=True",
+      "State=Pressed, Right content=Icon, Divider=False, Type=Label, Left icon=True",
+      "State=Selected, Right content=Icon, Divider=False, Type=Label, Left icon=False",
+      "State=Selected, Right content=Icon, Divider=False, Type=Label, Left icon=True",
+      "State=Default, Right content=Short key, Divider=False, Type=Label, Left icon=False",
+      "State=Hover, Right content=Short key, Divider=False, Type=Label, Left icon=False",
+      "State=Pressed, Right content=Short key, Divider=False, Type=Label, Left icon=False",
+      "State=Selected, Right content=Short key, Divider=False, Type=Label, Left icon=False",
+      "State=Hover, Right content=None, Divider=False, Type=Label, Left icon=False",
+      "State=Pressed, Right content=None, Divider=False, Type=Label, Left icon=False"
+    ]
+  },
+  {
+    "folder": "ProgressIndicators",
+    "figmaName": "Loading Spinner 3",
+    "properties": [
+      {
+        "name": "Position",
+        "defaultValue": "1",
+        "options": ["1", "2", "3", "4"]
+      }
+    ],
+    "variants": ["Position=1", "Position=2", "Position=3", "Position=4"]
+  },
+  {
+    "folder": "RackingData",
+    "figmaName": "Francks racking data set",
+    "properties": [
+      {
+        "name": "Property 1",
+        "defaultValue": "1. Frame length",
+        "options": [
+          "1. Frame length",
+          "10. Clearance in between",
+          "11. Clearance top",
+          "12. Overhang front",
+          "13. Overhang back",
+          "14. Max height of pallet",
+          "2. Frame depth",
+          "3. Frame height",
+          "4. Beam length",
+          "5. Beam height",
+          "6. Shelf 1 height",
+          "7. Shelf 2 height",
+          "8. Shelf n height",
+          "9. Clearance side",
+          "Shelf height MVP",
+          "Beam width"
+        ]
+      }
+    ],
+    "variants": [
+      "Property 1=10. Clearance in between",
+      "Property 1=11. Clearance top",
+      "Property 1=9. Clearance side",
+      "Property 1=2. Frame depth",
+      "Property 1=13. Overhang back",
+      "Property 1=14. Max height of pallet",
+      "Property 1=12. Overhang front",
+      "Property 1=1. Frame length",
+      "Property 1=4. Beam length",
+      "Property 1=5. Beam height",
+      "Property 1=6. Shelf 1 height",
+      "Property 1=7. Shelf 2 height",
+      "Property 1=8. Shelf n height",
+      "Property 1=3. Frame height",
+      "Property 1=Shelf height MVP",
+      "Property 1=Beam width"
+    ]
+  },
+  {
+    "folder": "Slider",
+    "figmaName": "Slider",
+    "properties": [
+      {
+        "name": "State",
+        "defaultValue": "0",
+        "options": ["0", "+1"]
+      }
+    ],
+    "variants": ["State=+1", "State=0"]
+  },
+  {
+    "folder": "Switch",
+    "figmaName": "Switch",
+    "properties": [
+      {
+        "name": "State",
+        "defaultValue": "off",
+        "options": ["off", "on"]
+      }
+    ],
+    "variants": ["State=off", "State=on"]
+  },
+  {
+    "folder": "Tabs",
+    "figmaName": "Tab item",
+    "properties": [
+      {
+        "name": "Selected",
+        "defaultValue": "False",
+        "options": ["False", "True"]
+      }
+    ],
+    "variants": ["Selected=False", "Selected=True"]
+  },
+  {
+    "folder": "ToolRail",
+    "figmaName": "Tool rail sub",
+    "properties": [
+      {
+        "name": "State",
+        "defaultValue": "Wall and obstacle",
+        "options": ["Areas", "Wall and obstacle"]
+      }
+    ],
+    "variants": ["State=Wall and obstacle", "State=Areas"]
+  },
+  {
+    "folder": "Tooltip",
+    "figmaName": "Explenation tooltip",
+    "properties": [
+      {
+        "name": "Arrow",
+        "defaultValue": "Right",
+        "options": [
+          "Right",
+          "Left",
+          "Top left",
+          "Top right",
+          "Top Center shortcutkey",
+          "Top right shortcutkey",
+          "Top left shortcutkey",
+          "Bottom left shortcutkey",
+          "Bottom right shortcutkey",
+          "Bottom center shortcutkey",
+          "Bottom Center",
+          "Top Center"
+        ]
+      },
+      {
+        "name": "Light",
+        "defaultValue": "true",
+        "options": ["true"]
+      }
+    ],
+    "variants": [
+      "Arrow=Right, Light=true",
+      "Arrow=Bottom Center, Light=true",
+      "Arrow=Bottom right shortcutkey, Light=true",
+      "Arrow=Bottom center shortcutkey, Light=true",
+      "Arrow=Top right, Light=true",
+      "Arrow=Top right shortcutkey, Light=true",
+      "Arrow=Top Center, Light=true",
+      "Arrow=Top Center shortcutkey, Light=true",
+      "Arrow=Left, Light=true",
+      "Arrow=Bottom left shortcutkey, Light=true",
+      "Arrow=Top left, Light=true",
+      "Arrow=Top left shortcutkey, Light=true"
+    ]
+  },
+  {
+    "folder": "TreeView",
+    "figmaName": "Layers",
+    "properties": [
+      {
+        "name": "Selected",
+        "defaultValue": "False",
+        "options": ["False", "True"]
+      },
+      {
+        "name": "2nd level",
+        "defaultValue": "True",
+        "options": ["True", "False"]
+      },
+      {
+        "name": "Hover",
+        "defaultValue": "False",
+        "options": ["True", "False"]
+      },
+      {
+        "name": "Hide",
+        "defaultValue": "False",
+        "options": ["True", "False"]
+      }
+    ],
+    "variants": [
+      "Selected=False, 2nd level=False, Hover=False, Hide=False",
+      "Selected=False, 2nd level=False, Hover=False, Hide=True",
+      "Selected=False, 2nd level=True, Hover=False, Hide=False",
+      "Selected=False, 2nd level=True, Hover=False, Hide=True",
+      "Selected=False, 2nd level=False, Hover=True, Hide=False",
+      "Selected=False, 2nd level=True, Hover=True, Hide=False",
+      "Selected=True, 2nd level=False, Hover=False, Hide=False",
+      "Selected=True, 2nd level=True, Hover=False, Hide=False",
+      "Selected=True, 2nd level=False, Hover=True, Hide=False",
+      "Selected=True, 2nd level=True, Hover=True, Hide=False"
+    ]
+  },
+  {
+    "folder": "UIShellHeader",
+    "figmaName": "Top bars",
+    "properties": [
+      {
+        "name": "Variant",
+        "defaultValue": "Digital twin",
+        "options": ["Digital twin", "Spinner"]
+      }
+    ],
+    "variants": ["Variant=Digital twin", "Variant=Spinner"]
+  },
+  {
+    "folder": "UIShellRightPanel",
+    "figmaName": "Reference image",
+    "properties": [
+      {
+        "name": "Property 1",
+        "defaultValue": "Default",
+        "options": [
+          "Default",
+          "Upload file",
+          "File uploaded",
+          "Reflector map uploaded"
+        ]
+      }
+    ],
+    "variants": [
+      "Property 1=Default",
+      "Property 1=Upload file",
+      "Property 1=File uploaded",
+      "Property 1=Reflector map uploaded"
+    ]
+  }
+]

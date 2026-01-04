@@ -1,0 +1,10 @@
+.property1hovered {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+}
+
+.property1hovered svg {
+  width: 100%;
+  height: 100%;
+}

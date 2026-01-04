@@ -1,0 +1,29 @@
+# Build outputs
+dist/
+storybook-static/
+build/
+
+# Dependencies
+node_modules/
+
+# Generated files
+src/tokens/tokens.js
+src/tokens/tokens.d.ts
+src/styles/tokens.css
+tokens/figma-tokens.json
+tokens/transformed-tokens.json
+
+# Assets
+src/assets/
+
+# Lock files
+package-lock.json
+pnpm-lock.yaml
+yarn.lock
+
+# Logs
+*.log
+
+# IDE
+.vscode/
+.idea/

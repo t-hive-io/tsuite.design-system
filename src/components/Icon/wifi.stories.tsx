@@ -1,0 +1,78 @@
+import type { Meta, StoryObj } from '@storybook/react';
+import Property1default422536189 from '../../assets/icons/Property1default--4225-36189.svg?react';
+import Property1disable422536195 from '../../assets/icons/Property1disable--4225-36195.svg?react';
+import Property1focused422536193 from '../../assets/icons/Property1focused--4225-36193.svg?react';
+import Property1hovred422536191 from '../../assets/icons/Property1hovred--4225-36191.svg?react';
+
+const Wifi = (
+  {
+    Property1,
+  }: {
+    Property1?: 'Default' | 'Hovred' | 'Focused' | 'Disable';
+  } = {
+    Property1: 'Default',
+  }
+) => {
+  if (Property1 === 'Default') return <Property1default422536189 />;
+  if (Property1 === 'Hovred') return <Property1hovred422536191 />;
+  if (Property1 === 'Focused') return <Property1focused422536193 />;
+  if (Property1 === 'Disable') return <Property1disable422536195 />;
+  return <Property1default422536189 />;
+};
+
+const meta = {
+  title: 'Components/Icon/wifi',
+  component: Wifi,
+  parameters: {
+    layout: 'centered',
+    docs: {
+      description: {
+        component:
+          '⚠️ **Figma Description Missing** - Please add a description in Figma for this component.',
+      },
+    },
+    figma: {
+      pageId: '5193:37078',
+      componentId: '4225:36190',
+      figmaComponent: 'wifi',
+    },
+  },
+  tags: ['autodocs'],
+  argTypes: {
+    Property1: {
+      control: 'select',
+      options: ['Default', 'Hovred', 'Focused', 'Disable'],
+      description: 'Matches Figma "Property 1" property',
+    },
+  },
+  args: {
+    Property1: 'Default',
+  },
+} satisfies Meta<typeof Wifi>;
+
+export default meta;
+type Story = StoryObj<typeof meta>;
+
+export const Property1Default: Story = {
+  args: {
+    Property1: 'Default',
+  },
+};
+
+export const Property1Hovred: Story = {
+  args: {
+    Property1: 'Hovred',
+  },
+};
+
+export const Property1Focused: Story = {
+  args: {
+    Property1: 'Focused',
+  },
+};
+
+export const Property1Disable: Story = {
+  args: {
+    Property1: 'Disable',
+  },
+};

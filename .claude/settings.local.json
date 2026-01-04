@@ -1,0 +1,21 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm run build-storybook:*)",
+      "Bash(npm run format:check:*)",
+      "Bash(node scripts/get-component-properties.js:*)",
+      "Bash(cat:*)",
+      "Bash(for dir in src/components/*/)",
+      "Bash(ls:*)",
+      "Bash(xargs:*)",
+      "Bash(git add:*)",
+      "Bash(git commit -m \"$\\(cat <<''EOF''\ndocs: Add Figma description warnings to all fixed components\n\n- Add missing description warnings to Area, Simulation card, and Small badge\n- Create PROGRESS-REPORT.md documenting all fixes completed\n- Components now display warning in Storybook Docs prompting designers to add Figma descriptions\n\nThis ensures designers are reminded to add component descriptions in Figma,\nwhich will then automatically appear in Storybook documentation.\n\n🤖 Generated with [Claude Code]\\(https://claude.com/claude-code\\)\n\nCo-Authored-By: Claude Sonnet 4.5 <noreply@anthropic.com>\nEOF\n\\)\")",
+      "Bash(git commit:*)",
+      "Bash(node standardize-all-components.cjs:*)",
+      "Bash(tee:*)",
+      "Bash(grep:*)",
+      "Bash(in Figma for this component.\"\n\nStructure now follows pattern:\nparameters → layout → docs → description → component\n\n🤖 Generated with [Claude Code]\\(https://claude.com/claude-code\\)\n\nCo-Authored-By: Claude Sonnet 4.5 <noreply@anthropic.com>\nEOF\n\\)\")",
+      "Bash(npx eslint:*)"
+    ]
+  }
+}

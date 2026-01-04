@@ -1,0 +1,12 @@
+node_modules/
+dist/
+storybook-static/
+.env
+.env.local
+tokens/figma-tokens.json
+tokens/transformed-tokens.json
+*.log
+.DS_Store
+coverage/
+
+debug-figma-file-response.json

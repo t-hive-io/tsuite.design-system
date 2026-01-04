@@ -1,0 +1,20 @@
+{
+  "Buttons": {
+    "id": "1428:9176",
+    "name": "Buttons",
+    "description": "Primary button for user actions. Use primary for main CTAs, \nsecondary for supporting actions. Available in multiple states.",
+    "documentationLinks": []
+  },
+  "Building Blocks/Track": {
+    "id": "3159:9845",
+    "name": "Building Blocks/Track",
+    "description": "Slider track",
+    "documentationLinks": []
+  },
+  "Building Blocks/Handle": {
+    "id": "3159:9902",
+    "name": "Building Blocks/Handle",
+    "description": "Slider handle",
+    "documentationLinks": []
+  }
+}

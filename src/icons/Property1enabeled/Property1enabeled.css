@@ -1,0 +1,10 @@
+.property1enabeled {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+}
+
+.property1enabeled svg {
+  width: 100%;
+  height: 100%;
+}
