@@ -1,5 +1,5 @@
 <svg width="296" height="8" viewBox="0 0 296 8" fill="none" xmlns="http://www.w3.org/2000/svg">
-<circle cx="4" cy="4" r="3.5" fill="white" stroke="#222222"/>
-<rect width="280" height="2" transform="translate(8 3)" fill="#222222"/>
-<circle cx="292" cy="4" r="3.5" fill="white" stroke="#222222"/>
+<circle cx="4" cy="4" r="3.5" fill="white" stroke="var(--colors-neutral-neutral-800)"/>
+<rect width="280" height="2" transform="translate(8 3)" fill="var(--colors-neutral-neutral-800)"/>
+<circle cx="292" cy="4" r="3.5" fill="white" stroke="var(--colors-neutral-neutral-800)"/>
 </svg>

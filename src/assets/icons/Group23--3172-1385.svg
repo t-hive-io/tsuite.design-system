@@ -1,6 +1,6 @@
 <svg width="162" height="450" viewBox="0 0 162 450" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M8.01353 441.746L152.257 251.985L139.235 129.41L110.186 71.9695V3.50592" stroke="#DACCE5" stroke-width="18"/>
-<path d="M8.01353 441.245L152.257 251.424L139.736 127.716L110.687 71.6209V3.50592" stroke="#F325A7"/>
-<rect x="106.679" y="0.5" width="7.01353" height="7.01353" fill="white" stroke="#F325A7"/>
-<rect x="5.06564" y="439.443" width="7.01353" height="7.01353" transform="rotate(38.4698 5.06564 439.443)" fill="white" stroke="#F325A7"/>
+<path d="M8.01353 441.746L152.257 251.985L139.235 129.41L110.186 71.9695V3.50592" stroke="var(--colors-areas-highway-vehicle, var(--colors-areas-highway-vehicle, #DACCE5))" stroke-width="18"/>
+<path d="M8.01353 441.245L152.257 251.424L139.736 127.716L110.687 71.6209V3.50592" stroke="var(--colors-primary-primary-700)"/>
+<rect x="106.679" y="0.5" width="7.01353" height="7.01353" fill="white" stroke="var(--colors-primary-primary-700)"/>
+<rect x="5.06564" y="439.443" width="7.01353" height="7.01353" transform="rotate(38.4698 5.06564 439.443)" fill="white" stroke="var(--colors-primary-primary-700)"/>
 </svg>

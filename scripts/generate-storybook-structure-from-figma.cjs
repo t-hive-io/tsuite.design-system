@@ -30,12 +30,15 @@ function extractFileKey(input) {
 }
 
 function stripPrefix(name) {
-  return String(name || '').replace(/^\s*[●❖]\s*/u, '').trim();
+  return String(name || '')
+    .replace(/^\s*[●❖]\s*/u, '')
+    .trim();
 }
 
 function categorizePage(pageName) {
   const raw = String(pageName || '').trim();
-  if (raw === '-' || raw === 'FOUNDATIONS' || raw === 'COMPONENTS') return { include: false };
+  if (raw === '-' || raw === 'FOUNDATIONS' || raw === 'COMPONENTS')
+    return { include: false };
 
   if (raw.startsWith('●')) return { include: true, category: 'Foundations' };
   if (raw.startsWith('❖')) return { include: true, category: 'Components' };
@@ -53,7 +56,12 @@ function normalizeStorySegment(s) {
 function nodeTypeAllowed(type) {
   // Layer-3 types we treat as "structural" containers worth surfacing in Storybook.
   // GROUP is included so pages like "Grid system" don't end up empty.
-  return type === 'FRAME' || type === 'SECTION' || type === 'COMPONENT_SET' || type === 'GROUP';
+  return (
+    type === 'FRAME' ||
+    type === 'SECTION' ||
+    type === 'COMPONENT_SET' ||
+    type === 'GROUP'
+  );
 }
 
 function groupByType(nodes) {
@@ -83,7 +91,9 @@ async function main() {
   const input = process.argv[2] || process.env.FIGMA_FILE_KEY;
   const fileKey = extractFileKey(input);
   if (!fileKey) {
-    console.error('Missing/invalid file key. Provide a file key or a Figma URL, or set FIGMA_FILE_KEY.');
+    console.error(
+      'Missing/invalid file key. Provide a file key or a Figma URL, or set FIGMA_FILE_KEY.'
+    );
     process.exit(1);
   }
 
@@ -110,12 +120,12 @@ async function main() {
 
     const children = Array.isArray(page?.children) ? page.children : [];
 
-    const excludedTopLevel = children.filter(n => !nodeTypeAllowed(n?.type));
+    const excludedTopLevel = children.filter((n) => !nodeTypeAllowed(n?.type));
     const excludedTopLevelCounts = groupByType(excludedTopLevel);
 
     const thirdLayer = children
-      .filter(n => nodeTypeAllowed(n?.type))
-      .map(n => ({
+      .filter((n) => nodeTypeAllowed(n?.type))
+      .map((n) => ({
         type: n.type,
         name: normalizeStorySegment(n?.name || ''),
         id: n.id || '',
@@ -137,7 +147,9 @@ async function main() {
   const sortedCategories = Array.from(buckets.keys()).sort((a, b) => {
     const ai = categoryOrder.indexOf(a);
     const bi = categoryOrder.indexOf(b);
-    return (ai === -1 ? 999 : ai) - (bi === -1 ? 999 : bi) || a.localeCompare(b);
+    return (
+      (ai === -1 ? 999 : ai) - (bi === -1 ? 999 : bi) || a.localeCompare(b)
+    );
   });
 
   for (const cat of sortedCategories) {
@@ -152,15 +164,27 @@ async function main() {
   lines.push(`- File key: \`${fileKey}\``);
   lines.push('');
   lines.push('This mirrors Figma “Pages (summary)” as:');
-  lines.push('- Level 1 (Storybook): **Category** (Foundations / Components / Other)');
-  lines.push('- Level 2 (Storybook): **Page** (Figma page name without prefix `●` / `❖`)');
-  lines.push('- Level 3 (Storybook): **Top-level nodes** on that page, filtered to `FRAME`, `SECTION`, `COMPONENT_SET`, `GROUP`');
+  lines.push(
+    '- Level 1 (Storybook): **Category** (Foundations / Components / Other)'
+  );
+  lines.push(
+    '- Level 2 (Storybook): **Page** (Figma page name without prefix `●` / `❖`)'
+  );
+  lines.push(
+    '- Level 3 (Storybook): **Top-level nodes** on that page, filtered to `FRAME`, `SECTION`, `COMPONENT_SET`, `GROUP`'
+  );
   lines.push('');
   lines.push('### Layer-3 rule (to guide Figma restructuring)');
   lines.push('');
-  lines.push('- Included as Layer-3: `FRAME`, `SECTION`, `COMPONENT_SET`, `GROUP`');
-  lines.push('- Excluded (not shown as Layer-3): everything else (commonly `TEXT`, `VECTOR`, `INSTANCE`, `RECTANGLE`, etc.)');
-  lines.push('- Each page below includes an “excluded top-level” summary so you can spot pages that need more container structure in Figma.');
+  lines.push(
+    '- Included as Layer-3: `FRAME`, `SECTION`, `COMPONENT_SET`, `GROUP`'
+  );
+  lines.push(
+    '- Excluded (not shown as Layer-3): everything else (commonly `TEXT`, `VECTOR`, `INSTANCE`, `RECTANGLE`, etc.)'
+  );
+  lines.push(
+    '- Each page below includes an “excluded top-level” summary so you can spot pages that need more container structure in Figma.'
+  );
   lines.push('');
 
   lines.push('## Proposed nav (titles)');
@@ -175,11 +199,19 @@ async function main() {
     for (const p of pagesInCat) {
       const lvl2 = `${cat}/${p.pageName}`;
       const excludedSummary = formatTypeCounts(p.excludedTopLevelCounts);
-      const excludedNote = excludedSummary ? ` | excluded top-level: ${excludedSummary}` : '';
-      lines.push(`- ${lvl2}  _(Figma page: ${safeMd(p.rawPageName)} | ${p.pageId} | top-level nodes: ${p.totalTopLevel}${excludedNote})_`);
+      const excludedNote = excludedSummary
+        ? ` | excluded top-level: ${excludedSummary}`
+        : '';
+      lines.push(
+        `- ${lvl2}  _(Figma page: ${safeMd(p.rawPageName)} | ${
+          p.pageId
+        } | top-level nodes: ${p.totalTopLevel}${excludedNote})_`
+      );
 
       if (p.thirdLayer.length === 0) {
-        lines.push(`  - (no top-level FRAME/SECTION/COMPONENT_SET/GROUP found)`);
+        lines.push(
+          `  - (no top-level FRAME/SECTION/COMPONENT_SET/GROUP found)`
+        );
         continue;
       }
 
@@ -194,7 +226,9 @@ async function main() {
 
   lines.push('## Table view');
   lines.push('');
-  lines.push('| Category | Page | Page node id | Level-3 (FRAME/SECTION/COMPONENT_SET/GROUP) count | Excluded top-level types | Level-3 examples |');
+  lines.push(
+    '| Category | Page | Page node id | Level-3 (FRAME/SECTION/COMPONENT_SET/GROUP) count | Excluded top-level types | Level-3 examples |'
+  );
   lines.push('| --- | --- | --- | ---: | --- | --- |');
 
   for (const cat of sortedCategories) {
@@ -202,23 +236,29 @@ async function main() {
     for (const p of pagesInCat) {
       const examples = p.thirdLayer
         .slice(0, 6)
-        .map(n => `${safeMd(n.name)} (${n.type})`)
+        .map((n) => `${safeMd(n.name)} (${n.type})`)
         .join(', ');
       const excludedSummary = formatTypeCounts(p.excludedTopLevelCounts);
       lines.push(
-        `| ${safeMd(cat)} | ${safeMd(p.pageName)} | ${safeMd(p.pageId)} | ${p.thirdLayer.length} | ${safeMd(excludedSummary || '(none)')} | ${examples || '(none)'} |`
+        `| ${safeMd(cat)} | ${safeMd(p.pageName)} | ${safeMd(p.pageId)} | ${
+          p.thirdLayer.length
+        } | ${safeMd(excludedSummary || '(none)')} | ${examples || '(none)'} |`
       );
     }
   }
 
-  const outPath = path.join(process.cwd(), 'docs', 'storybook-structure-from-figma.md');
+  const outPath = path.join(
+    process.cwd(),
+    'docs',
+    'storybook-structure-from-figma.md'
+  );
   fs.mkdirSync(path.dirname(outPath), { recursive: true });
   fs.writeFileSync(outPath, lines.join('\n'), 'utf8');
 
   console.log(`Wrote ${outPath}`);
 }
 
-main().catch(err => {
+main().catch((err) => {
   if (err?.response) {
     console.error('ERROR status:', err.response.status);
     console.error('ERROR data:', JSON.stringify(err.response.data, null, 2));

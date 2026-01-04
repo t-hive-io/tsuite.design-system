@@ -24,7 +24,9 @@ function findStoryFiles(dir, fileList = []) {
 }
 
 function main() {
-  console.log('🔍 Finding components with figma parameter but missing URL...\n');
+  console.log(
+    '🔍 Finding components with figma parameter but missing URL...\n'
+  );
 
   const srcDir = path.join(__dirname, '../src');
   const storyFiles = findStoryFiles(srcDir);
@@ -55,12 +57,16 @@ function main() {
     }
   });
 
-  console.log(`Found ${missing.length} components with figma parameter but missing URL:\n`);
+  console.log(
+    `Found ${missing.length} components with figma parameter but missing URL:\n`
+  );
 
   missing.forEach((item, index) => {
     console.log(`${index + 1}. ${item.title}`);
     console.log(`   File: ${item.file}`);
-    console.log(`   Current figma block:\n   ${item.figma.replace(/\n/g, '\n   ')}`);
+    console.log(
+      `   Current figma block:\n   ${item.figma.replace(/\n/g, '\n   ')}`
+    );
     console.log('');
   });
 }

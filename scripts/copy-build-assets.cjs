@@ -10,15 +10,15 @@ function copyDir(src, dest) {
     console.log(`⚠️  Source ${src} does not exist, skipping...`);
     return;
   }
-  
+
   fs.mkdirSync(dest, { recursive: true });
-  
+
   const entries = fs.readdirSync(src, { withFileTypes: true });
-  
+
   for (let entry of entries) {
     const srcPath = path.join(src, entry.name);
     const destPath = path.join(dest, entry.name);
-    
+
     if (entry.isDirectory()) {
       copyDir(srcPath, destPath);
     } else {
@@ -45,18 +45,20 @@ const distComponentsDir = 'dist/components';
 
 if (fs.existsSync(componentsDir)) {
   const components = fs.readdirSync(componentsDir);
-  
+
   for (let component of components) {
     const componentSrc = path.join(componentsDir, component);
     const stat = fs.statSync(componentSrc);
-    
+
     if (stat.isDirectory()) {
-      const cssFiles = fs.readdirSync(componentSrc).filter(f => f.endsWith('.css'));
-      
+      const cssFiles = fs
+        .readdirSync(componentSrc)
+        .filter((f) => f.endsWith('.css'));
+
       if (cssFiles.length > 0) {
         const componentDest = path.join(distComponentsDir, component);
         fs.mkdirSync(componentDest, { recursive: true });
-        
+
         for (let cssFile of cssFiles) {
           const srcPath = path.join(componentSrc, cssFile);
           const destPath = path.join(componentDest, cssFile);
@@ -75,18 +77,20 @@ const distIconsDir = 'dist/icons';
 
 if (fs.existsSync(iconsDir)) {
   const icons = fs.readdirSync(iconsDir);
-  
+
   for (let icon of icons) {
     const iconSrc = path.join(iconsDir, icon);
     const stat = fs.statSync(iconSrc);
-    
+
     if (stat.isDirectory()) {
-      const cssFiles = fs.readdirSync(iconSrc).filter(f => f.endsWith('.css'));
-      
+      const cssFiles = fs
+        .readdirSync(iconSrc)
+        .filter((f) => f.endsWith('.css'));
+
       if (cssFiles.length > 0) {
         const iconDest = path.join(distIconsDir, icon);
         fs.mkdirSync(iconDest, { recursive: true });
-        
+
         for (let cssFile of cssFiles) {
           const srcPath = path.join(iconSrc, cssFile);
           const destPath = path.join(iconDest, cssFile);

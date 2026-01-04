@@ -121,7 +121,9 @@ function renderTree(node, opts, depth, prefix) {
   }
 
   if (kids.length > shown.length) {
-    lines.push(`${prefix}└─ … (${kids.length - shown.length} more children not shown)`);
+    lines.push(
+      `${prefix}└─ … (${kids.length - shown.length} more children not shown)`
+    );
   }
 
   return lines;
@@ -138,7 +140,9 @@ async function main() {
   const fileKey = extractFileKey(input);
 
   if (!fileKey) {
-    console.error('Missing/invalid file key. Provide a file key or a Figma URL, or set FIGMA_FILE_KEY.');
+    console.error(
+      'Missing/invalid file key. Provide a file key or a Figma URL, or set FIGMA_FILE_KEY.'
+    );
     process.exit(1);
   }
 
@@ -177,16 +181,22 @@ async function main() {
           .join(', ')
       : 'no children';
 
-    outLines.push(`${i + 1}. **${safeName(p?.name)}** (${kids.length} top-level nodes) — ${summary}`);
+    outLines.push(
+      `${i + 1}. **${safeName(p?.name)}** (${
+        kids.length
+      } top-level nodes) — ${summary}`
+    );
   });
 
   outLines.push('');
   outLines.push('## Tree (limited depth)');
   outLines.push('');
-  outLines.push(`Depth: ${opts.depth}, Max children per node: ${opts.maxChildren}`);
+  outLines.push(
+    `Depth: ${opts.depth}, Max children per node: ${opts.maxChildren}`
+  );
   outLines.push('');
 
-  pages.forEach(p => {
+  pages.forEach((p) => {
     outLines.push(`### ${safeName(p?.name)} (page ${p?.id || ''})`);
     outLines.push('');
     outLines.push(summarize(p));
@@ -201,7 +211,7 @@ async function main() {
   console.log(`Wrote ${outPath}`);
 }
 
-main().catch(err => {
+main().catch((err) => {
   if (err?.response) {
     console.error('ERROR status:', err.response.status);
     console.error('ERROR data:', JSON.stringify(err.response.data, null, 2));

@@ -75,11 +75,27 @@ function main() {
   console.log('═══════════════════════════════════════════════════');
   console.log(`Total story files:              ${totalFiles}`);
   console.log(`\n🎨 Figma Integration:`);
-  console.log(`  With 'figma' parameter:       ${withFigmaParam} (${Math.round((withFigmaParam / totalFiles) * 100)}%)`);
-  console.log(`  With 'figma.url':             ${withFigmaUrl} (${Math.round((withFigmaUrl / totalFiles) * 100)}%)`);
+  console.log(
+    `  With 'figma' parameter:       ${withFigmaParam} (${Math.round(
+      (withFigmaParam / totalFiles) * 100
+    )}%)`
+  );
+  console.log(
+    `  With 'figma.url':             ${withFigmaUrl} (${Math.round(
+      (withFigmaUrl / totalFiles) * 100
+    )}%)`
+  );
   console.log(`\n🎯 Design Integration:`);
-  console.log(`  With 'design' parameter:      ${withDesignParam} (${Math.round((withDesignParam / totalFiles) * 100)}%)`);
-  console.log(`  With 'design.url':            ${withDesignUrl} (${Math.round((withDesignUrl / totalFiles) * 100)}%)`);
+  console.log(
+    `  With 'design' parameter:      ${withDesignParam} (${Math.round(
+      (withDesignParam / totalFiles) * 100
+    )}%)`
+  );
+  console.log(
+    `  With 'design.url':            ${withDesignUrl} (${Math.round(
+      (withDesignUrl / totalFiles) * 100
+    )}%)`
+  );
   console.log(`\n⚠️  Issues:`);
   console.log(`  With BOTH figma & design:     ${withBoth}`);
   console.log(`  With NO Figma integration:    ${filesWithoutFigma.length}`);
@@ -96,7 +112,9 @@ function main() {
   }
 
   if (filesWithBoth.length > 0) {
-    console.log(`\n⚠️  Files with BOTH figma and design parameters (${filesWithBoth.length}):`);
+    console.log(
+      `\n⚠️  Files with BOTH figma and design parameters (${filesWithBoth.length}):`
+    );
     filesWithBoth.forEach((file) => {
       console.log(`   - ${file}`);
     });
@@ -104,7 +122,9 @@ function main() {
   }
 
   if (filesWithoutFigma.length > 0) {
-    console.log(`\n❌ Files without any Figma integration (${filesWithoutFigma.length}):`);
+    console.log(
+      `\n❌ Files without any Figma integration (${filesWithoutFigma.length}):`
+    );
     filesWithoutFigma.slice(0, 10).forEach((file) => {
       console.log(`   - ${file}`);
     });

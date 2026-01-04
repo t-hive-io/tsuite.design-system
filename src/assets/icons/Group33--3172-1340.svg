@@ -1,16 +1,16 @@
 <svg width="200" height="392" viewBox="0 0 200 392" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M6.71109 385.986L110.342 270.34L161.907 186.735L156.4 127.16L130.867 37.5473L86.3113 9.01135H6.71109" stroke="#DACCE5" stroke-width="18"/>
-<path d="M7.21172 385.986L108.339 271.342L161.406 186.235L155.899 125.658L127.363 35.5448" stroke="#F325A7"/>
-<path d="M127.363 36.0454L82.8069 7.50946H3.70731" stroke="#F325A7"/>
-<circle cx="6.34921" cy="7.6476" r="3.50504" transform="rotate(-40.3928 6.34921 7.6476)" fill="white" stroke="#F325A7"/>
-<circle cx="85.4488" cy="8.64886" r="3.50504" transform="rotate(-40.3928 85.4488 8.64886)" fill="white" stroke="#F325A7"/>
-<circle cx="155.537" cy="125.796" r="3.50504" transform="rotate(-40.3928 155.537 125.796)" fill="white" stroke="#F325A7"/>
-<circle cx="160.543" cy="184.871" r="3.50504" transform="rotate(-40.3928 160.543 184.871)" fill="#FDE2F3" stroke="#F325A7"/>
-<circle cx="109.479" cy="268.977" r="3.50504" transform="rotate(-40.3928 109.479 268.977)" fill="white" stroke="#F325A7"/>
-<circle cx="6.34921" cy="386.124" r="3.50504" transform="rotate(-40.3928 6.34921 386.124)" fill="white" stroke="#F325A7"/>
-<path d="M162.084 186.058L173.689 197.691L174.115 198.119H169.274L171.234 202.849L171.329 203.078L171.101 203.175L167.491 204.712L167.26 204.811L167.162 204.579L165.046 199.568L162.081 202.449L161.656 202.862V185.629L162.084 186.058Z" fill="#222222" stroke="white" stroke-width="0.5"/>
+<path d="M6.71109 385.986L110.342 270.34L161.907 186.735L156.4 127.16L130.867 37.5473L86.3113 9.01135H6.71109" stroke="var(--colors-areas-highway-vehicle, var(--colors-areas-highway-vehicle, #DACCE5))" stroke-width="18"/>
+<path d="M7.21172 385.986L108.339 271.342L161.406 186.235L155.899 125.658L127.363 35.5448" stroke="var(--colors-primary-primary-700)"/>
+<path d="M127.363 36.0454L82.8069 7.50946H3.70731" stroke="var(--colors-primary-primary-700)"/>
+<circle cx="6.34921" cy="7.6476" r="3.50504" transform="rotate(-40.3928 6.34921 7.6476)" fill="white" stroke="var(--colors-primary-primary-700)"/>
+<circle cx="85.4488" cy="8.64886" r="3.50504" transform="rotate(-40.3928 85.4488 8.64886)" fill="white" stroke="var(--colors-primary-primary-700)"/>
+<circle cx="155.537" cy="125.796" r="3.50504" transform="rotate(-40.3928 155.537 125.796)" fill="white" stroke="var(--colors-primary-primary-700)"/>
+<circle cx="160.543" cy="184.871" r="3.50504" transform="rotate(-40.3928 160.543 184.871)" fill="var(--colors-primary-primary-300)" stroke="var(--colors-primary-primary-700)"/>
+<circle cx="109.479" cy="268.977" r="3.50504" transform="rotate(-40.3928 109.479 268.977)" fill="white" stroke="var(--colors-primary-primary-700)"/>
+<circle cx="6.34921" cy="386.124" r="3.50504" transform="rotate(-40.3928 6.34921 386.124)" fill="white" stroke="var(--colors-primary-primary-700)"/>
+<path d="M162.084 186.058L173.689 197.691L174.115 198.119H169.274L171.234 202.849L171.329 203.078L171.101 203.175L167.491 204.712L167.26 204.811L167.162 204.579L165.046 199.568L162.081 202.449L161.656 202.862V185.629L162.084 186.058Z" fill="var(--colors-neutral-neutral-800)" stroke="white" stroke-width="0.5"/>
 <g filter="url(#filter0_d_3172_1340)">
-<path d="M174.923 201.848V200.847H187.939V201.848H174.923Z" fill="#222222"/>
+<path d="M174.923 201.848V200.847H187.939V201.848H174.923Z" fill="var(--colors-neutral-neutral-800)"/>
 <path d="M188.19 200.596V202.098H174.673V200.596H188.19Z" stroke="white" stroke-width="0.5"/>
 </g>
 <defs>

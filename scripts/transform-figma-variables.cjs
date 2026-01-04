@@ -12,8 +12,10 @@ const OUTPUT_DIR = path.join(__dirname, '../src/tokens');
 
 // Helper to convert RGB components to hex
 function rgbToHex(components) {
-  const [r, g, b] = components.map(c => Math.round(c * 255));
-  return `#${r.toString(16).padStart(2, '0')}${g.toString(16).padStart(2, '0')}${b.toString(16).padStart(2, '0')}`.toUpperCase();
+  const [r, g, b] = components.map((c) => Math.round(c * 255));
+  return `#${r.toString(16).padStart(2, '0')}${g
+    .toString(16)
+    .padStart(2, '0')}${b.toString(16).padStart(2, '0')}`.toUpperCase();
 }
 
 // Transform Figma token structure to our format
@@ -42,7 +44,9 @@ function transformTokens(figmaTokens, brandName) {
           // Convert RGB components to hex
           hex = rgbToHex(token.$value.components);
         } else {
-          console.warn(`  ⚠️  Skipping ${category}/${name} - no valid color value`);
+          console.warn(
+            `  ⚠️  Skipping ${category}/${name} - no valid color value`
+          );
           return;
         }
 
@@ -144,7 +148,8 @@ export const ${safeBrandName.replace(/-/g, '_')}Tokens = {
   // Add font weights
   Object.entries(tokens.font.weight).forEach(([key, token]) => {
     // Font weights can be numbers or strings, handle both
-    const value = typeof token.value === 'number' ? token.value : `'${token.value}'`;
+    const value =
+      typeof token.value === 'number' ? token.value : `'${token.value}'`;
     content += `      '${key}': ${value},\n`;
   });
 
@@ -158,12 +163,29 @@ export const ${safeBrandName.replace(/-/g, '_')}Tokens = {
   content += `    },\n  },\n} as const;\n\n`;
 
   // Add TypeScript types
-  const capitalizedBrandName = safeBrandName.replace(/-/g, '_').charAt(0).toUpperCase() + safeBrandName.replace(/-/g, '_').slice(1);
-  content += `export type ${capitalizedBrandName}ColorKey = keyof typeof ${safeBrandName.replace(/-/g, '_')}Tokens.colors;\n`;
-  content += `export type ${capitalizedBrandName}RadiusKey = keyof typeof ${safeBrandName.replace(/-/g, '_')}Tokens.radius;\n`;
-  content += `export type ${capitalizedBrandName}FontFamilyKey = keyof typeof ${safeBrandName.replace(/-/g, '_')}Tokens.font.family;\n`;
-  content += `export type ${capitalizedBrandName}FontWeightKey = keyof typeof ${safeBrandName.replace(/-/g, '_')}Tokens.font.weight;\n`;
-  content += `export type ${capitalizedBrandName}FontSizeKey = keyof typeof ${safeBrandName.replace(/-/g, '_')}Tokens.font.size;\n`;
+  const capitalizedBrandName =
+    safeBrandName.replace(/-/g, '_').charAt(0).toUpperCase() +
+    safeBrandName.replace(/-/g, '_').slice(1);
+  content += `export type ${capitalizedBrandName}ColorKey = keyof typeof ${safeBrandName.replace(
+    /-/g,
+    '_'
+  )}Tokens.colors;\n`;
+  content += `export type ${capitalizedBrandName}RadiusKey = keyof typeof ${safeBrandName.replace(
+    /-/g,
+    '_'
+  )}Tokens.radius;\n`;
+  content += `export type ${capitalizedBrandName}FontFamilyKey = keyof typeof ${safeBrandName.replace(
+    /-/g,
+    '_'
+  )}Tokens.font.family;\n`;
+  content += `export type ${capitalizedBrandName}FontWeightKey = keyof typeof ${safeBrandName.replace(
+    /-/g,
+    '_'
+  )}Tokens.font.weight;\n`;
+  content += `export type ${capitalizedBrandName}FontSizeKey = keyof typeof ${safeBrandName.replace(
+    /-/g,
+    '_'
+  )}Tokens.font.size;\n`;
 
   return content;
 }
@@ -176,7 +198,7 @@ function main() {
 
   const allBrands = {};
 
-  BRANDS.forEach(brandName => {
+  BRANDS.forEach((brandName) => {
     const inputFile = path.join(INPUT_DIR, `${brandName}.tokens.json`);
 
     if (!fs.existsSync(inputFile)) {
@@ -200,8 +222,12 @@ function main() {
     console.log(`   ✅ Generated: ${outputFile}`);
     console.log(`      Colors: ${Object.keys(tokens.colors).length}`);
     console.log(`      Radius: ${Object.keys(tokens.radius).length}`);
-    console.log(`      Font Families: ${Object.keys(tokens.font.family).length}`);
-    console.log(`      Font Weights: ${Object.keys(tokens.font.weight).length}`);
+    console.log(
+      `      Font Families: ${Object.keys(tokens.font.family).length}`
+    );
+    console.log(
+      `      Font Weights: ${Object.keys(tokens.font.weight).length}`
+    );
     console.log(`      Font Sizes: ${Object.keys(tokens.font.size).length}`);
   });
 
@@ -213,7 +239,7 @@ function main() {
 
 `;
 
-  BRANDS.forEach(brandName => {
+  BRANDS.forEach((brandName) => {
     const safeBrandName = brandName.toLowerCase().replace(/[^a-z0-9]/g, '-');
     const inputFile = path.join(INPUT_DIR, `${brandName}.tokens.json`);
     if (fs.existsSync(inputFile)) {
@@ -221,10 +247,16 @@ function main() {
     }
   });
 
-  indexContent += `\n// Brand theme type\nexport type BrandTheme = ${BRANDS.filter(b => fs.existsSync(path.join(INPUT_DIR, `${b}.tokens.json`))).map(b => `'${b.toLowerCase().replace(/[^a-z0-9]/g, '-')}'`).join(' | ')};\n`;
+  indexContent += `\n// Brand theme type\nexport type BrandTheme = ${BRANDS.filter(
+    (b) => fs.existsSync(path.join(INPUT_DIR, `${b}.tokens.json`))
+  )
+    .map((b) => `'${b.toLowerCase().replace(/[^a-z0-9]/g, '-')}'`)
+    .join(' | ')};\n`;
 
   fs.writeFileSync(path.join(OUTPUT_DIR, 'index.ts'), indexContent);
-  console.log(`\n✅ Generated index file: ${path.join(OUTPUT_DIR, 'index.ts')}`);
+  console.log(
+    `\n✅ Generated index file: ${path.join(OUTPUT_DIR, 'index.ts')}`
+  );
 
   console.log('\n🎉 Transformation complete!');
   console.log(`\n📁 Output directory: ${OUTPUT_DIR}`);

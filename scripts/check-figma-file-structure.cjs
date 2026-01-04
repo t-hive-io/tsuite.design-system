@@ -63,10 +63,16 @@ async function checkFileStructure() {
         }
       );
       console.log('   ✅ Variables API accessible!');
-      console.log('   📦 Data:', JSON.stringify(varResponse.data).substring(0, 200));
+      console.log(
+        '   📦 Data:',
+        JSON.stringify(varResponse.data).substring(0, 200)
+      );
     } catch (varError) {
       console.log('   ❌ Variables API not accessible');
-      console.log('   Error:', varError.response?.data?.err || varError.message);
+      console.log(
+        '   Error:',
+        varError.response?.data?.err || varError.message
+      );
     }
 
     console.log('\n💡 Conclusion:');
@@ -81,7 +87,6 @@ async function checkFileStructure() {
       console.log('   4. Add modes (e.g., "tmhe", "toyota")');
       console.log('   5. Add color variables with different values per mode');
     }
-
   } catch (error) {
     console.error('❌ Error:', error.message);
     if (error.response) {

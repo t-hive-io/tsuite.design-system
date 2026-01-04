@@ -42,7 +42,8 @@ function extractComponentInfo(filePath) {
       const propName = match[1];
       const propType = match[2].trim();
       // Extract options from union type like 'Option1' | 'Option2'
-      const options = propType.match(/'([^']+)'/g)?.map((s) => s.replace(/'/g, '')) || [];
+      const options =
+        propType.match(/'([^']+)'/g)?.map((s) => s.replace(/'/g, '')) || [];
       properties.push({ name: propName, options });
     }
   }
@@ -110,7 +111,10 @@ function generateMarkdown(groupedComponents) {
 
   categories.forEach((category) => {
     const components = groupedComponents[category];
-    const categoryVariants = components.reduce((sum, c) => sum + c.variantCount, 0);
+    const categoryVariants = components.reduce(
+      (sum, c) => sum + c.variantCount,
+      0
+    );
     totalComponents += components.length;
     totalVariants += categoryVariants;
     md += `- **${category}**: ${components.length} components, ${categoryVariants} variants\n`;
@@ -135,7 +139,9 @@ function generateMarkdown(groupedComponents) {
       if (comp.properties.length > 0) {
         md += `- **Properties**:\n`;
         comp.properties.forEach((prop) => {
-          md += `  - \`${prop.name}\`: ${prop.options.length} options (${prop.options.join(', ')})\n`;
+          md += `  - \`${prop.name}\`: ${
+            prop.options.length
+          } options (${prop.options.join(', ')})\n`;
         });
       } else {
         md += `- **Properties**: None\n`;
@@ -173,14 +179,20 @@ function main() {
 
   const markdown = generateMarkdown(groupedComponents);
 
-  const outputPath = path.join(process.cwd(), 'COMPONENT-PROPERTIES-MAPPING.md');
+  const outputPath = path.join(
+    process.cwd(),
+    'COMPONENT-PROPERTIES-MAPPING.md'
+  );
   fs.writeFileSync(outputPath, markdown);
 
   console.log(`✅ Generated documentation: ${outputPath}`);
   console.log(`   ${Object.keys(groupedComponents).length} categories`);
   console.log(`   ${components.length} components`);
   console.log(
-    `   ${components.reduce((sum, c) => sum + c.variantCount, 0)} total variants`
+    `   ${components.reduce(
+      (sum, c) => sum + c.variantCount,
+      0
+    )} total variants`
   );
 }
 

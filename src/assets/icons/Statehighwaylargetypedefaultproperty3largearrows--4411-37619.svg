@@ -1,23 +1,23 @@
 <svg width="540" height="152" viewBox="0 0 540 152" fill="none" xmlns="http://www.w3.org/2000/svg">
 <g clip-path="url(#clip0_4411_37619)">
-<rect width="528" height="140" transform="translate(6 6)" fill="#F0E0FB"/>
-<rect width="72" height="30" transform="translate(51 42)" fill="#DACCE5"/>
-<rect width="72" height="30" transform="translate(173 42)" fill="#DACCE5"/>
-<rect width="72" height="30" transform="translate(295 42)" fill="#DACCE5"/>
-<rect width="72" height="30" transform="translate(417 42)" fill="#DACCE5"/>
-<rect width="72" height="30" transform="translate(51 80)" fill="#DACCE5"/>
-<rect width="72" height="30" transform="translate(173 80)" fill="#DACCE5"/>
-<rect width="72" height="30" transform="translate(295 80)" fill="#DACCE5"/>
-<rect width="72" height="30" transform="translate(417 80)" fill="#DACCE5"/>
+<rect width="528" height="140" transform="translate(6 6)" fill="var(--colors-areas-highway-background, #F0E0FB)"/>
+<rect width="72" height="30" transform="translate(51 42)" fill="var(--colors-areas-highway-vehicle, var(--colors-areas-highway-vehicle, #DACCE5))"/>
+<rect width="72" height="30" transform="translate(173 42)" fill="var(--colors-areas-highway-vehicle, var(--colors-areas-highway-vehicle, #DACCE5))"/>
+<rect width="72" height="30" transform="translate(295 42)" fill="var(--colors-areas-highway-vehicle, var(--colors-areas-highway-vehicle, #DACCE5))"/>
+<rect width="72" height="30" transform="translate(417 42)" fill="var(--colors-areas-highway-vehicle, var(--colors-areas-highway-vehicle, #DACCE5))"/>
+<rect width="72" height="30" transform="translate(51 80)" fill="var(--colors-areas-highway-vehicle, var(--colors-areas-highway-vehicle, #DACCE5))"/>
+<rect width="72" height="30" transform="translate(173 80)" fill="var(--colors-areas-highway-vehicle, var(--colors-areas-highway-vehicle, #DACCE5))"/>
+<rect width="72" height="30" transform="translate(295 80)" fill="var(--colors-areas-highway-vehicle, var(--colors-areas-highway-vehicle, #DACCE5))"/>
+<rect width="72" height="30" transform="translate(417 80)" fill="var(--colors-areas-highway-vehicle, var(--colors-areas-highway-vehicle, #DACCE5))"/>
 </g>
-<path d="M85.5877 81.6154L84.88 80.9077L89.4742 76.3077L84.88 71.7077L85.5877 71L90.8954 76.3077L85.5877 81.6154ZM91.6877 81.6154L90.98 80.9077L95.5742 76.3077L90.98 71.7077L91.6877 71L96.9954 76.3077L91.6877 81.6154Z" fill="#222222"/>
-<path d="M79.4277 81.6154L74.12 76.3077L79.4277 71L80.1354 71.7077L75.5412 76.3077L80.1354 80.9077L79.4277 81.6154ZM85.5277 81.6154L80.22 76.3077L85.5277 71L86.2354 71.7077L81.6412 76.3077L86.2354 80.9077L85.5277 81.6154Z" fill="#222222"/>
-<path d="M209.088 81.6154L208.38 80.9077L212.974 76.3077L208.38 71.7077L209.088 71L214.395 76.3077L209.088 81.6154ZM215.188 81.6154L214.48 80.9077L219.074 76.3077L214.48 71.7077L215.188 71L220.495 76.3077L215.188 81.6154Z" fill="#222222"/>
-<path d="M202.928 81.6154L197.62 76.3077L202.928 71L203.635 71.7077L199.041 76.3077L203.635 80.9077L202.928 81.6154ZM209.028 81.6154L203.72 76.3077L209.028 71L209.735 71.7077L205.141 76.3077L209.735 80.9077L209.028 81.6154Z" fill="#222222"/>
-<path d="M331.088 81.6154L330.38 80.9077L334.974 76.3077L330.38 71.7077L331.088 71L336.395 76.3077L331.088 81.6154ZM337.188 81.6154L336.48 80.9077L341.074 76.3077L336.48 71.7077L337.188 71L342.495 76.3077L337.188 81.6154Z" fill="#222222"/>
-<path d="M324.928 81.6154L319.62 76.3077L324.928 71L325.635 71.7077L321.041 76.3077L325.635 80.9077L324.928 81.6154ZM331.028 81.6154L325.72 76.3077L331.028 71L331.735 71.7077L327.141 76.3077L331.735 80.9077L331.028 81.6154Z" fill="#222222"/>
-<path d="M454.088 81.6154L453.38 80.9077L457.974 76.3077L453.38 71.7077L454.088 71L459.395 76.3077L454.088 81.6154ZM460.188 81.6154L459.48 80.9077L464.074 76.3077L459.48 71.7077L460.188 71L465.495 76.3077L460.188 81.6154Z" fill="#222222"/>
-<path d="M447.928 81.6154L442.62 76.3077L447.928 71L448.635 71.7077L444.041 76.3077L448.635 80.9077L447.928 81.6154ZM454.028 81.6154L448.72 76.3077L454.028 71L454.735 71.7077L450.141 76.3077L454.735 80.9077L454.028 81.6154Z" fill="#222222"/>
+<path d="M85.5877 81.6154L84.88 80.9077L89.4742 76.3077L84.88 71.7077L85.5877 71L90.8954 76.3077L85.5877 81.6154ZM91.6877 81.6154L90.98 80.9077L95.5742 76.3077L90.98 71.7077L91.6877 71L96.9954 76.3077L91.6877 81.6154Z" fill="var(--colors-neutral-neutral-800)"/>
+<path d="M79.4277 81.6154L74.12 76.3077L79.4277 71L80.1354 71.7077L75.5412 76.3077L80.1354 80.9077L79.4277 81.6154ZM85.5277 81.6154L80.22 76.3077L85.5277 71L86.2354 71.7077L81.6412 76.3077L86.2354 80.9077L85.5277 81.6154Z" fill="var(--colors-neutral-neutral-800)"/>
+<path d="M209.088 81.6154L208.38 80.9077L212.974 76.3077L208.38 71.7077L209.088 71L214.395 76.3077L209.088 81.6154ZM215.188 81.6154L214.48 80.9077L219.074 76.3077L214.48 71.7077L215.188 71L220.495 76.3077L215.188 81.6154Z" fill="var(--colors-neutral-neutral-800)"/>
+<path d="M202.928 81.6154L197.62 76.3077L202.928 71L203.635 71.7077L199.041 76.3077L203.635 80.9077L202.928 81.6154ZM209.028 81.6154L203.72 76.3077L209.028 71L209.735 71.7077L205.141 76.3077L209.735 80.9077L209.028 81.6154Z" fill="var(--colors-neutral-neutral-800)"/>
+<path d="M331.088 81.6154L330.38 80.9077L334.974 76.3077L330.38 71.7077L331.088 71L336.395 76.3077L331.088 81.6154ZM337.188 81.6154L336.48 80.9077L341.074 76.3077L336.48 71.7077L337.188 71L342.495 76.3077L337.188 81.6154Z" fill="var(--colors-neutral-neutral-800)"/>
+<path d="M324.928 81.6154L319.62 76.3077L324.928 71L325.635 71.7077L321.041 76.3077L325.635 80.9077L324.928 81.6154ZM331.028 81.6154L325.72 76.3077L331.028 71L331.735 71.7077L327.141 76.3077L331.735 80.9077L331.028 81.6154Z" fill="var(--colors-neutral-neutral-800)"/>
+<path d="M454.088 81.6154L453.38 80.9077L457.974 76.3077L453.38 71.7077L454.088 71L459.395 76.3077L454.088 81.6154ZM460.188 81.6154L459.48 80.9077L464.074 76.3077L459.48 71.7077L460.188 71L465.495 76.3077L460.188 81.6154Z" fill="var(--colors-neutral-neutral-800)"/>
+<path d="M447.928 81.6154L442.62 76.3077L447.928 71L448.635 71.7077L444.041 76.3077L448.635 80.9077L447.928 81.6154ZM454.028 81.6154L448.72 76.3077L454.028 71L454.735 71.7077L450.141 76.3077L454.735 80.9077L454.028 81.6154Z" fill="var(--colors-neutral-neutral-800)"/>
 <defs>
 <clipPath id="clip0_4411_37619">
 <rect width="528" height="140" fill="white" transform="translate(6 6)"/>

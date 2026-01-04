@@ -1,9 +1,9 @@
 <svg width="171" height="359" viewBox="0 0 171 359" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M6.70494 352.622L110.241 237.082L161.758 153.553L156.256 94.0328" stroke="#DACCE5" stroke-width="18"/>
-<path d="M6.70494 352.622L110.241 237.082L161.758 153.553L156.256 94.0328L130.748 4.50204" stroke="#F325A7"/>
-<circle cx="6.84357" cy="352.76" r="3.50138" transform="rotate(-40.3928 6.84357 352.76)" fill="white" stroke="#F325A7"/>
-<circle cx="109.879" cy="237.72" r="3.50138" transform="rotate(-40.3928 109.879 237.72)" fill="white" stroke="#F325A7"/>
-<circle cx="160.897" cy="153.691" r="3.50138" transform="rotate(-40.3928 160.897 153.691)" fill="white" stroke="#F325A7"/>
-<circle cx="155.895" cy="93.6707" r="3.50138" transform="rotate(-40.3928 155.895 93.6707)" fill="white" stroke="#F325A7"/>
-<circle cx="130.886" cy="5.6404" r="3.50138" transform="rotate(-40.3928 130.886 5.6404)" fill="white" stroke="#F325A7"/>
+<path d="M6.70494 352.622L110.241 237.082L161.758 153.553L156.256 94.0328" stroke="var(--colors-areas-highway-vehicle, var(--colors-areas-highway-vehicle, #DACCE5))" stroke-width="18"/>
+<path d="M6.70494 352.622L110.241 237.082L161.758 153.553L156.256 94.0328L130.748 4.50204" stroke="var(--colors-primary-primary-700)"/>
+<circle cx="6.84357" cy="352.76" r="3.50138" transform="rotate(-40.3928 6.84357 352.76)" fill="white" stroke="var(--colors-primary-primary-700)"/>
+<circle cx="109.879" cy="237.72" r="3.50138" transform="rotate(-40.3928 109.879 237.72)" fill="white" stroke="var(--colors-primary-primary-700)"/>
+<circle cx="160.897" cy="153.691" r="3.50138" transform="rotate(-40.3928 160.897 153.691)" fill="white" stroke="var(--colors-primary-primary-700)"/>
+<circle cx="155.895" cy="93.6707" r="3.50138" transform="rotate(-40.3928 155.895 93.6707)" fill="white" stroke="var(--colors-primary-primary-700)"/>
+<circle cx="130.886" cy="5.6404" r="3.50138" transform="rotate(-40.3928 130.886 5.6404)" fill="white" stroke="var(--colors-primary-primary-700)"/>
 </svg>

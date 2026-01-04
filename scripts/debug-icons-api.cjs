@@ -20,10 +20,15 @@ if (!FIGMA_FILE_KEY || !FIGMA_ACCESS_TOKEN) {
 const headers = { 'X-Figma-Token': FIGMA_ACCESS_TOKEN };
 
 async function main() {
-  console.log('--- Components API: components under containing_frame.name === "Icons" ---');
-  const compsRes = await axios.get(`https://api.figma.com/v1/files/${FIGMA_FILE_KEY}/components`, { headers });
+  console.log(
+    '--- Components API: components under containing_frame.name === "Icons" ---'
+  );
+  const compsRes = await axios.get(
+    `https://api.figma.com/v1/files/${FIGMA_FILE_KEY}/components`,
+    { headers }
+  );
   const comps = compsRes?.data?.meta?.components || [];
-  const icons = comps.filter(c => c?.containing_frame?.name === 'Icons');
+  const icons = comps.filter((c) => c?.containing_frame?.name === 'Icons');
 
   console.log('Total components:', comps.length);
   console.log('Icons components:', icons.length);
@@ -34,20 +39,31 @@ async function main() {
     console.log(JSON.stringify(c, null, 2));
   });
 
-  console.log('\n--- Files API: find page named "Icons" (or containing "icons") ---');
-  const fileRes = await axios.get(`https://api.figma.com/v1/files/${FIGMA_FILE_KEY}`, { headers });
+  console.log(
+    '\n--- Files API: find page named "Icons" (or containing "icons") ---'
+  );
+  const fileRes = await axios.get(
+    `https://api.figma.com/v1/files/${FIGMA_FILE_KEY}`,
+    { headers }
+  );
   const doc = fileRes?.data?.document;
   const pages = doc?.children || [];
 
   console.log('Top-level pages:', pages.length);
 
   const pageIcons =
-    pages.find(p => String(p?.name || '').toLowerCase() === 'icons') ||
-    pages.find(p => String(p?.name || '').toLowerCase().includes('icons'));
+    pages.find((p) => String(p?.name || '').toLowerCase() === 'icons') ||
+    pages.find((p) =>
+      String(p?.name || '')
+        .toLowerCase()
+        .includes('icons')
+    );
 
   if (!pageIcons) {
-    console.log('No top-level page named/including "Icons" found. Top-level page names (first 50):');
-    pages.slice(0, 50).forEach(p => console.log(' -', p?.name));
+    console.log(
+      'No top-level page named/including "Icons" found. Top-level page names (first 50):'
+    );
+    pages.slice(0, 50).forEach((p) => console.log(' -', p?.name));
     return;
   }
 
@@ -57,10 +73,12 @@ async function main() {
 
   const kids = pageIcons.children || [];
   console.log(`First 30 children of page "${pageIcons.name}":`);
-  kids.slice(0, 30).forEach(n => console.log(` - ${n.type}\t${n.name}\t${n.id}`));
+  kids
+    .slice(0, 30)
+    .forEach((n) => console.log(` - ${n.type}\t${n.name}\t${n.id}`));
 }
 
-main().catch(err => {
+main().catch((err) => {
   if (err?.response) {
     console.error('ERROR status:', err.response.status);
     console.error('ERROR data:', JSON.stringify(err.response.data, null, 2));

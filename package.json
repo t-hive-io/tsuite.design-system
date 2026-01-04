@@ -18,6 +18,7 @@
     "figma:usage": "node scripts/analyze-usage.cjs",
     "figma:icons": "node scripts/export-icons.cjs",
     "figma:variables": "node scripts/transform-figma-variables.cjs",
+    "figma:themeable-svgs": "node scripts/make-svgs-themeable.cjs",
     "tokens:transform": "token-transformer tokens/figma-tokens.json tokens/transformed-tokens.json",
     "tokens:build": "style-dictionary build --config style-dictionary.config.cjs",
     "build": "npm run tokens:build && tsc && npm run build:copy-assets",

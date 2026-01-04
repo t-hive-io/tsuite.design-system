@@ -30,12 +30,15 @@ function extractFileKey(input) {
 }
 
 function stripPrefix(name) {
-  return String(name || '').replace(/^\s*[●❖]\s*/u, '').trim();
+  return String(name || '')
+    .replace(/^\s*[●❖]\s*/u, '')
+    .trim();
 }
 
 function categorizePage(pageName) {
   const raw = String(pageName || '').trim();
-  if (raw === '-' || raw === 'FOUNDATIONS' || raw === 'COMPONENTS') return { include: false };
+  if (raw === '-' || raw === 'FOUNDATIONS' || raw === 'COMPONENTS')
+    return { include: false };
 
   if (raw.startsWith('●')) return { include: true, category: 'Foundations' };
   if (raw.startsWith('❖')) return { include: true, category: 'Components' };
@@ -44,16 +47,20 @@ function categorizePage(pageName) {
 }
 
 function normalizeTitleSegment(s) {
-  return String(s || '').replace(/\s+/g, ' ').trim();
+  return String(s || '')
+    .replace(/\s+/g, ' ')
+    .trim();
 }
 
 function slugify(s) {
-  return String(s || '')
-    .toLowerCase()
-    .trim()
-    .replace(/[^a-z0-9]+/g, '-')
-    .replace(/^-+|-+$/g, '')
-    .slice(0, 80) || 'page';
+  return (
+    String(s || '')
+      .toLowerCase()
+      .trim()
+      .replace(/[^a-z0-9]+/g, '-')
+      .replace(/^-+|-+$/g, '')
+      .slice(0, 80) || 'page'
+  );
 }
 
 function ensureDir(p) {
@@ -67,7 +74,12 @@ function collectExistingTitles(rootDir) {
   function walk(dir) {
     const entries = fs.readdirSync(dir, { withFileTypes: true });
     for (const e of entries) {
-      if (e.name === 'node_modules' || e.name === 'storybook-static' || e.name === 'dist') continue;
+      if (
+        e.name === 'node_modules' ||
+        e.name === 'storybook-static' ||
+        e.name === 'dist'
+      )
+        continue;
       const full = path.join(dir, e.name);
       if (e.isDirectory()) {
         walk(full);
@@ -103,14 +115,18 @@ async function main() {
   const input = process.argv[2] || process.env.FIGMA_FILE_KEY;
   const fileKey = extractFileKey(input);
   if (!fileKey) {
-    console.error('Missing/invalid file key. Provide a file key or a Figma URL, or set FIGMA_FILE_KEY.');
+    console.error(
+      'Missing/invalid file key. Provide a file key or a Figma URL, or set FIGMA_FILE_KEY.'
+    );
     process.exit(1);
   }
 
   const headers = { 'X-Figma-Token': FIGMA_ACCESS_TOKEN };
   const url = `https://api.figma.com/v1/files/${fileKey}`;
 
-  console.log(`Fetching Figma file pages for placeholder generation: ${fileKey}...`);
+  console.log(
+    `Fetching Figma file pages for placeholder generation: ${fileKey}...`
+  );
   const res = await axios.get(url, { headers });
 
   const fileName = res?.data?.name || 'Figma file';
@@ -131,7 +147,8 @@ async function main() {
     if (!cat.include) continue;
 
     // Only add Foundations + Components per request (Other is usually admin/separators)
-    if (cat.category !== 'Foundations' && cat.category !== 'Components') continue;
+    if (cat.category !== 'Foundations' && cat.category !== 'Components')
+      continue;
 
     const pageName = normalizeTitleSegment(stripPrefix(rawPageName));
     if (!pageName) continue;
@@ -147,9 +164,13 @@ async function main() {
     const fileSlug = `${cat.category.toLowerCase()}--${slugify(pageName)}`;
     const filePath = path.join(outDir, `${fileSlug}.mdx`);
 
-    const figmaUrl = `https://www.figma.com/design/${fileKey}/${encodeURIComponent(fileName.replace(/\s+/g, '-'))}?node-id=${encodeURIComponent(page.id || '')}`;
+    const figmaUrl = `https://www.figma.com/design/${fileKey}/${encodeURIComponent(
+      fileName.replace(/\s+/g, '-')
+    )}?node-id=${encodeURIComponent(page.id || '')}`;
 
-    const mdx = `import { Meta } from '@storybook/blocks';\n\n<Meta title=\"${title}\" />\n\n# ${pageName}\n\nThis is a placeholder page to establish the Storybook navigation for **${title}**.\n\n- Figma page id: \`${page.id || ''}\`\n- Figma: ${figmaUrl}\n\n> Next: add real component stories under this section.\n`;
+    const mdx = `import { Meta } from '@storybook/blocks';\n\n<Meta title=\"${title}\" />\n\n# ${pageName}\n\nThis is a placeholder page to establish the Storybook navigation for **${title}**.\n\n- Figma page id: \`${
+      page.id || ''
+    }\`\n- Figma: ${figmaUrl}\n\n> Next: add real component stories under this section.\n`;
 
     fs.writeFileSync(filePath, mdx, 'utf8');
     created++;
@@ -160,7 +181,7 @@ async function main() {
   console.log(`Output folder: ${outDir}`);
 }
 
-main().catch(err => {
+main().catch((err) => {
   if (err?.response) {
     console.error('ERROR status:', err.response.status);
     console.error('ERROR data:', JSON.stringify(err.response.data, null, 2));

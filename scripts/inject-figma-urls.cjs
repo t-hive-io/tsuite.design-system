@@ -10,7 +10,9 @@ const path = require('path');
 // Load Figma documentation data
 const figmaDocsPath = path.join(__dirname, '../src/figma-docs.json');
 if (!fs.existsSync(figmaDocsPath)) {
-  console.error('❌ figma-docs.json not found. Run `npm run figma:docs` first.');
+  console.error(
+    '❌ figma-docs.json not found. Run `npm run figma:docs` first.'
+  );
   process.exit(1);
 }
 
@@ -37,7 +39,9 @@ function findStoryFiles(dir, fileList = []) {
 // Extract component name from story file
 function getComponentNameFromStory(content) {
   // Look for title: 'Components/...' or 'Foundation/...' or any other pattern
-  const titleMatch = content.match(/title:\s*['"](?:Components\/|Foundation\/)?([^'"]+)['"]/);
+  const titleMatch = content.match(
+    /title:\s*['"](?:Components\/|Foundation\/)?([^'"]+)['"]/
+  );
   if (titleMatch) {
     return titleMatch[1];
   }
@@ -46,7 +50,10 @@ function getComponentNameFromStory(content) {
 
 // Check if file already has design parameter with URL or figma parameter with url
 function hasDesignUrl(content) {
-  return /design:\s*\{[\s\S]*?url:/m.test(content) || /figma:\s*\{[\s\S]*?url:/m.test(content);
+  return (
+    /design:\s*\{[\s\S]*?url:/m.test(content) ||
+    /figma:\s*\{[\s\S]*?url:/m.test(content)
+  );
 }
 
 // Inject or update design URL in story file
@@ -143,7 +150,9 @@ function main() {
     const componentName = getComponentNameFromStory(content);
 
     if (!componentName) {
-      console.log(`⚠️  Could not extract component name from: ${path.basename(filePath)}`);
+      console.log(
+        `⚠️  Could not extract component name from: ${path.basename(filePath)}`
+      );
       skippedCount++;
       return;
     }
@@ -156,10 +165,17 @@ function main() {
       figmaDoc = figmaDocs[componentName];
     } else {
       // Try to find partial match
-      const componentBaseName = componentName.split('/').pop().split(':')[0].trim();
+      const componentBaseName = componentName
+        .split('/')
+        .pop()
+        .split(':')[0]
+        .trim();
       Object.entries(figmaDocs).forEach(([key, doc]) => {
         const docBaseName = key.split('/').pop();
-        if (docBaseName === componentBaseName || componentBaseName.includes(docBaseName)) {
+        if (
+          docBaseName === componentBaseName ||
+          componentBaseName.includes(docBaseName)
+        ) {
           figmaDoc = doc;
         }
       });
@@ -175,11 +191,15 @@ function main() {
 
       if (componentIdMatch) {
         const componentId = componentIdMatch[1].replace(':', '-');
-        figmaUrl = `https://www.figma.com/design/${process.env.FIGMA_FILE_KEY || 'XKxVlFf9TfWBHosOInkJXA'}/T-Suite-Design-System?node-id=${componentId}`;
+        figmaUrl = `https://www.figma.com/design/${
+          process.env.FIGMA_FILE_KEY || 'XKxVlFf9TfWBHosOInkJXA'
+        }/T-Suite-Design-System?node-id=${componentId}`;
         console.log(`🔧 ${componentName} (generated URL from componentId)`);
       } else if (pageIdMatch) {
         const pageId = pageIdMatch[1].replace(':', '-');
-        figmaUrl = `https://www.figma.com/design/${process.env.FIGMA_FILE_KEY || 'XKxVlFf9TfWBHosOInkJXA'}/T-Suite-Design-System?node-id=${pageId}`;
+        figmaUrl = `https://www.figma.com/design/${
+          process.env.FIGMA_FILE_KEY || 'XKxVlFf9TfWBHosOInkJXA'
+        }/T-Suite-Design-System?node-id=${pageId}`;
         console.log(`🔧 ${componentName} (generated URL from pageId)`);
       } else {
         console.log(`⏭️  No Figma URL found for: ${componentName}`);
@@ -189,8 +209,10 @@ function main() {
     }
 
     // Check if already has the correct URL in the right place (figma parameter)
-    const hasBothParams = /figma:\s*\{/.test(content) && /design:\s*\{/.test(content);
-    const hasUrlInFigmaParam = /figma:\s*\{[\s\S]*?url:/m.test(content) && content.includes(figmaUrl);
+    const hasBothParams =
+      /figma:\s*\{/.test(content) && /design:\s*\{/.test(content);
+    const hasUrlInFigmaParam =
+      /figma:\s*\{[\s\S]*?url:/m.test(content) && content.includes(figmaUrl);
 
     if (hasUrlInFigmaParam && !hasBothParams) {
       console.log(`✓  ${componentName} (already up-to-date)`);

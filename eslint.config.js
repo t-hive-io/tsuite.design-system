@@ -32,6 +32,9 @@ export default [
         window: 'readonly',
         document: 'readonly',
         console: 'readonly',
+        HTMLInputElement: 'readonly',
+        HTMLElement: 'readonly',
+        Element: 'readonly',
         // Node globals for scripts
         process: 'readonly',
         __dirname: 'readonly',

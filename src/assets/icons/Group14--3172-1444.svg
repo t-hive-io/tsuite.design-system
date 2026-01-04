@@ -1,11 +1,11 @@
 <svg width="160" height="391" viewBox="0 0 160 391" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M6.65123 384.133L84.6783 298.604L150.701 199.069L139.197 92.0319L108.687 23.5082L46.6651 9.00313" stroke="#DACCE5" stroke-width="18"/>
-<path d="M6.15106 383.633L85.1785 297.103L151.201 199.069L139.697 92.0319L109.187 23.5082L46.165 9.00313" stroke="#F325A7"/>
-<path d="M46.6651 9.5033L6.65123 383.133" stroke="#F325A7"/>
-<circle cx="6.28969" cy="383.771" r="3.50139" transform="rotate(-40.3928 6.28969 383.771)" fill="#FDE2F3" stroke="#F325A7"/>
-<circle cx="151.34" cy="197.707" r="3.50139" transform="rotate(-40.3928 151.34 197.707)" fill="white" stroke="#F325A7"/>
-<circle cx="85.3171" cy="296.741" r="3.50139" transform="rotate(-40.3928 85.3171 296.741)" fill="white" stroke="#F325A7"/>
-<circle cx="108.325" cy="23.6462" r="3.50139" transform="rotate(-40.3928 108.325 23.6462)" fill="white" stroke="#F325A7"/>
-<circle cx="46.3036" cy="9.64132" r="3.50139" transform="rotate(-40.3928 46.3036 9.64132)" fill="white" stroke="#F325A7"/>
-<circle cx="139.336" cy="91.6698" r="3.50139" transform="rotate(-40.3928 139.336 91.6698)" fill="white" stroke="#F325A7"/>
+<path d="M6.65123 384.133L84.6783 298.604L150.701 199.069L139.197 92.0319L108.687 23.5082L46.6651 9.00313" stroke="var(--colors-areas-highway-vehicle, var(--colors-areas-highway-vehicle, #DACCE5))" stroke-width="18"/>
+<path d="M6.15106 383.633L85.1785 297.103L151.201 199.069L139.697 92.0319L109.187 23.5082L46.165 9.00313" stroke="var(--colors-primary-primary-700)"/>
+<path d="M46.6651 9.5033L6.65123 383.133" stroke="var(--colors-primary-primary-700)"/>
+<circle cx="6.28969" cy="383.771" r="3.50139" transform="rotate(-40.3928 6.28969 383.771)" fill="var(--colors-primary-primary-300)" stroke="var(--colors-primary-primary-700)"/>
+<circle cx="151.34" cy="197.707" r="3.50139" transform="rotate(-40.3928 151.34 197.707)" fill="white" stroke="var(--colors-primary-primary-700)"/>
+<circle cx="85.3171" cy="296.741" r="3.50139" transform="rotate(-40.3928 85.3171 296.741)" fill="white" stroke="var(--colors-primary-primary-700)"/>
+<circle cx="108.325" cy="23.6462" r="3.50139" transform="rotate(-40.3928 108.325 23.6462)" fill="white" stroke="var(--colors-primary-primary-700)"/>
+<circle cx="46.3036" cy="9.64132" r="3.50139" transform="rotate(-40.3928 46.3036 9.64132)" fill="white" stroke="var(--colors-primary-primary-700)"/>
+<circle cx="139.336" cy="91.6698" r="3.50139" transform="rotate(-40.3928 139.336 91.6698)" fill="white" stroke="var(--colors-primary-primary-700)"/>
 </svg>

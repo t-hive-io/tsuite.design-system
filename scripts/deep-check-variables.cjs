@@ -37,9 +37,9 @@ async function deepCheckVariables() {
     // Check all possible places where variables might be
     const checks = {
       'document.variables': fileData.document?.variables,
-      'variables': fileData.variables,
+      variables: fileData.variables,
       'meta.variables': fileData.meta?.variables,
-      'variableCollections': fileData.variableCollections,
+      variableCollections: fileData.variableCollections,
       'meta.variableCollections': fileData.meta?.variableCollections,
     };
 
@@ -74,7 +74,10 @@ async function deepCheckVariables() {
         }
       );
       console.log('   ✅ SUCCESS! Local variables found');
-      console.log('   Response:', JSON.stringify(localVarResponse.data).substring(0, 300));
+      console.log(
+        '   Response:',
+        JSON.stringify(localVarResponse.data).substring(0, 300)
+      );
 
       fs.writeFileSync(
         'debug-figma-variables-local.json',
@@ -82,11 +85,19 @@ async function deepCheckVariables() {
       );
       console.log('   ✅ Saved to: debug-figma-variables-local.json');
     } catch (error) {
-      console.log(`   ❌ FAILED: ${error.response?.status} ${error.response?.statusText}`);
-      console.log(`   Error: ${error.response?.data?.err || error.response?.data?.message}`);
+      console.log(
+        `   ❌ FAILED: ${error.response?.status} ${error.response?.statusText}`
+      );
+      console.log(
+        `   Error: ${
+          error.response?.data?.err || error.response?.data?.message
+        }`
+      );
 
       if (error.response?.status === 403) {
-        console.log('   💡 This means: Access token lacks file_variables:read scope');
+        console.log(
+          '   💡 This means: Access token lacks file_variables:read scope'
+        );
       } else if (error.response?.status === 404) {
         console.log('   💡 This means: No local variables exist in this file');
       }
@@ -104,7 +115,10 @@ async function deepCheckVariables() {
         }
       );
       console.log('   ✅ SUCCESS! Published variables found');
-      console.log('   Response:', JSON.stringify(pubVarResponse.data).substring(0, 300));
+      console.log(
+        '   Response:',
+        JSON.stringify(pubVarResponse.data).substring(0, 300)
+      );
 
       fs.writeFileSync(
         'debug-figma-variables-published.json',
@@ -112,8 +126,14 @@ async function deepCheckVariables() {
       );
       console.log('   ✅ Saved to: debug-figma-variables-published.json');
     } catch (error) {
-      console.log(`   ❌ FAILED: ${error.response?.status} ${error.response?.statusText}`);
-      console.log(`   Error: ${error.response?.data?.err || error.response?.data?.message}`);
+      console.log(
+        `   ❌ FAILED: ${error.response?.status} ${error.response?.statusText}`
+      );
+      console.log(
+        `   Error: ${
+          error.response?.data?.err || error.response?.data?.message
+        }`
+      );
 
       if (error.response?.status === 403) {
         console.log('   💡 This means: Access token lacks required scope');
@@ -126,15 +146,18 @@ async function deepCheckVariables() {
     console.log('\n🎯 CONCLUSION:\n');
     console.log('If all endpoints returned 403:');
     console.log('  → Your access token needs file_variables:read scope');
-    console.log('  → Even if Variables exist, you cannot read them without this scope');
+    console.log(
+      '  → Even if Variables exist, you cannot read them without this scope'
+    );
     console.log('\nIf all endpoints returned 404:');
     console.log('  → No Variables have been created in this Figma file yet');
     console.log('  → You need to create Variables in Figma first');
     console.log('\nTo check manually in Figma:');
-    console.log('  1. Open the file: https://www.figma.com/file/' + FIGMA_FILE_KEY);
+    console.log(
+      '  1. Open the file: https://www.figma.com/file/' + FIGMA_FILE_KEY
+    );
     console.log('  2. Right panel → Click the 4-dots icon (Local variables)');
     console.log('  3. Do you see any Variable collections there?');
-
   } catch (error) {
     console.error('❌ Fatal error:', error.message);
     if (error.response) {

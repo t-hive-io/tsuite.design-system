@@ -4,14 +4,14 @@ on:
   # Trigger on push to main
   push:
     branches: [main]
-  
+
   # Manual trigger
   workflow_dispatch:
-  
+
   # Webhook from Figma (requires setup)
   repository_dispatch:
     types: [figma-update]
-  
+
   # Scheduled daily sync
   schedule:
     - cron: '0 2 * * *' # 2 AM UTC daily
@@ -19,31 +19,31 @@ on:
 jobs:
   sync-design-tokens:
     runs-on: ubuntu-latest
-    
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-      
+
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
           node-version: '20'
           cache: 'npm'
-      
+
       - name: Install dependencies
         run: npm ci
-      
+
       - name: Export tokens and docs from Figma
         env:
           FIGMA_FILE_KEY: ${{ secrets.FIGMA_FILE_KEY }}
           FIGMA_ACCESS_TOKEN: ${{ secrets.FIGMA_ACCESS_TOKEN }}
         run: npm run figma:export
-      
+
       - name: Transform tokens
         run: npm run tokens:build
-      
+
       - name: Check for changes
         id: changes
         run: |
@@ -52,7 +52,7 @@ jobs:
           else
             echo "changes=false" >> $GITHUB_OUTPUT
           fi
-      
+
       - name: Commit and push changes
         if: steps.changes.outputs.changes == 'true'
         run: |
@@ -61,10 +61,10 @@ jobs:
           git add src/styles/tokens.css src/tokens/ src/figma-docs.json
           git commit -m "chore: sync design tokens and docs from Figma [skip ci]"
           git push
-      
+
       - name: Build Storybook
         run: npm run build-storybook
-      
+
       - name: Deploy Storybook to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         if: github.ref == 'refs/heads/main'

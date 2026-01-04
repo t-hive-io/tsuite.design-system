@@ -63,13 +63,19 @@ function applyThemeToDOM(theme: BrandTheme) {
   const tokens = brandTokens[theme];
   const root = document.documentElement;
 
+  console.log(`[Theme] Applying theme: ${theme}`);
+
   // Apply color tokens as CSS custom properties
   Object.entries(tokens.colors).forEach(([key, value]) => {
-    const cssVarName = `--color-${key
+    // Convert "Brand/Brand 800" to "--colors-brand-brand-800"
+    const cssVarName = `--colors-${key
       .toLowerCase()
       .replace(/\//g, '-')
       .replace(/\s+/g, '-')}`;
     root.style.setProperty(cssVarName, value);
+    if (key.includes('Primary 500')) {
+      console.log(`[Theme] Set ${cssVarName} = ${value}`);
+    }
   });
 
   // Apply radius tokens
@@ -77,6 +83,14 @@ function applyThemeToDOM(theme: BrandTheme) {
     const cssVarName = `--radius-${key}`;
     root.style.setProperty(cssVarName, value);
   });
+
+  // Apply font family tokens
+  if (tokens.font?.family) {
+    Object.entries(tokens.font.family).forEach(([key, value]) => {
+      const cssVarName = `--font-family-${key.toLowerCase()}`;
+      root.style.setProperty(cssVarName, value);
+    });
+  }
 
   // Set theme data attribute for CSS selectors
   root.setAttribute('data-theme', theme);

@@ -1,6 +1,6 @@
 <svg width="162" height="401" viewBox="0 0 162 401" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M8.00039 392.76L152.003 203.316L139.003 80.9459L110.002 23.6009L48.0011 8.7526" stroke="#DACCE5" stroke-width="18"/>
-<path d="M8.00039 392.26L152.003 202.756L139.503 79.2539L110.502 23.2529L47.5011 8.7526" stroke="#F325A7"/>
-<rect x="42.3212" y="3.38932" width="7.00015" height="7.00015" transform="rotate(13.9168 42.3212 3.38932)" fill="white" stroke="#F325A7"/>
-<rect x="5.05731" y="390.462" width="7.00015" height="7.00015" transform="rotate(38.4698 5.05731 390.462)" fill="white" stroke="#F325A7"/>
+<path d="M8.00039 392.76L152.003 203.316L139.003 80.9459L110.002 23.6009L48.0011 8.7526" stroke="var(--colors-areas-highway-vehicle, var(--colors-areas-highway-vehicle, #DACCE5))" stroke-width="18"/>
+<path d="M8.00039 392.26L152.003 202.756L139.503 79.2539L110.502 23.2529L47.5011 8.7526" stroke="var(--colors-primary-primary-700)"/>
+<rect x="42.3212" y="3.38932" width="7.00015" height="7.00015" transform="rotate(13.9168 42.3212 3.38932)" fill="white" stroke="var(--colors-primary-primary-700)"/>
+<rect x="5.05731" y="390.462" width="7.00015" height="7.00015" transform="rotate(38.4698 5.05731 390.462)" fill="white" stroke="var(--colors-primary-primary-700)"/>
 </svg>

@@ -16,7 +16,9 @@ const componentsToFix = [
   'src/components/UIShellRightPanel/inputtext.stories.tsx',
 ];
 
-console.log(`🔧 Auto-fixing OR logic bugs in ${componentsToFix.length} components...\n`);
+console.log(
+  `🔧 Auto-fixing OR logic bugs in ${componentsToFix.length} components...\n`
+);
 
 let fixedCount = 0;
 let skippedCount = 0;

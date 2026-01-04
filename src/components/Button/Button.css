@@ -3,7 +3,8 @@
   align-items: center;
   justify-content: center;
   gap: 0.5rem;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    'Helvetica Neue', Arial, sans-serif;
   font-weight: 500;
   border: none;
   border-radius: 0.375rem;
@@ -44,56 +45,56 @@
 
 /* Variants */
 .tsuite-button--primary {
-  background-color: #2196f3;
+  background-color: var(--colors-primary-primary-500, #2196f3);
   color: white;
 }
 
 .tsuite-button--primary:hover:not(:disabled) {
-  background-color: #1976d2;
+  background-color: var(--colors-primary-primary-600, #1976d2);
 }
 
 .tsuite-button--primary:active:not(:disabled) {
-  background-color: #1565c0;
+  background-color: var(--colors-primary-primary-700, #1565c0);
 }
 
 .tsuite-button--secondary {
-  background-color: #ff9800;
+  background-color: var(--colors-brand-brand-800, #ff9800);
   color: white;
 }
 
 .tsuite-button--secondary:hover:not(:disabled) {
-  background-color: #f57c00;
+  background-color: var(--colors-brand-brand-700, #f57c00);
 }
 
 .tsuite-button--secondary:active:not(:disabled) {
-  background-color: #ef6c00;
+  background-color: var(--colors-brand-brand-600, #ef6c00);
 }
 
 .tsuite-button--outlined {
   background-color: transparent;
-  color: #2196f3;
-  border: 1px solid #2196f3;
+  color: var(--colors-brand-brand-800, #2196f3);
+  border: 1px solid var(--colors-brand-brand-800, #2196f3);
 }
 
 .tsuite-button--outlined:hover:not(:disabled) {
-  background-color: rgba(33, 150, 243, 0.08);
+  background-color: var(--colors-brand-brand-100, rgba(33, 150, 243, 0.08));
 }
 
 .tsuite-button--outlined:active:not(:disabled) {
-  background-color: rgba(33, 150, 243, 0.16);
+  background-color: var(--colors-brand-brand-400, rgba(33, 150, 243, 0.16));
 }
 
 .tsuite-button--text {
   background-color: transparent;
-  color: #2196f3;
+  color: var(--colors-brand-brand-800, #2196f3);
 }
 
 .tsuite-button--text:hover:not(:disabled) {
-  background-color: rgba(33, 150, 243, 0.08);
+  background-color: var(--colors-brand-brand-100, rgba(33, 150, 243, 0.08));
 }
 
 .tsuite-button--text:active:not(:disabled) {
-  background-color: rgba(33, 150, 243, 0.16);
+  background-color: var(--colors-brand-brand-400, rgba(33, 150, 243, 0.16));
 }
 
 /* Full Width */

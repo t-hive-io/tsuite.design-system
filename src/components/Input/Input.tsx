@@ -53,15 +53,15 @@ export interface InputProps {
   /**
    * Change handler
    */
-  onChange?: (event: React.ChangeEvent<HTMLInputElement>) => void;
+  onChange?: React.ChangeEventHandler<HTMLInputElement>;
   /**
    * Blur handler
    */
-  onBlur?: (event: React.FocusEvent<HTMLInputElement>) => void;
+  onBlur?: React.FocusEventHandler<HTMLInputElement>;
   /**
    * Focus handler
    */
-  onFocus?: (event: React.FocusEvent<HTMLInputElement>) => void;
+  onFocus?: React.FocusEventHandler<HTMLInputElement>;
 }
 
 /**
@@ -109,7 +109,9 @@ export const Input = ({
         </label>
       )}
       <div className={wrapperClassName}>
-        {iconLeft && <span className="tsuite-input__icon-left">{iconLeft}</span>}
+        {iconLeft && (
+          <span className="tsuite-input__icon-left">{iconLeft}</span>
+        )}
         <input
           type={type}
           className="tsuite-input"
@@ -121,7 +123,9 @@ export const Input = ({
           onBlur={onBlur}
           onFocus={onFocus}
         />
-        {iconRight && <span className="tsuite-input__icon-right">{iconRight}</span>}
+        {iconRight && (
+          <span className="tsuite-input__icon-right">{iconRight}</span>
+        )}
       </div>
       {(error || helperText) && (
         <div className={error ? 'tsuite-input-error' : 'tsuite-input-helper'}>

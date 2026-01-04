@@ -3,10 +3,9 @@ const path = require('path');
 const { execSync } = require('child_process');
 
 // Get all story files
-const allFiles = execSync(
-  'find src/components -name "*.stories.tsx" -type f',
-  { encoding: 'utf-8' }
-)
+const allFiles = execSync('find src/components -name "*.stories.tsx" -type f', {
+  encoding: 'utf-8',
+})
   .trim()
   .split('\n')
   .filter(Boolean);
@@ -26,16 +25,28 @@ allFiles.forEach((filePath, index) => {
 
     // Skip if already has the exact warning text
     if (content.includes(warningText)) {
-      console.log(`${index + 1}/${allFiles.length} SKIP: ${path.basename(filePath)} - Already has Figma warning`);
+      console.log(
+        `${index + 1}/${allFiles.length} SKIP: ${path.basename(
+          filePath
+        )} - Already has Figma warning`
+      );
       skipCount++;
       return;
     }
 
     // Skip if has a custom description (not just the warning)
-    if (content.includes('docs: {') && content.includes('description: {') && content.includes('component:')) {
+    if (
+      content.includes('docs: {') &&
+      content.includes('description: {') &&
+      content.includes('component:')
+    ) {
       const hasCustomDesc = !content.includes('Figma Description Missing');
       if (hasCustomDesc) {
-        console.log(`${index + 1}/${allFiles.length} SKIP: ${path.basename(filePath)} - Has custom description`);
+        console.log(
+          `${index + 1}/${allFiles.length} SKIP: ${path.basename(
+            filePath
+          )} - Has custom description`
+        );
         skipCount++;
         return;
       }
@@ -43,13 +54,21 @@ allFiles.forEach((filePath, index) => {
 
     // Check if file has 'parameters' section
     if (!content.includes('parameters: {')) {
-      console.log(`${index + 1}/${allFiles.length} SKIP: ${path.basename(filePath)} - No parameters section (unusual structure)`);
+      console.log(
+        `${index + 1}/${allFiles.length} SKIP: ${path.basename(
+          filePath
+        )} - No parameters section (unusual structure)`
+      );
       skipCount++;
       return;
     }
 
     // Pattern 1: Has parameters with docs.description already (update it)
-    if (content.match(/parameters:\s*\{[^}]*docs:\s*\{[^}]*description:\s*\{[^}]*component:/s)) {
+    if (
+      content.match(
+        /parameters:\s*\{[^}]*docs:\s*\{[^}]*description:\s*\{[^}]*component:/s
+      )
+    ) {
       // Replace existing description
       updatedContent = content.replace(
         /(docs:\s*\{\s*description:\s*\{\s*component:\s*['"`])[^'"`]*(['"`])/s,
@@ -58,14 +77,21 @@ allFiles.forEach((filePath, index) => {
 
       if (updatedContent !== content) {
         fs.writeFileSync(filePath, updatedContent, 'utf-8');
-        console.log(`${index + 1}/${allFiles.length} UPDATED: ${path.basename(filePath)} - Updated existing description`);
+        console.log(
+          `${index + 1}/${allFiles.length} UPDATED: ${path.basename(
+            filePath
+          )} - Updated existing description`
+        );
         successCount++;
         return;
       }
     }
 
     // Pattern 2: Has parameters with docs but no description section
-    if (content.match(/parameters:\s*\{[^}]*docs:\s*\{/s) && !content.includes('description: {')) {
+    if (
+      content.match(/parameters:\s*\{[^}]*docs:\s*\{/s) &&
+      !content.includes('description: {')
+    ) {
       // Add description after docs: {
       updatedContent = content.replace(
         /(docs:\s*\{)\s*\n/s,
@@ -74,7 +100,11 @@ allFiles.forEach((filePath, index) => {
 
       if (updatedContent !== content) {
         fs.writeFileSync(filePath, updatedContent, 'utf-8');
-        console.log(`${index + 1}/${allFiles.length} UPDATED: ${path.basename(filePath)} - Added description to existing docs`);
+        console.log(
+          `${index + 1}/${allFiles.length} UPDATED: ${path.basename(
+            filePath
+          )} - Added description to existing docs`
+        );
         successCount++;
         return;
       }
@@ -99,17 +129,28 @@ allFiles.forEach((filePath, index) => {
 
       if (updatedContent !== content) {
         fs.writeFileSync(filePath, updatedContent, 'utf-8');
-        console.log(`${index + 1}/${allFiles.length} UPDATED: ${path.basename(filePath)} - Added docs section`);
+        console.log(
+          `${index + 1}/${allFiles.length} UPDATED: ${path.basename(
+            filePath
+          )} - Added docs section`
+        );
         successCount++;
         return;
       }
     }
 
-    console.log(`${index + 1}/${allFiles.length} SKIP: ${path.basename(filePath)} - Could not determine pattern`);
+    console.log(
+      `${index + 1}/${allFiles.length} SKIP: ${path.basename(
+        filePath
+      )} - Could not determine pattern`
+    );
     skipCount++;
-
   } catch (error) {
-    console.error(`${index + 1}/${allFiles.length} ERROR: ${path.basename(filePath)} - ${error.message}`);
+    console.error(
+      `${index + 1}/${allFiles.length} ERROR: ${path.basename(filePath)} - ${
+        error.message
+      }`
+    );
     errorCount++;
   }
 });
@@ -119,4 +160,8 @@ console.log(`Total files: ${allFiles.length}`);
 console.log(`Updated: ${successCount}`);
 console.log(`Skipped: ${skipCount}`);
 console.log(`Errors: ${errorCount}`);
-console.log(`\nExpected result: ${allFiles.length - errorCount} files should have Figma warning`);
+console.log(
+  `\nExpected result: ${
+    allFiles.length - errorCount
+  } files should have Figma warning`
+);

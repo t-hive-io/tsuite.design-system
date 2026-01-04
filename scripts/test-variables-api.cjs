@@ -37,31 +37,41 @@ async function testVariablesAPI() {
           console.log(`\n${i + 1}. ${v.name}`);
           console.log('   ID:', v.id);
           console.log('   Type:', v.resolvedType);
-          console.log('   valuesByMode:', JSON.stringify(v.valuesByMode).slice(0, 100));
+          console.log(
+            '   valuesByMode:',
+            JSON.stringify(v.valuesByMode).slice(0, 100)
+          );
         });
       }
 
       // Show variable collections
       if (response.data.meta.variableCollections) {
-        const collections = Object.values(response.data.meta.variableCollections);
+        const collections = Object.values(
+          response.data.meta.variableCollections
+        );
         console.log(`\n📚 Found ${collections.length} variable collections:`);
-        collections.forEach(c => {
+        collections.forEach((c) => {
           console.log(`   - ${c.name} (${c.modes.length} modes)`);
-          c.modes.forEach(m => console.log(`     → Mode: ${m.name}`));
+          c.modes.forEach((m) => console.log(`     → Mode: ${m.name}`));
         });
       }
     }
-
   } catch (error) {
     console.error('❌ Variables API Error:');
-    console.error('   Status:', error.response?.status, error.response?.statusText);
+    console.error(
+      '   Status:',
+      error.response?.status,
+      error.response?.statusText
+    );
     console.error('   Message:', error.response?.data?.err || error.message);
 
     if (error.response?.status === 403) {
       console.error('\n💡 This might mean:');
-      console.error('   1. Your Figma file doesn\'t have Variables (need Enterprise plan)');
+      console.error(
+        "   1. Your Figma file doesn't have Variables (need Enterprise plan)"
+      );
       console.error('   2. Access token lacks permissions');
-      console.error('   3. File doesn\'t use Variables feature');
+      console.error("   3. File doesn't use Variables feature");
     }
   }
 }

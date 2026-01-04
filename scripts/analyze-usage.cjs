@@ -12,7 +12,7 @@ const FIGMA_ACCESS_TOKEN = process.env.FIGMA_ACCESS_TOKEN;
 async function analyzeComponentUsage() {
   try {
     console.log('Analyzing component usage in Figma file...\n');
-    
+
     // Get full file structure
     console.log('Fetching file structure (this may take a moment)...');
     const fileResponse = await axios.get(
@@ -25,7 +25,7 @@ async function analyzeComponentUsage() {
     );
 
     const document = fileResponse.data.document;
-    
+
     // Get component definitions
     const componentsResponse = await axios.get(
       `https://api.figma.com/v1/files/${FIGMA_FILE_KEY}/components`,
@@ -38,13 +38,13 @@ async function analyzeComponentUsage() {
 
     const components = componentsResponse.data.meta.components;
     console.log(`Found ${components.length} component definitions\n`);
-    
+
     // Create a map to count instances - use node_id instead of key
     const usageCount = {};
     const componentMap = {};
     const componentSetMap = {};
-    
-    components.forEach(comp => {
+
+    components.forEach((comp) => {
       usageCount[comp.node_id] = 0;
       componentMap[comp.node_id] = comp.name;
       componentSetMap[comp.node_id] = comp.containing_frame?.name || comp.name;
@@ -53,10 +53,12 @@ async function analyzeComponentUsage() {
     // Traverse the document tree and count instances
     console.log('Counting component instances...\n');
     traverseNode(document, usageCount, false);
-    
+
     // Check for unknown component IDs
     if (usageCount['_unknown']) {
-      console.log(`Warning: Found ${usageCount['_unknown'].length} instances of unknown components`);
+      console.log(
+        `Warning: Found ${usageCount['_unknown'].length} instances of unknown components`
+      );
       console.log('Sample unknown IDs:', usageCount['_unknown'].slice(0, 5));
       console.log('Sample known keys:', Object.keys(componentMap).slice(0, 5));
       console.log('');
@@ -69,7 +71,7 @@ async function analyzeComponentUsage() {
         name: componentMap[nodeId],
         componentSet: componentSetMap[nodeId],
         count: count,
-        nodeId: nodeId
+        nodeId: nodeId,
       }))
       .sort((a, b) => b.count - a.count);
 
@@ -78,12 +80,17 @@ async function analyzeComponentUsage() {
     console.log('TOP 50 MOST USED COMPONENTS');
     console.log('='.repeat(80));
     console.log('');
-    
+
     const top50 = sortedComponents.slice(0, 50);
     top50.forEach((comp, index) => {
       const bar = '#'.repeat(Math.min(50, Math.floor(comp.count / 50)));
-      const componentSet = comp.componentSet !== comp.name ? ` [${comp.componentSet}]` : '';
-      console.log(`${(index + 1).toString().padStart(3)}. ${comp.name.padEnd(50)}${componentSet}`);
+      const componentSet =
+        comp.componentSet !== comp.name ? ` [${comp.componentSet}]` : '';
+      console.log(
+        `${(index + 1).toString().padStart(3)}. ${comp.name.padEnd(
+          50
+        )}${componentSet}`
+      );
       console.log(`     ${comp.count.toString().padStart(5)} uses ${bar}`);
     });
 
@@ -92,13 +99,25 @@ async function analyzeComponentUsage() {
     console.log('STATISTICS');
     console.log('='.repeat(80));
     console.log(`Total components: ${components.length}`);
-    console.log(`Components with instances: ${sortedComponents.filter(c => c.count > 0).length}`);
-    console.log(`Unused components: ${sortedComponents.filter(c => c.count === 0).length}`);
-    console.log(`Most used: ${sortedComponents[0].name} (${sortedComponents[0].count} instances)`);
-    
-    const totalInstances = sortedComponents.reduce((sum, c) => sum + c.count, 0);
-    console.log(`Total instances: ${totalInstances}`);
+    console.log(
+      `Components with instances: ${
+        sortedComponents.filter((c) => c.count > 0).length
+      }`
+    );
+    console.log(
+      `Unused components: ${
+        sortedComponents.filter((c) => c.count === 0).length
+      }`
+    );
+    console.log(
+      `Most used: ${sortedComponents[0].name} (${sortedComponents[0].count} instances)`
+    );
 
+    const totalInstances = sortedComponents.reduce(
+      (sum, c) => sum + c.count,
+      0
+    );
+    console.log(`Total instances: ${totalInstances}`);
   } catch (error) {
     console.error('Error:', error.message);
     if (error.response) {
@@ -112,7 +131,12 @@ function traverseNode(node, usageCount, debug = false) {
   // Check if this node is a component instance
   if (node.type === 'INSTANCE' && node.componentId) {
     if (debug) {
-      console.log('Found instance:', node.name, 'componentId:', node.componentId);
+      console.log(
+        'Found instance:',
+        node.name,
+        'componentId:',
+        node.componentId
+      );
     }
     if (usageCount.hasOwnProperty(node.componentId)) {
       usageCount[node.componentId]++;
@@ -127,7 +151,7 @@ function traverseNode(node, usageCount, debug = false) {
 
   // Recursively traverse children
   if (node.children) {
-    node.children.forEach(child => traverseNode(child, usageCount, debug));
+    node.children.forEach((child) => traverseNode(child, usageCount, debug));
   }
 }
 

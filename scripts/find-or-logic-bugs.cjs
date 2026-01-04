@@ -22,7 +22,9 @@ function findStoryFiles(dir, fileList = []) {
 // Analyze a story file for OR logic bugs
 function analyzeStoryFile(filePath) {
   const content = fs.readFileSync(filePath, 'utf-8');
-  const relativePath = path.relative(process.cwd(), filePath).replace(/\\/g, '/');
+  const relativePath = path
+    .relative(process.cwd(), filePath)
+    .replace(/\\/g, '/');
 
   // Extract component name
   const componentMatch = content.match(/const (\w+) = \(/);
@@ -37,7 +39,8 @@ function analyzeStoryFile(filePath) {
     for (const match of propMatches) {
       const propName = match[1];
       const propType = match[2].trim();
-      const options = propType.match(/'([^']+)'/g)?.map((s) => s.replace(/'/g, '')) || [];
+      const options =
+        propType.match(/'([^']+)'/g)?.map((s) => s.replace(/'/g, '')) || [];
       properties.push({ name: propName, options });
     }
   }
@@ -64,7 +67,10 @@ function analyzeStoryFile(filePath) {
 
   // Heuristic: If we have multiple properties and multiple if statements
   // but few/no && operators, likely has OR logic bug
-  const hasOrLogicBug = properties.length >= 2 && ifStatementsCount >= 2 && andLogicCount < ifStatementsCount / 2;
+  const hasOrLogicBug =
+    properties.length >= 2 &&
+    ifStatementsCount >= 2 &&
+    andLogicCount < ifStatementsCount / 2;
 
   // Extract all if conditions
   const conditions = [];
@@ -110,8 +116,14 @@ function main() {
   withBugs.forEach((result) => {
     console.log(`❌ ${result.componentName}`);
     console.log(`   File: ${result.filePath}`);
-    console.log(`   Properties: ${result.properties.join(', ')} (${result.propertyCount} total)`);
-    console.log(`   If statements: ${result.ifStatementsCount}, AND operators: ${result.andLogicCount}`);
+    console.log(
+      `   Properties: ${result.properties.join(', ')} (${
+        result.propertyCount
+      } total)`
+    );
+    console.log(
+      `   If statements: ${result.ifStatementsCount}, AND operators: ${result.andLogicCount}`
+    );
     console.log(`   Sample conditions:`);
     result.conditions.slice(0, 3).forEach((cond) => {
       console.log(`     - ${cond}`);
@@ -124,7 +136,9 @@ function main() {
   console.log('═══════════════════════════════════════════════════════════\n');
 
   withoutBugs.slice(0, 10).forEach((result) => {
-    console.log(`✅ ${result.componentName} (${result.propertyCount} properties)`);
+    console.log(
+      `✅ ${result.componentName} (${result.propertyCount} properties)`
+    );
   });
 
   if (withoutBugs.length > 10) {
@@ -135,8 +149,16 @@ function main() {
   console.log('📊 SUMMARY');
   console.log('═══════════════════════════════════════════════════════════');
   console.log(`Total multi-property components: ${results.length}`);
-  console.log(`Components with potential bugs: ${withBugs.length} (${Math.round((withBugs.length / results.length) * 100)}%)`);
-  console.log(`Components already fixed: ${withoutBugs.length} (${Math.round((withoutBugs.length / results.length) * 100)}%)`);
+  console.log(
+    `Components with potential bugs: ${withBugs.length} (${Math.round(
+      (withBugs.length / results.length) * 100
+    )}%)`
+  );
+  console.log(
+    `Components already fixed: ${withoutBugs.length} (${Math.round(
+      (withoutBugs.length / results.length) * 100
+    )}%)`
+  );
   console.log('═══════════════════════════════════════════════════════════\n');
 
   // Write results to file
@@ -152,7 +174,9 @@ function main() {
   withBugs.forEach((result) => {
     markdown += `### ${result.componentName}\n\n`;
     markdown += `- **File**: [\`${result.filePath}\`](${result.filePath})\n`;
-    markdown += `- **Properties**: ${result.properties.join(', ')} (${result.propertyCount} total)\n`;
+    markdown += `- **Properties**: ${result.properties.join(', ')} (${
+      result.propertyCount
+    } total)\n`;
     markdown += `- **If statements**: ${result.ifStatementsCount}\n`;
     markdown += `- **AND operators**: ${result.andLogicCount}\n`;
     markdown += `- **Sample conditions**:\n`;

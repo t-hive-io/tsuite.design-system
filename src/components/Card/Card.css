@@ -3,7 +3,8 @@
   flex-direction: column;
   background-color: white;
   border-radius: 0.5rem;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    'Helvetica Neue', Arial, sans-serif;
   text-align: left;
   border: none;
   width: fit-content;

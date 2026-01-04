@@ -23,7 +23,7 @@ if (!FIGMA_FILE_KEY || !FIGMA_ACCESS_TOKEN) {
 async function exportFigmaTokens() {
   try {
     console.log('🎨 Fetching design data from Figma...');
-    
+
     // Use Files API instead of Variables API (works with all plans)
     const response = await axios.get(
       `https://api.figma.com/v1/files/${FIGMA_FILE_KEY}`,
@@ -37,7 +37,7 @@ async function exportFigmaTokens() {
     const fileData = response.data;
     console.log('✅ Connected to Figma successfully!');
     console.log(`📄 File: ${fileData.name}`);
-    
+
     // Also fetch styles (colors, text styles, etc.)
     const stylesResponse = await axios.get(
       `https://api.figma.com/v1/files/${FIGMA_FILE_KEY}/styles`,
@@ -75,20 +75,20 @@ async function exportFigmaTokens() {
 
 async function fetchStyleNodes(styles) {
   const styleNodes = {};
-  
+
   // Get unique node IDs
-  const nodeIds = [...new Set(styles.map(s => s.node_id))].filter(Boolean);
-  
+  const nodeIds = [...new Set(styles.map((s) => s.node_id))].filter(Boolean);
+
   if (nodeIds.length === 0) return styleNodes;
-  
+
   console.log(`🔍 Fetching style definitions for ${nodeIds.length} nodes...`);
-  
+
   // Figma API limits to 100 nodes per request
   const chunks = [];
   for (let i = 0; i < nodeIds.length; i += 100) {
     chunks.push(nodeIds.slice(i, i + 100));
   }
-  
+
   for (const chunk of chunks) {
     try {
       const nodesResponse = await axios.get(
@@ -100,13 +100,13 @@ async function fetchStyleNodes(styles) {
           },
         }
       );
-      
+
       Object.assign(styleNodes, nodesResponse.data.nodes);
     } catch (error) {
       console.warn(`⚠️ Could not fetch some style nodes: ${error.message}`);
     }
   }
-  
+
   return styleNodes;
 }
 
@@ -115,7 +115,7 @@ function rgbaToHex(r, g, b, a = 1) {
     const hex = Math.round(n * 255).toString(16);
     return hex.length === 1 ? '0' + hex : hex;
   };
-  
+
   const hex = `#${toHex(r)}${toHex(g)}${toHex(b)}`;
   return a < 1 ? `${hex}${toHex(a)}` : hex;
 }
@@ -129,17 +129,17 @@ async function transformStylesToTokens(styles, styleNodes) {
     metadata: {
       exportedAt: new Date().toISOString(),
       totalStyles: styles.length,
-    }
+    },
   };
 
   // Group styles by type
   styles.forEach((style) => {
     const { name, style_type, description, node_id, key } = style;
-    
+
     if (style_type === 'FILL') {
       // Color styles - try to get actual color value from node
       let colorValue = '#000000'; // default fallback
-      
+
       if (node_id && styleNodes[node_id]) {
         const node = styleNodes[node_id].document;
         if (node.fills && node.fills.length > 0) {
@@ -151,7 +151,7 @@ async function transformStylesToTokens(styles, styleNodes) {
           }
         }
       }
-      
+
       tokens.colors[name] = {
         type: 'color',
         value: colorValue,
