@@ -24,25 +24,32 @@ async function exportComponentDocs() {
 
     const fileData = response.data;
     const componentSets = fileData.componentSets || {};
-    
+
     // Map component IDs to documentation
     const componentDocs = {};
-    let foundCount = 0;
-    
+    let withDescriptionCount = 0;
+
     Object.entries(componentSets).forEach(([id, data]) => {
+      // Generate Figma URL for this component
+      const figmaUrl = `https://www.figma.com/design/${FIGMA_FILE_KEY}/T-Suite-Design-System?node-id=${id.replace(':', '-')}`;
+
+      componentDocs[data.name] = {
+        id: id,
+        name: data.name,
+        description: data.description || '⚠️ **Figma Description Missing** - Please add a description in Figma for this component.',
+        documentationLinks: data.documentationLinks || [],
+        figmaUrl: figmaUrl,
+      };
+
       if (data.description) {
-        componentDocs[data.name] = {
-          id: id,
-          name: data.name,
-          description: data.description,
-          documentationLinks: data.documentationLinks || [],
-        };
-        foundCount++;
-        console.log(`✅ ${data.name}`);
+        withDescriptionCount++;
+        console.log(`✅ ${data.name} (with description)`);
+      } else {
+        console.log(`⚠️  ${data.name} (no description)`);
       }
     });
     
-    console.log(`\n📊 Found ${foundCount} components with descriptions out of ${Object.keys(componentSets).length} total`);
+    console.log(`\n📊 Found ${withDescriptionCount} components with descriptions out of ${Object.keys(componentSets).length} total`);
     
     // Save to JSON file
     const outputPath = path.join(__dirname, '../src/figma-docs.json');

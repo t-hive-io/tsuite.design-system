@@ -16,6 +16,7 @@ const meta = {
       frames: 8,
       description:
         'Digital Twin color range, palette examples, MacBook mockups',
+      url: 'https://www.figma.com/design/XKxVlFf9TfWBHosOInkJXA/T-Suite-Design-System?node-id=5168-44092',
     },
   },
 } satisfies Meta;

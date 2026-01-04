@@ -8,8 +8,10 @@
   "scripts": {
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
-    "figma:export": "node scripts/figma-export.cjs && node scripts/export-component-docs.cjs",
+    "figma:export": "node scripts/figma-export.cjs && node scripts/export-component-docs.cjs && node scripts/inject-figma-urls.cjs",
     "figma:docs": "node scripts/export-component-docs.cjs",
+    "figma:inject-urls": "node scripts/inject-figma-urls.cjs",
+    "figma:analyze": "node scripts/analyze-figma-coverage.cjs",
     "figma:svgs": "node scripts/export-figma-svgs.cjs",
     "figma:connect": "figma connect publish",
     "figma:components": "node scripts/list-components.cjs",

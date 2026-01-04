@@ -62,6 +62,7 @@ const meta = {
       frames: 7,
       components: 20,
       totalVariants: 207,
+      url: 'https://www.figma.com/design/XKxVlFf9TfWBHosOInkJXA/T-Suite-Design-System?node-id=5193-41099',
     },
   },
 } satisfies Meta<typeof SandboxPlaceholder>;

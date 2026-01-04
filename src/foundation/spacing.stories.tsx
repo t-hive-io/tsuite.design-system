@@ -10,6 +10,7 @@ const meta = {
       frames: 33,
       description:
         'Property panel examples with grid overlays and spacing guidelines',
+      url: 'https://www.figma.com/design/XKxVlFf9TfWBHosOInkJXA/T-Suite-Design-System?node-id=5301-31219',
     },
   },
 } satisfies Meta;

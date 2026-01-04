@@ -14,6 +14,7 @@ const meta = {
     figma: {
       pageId: '5301:31219',
       frames: 33,
+      url: 'https://www.figma.com/design/XKxVlFf9TfWBHosOInkJXA/T-Suite-Design-System?node-id=5301-31219',
     },
   },
 } satisfies Meta;
