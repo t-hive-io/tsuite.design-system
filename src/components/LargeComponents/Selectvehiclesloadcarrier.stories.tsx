@@ -17,8 +17,7 @@ const Selectvehiclesloadcarrier = (
 };
 
 const meta = {
-  title:
-    'Components/Large Components/Select vehicles/load carrier',
+  title: 'Components/Large Components/Select vehicles/load carrier',
   component: Selectvehiclesloadcarrier,
   parameters: {
     layout: 'centered',
@@ -32,6 +31,7 @@ const meta = {
       pageId: '5193:39157',
       componentId: '3180:1491',
       figmaComponent: 'Select vehicles/load carrier',
+      url: 'https://www.figma.com/design/XKxVlFf9TfWBHosOInkJXA/T-Suite-Design-System?node-id=3180-1491',
     },
   },
   tags: ['autodocs'],

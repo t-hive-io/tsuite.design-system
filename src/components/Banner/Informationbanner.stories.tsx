@@ -20,6 +20,7 @@ const meta = {
       pageId: '5248:20526',
       componentId: '1325:9049',
       figmaComponent: 'Information banner',
+      url: 'https://www.figma.com/design/XKxVlFf9TfWBHosOInkJXA/T-Suite-Design-System?node-id=1325-9049',
     },
   },
   tags: ['autodocs'],

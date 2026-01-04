@@ -47,6 +47,7 @@ const meta = {
       pageId: '5170:45280',
       componentId: '1257:8856',
       figmaComponent: 'Icon button with badge',
+      url: 'https://www.figma.com/design/XKxVlFf9TfWBHosOInkJXA/T-Suite-Design-System?node-id=1257-8856',
     },
   },
   tags: ['autodocs'],

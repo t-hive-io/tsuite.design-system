@@ -47,6 +47,7 @@ const meta = {
       pageId: '5170:45280',
       componentId: '1125:8913',
       figmaComponent: 'Atom / item',
+      url: 'https://www.figma.com/design/XKxVlFf9TfWBHosOInkJXA/T-Suite-Design-System?node-id=1125-8913',
     },
   },
   tags: ['autodocs'],

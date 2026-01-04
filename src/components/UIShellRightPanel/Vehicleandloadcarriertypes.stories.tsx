@@ -32,6 +32,7 @@ const meta = {
       pageId: '5236:21016',
       componentId: '2992:2858',
       figmaComponent: 'Vehicle and load carrier types',
+      url: 'https://www.figma.com/design/XKxVlFf9TfWBHosOInkJXA/T-Suite-Design-System?node-id=2992-2858',
     },
   },
   tags: ['autodocs'],

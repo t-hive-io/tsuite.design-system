@@ -20,6 +20,7 @@ const meta = {
       pageId: '5200:798',
       componentId: '3222:148974',
       figmaComponent: 'Layer/group section',
+      url: 'https://www.figma.com/design/XKxVlFf9TfWBHosOInkJXA/T-Suite-Design-System?node-id=3222-148974',
     },
   },
   tags: ['autodocs'],

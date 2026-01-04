@@ -57,6 +57,7 @@ const meta = {
       pageId: '5172:38144',
       componentId: '1289:8306',
       figmaComponent: 'Card Tag',
+      url: 'https://www.figma.com/design/XKxVlFf9TfWBHosOInkJXA/T-Suite-Design-System?node-id=1289-8306',
     },
   },
   tags: ['autodocs'],

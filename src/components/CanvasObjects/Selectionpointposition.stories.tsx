@@ -31,6 +31,7 @@ const meta = {
       pageId: '5170:45525',
       componentId: '3223:151232',
       figmaComponent: 'Selection point position',
+      url: 'https://www.figma.com/design/XKxVlFf9TfWBHosOInkJXA/T-Suite-Design-System?node-id=3223-151232',
     },
   },
   tags: ['autodocs'],

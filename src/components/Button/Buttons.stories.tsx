@@ -118,6 +118,7 @@ const meta = {
       pageId: '5170:45280',
       componentId: '1428:9176',
       figmaComponent: 'Buttons',
+      url: 'https://www.figma.com/design/XKxVlFf9TfWBHosOInkJXA/T-Suite-Design-System?node-id=1428-9176',
     },
   },
   tags: ['autodocs'],

@@ -42,6 +42,7 @@ const meta = {
       pageId: '5170:45525',
       componentId: '2921:846',
       figmaComponent: 'Obstacle',
+      url: 'https://www.figma.com/design/XKxVlFf9TfWBHosOInkJXA/T-Suite-Design-System?node-id=2921-846',
     },
   },
   tags: ['autodocs'],

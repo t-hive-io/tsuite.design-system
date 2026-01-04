@@ -50,6 +50,7 @@ const meta = {
       pageId: '5236:21016',
       componentId: '1256:8218',
       figmaComponent: 'Right bar - input row',
+      url: 'https://www.figma.com/design/XKxVlFf9TfWBHosOInkJXA/T-Suite-Design-System?node-id=5378-19867',
     },
   },
   tags: ['autodocs'],

@@ -37,6 +37,7 @@ const meta = {
       pageId: '5193:36784',
       componentId: '1106:6750',
       figmaComponent: 'Right bar - Expansion panel - 2',
+      url: 'https://www.figma.com/design/XKxVlFf9TfWBHosOInkJXA/T-Suite-Design-System?node-id=1106-6750',
     },
   },
   tags: ['autodocs'],

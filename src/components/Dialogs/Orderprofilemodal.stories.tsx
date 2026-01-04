@@ -35,6 +35,7 @@ const meta = {
       pageId: '5175:37036',
       componentId: '3095:9273',
       figmaComponent: 'Order profile modal',
+      url: 'https://www.figma.com/design/XKxVlFf9TfWBHosOInkJXA/T-Suite-Design-System?node-id=3095-9273',
     },
   },
   tags: ['autodocs'],

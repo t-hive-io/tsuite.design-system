@@ -33,6 +33,7 @@ const meta = {
       pageId: '5236:21016',
       componentId: '5264:22954',
       figmaComponent: 'Use range card (simulation)',
+      url: 'https://www.figma.com/design/XKxVlFf9TfWBHosOInkJXA/T-Suite-Design-System?node-id=5264-22954',
     },
   },
   tags: ['autodocs'],

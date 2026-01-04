@@ -60,6 +60,7 @@ const meta = {
       pageId: '5246:38377',
       componentId: '4607:42679',
       figmaComponent: 'Rack',
+      url: 'https://www.figma.com/design/XKxVlFf9TfWBHosOInkJXA/T-Suite-Design-System?node-id=4607-42679',
     },
   },
   tags: ['autodocs'],

@@ -33,6 +33,7 @@ const meta = {
       pageId: '5170:45525',
       componentId: '2419:632',
       figmaComponent: 'Scale',
+      url: 'https://www.figma.com/design/XKxVlFf9TfWBHosOInkJXA/T-Suite-Design-System?node-id=2419-632',
     },
   },
   tags: ['autodocs'],

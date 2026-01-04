@@ -35,6 +35,7 @@ const meta = {
       pageId: '5193:37078',
       componentId: '3838:102042',
       figmaComponent: 'view_in_ar',
+      url: 'https://www.figma.com/design/XKxVlFf9TfWBHosOInkJXA/T-Suite-Design-System?node-id=3838-102042',
     },
   },
   tags: ['autodocs'],

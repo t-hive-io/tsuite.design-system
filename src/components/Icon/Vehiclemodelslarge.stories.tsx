@@ -51,6 +51,7 @@ const meta = {
       pageId: '5193:37078',
       componentId: '2453:1750',
       figmaComponent: 'Vehicle models large',
+      url: 'https://www.figma.com/design/XKxVlFf9TfWBHosOInkJXA/T-Suite-Design-System?node-id=2453-1750',
     },
   },
   tags: ['autodocs'],

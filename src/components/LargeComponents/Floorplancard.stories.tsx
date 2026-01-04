@@ -33,6 +33,7 @@ const meta = {
       pageId: '5193:39157',
       componentId: '3142:9601',
       figmaComponent: 'Floorplan card',
+      url: 'https://www.figma.com/design/XKxVlFf9TfWBHosOInkJXA/T-Suite-Design-System?node-id=3142-9601',
     },
   },
   tags: ['autodocs'],

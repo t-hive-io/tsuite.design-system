@@ -23,8 +23,7 @@ const Keyboardshortcutssection = (
 };
 
 const meta = {
-  title:
-    'Components/Large Components/Keyboard shortcuts section',
+  title: 'Components/Large Components/Keyboard shortcuts section',
   component: Keyboardshortcutssection,
   parameters: {
     layout: 'centered',
@@ -38,6 +37,7 @@ const meta = {
       pageId: '5193:39157',
       componentId: '3168:10778',
       figmaComponent: 'Keyboard shortcuts section',
+      url: 'https://www.figma.com/design/XKxVlFf9TfWBHosOInkJXA/T-Suite-Design-System?node-id=3168-10778',
     },
   },
   tags: ['autodocs'],

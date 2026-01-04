@@ -48,6 +48,7 @@ const meta = {
       pageId: '5193:37078',
       componentId: '2453:1535',
       figmaComponent: 'Load carrier types large',
+      url: 'https://www.figma.com/design/XKxVlFf9TfWBHosOInkJXA/T-Suite-Design-System?node-id=2453-1535',
     },
   },
   tags: ['autodocs'],

@@ -32,6 +32,7 @@ const meta = {
       pageId: '5170:45525',
       componentId: '3093:2880',
       figmaComponent: 'Flow color modal',
+      url: 'https://www.figma.com/design/XKxVlFf9TfWBHosOInkJXA/T-Suite-Design-System?node-id=3093-2880',
     },
   },
   tags: ['autodocs'],

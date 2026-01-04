@@ -31,6 +31,7 @@ const meta = {
       pageId: '5175:37036',
       componentId: '1524:9911',
       figmaComponent: 'Simulation dialog',
+      url: 'https://www.figma.com/design/XKxVlFf9TfWBHosOInkJXA/T-Suite-Design-System?node-id=1524-9911',
     },
   },
   tags: ['autodocs'],

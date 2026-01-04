@@ -36,6 +36,7 @@ const meta = {
       pageId: '5168:44095',
       componentId: '1570:9638',
       figmaComponent: 'Small badge',
+      url: 'https://www.figma.com/design/XKxVlFf9TfWBHosOInkJXA/T-Suite-Design-System?node-id=1570-9638',
     },
   },
   tags: ['autodocs'],

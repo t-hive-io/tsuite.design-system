@@ -27,6 +27,7 @@ const meta = {
       figmaComponent: 'Dividers',
       components: 1,
       totalVariants: 2,
+      url: 'https://www.figma.com/design/XKxVlFf9TfWBHosOInkJXA/T-Suite-Design-System?node-id=1573-9990',
     },
   },
   tags: ['autodocs'],

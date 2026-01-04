@@ -33,6 +33,7 @@ const meta = {
       pageId: '5170:45525',
       componentId: '3067:7822',
       figmaComponent: 'Connections',
+      url: 'https://www.figma.com/design/XKxVlFf9TfWBHosOInkJXA/T-Suite-Design-System?node-id=3067-7822',
     },
   },
   tags: ['autodocs'],

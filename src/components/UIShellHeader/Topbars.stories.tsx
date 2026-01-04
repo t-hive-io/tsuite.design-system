@@ -31,6 +31,7 @@ const meta = {
       pageId: '5236:21014',
       componentId: '1364:9832',
       figmaComponent: 'Top bars',
+      url: 'https://www.figma.com/design/XKxVlFf9TfWBHosOInkJXA/T-Suite-Design-System?node-id=1364-9832',
     },
   },
   tags: ['autodocs'],

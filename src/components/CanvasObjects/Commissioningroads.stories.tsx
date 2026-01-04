@@ -31,6 +31,7 @@ const meta = {
       pageId: '5170:45525',
       componentId: '2949:1508',
       figmaComponent: 'Commissioning roads',
+      url: 'https://www.figma.com/design/XKxVlFf9TfWBHosOInkJXA/T-Suite-Design-System?node-id=2949-1508',
     },
   },
   tags: ['autodocs'],

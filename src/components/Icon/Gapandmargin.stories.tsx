@@ -50,6 +50,7 @@ const meta = {
       pageId: '5193:37078',
       componentId: '5311:73039',
       figmaComponent: 'Gap and margin',
+      url: 'https://www.figma.com/design/XKxVlFf9TfWBHosOInkJXA/T-Suite-Design-System?node-id=5311-73039',
     },
   },
   tags: ['autodocs'],

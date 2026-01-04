@@ -33,6 +33,7 @@ const meta = {
       pageId: '5168:44729',
       componentId: '1570:9691',
       figmaComponent: '3D menu',
+      url: 'https://www.figma.com/design/XKxVlFf9TfWBHosOInkJXA/T-Suite-Design-System?node-id=1570-9691',
     },
   },
   tags: ['autodocs'],

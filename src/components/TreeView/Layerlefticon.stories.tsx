@@ -39,6 +39,7 @@ const meta = {
       pageId: '5200:798',
       componentId: '1522:9585',
       figmaComponent: 'Layer left icon',
+      url: 'https://www.figma.com/design/XKxVlFf9TfWBHosOInkJXA/T-Suite-Design-System?node-id=1522-9585',
     },
   },
   tags: ['autodocs'],

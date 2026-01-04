@@ -20,6 +20,7 @@ const meta = {
       pageId: '5170:45474',
       componentId: '5257:22404',
       figmaComponent: 'Breadcrumbs',
+      url: 'https://www.figma.com/design/XKxVlFf9TfWBHosOInkJXA/T-Suite-Design-System?node-id=5257-22404',
     },
   },
   tags: ['autodocs'],

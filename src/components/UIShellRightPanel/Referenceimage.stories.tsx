@@ -40,6 +40,7 @@ const meta = {
       pageId: '5236:21016',
       componentId: '2992:2811',
       figmaComponent: 'Reference image',
+      url: 'https://www.figma.com/design/XKxVlFf9TfWBHosOInkJXA/T-Suite-Design-System?node-id=2992-2811',
     },
   },
   tags: ['autodocs'],

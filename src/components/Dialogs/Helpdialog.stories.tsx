@@ -31,6 +31,7 @@ const meta = {
       pageId: '5175:37036',
       componentId: '3179:960',
       figmaComponent: 'Help dialog',
+      url: 'https://www.figma.com/design/XKxVlFf9TfWBHosOInkJXA/T-Suite-Design-System?node-id=3179-960',
     },
   },
   tags: ['autodocs'],

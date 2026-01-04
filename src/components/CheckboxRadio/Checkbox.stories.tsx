@@ -33,6 +33,7 @@ const meta = {
       pageId: '5172:38133',
       componentId: '1754:8350',
       figmaComponent: 'Checkbox',
+      url: 'https://www.figma.com/design/XKxVlFf9TfWBHosOInkJXA/T-Suite-Design-System?node-id=1754-8350',
     },
   },
   tags: ['autodocs'],

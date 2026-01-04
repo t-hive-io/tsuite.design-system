@@ -35,6 +35,7 @@ const meta = {
       pageId: '5170:45525',
       componentId: '3093:2814',
       figmaComponent: 'Flow arrow',
+      url: 'https://www.figma.com/design/XKxVlFf9TfWBHosOInkJXA/T-Suite-Design-System?node-id=3093-2814',
     },
   },
   tags: ['autodocs'],

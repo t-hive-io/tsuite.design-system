@@ -98,6 +98,7 @@ const meta = {
       pageId: '5170:45525',
       componentId: '2924:862',
       figmaComponent: 'Commissioning areas',
+      url: 'https://www.figma.com/design/XKxVlFf9TfWBHosOInkJXA/T-Suite-Design-System?node-id=2924-862',
     },
   },
   tags: ['autodocs'],

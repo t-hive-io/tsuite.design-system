@@ -33,6 +33,7 @@ const meta = {
       pageId: '5236:21016',
       componentId: '3003:11667',
       figmaComponent: 'Flow list',
+      url: 'https://www.figma.com/design/XKxVlFf9TfWBHosOInkJXA/T-Suite-Design-System?node-id=3838-102276',
     },
   },
   tags: ['autodocs'],

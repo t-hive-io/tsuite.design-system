@@ -47,6 +47,7 @@ const meta = {
       pageId: '5171:45784',
       componentId: '2453:1751',
       figmaComponent: 'Card vehicle models',
+      url: 'https://www.figma.com/design/XKxVlFf9TfWBHosOInkJXA/T-Suite-Design-System?node-id=2453-1751',
     },
   },
   tags: ['autodocs'],

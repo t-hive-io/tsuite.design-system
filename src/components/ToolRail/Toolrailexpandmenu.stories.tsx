@@ -34,6 +34,7 @@ const meta = {
       pageId: '5194:45487',
       componentId: '5338:19519',
       figmaComponent: 'Tool rail expand menu',
+      url: 'https://www.figma.com/design/XKxVlFf9TfWBHosOInkJXA/T-Suite-Design-System?node-id=5338-19519',
     },
   },
   tags: ['autodocs'],

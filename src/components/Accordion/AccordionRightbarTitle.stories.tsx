@@ -24,9 +24,6 @@ const AccordionRightbarTitle = ({
   }
 };
 
-// Add displayName for better Storybook docs support
-AccordionRightbarTitle.displayName = 'AccordionRightbarTitle';
-
 const meta = {
   title: 'Components/Accordion/Accordion: Right bar - Title',
   component: AccordionRightbarTitle,
@@ -38,9 +35,10 @@ const meta = {
           '⚠️ **Figma Description Missing** - Please add a description in Figma for this component.',
       },
     },
-    design: {
-      type: 'figma',
-      url: 'https://www.figma.com/design/XKxVlFf9TfWBHosOInkJXA/T-Suite-Design-System?node-id=1125-9849&t=32eKCweLqeI1mZey-4',
+    figma: {
+      componentId: '1125:9849',
+      figmaComponent: 'Accordion: Right bar - Title',
+      url: 'https://www.figma.com/design/XKxVlFf9TfWBHosOInkJXA/T-Suite-Design-System?node-id=1125-9849',
     },
   },
   tags: ['autodocs'],

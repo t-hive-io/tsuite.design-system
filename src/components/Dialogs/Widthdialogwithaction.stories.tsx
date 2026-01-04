@@ -31,6 +31,7 @@ const meta = {
       pageId: '5175:37036',
       componentId: '1504:9174',
       figmaComponent: 'Width dialog with action',
+      url: 'https://www.figma.com/design/XKxVlFf9TfWBHosOInkJXA/T-Suite-Design-System?node-id=1504-9174',
     },
   },
   tags: ['autodocs'],

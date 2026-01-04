@@ -20,6 +20,7 @@ const meta = {
       pageId: '5200:798',
       componentId: '1522:9371',
       figmaComponent: 'Layer states',
+      url: 'https://www.figma.com/design/XKxVlFf9TfWBHosOInkJXA/T-Suite-Design-System?node-id=1522-9371',
     },
   },
   tags: ['autodocs'],

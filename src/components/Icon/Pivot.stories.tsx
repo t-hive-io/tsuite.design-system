@@ -35,6 +35,7 @@ const meta = {
       pageId: '5193:37078',
       componentId: '5386:27094',
       figmaComponent: 'Pivot',
+      url: 'https://www.figma.com/design/XKxVlFf9TfWBHosOInkJXA/T-Suite-Design-System?node-id=5386-27094',
     },
   },
   tags: ['autodocs'],

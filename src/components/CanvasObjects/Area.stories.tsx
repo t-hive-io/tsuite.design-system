@@ -123,6 +123,7 @@ const meta = {
       pageId: '5170:45525',
       componentId: '1843:8669',
       figmaComponent: 'Area',
+      url: 'https://www.figma.com/design/XKxVlFf9TfWBHosOInkJXA/T-Suite-Design-System?node-id=1843-8669',
     },
   },
   tags: ['autodocs'],

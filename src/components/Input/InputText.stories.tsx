@@ -182,6 +182,7 @@ const meta = {
       pageId: '5193:38949',
       componentId: '1728:8340',
       figmaComponent: 'Input – Text',
+      url: 'https://www.figma.com/design/XKxVlFf9TfWBHosOInkJXA/T-Suite-Design-System?node-id=3811-36790',
     },
   },
   tags: ['autodocs'],

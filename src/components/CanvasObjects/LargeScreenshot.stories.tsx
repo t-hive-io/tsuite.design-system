@@ -43,6 +43,7 @@ const meta = {
       pageId: '5170:45525',
       componentId: '3170:1261',
       figmaComponent: 'Large Screenshot',
+      url: 'https://www.figma.com/design/XKxVlFf9TfWBHosOInkJXA/T-Suite-Design-System?node-id=3170-1261',
     },
   },
   tags: ['autodocs'],

@@ -125,6 +125,7 @@ const meta = {
       pageId: '5200:798',
       componentId: '1521:9120',
       figmaComponent: 'Layers',
+      url: 'https://www.figma.com/design/XKxVlFf9TfWBHosOInkJXA/T-Suite-Design-System?node-id=1521-9120',
     },
   },
   tags: ['autodocs'],

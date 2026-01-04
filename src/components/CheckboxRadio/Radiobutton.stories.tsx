@@ -31,6 +31,7 @@ const meta = {
       pageId: '5172:38133',
       componentId: '3929:109628',
       figmaComponent: 'Radio button',
+      url: 'https://www.figma.com/design/XKxVlFf9TfWBHosOInkJXA/T-Suite-Design-System?node-id=3929-109628',
     },
   },
   tags: ['autodocs'],

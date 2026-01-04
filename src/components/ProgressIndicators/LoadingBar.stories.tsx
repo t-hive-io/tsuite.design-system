@@ -37,6 +37,7 @@ const meta = {
       pageId: '5193:45265',
       componentId: '1554:9439',
       figmaComponent: 'Loading Bar',
+      url: 'https://www.figma.com/design/XKxVlFf9TfWBHosOInkJXA/T-Suite-Design-System?node-id=1554-9439',
     },
   },
   tags: ['autodocs'],

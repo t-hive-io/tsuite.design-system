@@ -49,6 +49,7 @@ const meta = {
       pageId: '5194:45461',
       componentId: '1759:8338',
       figmaComponent: 'Table rows',
+      url: 'https://www.figma.com/design/XKxVlFf9TfWBHosOInkJXA/T-Suite-Design-System?node-id=1759-8338',
     },
   },
   tags: ['autodocs'],

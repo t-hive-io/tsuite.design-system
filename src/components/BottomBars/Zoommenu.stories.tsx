@@ -20,6 +20,7 @@ const meta = {
       pageId: '5168:44729',
       componentId: '1081:6485',
       figmaComponent: 'Zoom menu',
+      url: 'https://www.figma.com/design/XKxVlFf9TfWBHosOInkJXA/T-Suite-Design-System?node-id=1081-6485',
     },
   },
   tags: ['autodocs'],

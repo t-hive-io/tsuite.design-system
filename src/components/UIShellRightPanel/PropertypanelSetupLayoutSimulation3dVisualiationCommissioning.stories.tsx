@@ -135,6 +135,7 @@ const meta = {
       componentId: '2992:2230',
       figmaComponent:
         'Property panel - Setup, Layout, Simulation, 3d, Visualiation, Commissioning',
+      url: 'https://www.figma.com/design/XKxVlFf9TfWBHosOInkJXA/T-Suite-Design-System?node-id=3815-56560',
     },
   },
   tags: ['autodocs'],

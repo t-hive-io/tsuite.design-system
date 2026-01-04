@@ -81,6 +81,7 @@ const meta = {
       pageId: '5194:45501',
       componentId: '1262:8263',
       figmaComponent: 'Explenation tooltip',
+      url: 'https://www.figma.com/design/XKxVlFf9TfWBHosOInkJXA/T-Suite-Design-System?node-id=1262-8263',
     },
   },
   tags: ['autodocs'],

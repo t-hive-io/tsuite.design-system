@@ -31,6 +31,7 @@ const meta = {
       pageId: '5193:45251',
       componentId: '3130:9224',
       figmaComponent: 'Large - Dropdown menu',
+      url: 'https://www.figma.com/design/XKxVlFf9TfWBHosOInkJXA/T-Suite-Design-System?node-id=3130-9224',
     },
   },
   tags: ['autodocs'],
