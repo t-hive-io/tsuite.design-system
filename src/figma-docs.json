@@ -1647,7 +1647,7 @@
   "Switch": {
     "id": "1894:8776",
     "name": "Switch",
-    "description": "⚠️ **Figma Description Missing** - Please add a description in Figma for this component.",
+    "description": "Use switches (not radio buttons) if the items in a list can be independently controlled\nSwitches are the best way to let people adjust settings\nMake sure the switch’s selection (on or off) is visible at a glance",
     "documentationLinks": [],
     "figmaUrl": "https://www.figma.com/design/XKxVlFf9TfWBHosOInkJXA/T-Suite-Design-System?node-id=1894-8776"
   },
