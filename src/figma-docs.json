@@ -1647,8 +1647,12 @@
   "Switch": {
     "id": "1894:8776",
     "name": "Switch",
-    "description": "Use switches (not radio buttons) if the items in a list can be independently controlled\nSwitches are the best way to let people adjust settings\nMake sure the switch’s selection (on or off) is visible at a glance",
-    "documentationLinks": [],
+    "description": "Use switches (not radio buttons) if the items in a list can be independently controlled\nSwitches are the best way to let people adjust settings\nMake sure the switch’s selection (on or off) is visible at a glance\n# Heja\n**asdas**\n~~asasa~~",
+    "documentationLinks": [
+      {
+        "uri": "https://URL"
+      }
+    ],
     "figmaUrl": "https://www.figma.com/design/XKxVlFf9TfWBHosOInkJXA/T-Suite-Design-System?node-id=1894-8776"
   },
   "Tool rail sub": {
