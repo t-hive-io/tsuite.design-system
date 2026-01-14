@@ -1683,10 +1683,10 @@
     "documentationLinks": [],
     "figmaUrl": "https://www.figma.com/design/XKxVlFf9TfWBHosOInkJXA/T-Suite-Design-System?node-id=5338-19519"
   },
-  "Explenation tooltip": {
+  "Tooltip plain": {
     "id": "1262:8263",
-    "name": "Explenation tooltip",
-    "description": "⚠️ **Figma Description Missing** - Please add a description in Figma for this component.",
+    "name": "Tooltip plain",
+    "description": "Use plain tooltips to describe elements or actions of icon buttons\nTooltip text supports maximum two lines\nTooltip content must be short and contextual",
     "documentationLinks": [],
     "figmaUrl": "https://www.figma.com/design/XKxVlFf9TfWBHosOInkJXA/T-Suite-Design-System?node-id=1262-8263"
   },
