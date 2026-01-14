@@ -1683,12 +1683,19 @@
     "documentationLinks": [],
     "figmaUrl": "https://www.figma.com/design/XKxVlFf9TfWBHosOInkJXA/T-Suite-Design-System?node-id=5338-19519"
   },
-  "Tooltip plain": {
+  "Tooltips plain Light": {
     "id": "1262:8263",
-    "name": "Tooltip plain",
+    "name": "Tooltips plain Light",
     "description": "Use plain tooltips to describe elements or actions of icon buttons\nTooltip text supports maximum two lines\nTooltip content must be short and contextual",
     "documentationLinks": [],
     "figmaUrl": "https://www.figma.com/design/XKxVlFf9TfWBHosOInkJXA/T-Suite-Design-System?node-id=1262-8263"
+  },
+  "Tooltips plain Dark": {
+    "id": "6057:185",
+    "name": "Tooltips plain Dark",
+    "description": "Use plain tooltips to describe elements or actions of icon buttons\nTooltip text supports maximum two lines\nTooltip content must be short and contextual",
+    "documentationLinks": [],
+    "figmaUrl": "https://www.figma.com/design/XKxVlFf9TfWBHosOInkJXA/T-Suite-Design-System?node-id=6057-185"
   },
   "Top bars": {
     "id": "1364:9832",
