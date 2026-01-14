@@ -1,6 +1,7 @@
 # TSuite Design System
 
-A fully automated design system that syncs design tokens from Figma to code, eliminating manual work for designers and providing developers with an always up-to-date component library.
+> Design system with automated Figma sync
+> A fully automated design system that syncs design tokens from Figma to code, eliminating manual work for designers and providing developers with an always up-to-date component library.
 
 ## 🎯 Overview
 
