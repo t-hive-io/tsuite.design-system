@@ -1,9 +1,0 @@
-import{j as a}from"./jsx-runtime-zb3rE9aN.js";import{r as t}from"./iframe-BOAAlDHP.js";import"./preload-helper-E_wDBCPD.js";const n=e=>t.createElement("svg",{width:40,height:24,viewBox:"0 0 40 24",fill:"none",xmlns:"http://www.w3.org/2000/svg",...e},t.createElement("rect",{x:.5,y:.5,width:39,height:23,rx:11.5,fill:"white"}),t.createElement("rect",{x:.5,y:.5,width:39,height:23,rx:11.5,stroke:"var(--colors-neutral-neutral-700)"}),t.createElement("circle",{cx:12,cy:12,r:9,fill:"var(--colors-neutral-neutral-700)"})),p=e=>t.createElement("svg",{width:40,height:24,viewBox:"0 0 40 24",fill:"none",xmlns:"http://www.w3.org/2000/svg",...e},t.createElement("rect",{width:40,height:24,rx:12,fill:"var(--colors-neutral-neutral-800)"}),t.createElement("circle",{cx:28,cy:12,r:9,fill:"white"})),g=({State:e}={State:"off"})=>e==="off"?a.jsx(n,{}):e==="on"?a.jsx(p,{}):a.jsx(n,{}),S={title:"Components/Switch/Switch",component:g,parameters:{layout:"centered",docs:{description:{component:"⚠️ **Figma Description Missing** - Please add a description in Figma for this component."}},figma:{pageId:"5194:45454",componentId:"1894:8776",figmaComponent:"Switch",url:"https://www.figma.com/design/XKxVlFf9TfWBHosOInkJXA/T-Suite-Design-System?node-id=1894-8776"}},tags:["autodocs"],argTypes:{State:{control:"select",options:["off","on"],description:'Matches Figma "State" property'}},args:{State:"off"}},r={args:{State:"off"}},o={args:{State:"on"}};var s,c,i;r.parameters={...r.parameters,docs:{...(s=r.parameters)==null?void 0:s.docs,source:{originalSource:`{
-  args: {
-    State: 'off'
-  }
-}`,...(i=(c=r.parameters)==null?void 0:c.docs)==null?void 0:i.source}}};var l,m,f;o.parameters={...o.parameters,docs:{...(l=o.parameters)==null?void 0:l.docs,source:{originalSource:`{
-  args: {
-    State: 'on'
-  }
-}`,...(f=(m=o.parameters)==null?void 0:m.docs)==null?void 0:f.source}}};const u=["Stateoff","Stateon"];export{r as Stateoff,o as Stateon,u as __namedExportsOrder,S as default};

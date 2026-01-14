@@ -1,0 +1,17 @@
+import{j as t}from"./jsx-runtime-C8OiAigj.js";import{r}from"./iframe-CXHzIHp2.js";import"./preload-helper-E_wDBCPD.js";const i=e=>r.createElement("svg",{width:24,height:24,viewBox:"0 0 24 24",fill:"none",xmlns:"http://www.w3.org/2000/svg",...e},r.createElement("path",{d:"M11.5 21V16.3077H7V14.2692H11.5V9.73077H4V7.6923H11.5V3H12.5V7.6923H20V9.73077H12.5V14.2692H17V16.3077H12.5V21H11.5Z",fill:"var(--colors-neutral-neutral-600)"})),y=e=>r.createElement("svg",{width:24,height:24,viewBox:"0 0 24 24",fill:"none",xmlns:"http://www.w3.org/2000/svg",...e},r.createElement("path",{d:"M11.5 21V16.3077H7V14.2692H11.5V9.73077H4V7.6923H11.5V3H12.5V7.6923H20V9.73077H12.5V14.2692H17V16.3077H12.5V21H11.5Z",fill:"var(--colors-neutral-neutral-800)"})),f=e=>r.createElement("svg",{width:24,height:24,viewBox:"0 0 24 24",fill:"none",xmlns:"http://www.w3.org/2000/svg",...e},r.createElement("rect",{width:24,height:24,rx:2,fill:"var(--colors-primary-primary-300)"}),r.createElement("path",{d:"M11.5 21V16.3077H7V14.2692H11.5V9.73077H4V7.6923H11.5V3H12.5V7.6923H20V9.73077H12.5V14.2692H17V16.3077H12.5V21H11.5Z",fill:"var(--colors-primary-primary-700)"})),E=e=>r.createElement("svg",{width:24,height:24,viewBox:"0 0 24 24",fill:"none",xmlns:"http://www.w3.org/2000/svg",...e},r.createElement("rect",{width:24,height:24,rx:2,fill:"var(--colors-neutral-neutral-300)"}),r.createElement("path",{d:"M11.5 21V16.3077H7V14.2692H11.5V9.73077H4V7.6923H11.5V3H12.5V7.6923H20V9.73077H12.5V14.2692H17V16.3077H12.5V21H11.5Z",fill:"var(--colors-neutral-neutral-800)"})),P=({Property1:e}={Property1:"Enabled"})=>e==="Enabled"?t.jsx(y,{}):e==="Hovred"?t.jsx(E,{}):e==="Focused"?t.jsx(f,{}):e==="Disable"?t.jsx(i,{}):t.jsx(i,{}),S={title:"Components/Icon/align_horizontal_center",component:P,parameters:{layout:"centered",docs:{description:{component:"⚠️ **Figma Description Missing** - Please add a description in Figma for this component."}},figma:{pageId:"5193:37078",componentId:"3838:102409",figmaComponent:"align_horizontal_center",url:"https://www.figma.com/design/XKxVlFf9TfWBHosOInkJXA/T-Suite-Design-System?node-id=3838-102409"}},tags:["autodocs"],argTypes:{Property1:{control:"select",options:["Enabled","Hovred","Focused","Disable"],description:'Matches Figma "Property 1" property'}},args:{Property1:"Enabled"}},o={args:{Property1:"Enabled"}},a={args:{Property1:"Hovred"}},s={args:{Property1:"Focused"}},n={args:{Property1:"Disable"}};var l,c,p;o.parameters={...o.parameters,docs:{...(l=o.parameters)==null?void 0:l.docs,source:{originalSource:`{
+  args: {
+    Property1: 'Enabled'
+  }
+}`,...(p=(c=o.parameters)==null?void 0:c.docs)==null?void 0:p.source}}};var d,m,g;a.parameters={...a.parameters,docs:{...(d=a.parameters)==null?void 0:d.docs,source:{originalSource:`{
+  args: {
+    Property1: 'Hovred'
+  }
+}`,...(g=(m=a.parameters)==null?void 0:m.docs)==null?void 0:g.source}}};var H,V,u;s.parameters={...s.parameters,docs:{...(H=s.parameters)==null?void 0:H.docs,source:{originalSource:`{
+  args: {
+    Property1: 'Focused'
+  }
+}`,...(u=(V=s.parameters)==null?void 0:V.docs)==null?void 0:u.source}}};var h,v,w;n.parameters={...n.parameters,docs:{...(h=n.parameters)==null?void 0:h.docs,source:{originalSource:`{
+  args: {
+    Property1: 'Disable'
+  }
+}`,...(w=(v=n.parameters)==null?void 0:v.docs)==null?void 0:w.source}}};const D=["Property1Enabled","Property1Hovred","Property1Focused","Property1Disable"];export{n as Property1Disable,o as Property1Enabled,s as Property1Focused,a as Property1Hovred,D as __namedExportsOrder,S as default};
