@@ -17,7 +17,7 @@ const Bars = (
 };
 
 const meta = {
-  title: 'Components/❖ UI shell right panel/Bars',
+  title: 'Components/UI shell right panel/Bars',
   component: Bars,
   parameters: {
     layout: 'centered',
@@ -30,7 +30,7 @@ const meta = {
     figma: {
       pageId: '5236:21016',
       componentId: '3003:12698',
-      figmaComponent: '❖ UI shell right panel',
+      figmaComponent: 'UI shell right panel',
       url: 'https://www.figma.com/design/XKxVlFf9TfWBHosOInkJXA/T-Suite-Design-System?node-id=3003-12698',
     },
   },

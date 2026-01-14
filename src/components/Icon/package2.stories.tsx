@@ -21,7 +21,7 @@ const Package2 = (
 };
 
 const meta = {
-  title: 'Components/❖ Icons/package_2',
+  title: 'Components/Icons/package_2',
   component: Package2,
   parameters: {
     layout: 'centered',
@@ -34,7 +34,7 @@ const meta = {
     figma: {
       pageId: '5193:37078',
       componentId: '3838:102336',
-      figmaComponent: '❖ Icons',
+      figmaComponent: 'Icons',
       url: 'https://www.figma.com/design/XKxVlFf9TfWBHosOInkJXA/T-Suite-Design-System?node-id=3838-102336',
     },
   },

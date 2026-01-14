@@ -21,7 +21,7 @@ const Alignverticalbottom = (
 };
 
 const meta = {
-  title: 'Components/Icon/align_vertical_bottom',
+  title: 'Components/Icons/align_vertical_bottom',
   component: Alignverticalbottom,
   parameters: {
     layout: 'centered',

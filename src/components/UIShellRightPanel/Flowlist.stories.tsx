@@ -19,7 +19,7 @@ const Flowlist = (
 };
 
 const meta = {
-  title: 'Components/❖ UI shell right panel/Flow list',
+  title: 'Components/UI shell right panel/Flow list',
   component: Flowlist,
   parameters: {
     layout: 'centered',
@@ -32,7 +32,7 @@ const meta = {
     figma: {
       pageId: '5236:21016',
       componentId: '3003:11667',
-      figmaComponent: '❖ UI shell right panel',
+      figmaComponent: 'UI shell right panel',
       url: 'https://www.figma.com/design/XKxVlFf9TfWBHosOInkJXA/T-Suite-Design-System?node-id=3838-102276',
     },
   },

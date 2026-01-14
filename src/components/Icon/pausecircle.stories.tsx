@@ -21,7 +21,7 @@ const Pausecircle = (
 };
 
 const meta = {
-  title: 'Components/❖ Icons/pause_circle',
+  title: 'Components/Icons/pause_circle',
   component: Pausecircle,
   parameters: {
     layout: 'centered',
@@ -34,7 +34,7 @@ const meta = {
     figma: {
       pageId: '5193:37078',
       componentId: '4181:36476',
-      figmaComponent: '❖ Icons',
+      figmaComponent: 'Icons',
       url: 'https://www.figma.com/design/XKxVlFf9TfWBHosOInkJXA/T-Suite-Design-System?node-id=4181-36476',
     },
   },

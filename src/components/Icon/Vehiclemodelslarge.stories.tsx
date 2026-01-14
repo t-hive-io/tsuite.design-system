@@ -37,7 +37,7 @@ const Vehiclemodelslarge = (
 };
 
 const meta = {
-  title: 'Components/❖ Icons/Vehicle models large',
+  title: 'Components/Icons/Vehicle models large',
   component: Vehiclemodelslarge,
   parameters: {
     layout: 'centered',
@@ -50,7 +50,7 @@ const meta = {
     figma: {
       pageId: '5193:37078',
       componentId: '2453:1750',
-      figmaComponent: '❖ Icons',
+      figmaComponent: 'Icons',
       url: 'https://www.figma.com/design/XKxVlFf9TfWBHosOInkJXA/T-Suite-Design-System?node-id=2453-1750',
     },
   },

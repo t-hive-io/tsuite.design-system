@@ -26,7 +26,7 @@ const Referenceimage = (
 };
 
 const meta = {
-  title: 'Components/❖ UI shell right panel/Reference image',
+  title: 'Components/UI shell right panel/Reference image',
   component: Referenceimage,
   parameters: {
     layout: 'centered',
@@ -39,7 +39,7 @@ const meta = {
     figma: {
       pageId: '5236:21016',
       componentId: '2992:2811',
-      figmaComponent: '❖ UI shell right panel',
+      figmaComponent: 'UI shell right panel',
       url: 'https://www.figma.com/design/XKxVlFf9TfWBHosOInkJXA/T-Suite-Design-System?node-id=2992-2811',
     },
   },

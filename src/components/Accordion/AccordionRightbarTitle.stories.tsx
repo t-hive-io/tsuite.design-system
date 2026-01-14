@@ -25,7 +25,7 @@ const AccordionRightbarTitle = ({
 };
 
 const meta = {
-  title: 'Components/❖ Accordion/Accordion: Right bar - Title',
+  title: 'Components/Accordion/Accordion: Right bar - Title',
   component: AccordionRightbarTitle,
   parameters: {
     layout: 'centered',
@@ -37,7 +37,7 @@ const meta = {
     },
     figma: {
       componentId: '1125:9849',
-      figmaComponent: '❖ Accordion',
+      figmaComponent: 'Accordion',
       url: 'https://www.figma.com/design/XKxVlFf9TfWBHosOInkJXA/T-Suite-Design-System?node-id=1125-9849',
     },
   },

@@ -21,7 +21,7 @@ const Pause = (
 };
 
 const meta = {
-  title: 'Components/❖ Icons/pause',
+  title: 'Components/Icons/pause',
   component: Pause,
   parameters: {
     layout: 'centered',
@@ -34,7 +34,7 @@ const meta = {
     figma: {
       pageId: '5193:37078',
       componentId: '3838:102085',
-      figmaComponent: '❖ Icons',
+      figmaComponent: 'Icons',
       url: 'https://www.figma.com/design/XKxVlFf9TfWBHosOInkJXA/T-Suite-Design-System?node-id=3838-102085',
     },
   },

@@ -18,7 +18,7 @@ const Flowcolormodal = (
 };
 
 const meta = {
-  title: 'Components/❖ Canvas objects/Flow color modal',
+  title: 'Components/Canvas objects/Flow color modal',
   component: Flowcolormodal,
   parameters: {
     layout: 'centered',
@@ -31,7 +31,7 @@ const meta = {
     figma: {
       pageId: '5170:45525',
       componentId: '3093:2880',
-      figmaComponent: '❖ Canvas objects',
+      figmaComponent: 'Canvas objects',
       url: 'https://www.figma.com/design/XKxVlFf9TfWBHosOInkJXA/T-Suite-Design-System?node-id=3093-2880',
     },
   },

@@ -21,7 +21,7 @@ const Cropsquare = (
 };
 
 const meta = {
-  title: 'Components/❖ Icons/crop_square',
+  title: 'Components/Icons/crop_square',
   component: Cropsquare,
   parameters: {
     layout: 'centered',
@@ -34,7 +34,7 @@ const meta = {
     figma: {
       pageId: '5193:37078',
       componentId: '3838:102062',
-      figmaComponent: '❖ Icons',
+      figmaComponent: 'Icons',
       url: 'https://www.figma.com/design/XKxVlFf9TfWBHosOInkJXA/T-Suite-Design-System?node-id=3838-102498',
     },
   },

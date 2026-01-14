@@ -21,7 +21,7 @@ const Playarrow = (
 };
 
 const meta = {
-  title: 'Components/❖ Icons/play_arrow',
+  title: 'Components/Icons/play_arrow',
   component: Playarrow,
   parameters: {
     layout: 'centered',
@@ -34,7 +34,7 @@ const meta = {
     figma: {
       pageId: '5193:37078',
       componentId: '3838:102080',
-      figmaComponent: '❖ Icons',
+      figmaComponent: 'Icons',
       url: 'https://www.figma.com/design/XKxVlFf9TfWBHosOInkJXA/T-Suite-Design-System?node-id=3838-102080',
     },
   },

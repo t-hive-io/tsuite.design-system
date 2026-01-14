@@ -21,7 +21,7 @@ const Indeterminatecheckbox = (
 };
 
 const meta = {
-  title: 'Components/❖ Icons/indeterminate_check_box',
+  title: 'Components/Icons/indeterminate_check_box',
   component: Indeterminatecheckbox,
   parameters: {
     layout: 'centered',
@@ -34,7 +34,7 @@ const meta = {
     figma: {
       pageId: '5193:37078',
       componentId: '3838:102308',
-      figmaComponent: '❖ Icons',
+      figmaComponent: 'Icons',
       url: 'https://www.figma.com/design/XKxVlFf9TfWBHosOInkJXA/T-Suite-Design-System?node-id=3838-102147',
     },
   },

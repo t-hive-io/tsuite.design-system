@@ -21,7 +21,7 @@ const Eventnote = (
 };
 
 const meta = {
-  title: 'Components/Icon/event_note',
+  title: 'Components/Icons/event_note',
   component: Eventnote,
   parameters: {
     layout: 'centered',

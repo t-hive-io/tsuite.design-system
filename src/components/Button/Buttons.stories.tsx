@@ -104,7 +104,7 @@ const Buttons = (
 };
 
 const meta = {
-  title: 'Components/❖ Buttons/Buttons',
+  title: 'Components/Buttons/Buttons',
   component: Buttons,
   parameters: {
     layout: 'centered',
@@ -117,7 +117,7 @@ const meta = {
     figma: {
       pageId: '5170:45280',
       componentId: '1428:9176',
-      figmaComponent: '❖ Buttons',
+      figmaComponent: 'Buttons',
       url: 'https://www.figma.com/design/XKxVlFf9TfWBHosOInkJXA/T-Suite-Design-System?node-id=1428-9176',
     },
   },

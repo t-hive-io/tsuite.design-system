@@ -33,7 +33,7 @@ const Atomitem = (
 };
 
 const meta = {
-  title: 'Components/❖ Buttons/Atom /Atom / item',
+  title: 'Components/Buttons/Atom /Atom / item',
   component: Atomitem,
   parameters: {
     layout: 'centered',
@@ -46,7 +46,7 @@ const meta = {
     figma: {
       pageId: '5170:45280',
       componentId: '1125:8913',
-      figmaComponent: '❖ Buttons',
+      figmaComponent: 'Buttons',
       url: 'https://www.figma.com/design/XKxVlFf9TfWBHosOInkJXA/T-Suite-Design-System?node-id=1125-8913',
     },
   },

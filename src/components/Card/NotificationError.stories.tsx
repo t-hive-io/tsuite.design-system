@@ -28,7 +28,7 @@ const NotificationError = (
 };
 
 const meta = {
-  title: 'Components/❖ Cards/Notification: Error',
+  title: 'Components/Cards/Notification: Error',
   component: NotificationError,
   parameters: {
     layout: 'centered',
@@ -41,7 +41,7 @@ const meta = {
     figma: {
       pageId: '5171:45784',
       componentId: '4875:38531',
-      figmaComponent: '❖ Cards',
+      figmaComponent: 'Cards',
       url: 'https://www.figma.com/design/XKxVlFf9TfWBHosOInkJXA/T-Suite-Design-System?node-id=4875-38531',
     },
   },

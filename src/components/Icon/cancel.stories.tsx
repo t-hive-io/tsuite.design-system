@@ -21,7 +21,7 @@ const Cancel = (
 };
 
 const meta = {
-  title: 'Components/❖ Icons/cancel',
+  title: 'Components/Icons/cancel',
   component: Cancel,
   parameters: {
     layout: 'centered',
@@ -34,7 +34,7 @@ const meta = {
     figma: {
       pageId: '5193:37078',
       componentId: '3797:54257',
-      figmaComponent: '❖ Icons',
+      figmaComponent: 'Icons',
       url: 'https://www.figma.com/design/XKxVlFf9TfWBHosOInkJXA/T-Suite-Design-System?node-id=3797-54257',
     },
   },

@@ -19,7 +19,7 @@ const Userangecardsimulation = (
 };
 
 const meta = {
-  title: 'Components/❖ UI shell right panel/Use range card (simulation)',
+  title: 'Components/UI shell right panel/Use range card (simulation)',
   component: Userangecardsimulation,
   parameters: {
     layout: 'centered',
@@ -32,7 +32,7 @@ const meta = {
     figma: {
       pageId: '5236:21016',
       componentId: '5264:22954',
-      figmaComponent: '❖ UI shell right panel',
+      figmaComponent: 'UI shell right panel',
       url: 'https://www.figma.com/design/XKxVlFf9TfWBHosOInkJXA/T-Suite-Design-System?node-id=5264-22954',
     },
   },

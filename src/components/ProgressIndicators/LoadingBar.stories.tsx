@@ -23,7 +23,7 @@ const LoadingBar = (
 };
 
 const meta = {
-  title: 'Components/❖ Progress indicatiors/Loading Bar',
+  title: 'Components/Progress indicatiors/Loading Bar',
   component: LoadingBar,
   parameters: {
     layout: 'centered',
@@ -36,7 +36,7 @@ const meta = {
     figma: {
       pageId: '5193:45265',
       componentId: '1554:9439',
-      figmaComponent: '❖ Progress indicatiors',
+      figmaComponent: 'Progress indicatiors',
       url: 'https://www.figma.com/design/XKxVlFf9TfWBHosOInkJXA/T-Suite-Design-System?node-id=1554-9439',
     },
   },

@@ -52,7 +52,9 @@ function updateStoryFile(filePath) {
   const [figmaName, figmaData] = figmaComponent;
   
   // Use page name if available, otherwise fall back to component name
-  const displayName = figmaData.pageName || figmaName;
+  // Remove ❖ symbol from page names for cleaner navigation
+  let displayName = figmaData.pageName || figmaName;
+  displayName = displayName.replace(/^❖\s*/, '');
 
   // Extract current title from meta
   const titleMatch = content.match(/title:\s*['"]([^'"]+)['"]/);

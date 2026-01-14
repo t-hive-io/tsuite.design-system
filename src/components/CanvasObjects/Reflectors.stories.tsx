@@ -28,7 +28,7 @@ const Reflectors = (
 };
 
 const meta = {
-  title: 'Components/❖ Canvas objects/Reflectors',
+  title: 'Components/Canvas objects/Reflectors',
   component: Reflectors,
   parameters: {
     layout: 'centered',
@@ -41,7 +41,7 @@ const meta = {
     figma: {
       pageId: '5170:45525',
       componentId: '3054:9778',
-      figmaComponent: '❖ Canvas objects',
+      figmaComponent: 'Canvas objects',
       url: 'https://www.figma.com/design/XKxVlFf9TfWBHosOInkJXA/T-Suite-Design-System?node-id=3054-9778',
     },
   },

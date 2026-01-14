@@ -17,7 +17,7 @@ const Toolrailsub = (
 };
 
 const meta = {
-  title: 'Components/❖ Tool rail/Tool rail sub',
+  title: 'Components/Tool rail/Tool rail sub',
   component: Toolrailsub,
   parameters: {
     layout: 'centered',
@@ -30,7 +30,7 @@ const meta = {
     figma: {
       pageId: '5194:45487',
       componentId: '1081:6534',
-      figmaComponent: '❖ Tool rail',
+      figmaComponent: 'Tool rail',
       url: 'https://www.figma.com/design/XKxVlFf9TfWBHosOInkJXA/T-Suite-Design-System?node-id=1081-6534',
     },
   },

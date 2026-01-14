@@ -17,7 +17,7 @@ const Scalesection = (
 };
 
 const meta = {
-  title: 'Components/❖ UI shell right panel/Scale section',
+  title: 'Components/UI shell right panel/Scale section',
   component: Scalesection,
   parameters: {
     layout: 'centered',
@@ -30,7 +30,7 @@ const meta = {
     figma: {
       pageId: '5236:21016',
       componentId: '2992:2842',
-      figmaComponent: '❖ UI shell right panel',
+      figmaComponent: 'UI shell right panel',
       url: 'https://www.figma.com/design/XKxVlFf9TfWBHosOInkJXA/T-Suite-Design-System?node-id=2992-2842',
     },
   },

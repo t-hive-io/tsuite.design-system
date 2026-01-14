@@ -29,7 +29,7 @@ const LargeScreenshot = (
 };
 
 const meta = {
-  title: 'Components/❖ Canvas objects/Large Screenshot',
+  title: 'Components/Canvas objects/Large Screenshot',
   component: LargeScreenshot,
   parameters: {
     layout: 'centered',
@@ -42,7 +42,7 @@ const meta = {
     figma: {
       pageId: '5170:45525',
       componentId: '3170:1261',
-      figmaComponent: '❖ Canvas objects',
+      figmaComponent: 'Canvas objects',
       url: 'https://www.figma.com/design/XKxVlFf9TfWBHosOInkJXA/T-Suite-Design-System?node-id=3170-1261',
     },
   },

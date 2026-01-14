@@ -21,7 +21,7 @@ const Testmoreicon = (
 };
 
 const meta = {
-  title: 'Components/❖ Icons/test more icon',
+  title: 'Components/Icons/test more icon',
   component: Testmoreicon,
   parameters: {
     layout: 'centered',
@@ -34,7 +34,7 @@ const meta = {
     figma: {
       pageId: '5193:37078',
       componentId: '3838:103185',
-      figmaComponent: '❖ Icons',
+      figmaComponent: 'Icons',
       url: 'https://www.figma.com/design/XKxVlFf9TfWBHosOInkJXA/T-Suite-Design-System?node-id=3838-103185',
     },
   },

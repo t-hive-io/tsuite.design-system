@@ -37,7 +37,7 @@ const TooltipplainDark = (
 };
 
 const meta = {
-  title: 'Components/❖ Tooltips/Tooltips plain Dark',
+  title: 'Components/Tooltips/Tooltips plain Dark',
   component: TooltipplainDark,
   parameters: {
     layout: 'centered',
@@ -51,7 +51,7 @@ const meta = {
     figma: {
       pageId: '5194:45501',
       componentId: '6057:185',
-      figmaComponent: '❖ Tooltips',
+      figmaComponent: 'Tooltips',
       url: 'https://www.figma.com/design/XKxVlFf9TfWBHosOInkJXA/T-Suite-Design-System?node-id=6057-185',
     },
   },

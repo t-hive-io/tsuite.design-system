@@ -17,7 +17,7 @@ const Ruler = (
 };
 
 const meta = {
-  title: 'Components/❖ Canvas objects/Ruler',
+  title: 'Components/Canvas objects/Ruler',
   component: Ruler,
   parameters: {
     layout: 'centered',
@@ -30,7 +30,7 @@ const meta = {
     figma: {
       pageId: '5170:45525',
       componentId: '3169:1789',
-      figmaComponent: '❖ Canvas objects',
+      figmaComponent: 'Canvas objects',
       url: 'https://www.figma.com/design/XKxVlFf9TfWBHosOInkJXA/T-Suite-Design-System?node-id=3169-1789',
     },
   },

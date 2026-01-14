@@ -17,7 +17,7 @@ const Switchlist = (
 };
 
 const meta = {
-  title: 'Components/❖ UI shell right panel/Switch list',
+  title: 'Components/UI shell right panel/Switch list',
   component: Switchlist,
   parameters: {
     layout: 'centered',
@@ -30,7 +30,7 @@ const meta = {
     figma: {
       pageId: '5236:21016',
       componentId: '3023:9528',
-      figmaComponent: '❖ UI shell right panel',
+      figmaComponent: 'UI shell right panel',
       url: 'https://www.figma.com/design/XKxVlFf9TfWBHosOInkJXA/T-Suite-Design-System?node-id=3023-9528',
     },
   },

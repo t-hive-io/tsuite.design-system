@@ -21,7 +21,7 @@ const Construction = (
 };
 
 const meta = {
-  title: 'Components/❖ Icons/construction',
+  title: 'Components/Icons/construction',
   component: Construction,
   parameters: {
     layout: 'centered',
@@ -34,7 +34,7 @@ const meta = {
     figma: {
       pageId: '5193:37078',
       componentId: '4228:36170',
-      figmaComponent: '❖ Icons',
+      figmaComponent: 'Icons',
       url: 'https://www.figma.com/design/XKxVlFf9TfWBHosOInkJXA/T-Suite-Design-System?node-id=4228-36170',
     },
   },

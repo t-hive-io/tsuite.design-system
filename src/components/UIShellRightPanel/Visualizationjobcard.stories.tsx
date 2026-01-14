@@ -29,7 +29,7 @@ const Visualizationjobcard = (
 };
 
 const meta = {
-  title: 'Components/❖ UI shell right panel/Visualization, job card',
+  title: 'Components/UI shell right panel/Visualization, job card',
   component: Visualizationjobcard,
   parameters: {
     layout: 'centered',
@@ -42,7 +42,7 @@ const meta = {
     figma: {
       pageId: '5236:21016',
       componentId: '4324:36704',
-      figmaComponent: '❖ UI shell right panel',
+      figmaComponent: 'UI shell right panel',
       url: 'https://www.figma.com/design/XKxVlFf9TfWBHosOInkJXA/T-Suite-Design-System?node-id=4324-36704',
     },
   },

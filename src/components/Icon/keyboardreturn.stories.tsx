@@ -21,7 +21,7 @@ const Keyboardreturn = (
 };
 
 const meta = {
-  title: 'Components/❖ Icons/keyboard_return',
+  title: 'Components/Icons/keyboard_return',
   component: Keyboardreturn,
   parameters: {
     layout: 'centered',
@@ -34,7 +34,7 @@ const meta = {
     figma: {
       pageId: '5193:37078',
       componentId: '3838:102090',
-      figmaComponent: '❖ Icons',
+      figmaComponent: 'Icons',
       url: 'https://www.figma.com/design/XKxVlFf9TfWBHosOInkJXA/T-Suite-Design-System?node-id=3838-102090',
     },
   },

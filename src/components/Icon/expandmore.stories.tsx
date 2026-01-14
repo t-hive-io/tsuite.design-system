@@ -21,7 +21,7 @@ const Expandmore = (
 };
 
 const meta = {
-  title: 'Components/Icon/expand_more',
+  title: 'Components/Icons/expand_more',
   component: Expandmore,
   parameters: {
     layout: 'centered',

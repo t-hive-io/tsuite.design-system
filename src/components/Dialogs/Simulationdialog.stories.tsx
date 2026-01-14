@@ -17,7 +17,7 @@ const Simulationdialog = (
 };
 
 const meta = {
-  title: 'Components/❖ Dialogs/Simulation dialog',
+  title: 'Components/Dialogs/Simulation dialog',
   component: Simulationdialog,
   parameters: {
     layout: 'centered',
@@ -30,7 +30,7 @@ const meta = {
     figma: {
       pageId: '5175:37036',
       componentId: '1524:9911',
-      figmaComponent: '❖ Dialogs',
+      figmaComponent: 'Dialogs',
       url: 'https://www.figma.com/design/XKxVlFf9TfWBHosOInkJXA/T-Suite-Design-System?node-id=1524-9911',
     },
   },

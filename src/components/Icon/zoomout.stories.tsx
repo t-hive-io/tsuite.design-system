@@ -21,7 +21,7 @@ const Zoomout = (
 };
 
 const meta = {
-  title: 'Components/❖ Icons/zoom_out',
+  title: 'Components/Icons/zoom_out',
   component: Zoomout,
   parameters: {
     layout: 'centered',
@@ -34,7 +34,7 @@ const meta = {
     figma: {
       pageId: '5193:37078',
       componentId: '3838:102179',
-      figmaComponent: '❖ Icons',
+      figmaComponent: 'Icons',
       url: 'https://www.figma.com/design/XKxVlFf9TfWBHosOInkJXA/T-Suite-Design-System?node-id=3838-102179',
     },
   },

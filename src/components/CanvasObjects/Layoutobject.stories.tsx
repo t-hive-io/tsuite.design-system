@@ -33,7 +33,7 @@ const Layoutobject = (
 };
 
 const meta = {
-  title: 'Components/❖ Canvas objects/Layout object',
+  title: 'Components/Canvas objects/Layout object',
   component: Layoutobject,
   parameters: {
     layout: 'centered',
@@ -46,7 +46,7 @@ const meta = {
     figma: {
       pageId: '5170:45525',
       componentId: '1844:9564',
-      figmaComponent: '❖ Canvas objects',
+      figmaComponent: 'Canvas objects',
       url: 'https://www.figma.com/design/XKxVlFf9TfWBHosOInkJXA/T-Suite-Design-System?node-id=1844-9564',
     },
   },

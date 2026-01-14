@@ -20,7 +20,7 @@ const Toolrailexpandmenu = (
 };
 
 const meta = {
-  title: 'Components/❖ Tool rail/Tool rail expand menu',
+  title: 'Components/Tool rail/Tool rail expand menu',
   component: Toolrailexpandmenu,
   parameters: {
     layout: 'centered',
@@ -33,7 +33,7 @@ const meta = {
     figma: {
       pageId: '5194:45487',
       componentId: '5338:19519',
-      figmaComponent: '❖ Tool rail',
+      figmaComponent: 'Tool rail',
       url: 'https://www.figma.com/design/XKxVlFf9TfWBHosOInkJXA/T-Suite-Design-System?node-id=5338-19519',
     },
   },

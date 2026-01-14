@@ -17,7 +17,7 @@ const Commissioningroads = (
 };
 
 const meta = {
-  title: 'Components/❖ Canvas objects/Commissioning roads',
+  title: 'Components/Canvas objects/Commissioning roads',
   component: Commissioningroads,
   parameters: {
     layout: 'centered',
@@ -30,7 +30,7 @@ const meta = {
     figma: {
       pageId: '5170:45525',
       componentId: '2949:1508',
-      figmaComponent: '❖ Canvas objects',
+      figmaComponent: 'Canvas objects',
       url: 'https://www.figma.com/design/XKxVlFf9TfWBHosOInkJXA/T-Suite-Design-System?node-id=2949-1508',
     },
   },

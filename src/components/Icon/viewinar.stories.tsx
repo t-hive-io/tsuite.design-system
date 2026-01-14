@@ -21,7 +21,7 @@ const Viewinar = (
 };
 
 const meta = {
-  title: 'Components/❖ Icons/view_in_ar',
+  title: 'Components/Icons/view_in_ar',
   component: Viewinar,
   parameters: {
     layout: 'centered',
@@ -34,7 +34,7 @@ const meta = {
     figma: {
       pageId: '5193:37078',
       componentId: '3838:102042',
-      figmaComponent: '❖ Icons',
+      figmaComponent: 'Icons',
       url: 'https://www.figma.com/design/XKxVlFf9TfWBHosOInkJXA/T-Suite-Design-System?node-id=3838-102042',
     },
   },

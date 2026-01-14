@@ -19,7 +19,7 @@ const Floorplancard = (
 };
 
 const meta = {
-  title: 'Components/❖ Large components/Floorplan card',
+  title: 'Components/Large components/Floorplan card',
   component: Floorplancard,
   parameters: {
     layout: 'centered',
@@ -32,7 +32,7 @@ const meta = {
     figma: {
       pageId: '5193:39157',
       componentId: '3142:9601',
-      figmaComponent: '❖ Large components',
+      figmaComponent: 'Large components',
       url: 'https://www.figma.com/design/XKxVlFf9TfWBHosOInkJXA/T-Suite-Design-System?node-id=3142-9601',
     },
   },

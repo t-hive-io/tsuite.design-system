@@ -17,7 +17,7 @@ const LayoutTag = (
 };
 
 const meta = {
-  title: 'Components/❖ Chips / Tags/Layout Tag',
+  title: 'Components/Chips / Tags/ Tags/ Tags/Layout Tag',
   component: LayoutTag,
   parameters: {
     layout: 'centered',
@@ -30,7 +30,7 @@ const meta = {
     figma: {
       pageId: '5172:38144',
       componentId: '1841:8472',
-      figmaComponent: '❖ Chips / Tags',
+      figmaComponent: 'Chips / Tags',
       url: 'https://www.figma.com/design/XKxVlFf9TfWBHosOInkJXA/T-Suite-Design-System?node-id=1841-8472',
     },
   },

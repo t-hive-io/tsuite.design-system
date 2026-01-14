@@ -21,7 +21,7 @@ const Expandless = (
 };
 
 const meta = {
-  title: 'Components/Icon/expand_less',
+  title: 'Components/Icons/expand_less',
   component: Expandless,
   parameters: {
     layout: 'centered',

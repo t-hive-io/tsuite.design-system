@@ -67,7 +67,7 @@ const Explenationtooltip = (
 };
 
 const meta = {
-  title: 'Components/❖ Tooltips/Tooltips plain Light',
+  title: 'Components/Tooltips/Tooltips plain Light',
   component: Explenationtooltip,
   parameters: {
     layout: 'centered',
@@ -81,7 +81,7 @@ const meta = {
     figma: {
       pageId: '5194:45501',
       componentId: '1262:8263',
-      figmaComponent: '❖ Tooltips',
+      figmaComponent: 'Tooltips',
       url: 'https://www.figma.com/design/XKxVlFf9TfWBHosOInkJXA/T-Suite-Design-System?node-id=1262-8263',
     },
   },

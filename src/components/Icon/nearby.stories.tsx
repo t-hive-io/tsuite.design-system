@@ -23,7 +23,7 @@ const Nearby = (
 };
 
 const meta = {
-  title: 'Components/❖ Icons/nearby',
+  title: 'Components/Icons/nearby',
   component: Nearby,
   parameters: {
     layout: 'centered',
@@ -36,7 +36,7 @@ const meta = {
     figma: {
       pageId: '5193:37078',
       componentId: '5374:225',
-      figmaComponent: '❖ Icons',
+      figmaComponent: 'Icons',
       url: 'https://www.figma.com/design/XKxVlFf9TfWBHosOInkJXA/T-Suite-Design-System?node-id=5374-225',
     },
   },

@@ -17,7 +17,7 @@ const Helpdialog = (
 };
 
 const meta = {
-  title: 'Components/❖ Dialogs/Help dialog',
+  title: 'Components/Dialogs/Help dialog',
   component: Helpdialog,
   parameters: {
     layout: 'centered',
@@ -30,7 +30,7 @@ const meta = {
     figma: {
       pageId: '5175:37036',
       componentId: '3179:960',
-      figmaComponent: '❖ Dialogs',
+      figmaComponent: 'Dialogs',
       url: 'https://www.figma.com/design/XKxVlFf9TfWBHosOInkJXA/T-Suite-Design-System?node-id=3179-960',
     },
   },

@@ -43,7 +43,7 @@ const CardTag = (
 };
 
 const meta = {
-  title: 'Components/❖ Chips / Tags/Card Tag',
+  title: 'Components/Chips / Tags/ Tags/ Tags/Card Tag',
   component: CardTag,
   parameters: {
     layout: 'centered',
@@ -56,7 +56,7 @@ const meta = {
     figma: {
       pageId: '5172:38144',
       componentId: '1289:8306',
-      figmaComponent: '❖ Chips / Tags',
+      figmaComponent: 'Chips / Tags',
       url: 'https://www.figma.com/design/XKxVlFf9TfWBHosOInkJXA/T-Suite-Design-System?node-id=1289-8306',
     },
   },

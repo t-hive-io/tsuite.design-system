@@ -21,7 +21,7 @@ const Garagehome = (
 };
 
 const meta = {
-  title: 'Components/❖ Icons/garage_home',
+  title: 'Components/Icons/garage_home',
   component: Garagehome,
   parameters: {
     layout: 'centered',
@@ -34,7 +34,7 @@ const meta = {
     figma: {
       pageId: '5193:37078',
       componentId: '3838:100635',
-      figmaComponent: '❖ Icons',
+      figmaComponent: 'Icons',
       url: 'https://www.figma.com/design/XKxVlFf9TfWBHosOInkJXA/T-Suite-Design-System?node-id=3838-100635',
     },
   },
