@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Wed, 14 Jan 2026 17:47:40 GMT
+ * Generated on Wed, 14 Jan 2026 18:00:43 GMT
  */
 
 export const ColorsBrandColorBrand700 = "#ffc338";
