@@ -33,7 +33,7 @@ const Atomitem = (
 };
 
 const meta = {
-  title: 'Components/Button/Atom / item',
+  title: 'Components/Button/Atom /Atom / item',
   component: Atomitem,
   parameters: {
     layout: 'centered',

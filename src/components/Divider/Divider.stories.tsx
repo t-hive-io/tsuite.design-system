@@ -11,7 +11,7 @@ const Divider = ({
 };
 
 const meta = {
-  title: 'Components/Divider',
+  title: 'Components/Dividers',
   component: Divider,
   parameters: {
     layout: 'centered',

@@ -22,7 +22,7 @@ const Toolrailsubitems = (
 };
 
 const meta = {
-  title: 'Components/Tool Rail/Tool rail / sub items',
+  title: 'Components/Tool Rail/Tool rail /Tool rail / sub items',
   component: Toolrailsubitems,
   parameters: {
     layout: 'centered',

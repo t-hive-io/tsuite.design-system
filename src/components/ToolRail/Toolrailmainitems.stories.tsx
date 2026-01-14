@@ -28,7 +28,7 @@ const Toolrailmainitems = (
 };
 
 const meta = {
-  title: 'Components/Tool Rail/Tool rail / main items',
+  title: 'Components/Tool Rail/Tool rail /Tool rail / main items',
   component: Toolrailmainitems,
   parameters: {
     layout: 'centered',
