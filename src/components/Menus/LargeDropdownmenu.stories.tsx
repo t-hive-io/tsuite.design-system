@@ -17,7 +17,7 @@ const LargeDropdownmenu = (
 };
 
 const meta = {
-  title: 'Components/Menus/❖ Menus',
+  title: 'Components/❖ Menus/Large - Dropdown menu',
   component: LargeDropdownmenu,
   parameters: {
     layout: 'centered',

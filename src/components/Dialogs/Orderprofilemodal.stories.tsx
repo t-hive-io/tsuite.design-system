@@ -21,7 +21,7 @@ const Orderprofilemodal = (
 };
 
 const meta = {
-  title: 'Components/Dialogs/❖ Dialogs',
+  title: 'Components/❖ Dialogs/Order profile modal',
   component: Orderprofilemodal,
   parameters: {
     layout: 'centered',

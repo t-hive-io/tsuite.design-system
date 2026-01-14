@@ -19,7 +19,7 @@ const Miniicons = (
 };
 
 const meta = {
-  title: 'Components/Icon/❖ Icons',
+  title: 'Components/❖ Icons/Mini icons',
   component: Miniicons,
   parameters: {
     layout: 'centered',

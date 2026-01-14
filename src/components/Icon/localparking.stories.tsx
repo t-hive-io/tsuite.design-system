@@ -21,7 +21,7 @@ const Localparking = (
 };
 
 const meta = {
-  title: 'Components/Icon/❖ Icons',
+  title: 'Components/❖ Icons/local_parking',
   component: Localparking,
   parameters: {
     layout: 'centered',

@@ -21,7 +21,7 @@ const Lock = (
 };
 
 const meta = {
-  title: 'Components/Icon/❖ Icons',
+  title: 'Components/❖ Icons/lock',
   component: Lock,
   parameters: {
     layout: 'centered',

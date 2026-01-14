@@ -21,7 +21,7 @@ const Reply = (
 };
 
 const meta = {
-  title: 'Components/Icon/❖ Icons',
+  title: 'Components/❖ Icons/reply',
   component: Reply,
   parameters: {
     layout: 'centered',

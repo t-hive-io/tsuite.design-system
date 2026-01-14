@@ -21,7 +21,7 @@ const Testmoreicon = (
 };
 
 const meta = {
-  title: 'Components/Icon/❖ Icons',
+  title: 'Components/❖ Icons/test more icon',
   component: Testmoreicon,
   parameters: {
     layout: 'centered',

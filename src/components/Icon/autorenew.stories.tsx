@@ -21,7 +21,7 @@ const Autorenew = (
 };
 
 const meta = {
-  title: 'Components/Icon/❖ Icons',
+  title: 'Components/❖ Icons/autorenew',
   component: Autorenew,
   parameters: {
     layout: 'centered',

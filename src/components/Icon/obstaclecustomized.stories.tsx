@@ -21,7 +21,7 @@ const Obstaclecustomized = (
 };
 
 const meta = {
-  title: 'Components/Icon/❖ Icons',
+  title: 'Components/❖ Icons/obstacle_customized',
   component: Obstaclecustomized,
   parameters: {
     layout: 'centered',

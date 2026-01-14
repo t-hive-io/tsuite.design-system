@@ -25,7 +25,7 @@ const AccordionRightbarTitle = ({
 };
 
 const meta = {
-  title: 'Components/Accordion/❖ Accordion',
+  title: 'Components/❖ Accordion/Accordion: Right bar - Title',
   component: AccordionRightbarTitle,
   parameters: {
     layout: 'centered',

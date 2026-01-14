@@ -34,7 +34,7 @@ const Loadcarriertypeslarge = (
 };
 
 const meta = {
-  title: 'Components/Icon/❖ Icons',
+  title: 'Components/❖ Icons/Load carrier types large',
   component: Loadcarriertypeslarge,
   parameters: {
     layout: 'centered',

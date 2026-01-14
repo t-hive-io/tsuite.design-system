@@ -21,7 +21,7 @@ const Alignhorizontalcenter = (
 };
 
 const meta = {
-  title: 'Components/Icon/❖ Icons',
+  title: 'Components/❖ Icons/align_horizontal_center',
   component: Alignhorizontalcenter,
   parameters: {
     layout: 'centered',

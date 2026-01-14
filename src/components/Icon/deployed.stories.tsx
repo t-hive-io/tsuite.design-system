@@ -21,7 +21,7 @@ const Deployed = (
 };
 
 const meta = {
-  title: 'Components/Icon/❖ Icons',
+  title: 'Components/❖ Icons/deployed',
   component: Deployed,
   parameters: {
     layout: 'centered',

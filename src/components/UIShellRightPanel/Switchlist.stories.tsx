@@ -17,7 +17,7 @@ const Switchlist = (
 };
 
 const meta = {
-  title: 'Components/U I Shell Right Panel/❖ UI shell right panel',
+  title: 'Components/❖ UI shell right panel/Switch list',
   component: Switchlist,
   parameters: {
     layout: 'centered',

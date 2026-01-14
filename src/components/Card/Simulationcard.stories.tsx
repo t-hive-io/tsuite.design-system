@@ -46,7 +46,7 @@ const Simulationcard = (
 };
 
 const meta = {
-  title: 'Components/Card/❖ Cards',
+  title: 'Components/❖ Cards/Simulation card',
   component: Simulationcard,
   parameters: {
     layout: 'centered',

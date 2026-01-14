@@ -21,7 +21,7 @@ const Filteraltoff = (
 };
 
 const meta = {
-  title: 'Components/Icon/❖ Icons',
+  title: 'Components/❖ Icons/filter_alt_off',
   component: Filteraltoff,
   parameters: {
     layout: 'centered',

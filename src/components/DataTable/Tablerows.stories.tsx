@@ -35,7 +35,7 @@ const Tablerows = (
 };
 
 const meta = {
-  title: 'Components/Data Table/❖ Data table',
+  title: 'Components/❖ Data table/Table rows',
   component: Tablerows,
   parameters: {
     layout: 'centered',

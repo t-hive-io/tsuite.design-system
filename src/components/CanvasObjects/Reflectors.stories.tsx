@@ -28,7 +28,7 @@ const Reflectors = (
 };
 
 const meta = {
-  title: 'Components/Canvas Objects/❖ Canvas objects',
+  title: 'Components/❖ Canvas objects/Reflectors',
   component: Reflectors,
   parameters: {
     layout: 'centered',

@@ -17,7 +17,7 @@ const Slider = (
 };
 
 const meta = {
-  title: 'Components/Slider/❖ Slider',
+  title: 'Components/❖ Slider/Slider',
   component: Slider,
   parameters: {
     layout: 'centered',

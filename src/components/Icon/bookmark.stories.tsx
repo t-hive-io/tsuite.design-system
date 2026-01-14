@@ -21,7 +21,7 @@ const Bookmark = (
 };
 
 const meta = {
-  title: 'Components/Icon/❖ Icons',
+  title: 'Components/❖ Icons/bookmark',
   component: Bookmark,
   parameters: {
     layout: 'centered',

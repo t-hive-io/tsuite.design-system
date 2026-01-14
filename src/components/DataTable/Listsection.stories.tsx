@@ -17,7 +17,7 @@ const Listsection = (
 };
 
 const meta = {
-  title: 'Components/Data Table/❖ Data table',
+  title: 'Components/❖ Data table/List section',
   component: Listsection,
   parameters: {
     layout: 'centered',

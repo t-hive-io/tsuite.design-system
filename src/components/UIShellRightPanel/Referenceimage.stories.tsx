@@ -26,7 +26,7 @@ const Referenceimage = (
 };
 
 const meta = {
-  title: 'Components/U I Shell Right Panel/❖ UI shell right panel',
+  title: 'Components/❖ UI shell right panel/Reference image',
   component: Referenceimage,
   parameters: {
     layout: 'centered',

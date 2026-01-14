@@ -21,7 +21,7 @@ const Rotateright = (
 };
 
 const meta = {
-  title: 'Components/Icon/❖ Icons',
+  title: 'Components/❖ Icons/rotate_right',
   component: Rotateright,
   parameters: {
     layout: 'centered',

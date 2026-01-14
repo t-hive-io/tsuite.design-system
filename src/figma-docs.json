@@ -82,7 +82,7 @@
   "Input – Text": {
     "id": "1728:8340",
     "name": "Input – Text",
-    "pageName": "❖ Inputs",
+    "pageName": "❖ Input",
     "description": "⚠️ **Figma Description Missing** - Please add a description in Figma for this component.",
     "documentationLinks": [],
     "figmaUrl": "https://www.figma.com/design/XKxVlFf9TfWBHosOInkJXA/T-Suite-Design-System?node-id=1728-8340"
@@ -1770,7 +1770,7 @@
   "Input – Search": {
     "id": "1728:8539",
     "name": "Input – Search",
-    "pageName": "❖ Inputs",
+    "pageName": "❖ Input",
     "description": "⚠️ **Figma Description Missing** - Please add a description in Figma for this component.",
     "documentationLinks": [],
     "figmaUrl": "https://www.figma.com/design/XKxVlFf9TfWBHosOInkJXA/T-Suite-Design-System?node-id=1728-8539"

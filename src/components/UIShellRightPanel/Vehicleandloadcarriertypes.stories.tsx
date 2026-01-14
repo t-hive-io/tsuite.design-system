@@ -18,7 +18,7 @@ const Vehicleandloadcarriertypes = (
 };
 
 const meta = {
-  title: 'Components/U I Shell Right Panel/❖ UI shell right panel',
+  title: 'Components/❖ UI shell right panel/Vehicle and load carrier types',
   component: Vehicleandloadcarriertypes,
   parameters: {
     layout: 'centered',

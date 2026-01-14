@@ -21,7 +21,7 @@ const Calendaraddon = (
 };
 
 const meta = {
-  title: 'Components/Icon/❖ Icons',
+  title: 'Components/❖ Icons/calendar_add_on',
   component: Calendaraddon,
   parameters: {
     layout: 'centered',

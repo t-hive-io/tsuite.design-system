@@ -23,7 +23,7 @@ const Keyboardshortcutssection = (
 };
 
 const meta = {
-  title: 'Components/Large Components/❖ Large components',
+  title: 'Components/❖ Large components/Keyboard shortcuts section',
   component: Keyboardshortcutssection,
   parameters: {
     layout: 'centered',

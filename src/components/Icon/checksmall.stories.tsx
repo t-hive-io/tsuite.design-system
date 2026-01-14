@@ -21,7 +21,7 @@ const Checksmall = (
 };
 
 const meta = {
-  title: 'Components/Icon/❖ Icons',
+  title: 'Components/❖ Icons/check_small',
   component: Checksmall,
   parameters: {
     layout: 'centered',

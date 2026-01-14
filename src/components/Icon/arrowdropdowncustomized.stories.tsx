@@ -21,7 +21,7 @@ const Arrowdropdowncustomized = (
 };
 
 const meta = {
-  title: 'Components/Icon/❖ Icons',
+  title: 'Components/❖ Icons/arrow_drop_down_customized',
   component: Arrowdropdowncustomized,
   parameters: {
     layout: 'centered',

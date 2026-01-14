@@ -21,7 +21,7 @@ const Remove = (
 };
 
 const meta = {
-  title: 'Components/Icon/❖ Icons',
+  title: 'Components/❖ Icons/remove',
   component: Remove,
   parameters: {
     layout: 'centered',

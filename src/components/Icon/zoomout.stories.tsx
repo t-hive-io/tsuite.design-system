@@ -21,7 +21,7 @@ const Zoomout = (
 };
 
 const meta = {
-  title: 'Components/Icon/❖ Icons',
+  title: 'Components/❖ Icons/zoom_out',
   component: Zoomout,
   parameters: {
     layout: 'centered',

@@ -17,7 +17,7 @@ const Filterandsort = (
 };
 
 const meta = {
-  title: 'Components/Large Components/❖ Large components',
+  title: 'Components/❖ Large components/Filter and sort',
   component: Filterandsort,
   parameters: {
     layout: 'centered',

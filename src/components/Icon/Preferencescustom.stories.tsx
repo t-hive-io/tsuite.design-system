@@ -21,7 +21,7 @@ const Preferencescustom = (
 };
 
 const meta = {
-  title: 'Components/Icon/❖ Icons',
+  title: 'Components/❖ Icons/Preferences custom',
   component: Preferencescustom,
   parameters: {
     layout: 'centered',

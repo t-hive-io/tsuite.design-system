@@ -21,7 +21,7 @@ const Helpcenter = (
 };
 
 const meta = {
-  title: 'Components/Icon/❖ Icons',
+  title: 'Components/❖ Icons/help_center',
   component: Helpcenter,
   parameters: {
     layout: 'centered',

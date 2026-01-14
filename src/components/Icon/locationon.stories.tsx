@@ -23,7 +23,7 @@ const Locationon = (
 };
 
 const meta = {
-  title: 'Components/Icon/❖ Icons',
+  title: 'Components/❖ Icons/location_on',
   component: Locationon,
   parameters: {
     layout: 'centered',

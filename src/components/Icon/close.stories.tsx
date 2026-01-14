@@ -21,7 +21,7 @@ const Close = (
 };
 
 const meta = {
-  title: 'Components/Icon/❖ Icons',
+  title: 'Components/❖ Icons/close',
   component: Close,
   parameters: {
     layout: 'centered',

@@ -29,7 +29,7 @@ const LargeScreenshot = (
 };
 
 const meta = {
-  title: 'Components/Canvas Objects/❖ Canvas objects',
+  title: 'Components/❖ Canvas objects/Large Screenshot',
   component: LargeScreenshot,
   parameters: {
     layout: 'centered',

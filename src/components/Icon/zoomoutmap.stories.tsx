@@ -21,7 +21,7 @@ const Zoomoutmap = (
 };
 
 const meta = {
-  title: 'Components/Icon/❖ Icons',
+  title: 'Components/❖ Icons/zoom_out_map',
   component: Zoomoutmap,
   parameters: {
     layout: 'centered',

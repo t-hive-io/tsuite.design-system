@@ -17,7 +17,7 @@ const Sliderlist = (
 };
 
 const meta = {
-  title: 'Components/U I Shell Right Panel/❖ UI shell right panel',
+  title: 'Components/❖ UI shell right panel/Slider list',
   component: Sliderlist,
   parameters: {
     layout: 'centered',

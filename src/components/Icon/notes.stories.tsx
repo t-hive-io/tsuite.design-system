@@ -21,7 +21,7 @@ const Notes = (
 };
 
 const meta = {
-  title: 'Components/Icon/❖ Icons',
+  title: 'Components/❖ Icons/notes',
   component: Notes,
   parameters: {
     layout: 'centered',

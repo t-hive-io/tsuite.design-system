@@ -17,7 +17,7 @@ const Helpdialog = (
 };
 
 const meta = {
-  title: 'Components/Dialogs/❖ Dialogs',
+  title: 'Components/❖ Dialogs/Help dialog',
   component: Helpdialog,
   parameters: {
     layout: 'centered',

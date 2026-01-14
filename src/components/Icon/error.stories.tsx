@@ -21,7 +21,7 @@ const Error = (
 };
 
 const meta = {
-  title: 'Components/Icon/❖ Icons',
+  title: 'Components/❖ Icons/error',
   component: Error,
   parameters: {
     layout: 'centered',

@@ -21,7 +21,7 @@ const Highwaycustomized = (
 };
 
 const meta = {
-  title: 'Components/Icon/❖ Icons',
+  title: 'Components/❖ Icons/highway_customized',
   component: Highwaycustomized,
   parameters: {
     layout: 'centered',

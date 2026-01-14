@@ -21,7 +21,7 @@ const Pivot = (
 };
 
 const meta = {
-  title: 'Components/Icon/❖ Icons',
+  title: 'Components/❖ Icons/Pivot',
   component: Pivot,
   parameters: {
     layout: 'centered',

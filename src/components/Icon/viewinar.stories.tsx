@@ -21,7 +21,7 @@ const Viewinar = (
 };
 
 const meta = {
-  title: 'Components/Icon/❖ Icons',
+  title: 'Components/❖ Icons/view_in_ar',
   component: Viewinar,
   parameters: {
     layout: 'centered',

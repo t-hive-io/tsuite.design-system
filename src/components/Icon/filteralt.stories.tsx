@@ -21,7 +21,7 @@ const Filteralt = (
 };
 
 const meta = {
-  title: 'Components/Icon/❖ Icons',
+  title: 'Components/❖ Icons/filter_alt',
   component: Filteralt,
   parameters: {
     layout: 'centered',

@@ -6,7 +6,7 @@ const Zoommenu = () => {
 };
 
 const meta = {
-  title: 'Components/Bottom Bars/❖ Bottom bars',
+  title: 'Components/❖ Bottom bars/Zoom menu',
   component: Zoommenu,
   parameters: {
     layout: 'centered',

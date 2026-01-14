@@ -21,7 +21,7 @@ const Settings = (
 };
 
 const meta = {
-  title: 'Components/Icon/❖ Icons',
+  title: 'Components/❖ Icons/settings',
   component: Settings,
   parameters: {
     layout: 'centered',

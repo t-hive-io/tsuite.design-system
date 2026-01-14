@@ -17,7 +17,7 @@ const Ruler = (
 };
 
 const meta = {
-  title: 'Components/Canvas Objects/❖ Canvas objects',
+  title: 'Components/❖ Canvas objects/Ruler',
   component: Ruler,
   parameters: {
     layout: 'centered',

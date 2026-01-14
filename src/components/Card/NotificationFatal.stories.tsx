@@ -28,7 +28,7 @@ const NotificationFatal = (
 };
 
 const meta = {
-  title: 'Components/Card/❖ Cards',
+  title: 'Components/❖ Cards/Notification: Fatal',
   component: NotificationFatal,
   parameters: {
     layout: 'centered',

@@ -23,7 +23,7 @@ const LoadingBar = (
 };
 
 const meta = {
-  title: 'Components/Progress Indicators/❖ Progress indicatiors',
+  title: 'Components/❖ Progress indicatiors/Loading Bar',
   component: LoadingBar,
   parameters: {
     layout: 'centered',

@@ -21,7 +21,7 @@ const Cropsquare = (
 };
 
 const meta = {
-  title: 'Components/Icon/❖ Icons',
+  title: 'Components/❖ Icons/crop_square',
   component: Cropsquare,
   parameters: {
     layout: 'centered',

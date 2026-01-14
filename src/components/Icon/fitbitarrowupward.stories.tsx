@@ -21,7 +21,7 @@ const Fitbitarrowupward = (
 };
 
 const meta = {
-  title: 'Components/Icon/❖ Icons',
+  title: 'Components/❖ Icons/fitbit_arrow_upward',
   component: Fitbitarrowupward,
   parameters: {
     layout: 'centered',

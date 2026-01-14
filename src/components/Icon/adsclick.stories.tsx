@@ -21,7 +21,7 @@ const Adsclick = (
 };
 
 const meta = {
-  title: 'Components/Icon/❖ Icons',
+  title: 'Components/❖ Icons/ads_click',
   component: Adsclick,
   parameters: {
     layout: 'centered',

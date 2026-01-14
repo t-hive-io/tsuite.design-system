@@ -21,7 +21,7 @@ const Linearscale = (
 };
 
 const meta = {
-  title: 'Components/Icon/❖ Icons',
+  title: 'Components/❖ Icons/linear_scale',
   component: Linearscale,
   parameters: {
     layout: 'centered',

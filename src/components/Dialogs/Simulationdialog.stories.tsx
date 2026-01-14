@@ -17,7 +17,7 @@ const Simulationdialog = (
 };
 
 const meta = {
-  title: 'Components/Dialogs/❖ Dialogs',
+  title: 'Components/❖ Dialogs/Simulation dialog',
   component: Simulationdialog,
   parameters: {
     layout: 'centered',

@@ -21,7 +21,7 @@ const Openinfull = (
 };
 
 const meta = {
-  title: 'Components/Icon/❖ Icons',
+  title: 'Components/❖ Icons/open_in_full',
   component: Openinfull,
   parameters: {
     layout: 'centered',

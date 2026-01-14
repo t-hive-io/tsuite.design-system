@@ -21,7 +21,7 @@ const CheckboxFILLw = (
 };
 
 const meta = {
-  title: 'Components/Icon/❖ Icons',
+  title: 'Components/❖ Icons/check_box_FILL_w',
   component: CheckboxFILLw,
   parameters: {
     layout: 'centered',

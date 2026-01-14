@@ -17,7 +17,7 @@ const Titleandsearch = (
 };
 
 const meta = {
-  title: 'Components/Large Components/❖ Large components',
+  title: 'Components/❖ Large components/Title and search',
   component: Titleandsearch,
   parameters: {
     layout: 'centered',

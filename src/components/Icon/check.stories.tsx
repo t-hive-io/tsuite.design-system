@@ -21,7 +21,7 @@ const Check = (
 };
 
 const meta = {
-  title: 'Components/Icon/❖ Icons',
+  title: 'Components/❖ Icons/check',
   component: Check,
   parameters: {
     layout: 'centered',

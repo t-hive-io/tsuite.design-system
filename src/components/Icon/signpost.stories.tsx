@@ -21,7 +21,7 @@ const Signpost = (
 };
 
 const meta = {
-  title: 'Components/Icon/❖ Icons',
+  title: 'Components/❖ Icons/signpost',
   component: Signpost,
   parameters: {
     layout: 'centered',

@@ -21,7 +21,7 @@ const Fitbitarrowleftcustomized = (
 };
 
 const meta = {
-  title: 'Components/Icon/❖ Icons',
+  title: 'Components/❖ Icons/fitbit_arrow_left_customized',
   component: Fitbitarrowleftcustomized,
   parameters: {
     layout: 'centered',

@@ -21,7 +21,7 @@ const Sync = (
 };
 
 const meta = {
-  title: 'Components/Icon/❖ Icons',
+  title: 'Components/❖ Icons/sync',
   component: Sync,
   parameters: {
     layout: 'centered',

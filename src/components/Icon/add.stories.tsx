@@ -21,7 +21,7 @@ const Add = (
 };
 
 const meta = {
-  title: 'Components/Icon/❖ Icons',
+  title: 'Components/❖ Icons/add',
   component: Add,
   parameters: {
     layout: 'centered',

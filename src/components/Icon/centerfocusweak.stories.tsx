@@ -21,7 +21,7 @@ const Centerfocusweak = (
 };
 
 const meta = {
-  title: 'Components/Icon/❖ Icons',
+  title: 'Components/❖ Icons/center_focus_weak',
   component: Centerfocusweak,
   parameters: {
     layout: 'centered',

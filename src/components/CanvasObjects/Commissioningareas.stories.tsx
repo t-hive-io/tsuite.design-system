@@ -84,7 +84,7 @@ const Commissioningareas = (
 };
 
 const meta = {
-  title: 'Components/Canvas Objects/❖ Canvas objects',
+  title: 'Components/❖ Canvas objects/Commissioning areas',
   component: Commissioningareas,
   parameters: {
     layout: 'centered',

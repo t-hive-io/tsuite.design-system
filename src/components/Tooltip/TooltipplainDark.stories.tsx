@@ -37,7 +37,7 @@ const TooltipplainDark = (
 };
 
 const meta = {
-  title: 'Components/Tooltips/❖ Tooltips',
+  title: 'Components/❖ Tooltips/Tooltips plain Dark',
   component: TooltipplainDark,
   parameters: {
     layout: 'centered',

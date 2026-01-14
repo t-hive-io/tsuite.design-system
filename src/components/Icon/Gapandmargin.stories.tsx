@@ -36,7 +36,7 @@ const Gapandmargin = (
 };
 
 const meta = {
-  title: 'Components/Icon/❖ Icons',
+  title: 'Components/❖ Icons/Gap and margin',
   component: Gapandmargin,
   parameters: {
     layout: 'centered',

@@ -21,7 +21,7 @@ const Swiperightalt = (
 };
 
 const meta = {
-  title: 'Components/Icon/❖ Icons',
+  title: 'Components/❖ Icons/swipe_right_alt',
   component: Swiperightalt,
   parameters: {
     layout: 'centered',

@@ -21,7 +21,7 @@ const Insights = (
 };
 
 const meta = {
-  title: 'Components/Icon/❖ Icons',
+  title: 'Components/❖ Icons/insights',
   component: Insights,
   parameters: {
     layout: 'centered',

@@ -21,7 +21,7 @@ const Translate = (
 };
 
 const meta = {
-  title: 'Components/Icon/❖ Icons',
+  title: 'Components/❖ Icons/translate',
   component: Translate,
   parameters: {
     layout: 'centered',

@@ -18,7 +18,7 @@ const Selectvehiclesloadcarrier = (
 
 const meta = {
   title:
-    'Components/Large Components/Select vehicles/Select vehicles/❖ Large components',
+    'Components/❖ Large components/Select vehicles/Select vehicles/load carrier',
   component: Selectvehiclesloadcarrier,
   parameters: {
     layout: 'centered',

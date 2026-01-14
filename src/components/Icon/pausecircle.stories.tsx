@@ -21,7 +21,7 @@ const Pausecircle = (
 };
 
 const meta = {
-  title: 'Components/Icon/❖ Icons',
+  title: 'Components/❖ Icons/pause_circle',
   component: Pausecircle,
   parameters: {
     layout: 'centered',

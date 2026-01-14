@@ -17,7 +17,7 @@ const Wall = (
 };
 
 const meta = {
-  title: 'Components/Canvas Objects/❖ Canvas objects',
+  title: 'Components/❖ Canvas objects/Wall',
   component: Wall,
   parameters: {
     layout: 'centered',

@@ -21,7 +21,7 @@ const Contrast = (
 };
 
 const meta = {
-  title: 'Components/Icon/❖ Icons',
+  title: 'Components/❖ Icons/contrast',
   component: Contrast,
   parameters: {
     layout: 'centered',

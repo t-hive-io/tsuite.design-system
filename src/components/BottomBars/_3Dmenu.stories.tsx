@@ -19,7 +19,7 @@ const _3Dmenu = (
 };
 
 const meta = {
-  title: 'Components/Bottom Bars/❖ Bottom bars',
+  title: 'Components/❖ Bottom bars/3D menu',
   component: _3Dmenu,
   parameters: {
     layout: 'centered',

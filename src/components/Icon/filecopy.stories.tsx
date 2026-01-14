@@ -21,7 +21,7 @@ const Filecopy = (
 };
 
 const meta = {
-  title: 'Components/Icon/❖ Icons',
+  title: 'Components/❖ Icons/file_copy',
   component: Filecopy,
   parameters: {
     layout: 'centered',

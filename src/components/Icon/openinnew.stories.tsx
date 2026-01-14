@@ -21,7 +21,7 @@ const Openinnew = (
 };
 
 const meta = {
-  title: 'Components/Icon/❖ Icons',
+  title: 'Components/❖ Icons/open_in_new',
   component: Openinnew,
   parameters: {
     layout: 'centered',

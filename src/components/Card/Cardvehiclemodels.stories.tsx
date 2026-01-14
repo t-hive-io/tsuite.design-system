@@ -33,7 +33,7 @@ const Cardvehiclemodels = (
 };
 
 const meta = {
-  title: 'Components/Card/❖ Cards',
+  title: 'Components/❖ Cards/Card vehicle models',
   component: Cardvehiclemodels,
   parameters: {
     layout: 'centered',

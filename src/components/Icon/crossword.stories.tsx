@@ -21,7 +21,7 @@ const Crossword = (
 };
 
 const meta = {
-  title: 'Components/Icon/❖ Icons',
+  title: 'Components/❖ Icons/crossword',
   component: Crossword,
   parameters: {
     layout: 'centered',

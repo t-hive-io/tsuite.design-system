@@ -6,7 +6,7 @@ const Informationbanner = () => {
 };
 
 const meta = {
-  title: 'Components/Banner/❖ Banner',
+  title: 'Components/❖ Banner/Information banner',
   component: Informationbanner,
   parameters: {
     layout: 'centered',

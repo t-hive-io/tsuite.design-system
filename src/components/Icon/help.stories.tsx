@@ -21,7 +21,7 @@ const Help = (
 };
 
 const meta = {
-  title: 'Components/Icon/❖ Icons',
+  title: 'Components/❖ Icons/help',
   component: Help,
   parameters: {
     layout: 'centered',

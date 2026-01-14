@@ -21,7 +21,7 @@ const Wallcustomized = (
 };
 
 const meta = {
-  title: 'Components/Icon/❖ Icons',
+  title: 'Components/❖ Icons/wall_customized',
   component: Wallcustomized,
   parameters: {
     layout: 'centered',

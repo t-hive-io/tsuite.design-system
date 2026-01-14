@@ -17,7 +17,7 @@ const Topbars = (
 };
 
 const meta = {
-  title: 'Components/U I Shell Header/❖ UI shell header',
+  title: 'Components/❖ UI shell header/Top bars',
   component: Topbars,
   parameters: {
     layout: 'centered',

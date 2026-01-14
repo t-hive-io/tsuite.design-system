@@ -21,7 +21,7 @@ const Stackedlinechart = (
 };
 
 const meta = {
-  title: 'Components/Icon/❖ Icons',
+  title: 'Components/❖ Icons/stacked_line_chart',
   component: Stackedlinechart,
   parameters: {
     layout: 'centered',

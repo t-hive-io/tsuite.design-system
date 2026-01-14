@@ -21,7 +21,7 @@ const Eventavailable = (
 };
 
 const meta = {
-  title: 'Components/Icon/❖ Icons',
+  title: 'Components/❖ Icons/event_available',
   component: Eventavailable,
   parameters: {
     layout: 'centered',

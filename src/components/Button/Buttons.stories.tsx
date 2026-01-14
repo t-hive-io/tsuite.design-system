@@ -104,7 +104,7 @@ const Buttons = (
 };
 
 const meta = {
-  title: 'Components/Button/❖ Buttons',
+  title: 'Components/❖ Buttons/Buttons',
   component: Buttons,
   parameters: {
     layout: 'centered',

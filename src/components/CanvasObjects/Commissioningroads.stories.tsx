@@ -17,7 +17,7 @@ const Commissioningroads = (
 };
 
 const meta = {
-  title: 'Components/Canvas Objects/❖ Canvas objects',
+  title: 'Components/❖ Canvas objects/Commissioning roads',
   component: Commissioningroads,
   parameters: {
     layout: 'centered',

@@ -20,7 +20,7 @@ const Toolrailexpandmenu = (
 };
 
 const meta = {
-  title: 'Components/Tool Rail/❖ Tool rail',
+  title: 'Components/❖ Tool rail/Tool rail expand menu',
   component: Toolrailexpandmenu,
   parameters: {
     layout: 'centered',

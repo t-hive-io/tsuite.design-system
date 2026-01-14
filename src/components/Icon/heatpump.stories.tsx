@@ -21,7 +21,7 @@ const Heatpump = (
 };
 
 const meta = {
-  title: 'Components/Icon/❖ Icons',
+  title: 'Components/❖ Icons/heat_pump',
   component: Heatpump,
   parameters: {
     layout: 'centered',

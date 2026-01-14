@@ -17,7 +17,7 @@ const LargeFloorplancardsection = (
 };
 
 const meta = {
-  title: 'Components/Large Components/❖ Large components',
+  title: 'Components/❖ Large components/Large Floorplan card section',
   component: LargeFloorplancardsection,
   parameters: {
     layout: 'centered',

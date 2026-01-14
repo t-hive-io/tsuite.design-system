@@ -21,7 +21,7 @@ const Forward = (
 };
 
 const meta = {
-  title: 'Components/Icon/❖ Icons',
+  title: 'Components/❖ Icons/forward',
   component: Forward,
   parameters: {
     layout: 'centered',

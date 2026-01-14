@@ -19,7 +19,7 @@ const Flowlist = (
 };
 
 const meta = {
-  title: 'Components/U I Shell Right Panel/❖ UI shell right panel',
+  title: 'Components/❖ UI shell right panel/Flow list',
   component: Flowlist,
   parameters: {
     layout: 'centered',

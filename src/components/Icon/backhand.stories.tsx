@@ -21,7 +21,7 @@ const Backhand = (
 };
 
 const meta = {
-  title: 'Components/Icon/❖ Icons',
+  title: 'Components/❖ Icons/back_hand',
   component: Backhand,
   parameters: {
     layout: 'centered',

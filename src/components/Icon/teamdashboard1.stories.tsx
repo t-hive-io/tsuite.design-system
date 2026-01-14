@@ -21,7 +21,7 @@ const Teamdashboard1 = (
 };
 
 const meta = {
-  title: 'Components/Icon/❖ Icons',
+  title: 'Components/❖ Icons/team_dashboard 1',
   component: Teamdashboard1,
   parameters: {
     layout: 'centered',

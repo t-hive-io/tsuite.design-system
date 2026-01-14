@@ -21,7 +21,7 @@ const Bolt = (
 };
 
 const meta = {
-  title: 'Components/Icon/❖ Icons',
+  title: 'Components/❖ Icons/bolt',
   component: Bolt,
   parameters: {
     layout: 'centered',

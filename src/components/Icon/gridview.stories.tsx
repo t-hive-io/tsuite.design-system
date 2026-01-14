@@ -21,7 +21,7 @@ const Gridview = (
 };
 
 const meta = {
-  title: 'Components/Icon/❖ Icons',
+  title: 'Components/❖ Icons/grid_view',
   component: Gridview,
   parameters: {
     layout: 'centered',

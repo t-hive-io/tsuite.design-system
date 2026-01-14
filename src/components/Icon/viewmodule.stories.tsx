@@ -21,7 +21,7 @@ const Viewmodule = (
 };
 
 const meta = {
-  title: 'Components/Icon/❖ Icons',
+  title: 'Components/❖ Icons/view_module',
   component: Viewmodule,
   parameters: {
     layout: 'centered',

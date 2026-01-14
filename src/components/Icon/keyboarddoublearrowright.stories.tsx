@@ -21,7 +21,7 @@ const Keyboarddoublearrowright = (
 };
 
 const meta = {
-  title: 'Components/Icon/❖ Icons',
+  title: 'Components/❖ Icons/keyboard_double_arrow_right',
   component: Keyboarddoublearrowright,
   parameters: {
     layout: 'centered',

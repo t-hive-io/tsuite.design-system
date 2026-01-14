@@ -21,7 +21,7 @@ const Circle = (
 };
 
 const meta = {
-  title: 'Components/Icon/❖ Icons',
+  title: 'Components/❖ Icons/circle',
   component: Circle,
   parameters: {
     layout: 'centered',

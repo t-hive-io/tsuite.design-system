@@ -21,7 +21,7 @@ const Rotate2 = (
 };
 
 const meta = {
-  title: 'Components/Icon/❖ Icons',
+  title: 'Components/❖ Icons/Rotate2',
   component: Rotate2,
   parameters: {
     layout: 'centered',

@@ -21,7 +21,7 @@ const Verticaldistribute = (
 };
 
 const meta = {
-  title: 'Components/Icon/❖ Icons',
+  title: 'Components/❖ Icons/vertical_distribute',
   component: Verticaldistribute,
   parameters: {
     layout: 'centered',

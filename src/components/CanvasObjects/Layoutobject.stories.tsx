@@ -33,7 +33,7 @@ const Layoutobject = (
 };
 
 const meta = {
-  title: 'Components/Canvas Objects/❖ Canvas objects',
+  title: 'Components/❖ Canvas objects/Layout object',
   component: Layoutobject,
   parameters: {
     layout: 'centered',

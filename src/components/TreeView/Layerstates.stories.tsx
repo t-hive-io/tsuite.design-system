@@ -6,7 +6,7 @@ const Layerstates = () => {
 };
 
 const meta = {
-  title: 'Components/Tree View/❖ Tree view',
+  title: 'Components/❖ Tree view/Layer states',
   component: Layerstates,
   parameters: {
     layout: 'centered',

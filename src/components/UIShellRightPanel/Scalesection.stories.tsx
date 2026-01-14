@@ -17,7 +17,7 @@ const Scalesection = (
 };
 
 const meta = {
-  title: 'Components/U I Shell Right Panel/❖ UI shell right panel',
+  title: 'Components/❖ UI shell right panel/Scale section',
   component: Scalesection,
   parameters: {
     layout: 'centered',

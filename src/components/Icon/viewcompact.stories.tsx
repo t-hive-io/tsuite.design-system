@@ -21,7 +21,7 @@ const Viewcompact = (
 };
 
 const meta = {
-  title: 'Components/Icon/❖ Icons',
+  title: 'Components/❖ Icons/view_compact',
   component: Viewcompact,
   parameters: {
     layout: 'centered',

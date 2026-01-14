@@ -21,7 +21,7 @@ const _3drotation = (
 };
 
 const meta = {
-  title: 'Components/Icon/❖ Icons',
+  title: 'Components/❖ Icons/3d_rotation',
   component: _3drotation,
   parameters: {
     layout: 'centered',

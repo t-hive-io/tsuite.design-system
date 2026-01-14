@@ -21,7 +21,7 @@ const Warning = (
 };
 
 const meta = {
-  title: 'Components/Icon/❖ Icons',
+  title: 'Components/❖ Icons/warning',
   component: Warning,
   parameters: {
     layout: 'centered',

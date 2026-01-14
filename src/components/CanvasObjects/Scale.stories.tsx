@@ -19,7 +19,7 @@ const Scale = (
 };
 
 const meta = {
-  title: 'Components/Canvas Objects/❖ Canvas objects',
+  title: 'Components/❖ Canvas objects/Scale',
   component: Scale,
   parameters: {
     layout: 'centered',

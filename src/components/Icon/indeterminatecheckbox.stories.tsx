@@ -21,7 +21,7 @@ const Indeterminatecheckbox = (
 };
 
 const meta = {
-  title: 'Components/Icon/❖ Icons',
+  title: 'Components/❖ Icons/indeterminate_check_box',
   component: Indeterminatecheckbox,
   parameters: {
     layout: 'centered',

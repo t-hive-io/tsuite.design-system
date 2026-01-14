@@ -21,7 +21,7 @@ const Loadhandling = (
 };
 
 const meta = {
-  title: 'Components/Icon/❖ Icons',
+  title: 'Components/❖ Icons/Load handling',
   component: Loadhandling,
   parameters: {
     layout: 'centered',

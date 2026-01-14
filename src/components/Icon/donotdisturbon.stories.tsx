@@ -21,7 +21,7 @@ const Donotdisturbon = (
 };
 
 const meta = {
-  title: 'Components/Icon/❖ Icons',
+  title: 'Components/❖ Icons/do_not_disturb_on',
   component: Donotdisturbon,
   parameters: {
     layout: 'centered',

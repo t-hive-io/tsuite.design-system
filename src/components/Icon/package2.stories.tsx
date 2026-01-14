@@ -21,7 +21,7 @@ const Package2 = (
 };
 
 const meta = {
-  title: 'Components/Icon/❖ Icons',
+  title: 'Components/❖ Icons/package_2',
   component: Package2,
   parameters: {
     layout: 'centered',

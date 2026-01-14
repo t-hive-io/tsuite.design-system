@@ -37,7 +37,7 @@ const Vehiclemodelslarge = (
 };
 
 const meta = {
-  title: 'Components/Icon/❖ Icons',
+  title: 'Components/❖ Icons/Vehicle models large',
   component: Vehiclemodelslarge,
   parameters: {
     layout: 'centered',

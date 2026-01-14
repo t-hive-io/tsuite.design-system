@@ -21,7 +21,7 @@ const Uploadfile = (
 };
 
 const meta = {
-  title: 'Components/Icon/❖ Icons',
+  title: 'Components/❖ Icons/upload_file',
   component: Uploadfile,
   parameters: {
     layout: 'centered',

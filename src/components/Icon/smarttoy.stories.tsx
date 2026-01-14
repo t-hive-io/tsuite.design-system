@@ -21,7 +21,7 @@ const Smarttoy = (
 };
 
 const meta = {
-  title: 'Components/Icon/❖ Icons',
+  title: 'Components/❖ Icons/smart_toy',
   component: Smarttoy,
   parameters: {
     layout: 'centered',

@@ -21,7 +21,7 @@ const Crop = (
 };
 
 const meta = {
-  title: 'Components/Icon/❖ Icons',
+  title: 'Components/❖ Icons/crop',
   component: Crop,
   parameters: {
     layout: 'centered',

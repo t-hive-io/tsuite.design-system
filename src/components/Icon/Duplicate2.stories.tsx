@@ -21,7 +21,7 @@ const Duplicate2 = (
 };
 
 const meta = {
-  title: 'Components/Icon/❖ Icons',
+  title: 'Components/❖ Icons/Duplicate 2',
   component: Duplicate2,
   parameters: {
     layout: 'centered',

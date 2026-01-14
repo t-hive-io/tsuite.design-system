@@ -21,7 +21,7 @@ const Image = (
 };
 
 const meta = {
-  title: 'Components/Icon/❖ Icons',
+  title: 'Components/❖ Icons/image',
   component: Image,
   parameters: {
     layout: 'centered',

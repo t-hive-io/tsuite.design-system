@@ -21,7 +21,7 @@ const Morehoriz = (
 };
 
 const meta = {
-  title: 'Components/Icon/❖ Icons',
+  title: 'Components/❖ Icons/more_horiz',
   component: Morehoriz,
   parameters: {
     layout: 'centered',

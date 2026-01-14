@@ -33,7 +33,7 @@ const Cardloadcarriertypes = (
 };
 
 const meta = {
-  title: 'Components/Card/❖ Cards',
+  title: 'Components/❖ Cards/Card load carrier types',
   component: Cardloadcarriertypes,
   parameters: {
     layout: 'centered',

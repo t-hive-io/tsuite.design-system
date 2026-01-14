@@ -17,7 +17,7 @@ const MediumDropdownmenu = (
 };
 
 const meta = {
-  title: 'Components/Menus/❖ Menus',
+  title: 'Components/❖ Menus/Medium - Dropdown menu',
   component: MediumDropdownmenu,
   parameters: {
     layout: 'centered',

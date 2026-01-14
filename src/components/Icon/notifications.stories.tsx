@@ -21,7 +21,7 @@ const Notifications = (
 };
 
 const meta = {
-  title: 'Components/Icon/❖ Icons',
+  title: 'Components/❖ Icons/notifications',
   component: Notifications,
   parameters: {
     layout: 'centered',

@@ -275,7 +275,7 @@ const Dropdownmenuitem = (
 };
 
 const meta = {
-  title: 'Components/Menus/❖ Menus',
+  title: 'Components/❖ Menus/Dropdown menu item',
   component: Dropdownmenuitem,
   parameters: {
     layout: 'centered',

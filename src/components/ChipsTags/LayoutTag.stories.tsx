@@ -17,7 +17,7 @@ const LayoutTag = (
 };
 
 const meta = {
-  title: 'Components/Chips Tags/❖ Chips / Tags',
+  title: 'Components/❖ Chips / Tags/Layout Tag',
   component: LayoutTag,
   parameters: {
     layout: 'centered',

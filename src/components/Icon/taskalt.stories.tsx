@@ -21,7 +21,7 @@ const Taskalt = (
 };
 
 const meta = {
-  title: 'Components/Icon/❖ Icons',
+  title: 'Components/❖ Icons/task_alt',
   component: Taskalt,
   parameters: {
     layout: 'centered',

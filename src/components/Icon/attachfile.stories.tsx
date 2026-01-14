@@ -21,7 +21,7 @@ const Attachfile = (
 };
 
 const meta = {
-  title: 'Components/Icon/❖ Icons',
+  title: 'Components/❖ Icons/attach_file',
   component: Attachfile,
   parameters: {
     layout: 'centered',

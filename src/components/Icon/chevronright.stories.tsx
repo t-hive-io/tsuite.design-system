@@ -21,7 +21,7 @@ const Chevronright = (
 };
 
 const meta = {
-  title: 'Components/Icon/❖ Icons',
+  title: 'Components/❖ Icons/chevron_right',
   component: Chevronright,
   parameters: {
     layout: 'centered',

@@ -21,7 +21,7 @@ const Checkcircle = (
 };
 
 const meta = {
-  title: 'Components/Icon/❖ Icons',
+  title: 'Components/❖ Icons/check_circle',
   component: Checkcircle,
   parameters: {
     layout: 'centered',

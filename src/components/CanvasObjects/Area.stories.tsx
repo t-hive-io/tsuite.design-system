@@ -109,7 +109,7 @@ const Area = (
 };
 
 const meta = {
-  title: 'Components/Canvas Objects/❖ Canvas objects',
+  title: 'Components/❖ Canvas objects/Area',
   component: Area,
   parameters: {
     layout: 'centered',

@@ -19,7 +19,7 @@ const Shuttle = (
 };
 
 const meta = {
-  title: 'Components/Illustrations/❖ Illustrations',
+  title: 'Components/❖ Illustrations/Shuttle',
   component: Shuttle,
   parameters: {
     layout: 'centered',

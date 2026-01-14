@@ -21,7 +21,7 @@ const Alignhorizontalleft = (
 };
 
 const meta = {
-  title: 'Components/Icon/❖ Icons',
+  title: 'Components/❖ Icons/align_horizontal_left',
   component: Alignhorizontalleft,
   parameters: {
     layout: 'centered',

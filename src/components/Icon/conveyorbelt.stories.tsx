@@ -21,7 +21,7 @@ const Conveyorbelt = (
 };
 
 const meta = {
-  title: 'Components/Icon/❖ Icons',
+  title: 'Components/❖ Icons/conveyor_belt',
   component: Conveyorbelt,
   parameters: {
     layout: 'centered',

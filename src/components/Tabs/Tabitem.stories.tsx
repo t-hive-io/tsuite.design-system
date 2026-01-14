@@ -17,7 +17,7 @@ const Tabitem = (
 };
 
 const meta = {
-  title: 'Components/Tabs/❖ Tabs',
+  title: 'Components/❖ Tabs/Tab item',
   component: Tabitem,
   parameters: {
     layout: 'centered',

@@ -21,7 +21,7 @@ const Forklift = (
 };
 
 const meta = {
-  title: 'Components/Icon/❖ Icons',
+  title: 'Components/❖ Icons/forklift_',
   component: Forklift,
   parameters: {
     layout: 'centered',

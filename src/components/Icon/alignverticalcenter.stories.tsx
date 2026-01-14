@@ -21,7 +21,7 @@ const Alignverticalcenter = (
 };
 
 const meta = {
-  title: 'Components/Icon/❖ Icons',
+  title: 'Components/❖ Icons/align_vertical_center',
   component: Alignverticalcenter,
   parameters: {
     layout: 'centered',

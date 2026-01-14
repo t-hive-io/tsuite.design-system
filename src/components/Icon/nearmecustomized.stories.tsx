@@ -21,7 +21,7 @@ const Nearmecustomized = (
 };
 
 const meta = {
-  title: 'Components/Icon/❖ Icons',
+  title: 'Components/❖ Icons/near_me_customized',
   component: Nearmecustomized,
   parameters: {
     layout: 'centered',

@@ -21,7 +21,7 @@ const Zoomin = (
 };
 
 const meta = {
-  title: 'Components/Icon/❖ Icons',
+  title: 'Components/❖ Icons/zoom_in',
   component: Zoomin,
   parameters: {
     layout: 'centered',

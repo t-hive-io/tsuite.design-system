@@ -19,7 +19,7 @@ const Flowhandle = (
 };
 
 const meta = {
-  title: 'Components/Canvas Objects/❖ Canvas objects',
+  title: 'Components/❖ Canvas objects/Flow handle',
   component: Flowhandle,
   parameters: {
     layout: 'centered',

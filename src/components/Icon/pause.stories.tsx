@@ -21,7 +21,7 @@ const Pause = (
 };
 
 const meta = {
-  title: 'Components/Icon/❖ Icons',
+  title: 'Components/❖ Icons/pause',
   component: Pause,
   parameters: {
     layout: 'centered',

@@ -21,7 +21,7 @@ const Arrowdropup = (
 };
 
 const meta = {
-  title: 'Components/Icon/❖ Icons',
+  title: 'Components/❖ Icons/arrow_drop_up',
   component: Arrowdropup,
   parameters: {
     layout: 'centered',

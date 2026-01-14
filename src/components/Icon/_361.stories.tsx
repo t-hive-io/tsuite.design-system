@@ -21,7 +21,7 @@ const _361 = (
 };
 
 const meta = {
-  title: 'Components/Icon/❖ Icons',
+  title: 'Components/❖ Icons/361',
   component: _361,
   parameters: {
     layout: 'centered',

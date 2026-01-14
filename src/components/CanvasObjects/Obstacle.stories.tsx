@@ -28,7 +28,7 @@ const Obstacle = (
 };
 
 const meta = {
-  title: 'Components/Canvas Objects/❖ Canvas objects',
+  title: 'Components/❖ Canvas objects/Obstacle',
   component: Obstacle,
   parameters: {
     layout: 'centered',

@@ -21,7 +21,7 @@ const Folderopen = (
 };
 
 const meta = {
-  title: 'Components/Icon/❖ Icons',
+  title: 'Components/❖ Icons/folder_open',
   component: Folderopen,
   parameters: {
     layout: 'centered',

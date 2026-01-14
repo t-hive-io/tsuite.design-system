@@ -21,7 +21,7 @@ const Viewlist = (
 };
 
 const meta = {
-  title: 'Components/Icon/❖ Icons',
+  title: 'Components/❖ Icons/view_list',
   component: Viewlist,
   parameters: {
     layout: 'centered',

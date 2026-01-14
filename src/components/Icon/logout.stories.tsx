@@ -21,7 +21,7 @@ const Logout = (
 };
 
 const meta = {
-  title: 'Components/Icon/❖ Icons',
+  title: 'Components/❖ Icons/logout',
   component: Logout,
   parameters: {
     layout: 'centered',

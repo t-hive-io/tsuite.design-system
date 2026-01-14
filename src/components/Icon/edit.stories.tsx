@@ -21,7 +21,7 @@ const Edit = (
 };
 
 const meta = {
-  title: 'Components/Icon/❖ Icons',
+  title: 'Components/❖ Icons/edit',
   component: Edit,
   parameters: {
     layout: 'centered',

@@ -17,7 +17,7 @@ const Widthdialogwithaction = (
 };
 
 const meta = {
-  title: 'Components/Dialogs/❖ Dialogs',
+  title: 'Components/❖ Dialogs/Width dialog with action',
   component: Widthdialogwithaction,
   parameters: {
     layout: 'centered',

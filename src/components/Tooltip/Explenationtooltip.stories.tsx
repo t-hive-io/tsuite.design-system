@@ -67,7 +67,7 @@ const Explenationtooltip = (
 };
 
 const meta = {
-  title: 'Components/Tooltips/❖ Tooltips',
+  title: 'Components/❖ Tooltips/Tooltips plain Light',
   component: Explenationtooltip,
   parameters: {
     layout: 'centered',

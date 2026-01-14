@@ -21,7 +21,7 @@ const Horizontaldistribute1 = (
 };
 
 const meta = {
-  title: 'Components/Icon/❖ Icons',
+  title: 'Components/❖ Icons/horizontal_distribute 1',
   component: Horizontaldistribute1,
   parameters: {
     layout: 'centered',

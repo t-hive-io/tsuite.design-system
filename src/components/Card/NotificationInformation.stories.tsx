@@ -28,7 +28,7 @@ const NotificationInformation = (
 };
 
 const meta = {
-  title: 'Components/Card/❖ Cards',
+  title: 'Components/❖ Cards/Notification: Information',
   component: NotificationInformation,
   parameters: {
     layout: 'centered',

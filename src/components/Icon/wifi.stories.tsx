@@ -21,7 +21,7 @@ const Wifi = (
 };
 
 const meta = {
-  title: 'Components/Icon/❖ Icons',
+  title: 'Components/❖ Icons/wifi',
   component: Wifi,
   parameters: {
     layout: 'centered',

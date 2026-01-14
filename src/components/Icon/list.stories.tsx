@@ -21,7 +21,7 @@ const List = (
 };
 
 const meta = {
-  title: 'Components/Icon/❖ Icons',
+  title: 'Components/❖ Icons/list',
   component: List,
   parameters: {
     layout: 'centered',

@@ -119,7 +119,8 @@ const PropertypanelSetupLayoutSimulation3dVisualiationCommissioning = (
 };
 
 const meta = {
-  title: 'Components/U I Shell Right Panel/❖ UI shell right panel',
+  title:
+    'Components/❖ UI shell right panel/Property panel - Setup, Layout, Simulation, 3d, Visualiation, Commissioning',
   component: PropertypanelSetupLayoutSimulation3dVisualiationCommissioning,
   parameters: {
     layout: 'centered',

@@ -21,7 +21,7 @@ const Balance = (
 };
 
 const meta = {
-  title: 'Components/Icon/❖ Icons',
+  title: 'Components/❖ Icons/balance',
   component: Balance,
   parameters: {
     layout: 'centered',

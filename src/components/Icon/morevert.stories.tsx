@@ -21,7 +21,7 @@ const Morevert = (
 };
 
 const meta = {
-  title: 'Components/Icon/❖ Icons',
+  title: 'Components/❖ Icons/more_vert',
   component: Morevert,
   parameters: {
     layout: 'centered',

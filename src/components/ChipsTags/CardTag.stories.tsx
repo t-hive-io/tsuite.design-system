@@ -43,7 +43,7 @@ const CardTag = (
 };
 
 const meta = {
-  title: 'Components/Chips Tags/❖ Chips / Tags',
+  title: 'Components/❖ Chips / Tags/Card Tag',
   component: CardTag,
   parameters: {
     layout: 'centered',

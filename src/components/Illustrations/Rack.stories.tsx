@@ -46,7 +46,7 @@ const Rack = (
 };
 
 const meta = {
-  title: 'Components/Illustrations/❖ Illustrations',
+  title: 'Components/❖ Illustrations/Rack',
   component: Rack,
   parameters: {
     layout: 'centered',

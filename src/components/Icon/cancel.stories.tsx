@@ -21,7 +21,7 @@ const Cancel = (
 };
 
 const meta = {
-  title: 'Components/Icon/❖ Icons',
+  title: 'Components/❖ Icons/cancel',
   component: Cancel,
   parameters: {
     layout: 'centered',

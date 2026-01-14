@@ -11,7 +11,7 @@ const Divider = ({
 };
 
 const meta = {
-  title: 'Components/❖ Divider',
+  title: 'Components/Dividers',
   component: Divider,
   parameters: {
     layout: 'centered',
@@ -24,7 +24,7 @@ const meta = {
     figma: {
       pageId: '5182:37137',
       componentId: '1573:9990',
-      figmaComponent: '❖ Divider',
+      figmaComponent: 'Dividers',
       components: 1,
       totalVariants: 2,
       url: 'https://www.figma.com/design/XKxVlFf9TfWBHosOInkJXA/T-Suite-Design-System?node-id=1573-9990',

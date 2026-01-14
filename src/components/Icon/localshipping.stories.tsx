@@ -21,7 +21,7 @@ const Localshipping = (
 };
 
 const meta = {
-  title: 'Components/Icon/❖ Icons',
+  title: 'Components/❖ Icons/local_shipping',
   component: Localshipping,
   parameters: {
     layout: 'centered',

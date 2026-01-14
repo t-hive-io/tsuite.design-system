@@ -21,7 +21,7 @@ const _3Dicon = (
 };
 
 const meta = {
-  title: 'Components/Icon/❖ Icons',
+  title: 'Components/❖ Icons/3D icon',
   component: _3Dicon,
   parameters: {
     layout: 'centered',

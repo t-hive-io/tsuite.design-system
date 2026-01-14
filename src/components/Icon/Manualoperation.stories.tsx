@@ -21,7 +21,7 @@ const Manualoperation = (
 };
 
 const meta = {
-  title: 'Components/Icon/❖ Icons',
+  title: 'Components/❖ Icons/Manual operation',
   component: Manualoperation,
   parameters: {
     layout: 'centered',

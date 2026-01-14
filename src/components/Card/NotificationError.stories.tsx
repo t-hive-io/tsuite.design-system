@@ -28,7 +28,7 @@ const NotificationError = (
 };
 
 const meta = {
-  title: 'Components/Card/❖ Cards',
+  title: 'Components/❖ Cards/Notification: Error',
   component: NotificationError,
   parameters: {
     layout: 'centered',

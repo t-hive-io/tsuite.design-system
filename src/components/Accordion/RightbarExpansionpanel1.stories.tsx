@@ -17,7 +17,7 @@ const RightbarExpansionpanel1 = (
 };
 
 const meta = {
-  title: 'Components/Accordion/❖ Accordion',
+  title: 'Components/❖ Accordion/Right bar- Expansion panel - 1',
   component: RightbarExpansionpanel1,
   parameters: {
     layout: 'centered',

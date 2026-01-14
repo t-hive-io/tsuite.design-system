@@ -18,7 +18,7 @@ const Flowcolormodal = (
 };
 
 const meta = {
-  title: 'Components/Canvas Objects/❖ Canvas objects',
+  title: 'Components/❖ Canvas objects/Flow color modal',
   component: Flowcolormodal,
   parameters: {
     layout: 'centered',

@@ -21,7 +21,7 @@ const Straighten = (
 };
 
 const meta = {
-  title: 'Components/Icon/❖ Icons',
+  title: 'Components/❖ Icons/straighten',
   component: Straighten,
   parameters: {
     layout: 'centered',

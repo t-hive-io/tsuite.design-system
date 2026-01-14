@@ -21,7 +21,7 @@ const Visibility = (
 };
 
 const meta = {
-  title: 'Components/Icon/❖ Icons',
+  title: 'Components/❖ Icons/visibility',
   component: Visibility,
   parameters: {
     layout: 'centered',

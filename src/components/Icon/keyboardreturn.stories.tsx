@@ -21,7 +21,7 @@ const Keyboardreturn = (
 };
 
 const meta = {
-  title: 'Components/Icon/❖ Icons',
+  title: 'Components/❖ Icons/keyboard_return',
   component: Keyboardreturn,
   parameters: {
     layout: 'centered',

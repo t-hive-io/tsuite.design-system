@@ -21,7 +21,7 @@ const Pantoolalt = (
 };
 
 const meta = {
-  title: 'Components/Icon/❖ Icons',
+  title: 'Components/❖ Icons/pan_tool_alt',
   component: Pantoolalt,
   parameters: {
     layout: 'centered',

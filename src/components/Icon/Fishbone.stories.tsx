@@ -21,7 +21,7 @@ const Fishbone = (
 };
 
 const meta = {
-  title: 'Components/Icon/❖ Icons',
+  title: 'Components/❖ Icons/Fishbone',
   component: Fishbone,
   parameters: {
     layout: 'centered',

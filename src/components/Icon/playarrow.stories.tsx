@@ -21,7 +21,7 @@ const Playarrow = (
 };
 
 const meta = {
-  title: 'Components/Icon/❖ Icons',
+  title: 'Components/❖ Icons/play_arrow',
   component: Playarrow,
   parameters: {
     layout: 'centered',

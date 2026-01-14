@@ -21,7 +21,7 @@ const Search = (
 };
 
 const meta = {
-  title: 'Components/Icon/❖ Icons',
+  title: 'Components/❖ Icons/search',
   component: Search,
   parameters: {
     layout: 'centered',

@@ -21,7 +21,7 @@ const Searchoff = (
 };
 
 const meta = {
-  title: 'Components/Icon/❖ Icons',
+  title: 'Components/❖ Icons/search_off',
   component: Searchoff,
   parameters: {
     layout: 'centered',

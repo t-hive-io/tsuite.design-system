@@ -50,7 +50,7 @@ const InteractiveSwitch = () => {
 };
 
 const meta = {
-  title: 'Components/Switch/❖ Switch',
+  title: 'Components/❖ Switch/Switch',
   component: Switch,
   parameters: {
     layout: 'centered',

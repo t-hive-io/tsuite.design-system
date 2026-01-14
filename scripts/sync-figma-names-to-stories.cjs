@@ -62,13 +62,23 @@ function updateStoryFile(filePath) {
 
   const currentTitle = titleMatch[1];
   
-  // Extract the category path and current component name
-  // e.g., "Components/Tooltip/Tooltip plain Light" -> ["Components", "Tooltip", "Tooltip plain Light"]
+  // Extract the title parts: "Components/CategoryName/ComponentName"
+  // e.g., "Components/Input/InputText" or "Components/Icon/add"
   const titleParts = currentTitle.split('/');
-  const currentComponentName = titleParts[titleParts.length - 1];
-
-  // Build new title with Figma page name (or component name as fallback)
-  const newTitle = [...titleParts.slice(0, -1), displayName].join('/');
+  
+  // For stories, we want to keep the actual component name but update the category
+  // So if we have "Components/Input/InputText", we want "Components/❖ Inputs/InputText"
+  // Only update the MIDDLE part (category), not the last part (component name)
+  
+  if (titleParts.length < 3) {
+    return { updated: false, reason: 'Title structure unexpected (needs at least 3 parts)' };
+  }
+  
+  const currentCategoryName = titleParts[1]; // e.g., "Input", "Icon", "Button"
+  const componentName = titleParts.slice(2).join('/'); // Keep everything after category
+  
+  // Build new title: keep first part (Components), replace category with page name, keep component name
+  const newTitle = [titleParts[0], displayName, ...titleParts.slice(2)].join('/');
 
   // Update title in meta
   if (currentTitle !== newTitle) {
@@ -93,8 +103,8 @@ function updateStoryFile(filePath) {
     fs.writeFileSync(filePath, content, 'utf-8');
     return {
       updated: true,
-      oldName: currentComponentName,
-      newName: displayName,
+      oldCategory: currentCategoryName,
+      newCategory: displayName,
       file: path.relative(process.cwd(), filePath),
     };
   }
@@ -119,7 +129,7 @@ if (updatedFiles.length === 0) {
   console.log(`✅ Updated ${updatedFiles.length} story files:\n`);
   updatedFiles.forEach((result) => {
     console.log(`   📝 ${result.file}`);
-    console.log(`      "${result.oldName}" → "${result.newName}"`);
+    console.log(`      Category: "${result.oldCategory}" → "${result.newCategory}"`);
   });
   console.log('');
 }

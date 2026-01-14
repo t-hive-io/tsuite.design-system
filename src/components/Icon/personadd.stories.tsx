@@ -21,7 +21,7 @@ const Personadd = (
 };
 
 const meta = {
-  title: 'Components/Icon/❖ Icons',
+  title: 'Components/❖ Icons/person_add',
   component: Personadd,
   parameters: {
     layout: 'centered',

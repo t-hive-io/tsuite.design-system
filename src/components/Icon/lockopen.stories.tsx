@@ -21,7 +21,7 @@ const Lockopen = (
 };
 
 const meta = {
-  title: 'Components/Icon/❖ Icons',
+  title: 'Components/❖ Icons/lock_open',
   component: Lockopen,
   parameters: {
     layout: 'centered',

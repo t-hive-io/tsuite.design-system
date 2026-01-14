@@ -17,7 +17,7 @@ const Selectionpointposition = (
 };
 
 const meta = {
-  title: 'Components/Canvas Objects/❖ Canvas objects',
+  title: 'Components/❖ Canvas objects/Selection point position',
   component: Selectionpointposition,
   parameters: {
     layout: 'centered',

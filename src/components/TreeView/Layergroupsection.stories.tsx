@@ -6,7 +6,7 @@ const Layergroupsection = () => {
 };
 
 const meta = {
-  title: 'Components/Tree View/Layer/Layer/❖ Tree view',
+  title: 'Components/❖ Tree view/Layer/Layer/group section',
   component: Layergroupsection,
   parameters: {
     layout: 'centered',

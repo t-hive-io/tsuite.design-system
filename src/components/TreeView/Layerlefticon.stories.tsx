@@ -25,7 +25,7 @@ const Layerlefticon = (
 };
 
 const meta = {
-  title: 'Components/Tree View/❖ Tree view',
+  title: 'Components/❖ Tree view/Layer left icon',
   component: Layerlefticon,
   parameters: {
     layout: 'centered',

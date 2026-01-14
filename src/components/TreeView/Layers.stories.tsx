@@ -111,7 +111,7 @@ const Layers = (
 };
 
 const meta = {
-  title: 'Components/Tree View/❖ Tree view',
+  title: 'Components/❖ Tree view/Layers',
   component: Layers,
   parameters: {
     layout: 'centered',

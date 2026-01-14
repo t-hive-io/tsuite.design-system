@@ -21,7 +21,7 @@ const Shelves = (
 };
 
 const meta = {
-  title: 'Components/Icon/❖ Icons',
+  title: 'Components/❖ Icons/shelves',
   component: Shelves,
   parameters: {
     layout: 'centered',

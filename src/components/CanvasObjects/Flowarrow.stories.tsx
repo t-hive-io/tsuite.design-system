@@ -21,7 +21,7 @@ const Flowarrow = (
 };
 
 const meta = {
-  title: 'Components/Canvas Objects/❖ Canvas objects',
+  title: 'Components/❖ Canvas objects/Flow arrow',
   component: Flowarrow,
   parameters: {
     layout: 'centered',

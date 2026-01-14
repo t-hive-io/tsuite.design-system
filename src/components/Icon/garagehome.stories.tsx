@@ -21,7 +21,7 @@ const Garagehome = (
 };
 
 const meta = {
-  title: 'Components/Icon/❖ Icons',
+  title: 'Components/❖ Icons/garage_home',
   component: Garagehome,
   parameters: {
     layout: 'centered',

@@ -23,7 +23,7 @@ const Heat = (
 };
 
 const meta = {
-  title: 'Components/Icon/❖ Icons',
+  title: 'Components/❖ Icons/heat',
   component: Heat,
   parameters: {
     layout: 'centered',

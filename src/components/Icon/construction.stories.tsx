@@ -21,7 +21,7 @@ const Construction = (
 };
 
 const meta = {
-  title: 'Components/Icon/❖ Icons',
+  title: 'Components/❖ Icons/construction',
   component: Construction,
   parameters: {
     layout: 'centered',

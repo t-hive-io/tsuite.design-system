@@ -58,7 +58,7 @@ const Road = (
 };
 
 const meta = {
-  title: 'Components/Canvas Objects/❖ Canvas objects',
+  title: 'Components/❖ Canvas objects/Road',
   component: Road,
   parameters: {
     layout: 'centered',

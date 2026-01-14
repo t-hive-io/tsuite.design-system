@@ -21,7 +21,7 @@ const LoadingSpinner3 = (
 };
 
 const meta = {
-  title: 'Components/Progress Indicators/❖ Progress indicatiors',
+  title: 'Components/❖ Progress indicatiors/Loading Spinner 3',
   component: LoadingSpinner3,
   parameters: {
     layout: 'centered',

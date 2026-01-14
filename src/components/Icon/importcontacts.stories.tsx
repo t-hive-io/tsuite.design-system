@@ -21,7 +21,7 @@ const Importcontacts = (
 };
 
 const meta = {
-  title: 'Components/Icon/❖ Icons',
+  title: 'Components/❖ Icons/import_contacts',
   component: Importcontacts,
   parameters: {
     layout: 'centered',

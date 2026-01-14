@@ -21,7 +21,7 @@ const Quickreorder = (
 };
 
 const meta = {
-  title: 'Components/Icon/❖ Icons',
+  title: 'Components/❖ Icons/quick_reorder',
   component: Quickreorder,
   parameters: {
     layout: 'centered',

@@ -22,7 +22,7 @@ const Smallbadge = (
 };
 
 const meta = {
-  title: 'Components/Badge/❖ Badge',
+  title: 'Components/❖ Badge/Small badge',
   component: Smallbadge,
   parameters: {
     layout: 'centered',

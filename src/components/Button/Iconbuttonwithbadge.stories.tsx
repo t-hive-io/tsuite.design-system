@@ -33,7 +33,7 @@ const Iconbuttonwithbadge = (
 };
 
 const meta = {
-  title: 'Components/Button/❖ Buttons',
+  title: 'Components/❖ Buttons/Icon button with badge',
   component: Iconbuttonwithbadge,
   parameters: {
     layout: 'centered',

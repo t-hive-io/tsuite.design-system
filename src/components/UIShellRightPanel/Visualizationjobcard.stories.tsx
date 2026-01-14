@@ -29,7 +29,7 @@ const Visualizationjobcard = (
 };
 
 const meta = {
-  title: 'Components/U I Shell Right Panel/❖ UI shell right panel',
+  title: 'Components/❖ UI shell right panel/Visualization, job card',
   component: Visualizationjobcard,
   parameters: {
     layout: 'centered',

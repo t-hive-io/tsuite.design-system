@@ -21,7 +21,7 @@ const Familyhistory = (
 };
 
 const meta = {
-  title: 'Components/Icon/❖ Icons',
+  title: 'Components/❖ Icons/family_history',
   component: Familyhistory,
   parameters: {
     layout: 'centered',

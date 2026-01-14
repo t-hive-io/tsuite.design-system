@@ -21,7 +21,7 @@ const Vertical = (
 };
 
 const meta = {
-  title: 'Components/Icon/❖ Icons',
+  title: 'Components/❖ Icons/Vertical',
   component: Vertical,
   parameters: {
     layout: 'centered',

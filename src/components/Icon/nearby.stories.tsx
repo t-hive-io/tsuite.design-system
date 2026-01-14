@@ -23,7 +23,7 @@ const Nearby = (
 };
 
 const meta = {
-  title: 'Components/Icon/❖ Icons',
+  title: 'Components/❖ Icons/nearby',
   component: Nearby,
   parameters: {
     layout: 'centered',

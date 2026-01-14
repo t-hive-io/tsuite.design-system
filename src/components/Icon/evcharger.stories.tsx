@@ -21,7 +21,7 @@ const Evcharger = (
 };
 
 const meta = {
-  title: 'Components/Icon/❖ Icons',
+  title: 'Components/❖ Icons/ev_charger',
   component: Evcharger,
   parameters: {
     layout: 'centered',

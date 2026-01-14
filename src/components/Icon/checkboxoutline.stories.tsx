@@ -21,7 +21,7 @@ const Checkboxoutline = (
 };
 
 const meta = {
-  title: 'Components/Icon/❖ Icons',
+  title: 'Components/❖ Icons/check_box_outline',
   component: Checkboxoutline,
   parameters: {
     layout: 'centered',

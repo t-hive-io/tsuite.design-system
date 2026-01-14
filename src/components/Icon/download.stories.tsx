@@ -21,7 +21,7 @@ const Download = (
 };
 
 const meta = {
-  title: 'Components/Icon/❖ Icons',
+  title: 'Components/❖ Icons/download',
   component: Download,
   parameters: {
     layout: 'centered',

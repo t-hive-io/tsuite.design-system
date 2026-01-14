@@ -21,7 +21,7 @@ const Visibilityoff = (
 };
 
 const meta = {
-  title: 'Components/Icon/❖ Icons',
+  title: 'Components/❖ Icons/visibility_off',
   component: Visibilityoff,
   parameters: {
     layout: 'centered',
