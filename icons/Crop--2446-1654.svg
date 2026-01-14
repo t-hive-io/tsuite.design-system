@@ -1,10 +1,10 @@
 <svg width="379" height="172" viewBox="0 0 379 172" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M6 6L20 6V0L0 0V20H6L6 6Z" fill="var(--colors-primary-primary-700)"/>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M199.5 6H179.5V0H199.5V6Z" fill="var(--colors-primary-primary-700)"/>
-<path d="M373 6V20H379V0L359 0V6L373 6Z" fill="var(--colors-primary-primary-700)"/>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M6 76L6 96H0L0 76H6Z" fill="var(--colors-primary-primary-700)"/>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M379 76V96H373V76H379Z" fill="var(--colors-primary-primary-700)"/>
-<path d="M6 166V152H0V172H20V166H6Z" fill="var(--colors-primary-primary-700)"/>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M199.5 172H179.5V166H199.5V172Z" fill="var(--colors-primary-primary-700)"/>
-<path d="M373 166H359V172H379V152H373V166Z" fill="var(--colors-primary-primary-700)"/>
+<path d="M6 6L20 6V0L0 0V20H6L6 6Z" fill="#F325A7"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M199.5 6H179.5V0H199.5V6Z" fill="#F325A7"/>
+<path d="M373 6V20H379V0L359 0V6L373 6Z" fill="#F325A7"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M6 76L6 96H0L0 76H6Z" fill="#F325A7"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M379 76V96H373V76H379Z" fill="#F325A7"/>
+<path d="M6 166V152H0V172H20V166H6Z" fill="#F325A7"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M199.5 172H179.5V166H199.5V172Z" fill="#F325A7"/>
+<path d="M373 166H359V172H379V152H373V166Z" fill="#F325A7"/>
 </svg>

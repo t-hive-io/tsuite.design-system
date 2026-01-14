@@ -1,9 +1,0 @@
-import{j as a}from"./jsx-runtime-C8OiAigj.js";import{r as o}from"./iframe-CXHzIHp2.js";import"./preload-helper-E_wDBCPD.js";const s=r=>o.createElement("svg",{width:9,height:9,viewBox:"0 0 9 9",fill:"none",xmlns:"http://www.w3.org/2000/svg",...r},o.createElement("circle",{cx:4.5,cy:4.5,r:4,fill:"var(--colors-primary-primary-700)",stroke:"var(--colors-primary-primary-700)"})),g=r=>o.createElement("svg",{width:9,height:9,viewBox:"0 0 9 9",fill:"none",xmlns:"http://www.w3.org/2000/svg",...r},o.createElement("circle",{cx:4.5,cy:4.5,r:4,fill:"white",stroke:"var(--colors-primary-primary-700)"})),y=({Property1:r}={Property1:"Default"})=>r==="Default"?a.jsx(s,{}):r==="Variant 2"?a.jsx(g,{}):a.jsx(s,{}),w={title:"Components/Canvas Objects/Selection point position",component:y,parameters:{layout:"centered",docs:{description:{component:"⚠️ **Figma Description Missing** - Please add a description in Figma for this component."}},figma:{pageId:"5170:45525",componentId:"3223:151232",figmaComponent:"Selection point position",url:"https://www.figma.com/design/XKxVlFf9TfWBHosOInkJXA/T-Suite-Design-System?node-id=3223-151232"}},tags:["autodocs"],argTypes:{Property1:{control:"select",options:["Default","Variant 2"],description:'Matches Figma "Property 1" property'}},args:{Property1:"Default"}},e={args:{Property1:"Default"}},t={args:{Property1:"Variant 2"}};var n,i,p;e.parameters={...e.parameters,docs:{...(n=e.parameters)==null?void 0:n.docs,source:{originalSource:`{
-  args: {
-    Property1: 'Default'
-  }
-}`,...(p=(i=e.parameters)==null?void 0:i.docs)==null?void 0:p.source}}};var c,m,l;t.parameters={...t.parameters,docs:{...(c=t.parameters)==null?void 0:c.docs,source:{originalSource:`{
-  args: {
-    Property1: 'Variant 2'
-  }
-}`,...(l=(m=t.parameters)==null?void 0:m.docs)==null?void 0:l.source}}};const x=["Property1Default","Property1Variant2"];export{e as Property1Default,t as Property1Variant2,x as __namedExportsOrder,w as default};

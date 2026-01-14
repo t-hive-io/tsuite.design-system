@@ -1,11 +1,11 @@
 <svg width="161" height="390" viewBox="0 0 161 390" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M6.61837 383.888L85.1977 298.802M85.1977 298.802L151.264 199.201L139.753 92.0932L109.222 23.524L47.1593 9.00934L85.1977 298.802Z" stroke="var(--colors-areas-highway-vehicle, var(--colors-areas-highway-vehicle, #DACCE5))" stroke-width="18" stroke-linejoin="round"/>
-<path d="M6.61837 383.888L85.6982 297.3L151.765 199.201L140.253 92.0932L109.722 23.524L46.6588 9.00934" stroke="var(--colors-primary-primary-700)"/>
-<path d="M47.1593 9.50984L85.1977 296.8" stroke="var(--colors-primary-primary-700)"/>
-<circle cx="6.75709" cy="384.026" r="3.50404" transform="rotate(-40.3928 6.75709 384.026)" fill="white" stroke="var(--colors-primary-primary-700)"/>
-<circle cx="151.904" cy="197.838" r="3.50404" transform="rotate(-40.3928 151.904 197.838)" fill="white" stroke="var(--colors-primary-primary-700)"/>
-<circle cx="85.8369" cy="296.938" r="3.50404" transform="rotate(-40.3928 85.8369 296.938)" fill="var(--colors-primary-primary-300)" stroke="var(--colors-primary-primary-700)"/>
-<circle cx="108.86" cy="23.6621" r="3.50404" transform="rotate(-40.3928 108.86 23.6621)" fill="white" stroke="var(--colors-primary-primary-700)"/>
-<circle cx="46.7975" cy="9.64795" r="3.50404" transform="rotate(-40.3928 46.7975 9.64795)" fill="white" stroke="var(--colors-primary-primary-700)"/>
-<circle cx="139.891" cy="91.7308" r="3.50404" transform="rotate(-40.3928 139.891 91.7308)" fill="white" stroke="var(--colors-primary-primary-700)"/>
+<path d="M6.61837 383.888L85.1977 298.802M85.1977 298.802L151.264 199.201L139.753 92.0932L109.222 23.524L47.1593 9.00934L85.1977 298.802Z" stroke="#DACCE5" stroke-width="18" stroke-linejoin="round"/>
+<path d="M6.61837 383.888L85.6982 297.3L151.765 199.201L140.253 92.0932L109.722 23.524L46.6588 9.00934" stroke="#F325A7"/>
+<path d="M47.1593 9.50984L85.1977 296.8" stroke="#F325A7"/>
+<circle cx="6.75709" cy="384.026" r="3.50404" transform="rotate(-40.3928 6.75709 384.026)" fill="white" stroke="#F325A7"/>
+<circle cx="151.904" cy="197.838" r="3.50404" transform="rotate(-40.3928 151.904 197.838)" fill="white" stroke="#F325A7"/>
+<circle cx="85.8369" cy="296.938" r="3.50404" transform="rotate(-40.3928 85.8369 296.938)" fill="#FDE2F3" stroke="#F325A7"/>
+<circle cx="108.86" cy="23.6621" r="3.50404" transform="rotate(-40.3928 108.86 23.6621)" fill="white" stroke="#F325A7"/>
+<circle cx="46.7975" cy="9.64795" r="3.50404" transform="rotate(-40.3928 46.7975 9.64795)" fill="white" stroke="#F325A7"/>
+<circle cx="139.891" cy="91.7308" r="3.50404" transform="rotate(-40.3928 139.891 91.7308)" fill="white" stroke="#F325A7"/>
 </svg>

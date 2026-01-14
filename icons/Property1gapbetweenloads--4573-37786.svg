@@ -1,14 +1,14 @@
 <svg width="179" height="169" viewBox="0 0 179 169" fill="none" xmlns="http://www.w3.org/2000/svg">
-<rect x="150" y="73.25" width="4.00001" height="121" transform="rotate(90 150 73.25)" fill="var(--colors-primary-primary-400)" stroke="var(--colors-neutral-neutral-800)" stroke-width="0.5"/>
-<rect x="37" y="129.25" width="41" height="39" fill="var(--colors-neutral-neutral-500)" stroke="var(--colors-neutral-neutral-800)" stroke-width="0.5"/>
-<rect x="101" y="34.25" width="41" height="39" fill="var(--colors-neutral-neutral-500)" stroke="var(--colors-neutral-neutral-800)" stroke-width="0.5"/>
-<rect x="101" y="129.25" width="41" height="39" fill="var(--colors-neutral-neutral-500)" stroke="var(--colors-neutral-neutral-800)" stroke-width="0.5"/>
-<rect x="37" y="34.25" width="41" height="39" fill="var(--colors-neutral-neutral-500)" stroke="var(--colors-neutral-neutral-800)" stroke-width="0.5"/>
-<rect x="150" y="0.25" width="9" height="167" fill="var(--colors-primary-primary-600)" stroke="var(--colors-neutral-neutral-800)" stroke-width="0.5"/>
-<rect x="150" y="166.25" width="9" height="2" fill="var(--colors-feedback-error-red-300)" stroke="var(--colors-neutral-neutral-800)" stroke-width="0.5"/>
-<rect x="20" y="0.25" width="9" height="167" fill="var(--colors-primary-primary-600)" stroke="var(--colors-neutral-neutral-800)" stroke-width="0.5"/>
-<rect x="20" y="166.25" width="9" height="2" fill="var(--colors-feedback-error-red-300)" stroke="var(--colors-neutral-neutral-800)" stroke-width="0.5"/>
-<path d="M179 168.25L-8.27558e-06 168.25" stroke="var(--colors-neutral-neutral-800)" stroke-width="0.5"/>
-<path d="M99 149.25L94 146.363V152.137L99 149.25ZM80 149.25L85 152.137V146.363L80 149.25ZM94.5 148.75H84.5V149.75H94.5V148.75Z" fill="var(--colors-neutral-neutral-800)"/>
-<path d="M99 54.25L94 51.3632V57.1368L99 54.25ZM80 54.25L85 57.1368V51.3632L80 54.25ZM94.5 53.75H84.5V54.75H94.5V53.75Z" fill="var(--colors-neutral-neutral-800)"/>
+<rect x="150" y="73.25" width="4.00001" height="121" transform="rotate(90 150 73.25)" fill="#99AFFF" stroke="#222222" stroke-width="0.5"/>
+<rect x="37" y="129.25" width="41" height="39" fill="#D9D9D9" stroke="#222222" stroke-width="0.5"/>
+<rect x="101" y="34.25" width="41" height="39" fill="#D9D9D9" stroke="#222222" stroke-width="0.5"/>
+<rect x="101" y="129.25" width="41" height="39" fill="#D9D9D9" stroke="#222222" stroke-width="0.5"/>
+<rect x="37" y="34.25" width="41" height="39" fill="#D9D9D9" stroke="#222222" stroke-width="0.5"/>
+<rect x="150" y="0.25" width="9" height="167" fill="#2D71BA" stroke="#222222" stroke-width="0.5"/>
+<rect x="150" y="166.25" width="9" height="2" fill="#B42318" stroke="#222222" stroke-width="0.5"/>
+<rect x="20" y="0.25" width="9" height="167" fill="#2D71BA" stroke="#222222" stroke-width="0.5"/>
+<rect x="20" y="166.25" width="9" height="2" fill="#B42318" stroke="#222222" stroke-width="0.5"/>
+<path d="M179 168.25L-8.27558e-06 168.25" stroke="#222222" stroke-width="0.5"/>
+<path d="M99 149.25L94 146.363V152.137L99 149.25ZM80 149.25L85 152.137V146.363L80 149.25ZM94.5 148.75H84.5V149.75H94.5V148.75Z" fill="#222222"/>
+<path d="M99 54.25L94 51.3632V57.1368L99 54.25ZM80 54.25L85 57.1368V51.3632L80 54.25ZM94.5 53.75H84.5V54.75H94.5V53.75Z" fill="#222222"/>
 </svg>
