@@ -1,9 +1,9 @@
 <svg width="35" height="35" viewBox="0 0 35 35" fill="none" xmlns="http://www.w3.org/2000/svg">
 <g filter="url(#filter0_d_1091_6752)">
-<path fill-rule="evenodd" clip-rule="evenodd" d="M12 24.4219V8.40689L23.591 20.0259H16.81L16.399 20.1499L12 24.4219Z" fill="var(--colors-neutral-neutral-800)"/>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M21.0845 25.0962L17.4795 26.6312L12.7975 15.5422L16.4835 13.9892L21.0845 25.0962Z" fill="var(--colors-neutral-neutral-800)"/>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M19.751 24.4155L17.907 25.1895L14.807 17.8155L16.648 17.0405L19.751 24.4155Z" fill="var(--colors-neutral-neutral-800)"/>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M13 10.814V22.002L15.969 19.136L16.397 18.997H21.165L13 10.814Z" fill="var(--colors-neutral-neutral-800)"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M12 24.4219V8.40689L23.591 20.0259H16.81L16.399 20.1499L12 24.4219Z" fill="#222222"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M21.0845 25.0962L17.4795 26.6312L12.7975 15.5422L16.4835 13.9892L21.0845 25.0962Z" fill="#222222"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M19.751 24.4155L17.907 25.1895L14.807 17.8155L16.648 17.0405L19.751 24.4155Z" fill="#222222"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M13 10.814V22.002L15.969 19.136L16.397 18.997H21.165L13 10.814Z" fill="#222222"/>
 </g>
 <defs>
 <filter id="filter0_d_1091_6752" x="8" y="6.40689" width="19.591" height="26.2243" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">

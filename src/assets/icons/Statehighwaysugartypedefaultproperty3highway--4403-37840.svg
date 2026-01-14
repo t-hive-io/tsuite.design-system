@@ -1,13 +1,13 @@
 <svg width="540" height="34" viewBox="0 0 540 34" fill="none" xmlns="http://www.w3.org/2000/svg">
-<rect width="528" height="22" transform="translate(6 6)" fill="var(--colors-areas-highway-background, #F0E0FB)"/>
-<rect width="36" height="11" transform="translate(14 11.5)" fill="var(--colors-areas-highway-vehicle, var(--colors-areas-highway-vehicle, #DACCE5))"/>
-<rect width="36" height="11" transform="translate(82 11.5)" fill="var(--colors-areas-highway-vehicle, var(--colors-areas-highway-vehicle, #DACCE5))"/>
-<rect width="36" height="11" transform="translate(150 11.5)" fill="var(--colors-areas-highway-vehicle, var(--colors-areas-highway-vehicle, #DACCE5))"/>
-<rect width="36" height="11" transform="translate(218 11.5)" fill="var(--colors-areas-highway-vehicle, var(--colors-areas-highway-vehicle, #DACCE5))"/>
-<rect width="36" height="11" transform="translate(286 11.5)" fill="var(--colors-areas-highway-vehicle, var(--colors-areas-highway-vehicle, #DACCE5))"/>
-<rect width="36" height="11" transform="translate(354 11.5)" fill="var(--colors-areas-highway-vehicle, var(--colors-areas-highway-vehicle, #DACCE5))"/>
-<rect width="36" height="11" transform="translate(422 11.5)" fill="var(--colors-areas-highway-vehicle, var(--colors-areas-highway-vehicle, #DACCE5))"/>
-<rect width="36" height="11" transform="translate(490 11.5)" fill="var(--colors-areas-highway-vehicle, var(--colors-areas-highway-vehicle, #DACCE5))"/>
-<path d="M270.088 22.6154L269.38 21.9077L273.974 17.3077L269.38 12.7077L270.088 12L275.396 17.3077L270.088 22.6154ZM276.188 22.6154L275.48 21.9077L280.074 17.3077L275.48 12.7077L276.188 12L281.496 17.3077L276.188 22.6154Z" fill="var(--colors-neutral-neutral-800)"/>
-<path d="M263.928 22.6154L258.62 17.3077L263.928 12L264.636 12.7077L260.041 17.3077L264.636 21.9077L263.928 22.6154ZM270.028 22.6154L264.72 17.3077L270.028 12L270.736 12.7077L266.141 17.3077L270.736 21.9077L270.028 22.6154Z" fill="var(--colors-neutral-neutral-800)"/>
+<rect width="528" height="22" transform="translate(6 6)" fill="#F0E0FB"/>
+<rect width="36" height="11" transform="translate(14 11.5)" fill="#DACCE5"/>
+<rect width="36" height="11" transform="translate(82 11.5)" fill="#DACCE5"/>
+<rect width="36" height="11" transform="translate(150 11.5)" fill="#DACCE5"/>
+<rect width="36" height="11" transform="translate(218 11.5)" fill="#DACCE5"/>
+<rect width="36" height="11" transform="translate(286 11.5)" fill="#DACCE5"/>
+<rect width="36" height="11" transform="translate(354 11.5)" fill="#DACCE5"/>
+<rect width="36" height="11" transform="translate(422 11.5)" fill="#DACCE5"/>
+<rect width="36" height="11" transform="translate(490 11.5)" fill="#DACCE5"/>
+<path d="M270.088 22.6154L269.38 21.9077L273.974 17.3077L269.38 12.7077L270.088 12L275.396 17.3077L270.088 22.6154ZM276.188 22.6154L275.48 21.9077L280.074 17.3077L275.48 12.7077L276.188 12L281.496 17.3077L276.188 22.6154Z" fill="#222222"/>
+<path d="M263.928 22.6154L258.62 17.3077L263.928 12L264.636 12.7077L260.041 17.3077L264.636 21.9077L263.928 22.6154ZM270.028 22.6154L264.72 17.3077L270.028 12L270.736 12.7077L266.141 17.3077L270.736 21.9077L270.028 22.6154Z" fill="#222222"/>
 </svg>

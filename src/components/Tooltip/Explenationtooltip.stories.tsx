@@ -67,20 +67,21 @@ const Explenationtooltip = (
 };
 
 const meta = {
-  title: 'Components/Tooltip/Explenation tooltip',
+  title: 'Components/Tooltip/Tooltip plain Light',
   component: Explenationtooltip,
   parameters: {
     layout: 'centered',
     docs: {
       description: {
-        component:
-          '⚠️ **Figma Description Missing** - Please add a description in Figma for this component.',
+        component: `- Use plain tooltips to describe elements or actions of icon buttons
+- Tooltip text supports maximum two lines
+- Tooltip content must be short and contextual`,
       },
     },
     figma: {
       pageId: '5194:45501',
       componentId: '1262:8263',
-      figmaComponent: 'Explenation tooltip',
+      figmaComponent: 'Tooltip plain Light',
       url: 'https://www.figma.com/design/XKxVlFf9TfWBHosOInkJXA/T-Suite-Design-System?node-id=1262-8263',
     },
   },

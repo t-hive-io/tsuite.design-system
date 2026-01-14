@@ -1,0 +1,1752 @@
+{
+  "2992:2230": {
+    "key": "a031af75f602a0dbe957e7d5c18f658620a850c4",
+    "name": "Property panel - Setup, Layout, Simulation, 3d, Visualiation, Commissioning",
+    "description": "",
+    "documentationLinks": []
+  },
+  "1085:6700": {
+    "key": "18e707c2bc393ba1352b2712a280448b1ea1e8ee",
+    "name": "Tab item",
+    "description": "",
+    "documentationLinks": []
+  },
+  "1125:9849": {
+    "key": "0be8f0cbc941db1a42574d6ce7d95ac311f5adcc",
+    "name": "Accordion: Right bar - Title",
+    "description": "",
+    "documentationLinks": []
+  },
+  "1125:9807": {
+    "key": "e7bace21d3b71076b72c4f8dc9a88541a9fc8ba2",
+    "name": "Properties - Label",
+    "description": "",
+    "documentationLinks": []
+  },
+  "3838:103108": {
+    "key": "ef8480f3fddba2566b6419d9c745bb5f6e156a2e",
+    "name": "Duplicate 2",
+    "description": "",
+    "documentationLinks": []
+  },
+  "3838:102124": {
+    "key": "130a04d4c87671e1b1ce3f6de99c503243f1bbec",
+    "name": "delete",
+    "description": "",
+    "documentationLinks": []
+  },
+  "1573:9990": {
+    "key": "d170756343cf94cd6c6b69be8739c5c9adbe669e",
+    "name": "Dividers",
+    "description": "",
+    "documentationLinks": []
+  },
+  "3838:101699": {
+    "key": "71977ef597dcc8b22365255ca98071daa90c9c2e",
+    "name": "expand_less",
+    "description": "",
+    "documentationLinks": []
+  },
+  "1256:8218": {
+    "key": "fcbc0f0bff3d51a1b3ea080ff9ba4045d55d4746",
+    "name": "Right bar - input row",
+    "description": "",
+    "documentationLinks": []
+  },
+  "1728:8340": {
+    "key": "2c921e2c5f80beeb269fc9e67ccb4402cd82798d",
+    "name": "Input – Text",
+    "description": "",
+    "documentationLinks": []
+  },
+  "5311:73039": {
+    "key": "c1a87dfd3461fbaf3fe9613047ff74e470c1a2f9",
+    "name": "Gap and margin",
+    "description": "",
+    "documentationLinks": []
+  },
+  "3838:102885": {
+    "key": "342b2c2ccdd96fba45478571cbc2124c1c9b2949",
+    "name": "Preferences custom",
+    "description": "",
+    "documentationLinks": []
+  },
+  "2995:4118": {
+    "key": "f0d477ab35a227f9bdd922b56275c3074366ebaf",
+    "name": "Area sections",
+    "description": "",
+    "documentationLinks": []
+  },
+  "3838:101987": {
+    "key": "fa7ce66d09dd659cc548d6d7c1d838fb7063b2e8",
+    "name": "arrow_drop_down",
+    "description": "",
+    "documentationLinks": []
+  },
+  "1125:8913": {
+    "key": "b49f8c361dcc39b85c112a17bf2c658227326809",
+    "name": "Atom / item",
+    "description": "",
+    "documentationLinks": []
+  },
+  "3838:102808": {
+    "key": "90637376ee02a6f4665ab568236595ea622abe10",
+    "name": "fitbit_arrow_left_customized",
+    "description": "",
+    "documentationLinks": []
+  },
+  "3838:102767": {
+    "key": "3b8f9ea161285e3a45e081023d273c26f034aaf0",
+    "name": "fitbit_arrow_right_customized",
+    "description": "",
+    "documentationLinks": []
+  },
+  "3838:101855": {
+    "key": "c9c4a1f625aa66de976eeff8f9acd96b32d27772",
+    "name": "fitbit_arrow_upward",
+    "description": "",
+    "documentationLinks": []
+  },
+  "3838:101825": {
+    "key": "a3da2b4463770d7e880e507c41658bff9061c327",
+    "name": "fitbit_arrow_downward",
+    "description": "",
+    "documentationLinks": []
+  },
+  "3838:102008": {
+    "key": "e9017c143703ac1f91b8c60b97f87dbc9f8b1ae2",
+    "name": "align_vertical_top",
+    "description": "",
+    "documentationLinks": []
+  },
+  "3838:102424": {
+    "key": "5b7379d69af495a635f2505d06793f091e804388",
+    "name": "align_vertical_center",
+    "description": "",
+    "documentationLinks": []
+  },
+  "3838:102032": {
+    "key": "29debf8623df8ce30a3ff7e6a5e7696c21b68ba2",
+    "name": "align_vertical_bottom",
+    "description": "",
+    "documentationLinks": []
+  },
+  "5330:50169": {
+    "key": "ca03ba89cd64fb5b7378b918f24ab187964aa120",
+    "name": "Area sections",
+    "description": "",
+    "documentationLinks": []
+  },
+  "3838:102220": {
+    "key": "fc0e862a337e3690978b7adff4b4ac304d685d98",
+    "name": "event_note",
+    "description": "",
+    "documentationLinks": []
+  },
+  "3003:11667": {
+    "key": "a8b003d5efe986f808094d4844392640d019f912",
+    "name": "Flow list",
+    "description": "",
+    "documentationLinks": []
+  },
+  "3838:100746": {
+    "key": "0c7daee276e7fa842e6b865f2b862c287ad8903b",
+    "name": "remove",
+    "description": "",
+    "documentationLinks": []
+  },
+  "2992:1740": {
+    "key": "f3a7706c0516b00e4c9cd751b8e1919607b9e3f6",
+    "name": "Right control",
+    "description": "",
+    "remote": true
+  },
+  "2992:1761": {
+    "key": "c1fba6836e0ba856087cb5c1c1408cc9f6d11a98",
+    "name": "input text",
+    "description": "",
+    "remote": true
+  },
+  "3838:101693": {
+    "key": "691859b6d4baf664bfd0a7e97070a8b398bc434e",
+    "name": "expand_more",
+    "description": "",
+    "documentationLinks": []
+  },
+  "1521:9120": {
+    "key": "1f095f9ac40f574fe3d6e6c48c32baa1d3fc1bd0",
+    "name": "Layers",
+    "description": "",
+    "documentationLinks": []
+  },
+  "1522:9585": {
+    "key": "ac15553bed8825ce8aea76423e4373fd17916a53",
+    "name": "Layer left icon",
+    "description": "",
+    "documentationLinks": []
+  },
+  "1522:9371": {
+    "key": "17088d9cac65177491ebed6a7f60149c339b9c52",
+    "name": "Layer states",
+    "description": "",
+    "documentationLinks": []
+  },
+  "3838:100847": {
+    "key": "7ba6529067f1d7b5bcc91662285af4a431f869cd",
+    "name": "lock_open",
+    "description": "",
+    "documentationLinks": []
+  },
+  "3838:100852": {
+    "key": "3e57ed8e4374242a404950e3f57f57f692b047f4",
+    "name": "visibility",
+    "description": "",
+    "documentationLinks": []
+  },
+  "3838:100842": {
+    "key": "98bef962ba8343ad593e90f1dc7e39cf5df6bc92",
+    "name": "lock",
+    "description": "",
+    "documentationLinks": []
+  },
+  "3838:100857": {
+    "key": "b469f61315082c0171c39b18b04599000479eaa9",
+    "name": "visibility_off",
+    "description": "",
+    "documentationLinks": []
+  },
+  "3838:102759": {
+    "key": "3a15c9a381dd37ee1f2ef5074d0f6a2c877e2aae",
+    "name": "arrow_drop_down_customized",
+    "description": "",
+    "documentationLinks": []
+  },
+  "3222:148974": {
+    "key": "e3950e3ad13959975ec744a43d69439c8dd1e7f0",
+    "name": "Layer/group section",
+    "description": "",
+    "documentationLinks": []
+  },
+  "3838:102827": {
+    "key": "3f8080a752214b38ce4d79a1f27fce5b6399b251",
+    "name": "keyboard_double_arrow_right_left",
+    "description": "",
+    "documentationLinks": []
+  },
+  "3838:102199": {
+    "key": "36094888b5c3bb8d556fcd007029206638789b1a",
+    "name": "keyboard_double_arrow_left",
+    "description": "",
+    "documentationLinks": []
+  },
+  "3838:102067": {
+    "key": "64ebd7941954a3e9d37cf0031323dde3f1eaba42",
+    "name": "keyboard_double_arrow_right",
+    "description": "",
+    "documentationLinks": []
+  },
+  "3838:100738": {
+    "key": "4c0d6fc89b08f118b3b5864129bec7531141cf3d",
+    "name": "add",
+    "description": "",
+    "documentationLinks": []
+  },
+  "5374:225": {
+    "key": "b4236e75229f1ee99245c5b5276ecc11b6ede505",
+    "name": "nearby",
+    "description": "",
+    "documentationLinks": []
+  },
+  "3838:101995": {
+    "key": "035cc3f646ad780fd52e89573fea35b405a4066f",
+    "name": "align_vertical_center",
+    "description": "",
+    "documentationLinks": []
+  },
+  "892:6619": {
+    "key": "cad214b8f7206b708ef3bb9a4cac350f02b2e099",
+    "name": "Favicon",
+    "description": "",
+    "documentationLinks": []
+  },
+  "892:6628": {
+    "key": "7ac5c9bcd7550c8b4dd09e15d9427f40e59476fa",
+    "name": "XS-logo",
+    "description": "",
+    "documentationLinks": []
+  },
+  "3174:999": {
+    "key": "416a5c36aef24f776cbe5e9617b10050263af74a",
+    "name": "Small-logo",
+    "description": "",
+    "documentationLinks": []
+  },
+  "892:6637": {
+    "key": "b37790234c2b077c5df84d5ce6061d6cec9244ea",
+    "name": "Full-logo-vector",
+    "description": "",
+    "documentationLinks": []
+  },
+  "1126:8185": {
+    "key": "632ca4f7f1302cc555e6764a8d7e8d80bd042501",
+    "name": "nav",
+    "description": "",
+    "documentationLinks": []
+  },
+  "4672:38270": {
+    "key": "8f7dd6fc74eef24e736fd6cc4664265f7dc3f886",
+    "name": "Logotype complete set",
+    "description": "",
+    "documentationLinks": []
+  },
+  "1084:6845": {
+    "key": "45cd67d4cd80fd78614fcac9ef2ef135fb81340f",
+    "name": "Right bar- Expansion panel - 1",
+    "description": "",
+    "documentationLinks": []
+  },
+  "3838:101678": {
+    "key": "0e08128bab11d2fb07d5069a5fe9007e8a1c3ceb",
+    "name": "warning",
+    "description": "",
+    "documentationLinks": []
+  },
+  "1106:6750": {
+    "key": "dad19b50162e1ecdd844cef51f955733f8c9933e",
+    "name": "Right bar - Expansion panel - 2",
+    "description": "",
+    "documentationLinks": []
+  },
+  "1570:9638": {
+    "key": "6cc5971212adc2c03324b4ce4bf2d426ed1be552",
+    "name": "Small badge",
+    "description": "",
+    "documentationLinks": []
+  },
+  "5971:7141": {
+    "key": "91796ff34bda875ad1099617f9cbd58435a848f6",
+    "name": "Accordion: SEJRM Test",
+    "description": "",
+    "documentationLinks": []
+  },
+  "1325:9049": {
+    "key": "fcd1e4354f8d9118c7285596712a92ec98130e58",
+    "name": "Information banner",
+    "description": "",
+    "documentationLinks": []
+  },
+  "3838:102140": {
+    "key": "0574ea57baa7cf9f27434359e6fafd45f4e6630f",
+    "name": "close",
+    "description": "",
+    "documentationLinks": []
+  },
+  "1081:6485": {
+    "key": "b4b8080c057d919b4efc790a96f4be13603ab73c",
+    "name": "Zoom menu",
+    "description": "",
+    "documentationLinks": []
+  },
+  "3838:100675": {
+    "key": "10f29696ab760e781543b86288be5b25469e1942",
+    "name": "zoom_out_map",
+    "description": "",
+    "documentationLinks": []
+  },
+  "3838:102080": {
+    "key": "bce2f05aa185e8fd9e8529dc556e45f914e59ac2",
+    "name": "play_arrow",
+    "description": "",
+    "documentationLinks": []
+  },
+  "1570:9691": {
+    "key": "6a5d7bbef39c0e7af4a2385a4865c9ef89824f3f",
+    "name": "3D menu",
+    "description": "",
+    "documentationLinks": []
+  },
+  "3838:102042": {
+    "key": "fd9d397e4e9e206380625abccd4efb9c318bc41c",
+    "name": "view_in_ar",
+    "description": "",
+    "documentationLinks": []
+  },
+  "3074:2863": {
+    "key": "ce90ac7dc827ccd72b265e91b2a38e033b868cc2",
+    "name": "Small button",
+    "description": "",
+    "remote": true
+  },
+  "3838:102052": {
+    "key": "3020186308bac8d6ed72c1dee01b6488df9d7652",
+    "name": "view_compact",
+    "description": "",
+    "documentationLinks": []
+  },
+  "3838:102062": {
+    "key": "3214a75aeaf925e0a8523f9917aa0f32f4ae6560",
+    "name": "crop_square",
+    "description": "",
+    "documentationLinks": []
+  },
+  "1428:9176": {
+    "key": "c345056c2eb375ee82957d9a918634fe88e5874a",
+    "name": "Buttons",
+    "description": "Primary button for user actions. Use primary for main CTAs, \nsecondary for supporting actions. Available in multiple states.",
+    "documentationLinks": []
+  },
+  "1257:8856": {
+    "key": "11fb5e6803d69efe55d176b70ed09da6ae1494ce",
+    "name": "Icon button with badge",
+    "description": "",
+    "documentationLinks": []
+  },
+  "3838:102095": {
+    "key": "6f3d97eb5893014de4752ffc96035f3d7f63233b",
+    "name": "notifications",
+    "description": "",
+    "documentationLinks": []
+  },
+  "1843:8669": {
+    "key": "12be3ef0f8bc17af91a6fbec62e1d93e2ff9f8d5",
+    "name": "Area",
+    "description": "",
+    "documentationLinks": []
+  },
+  "2133:10571": {
+    "key": "ae6d962300c00b6717f32330dd521bbf4c9afc42",
+    "name": "Component / Area_type",
+    "description": "",
+    "remote": false
+  },
+  "2924:862": {
+    "key": "8b7a2d3717e37b452e87ddf0f0183da1a90b6487",
+    "name": "Commissioning areas",
+    "description": "",
+    "documentationLinks": []
+  },
+  "2921:846": {
+    "key": "3ed7f9e80a4929397be23db7bd907476a48c227c",
+    "name": "Obstacle",
+    "description": "",
+    "documentationLinks": []
+  },
+  "2921:1631": {
+    "key": "f9b70110317c9b8ecbc540b6884c02b2ce7ea03b",
+    "name": "Road",
+    "description": "",
+    "documentationLinks": []
+  },
+  "2921:1675": {
+    "key": "069067411b7ab90ac323bb72f14edc1d9def4322",
+    "name": "Wall",
+    "description": "",
+    "documentationLinks": []
+  },
+  "1844:9564": {
+    "key": "f1b7ed8777d414b6e033fa2d928432e1fa4cdef3",
+    "name": "Layout object",
+    "description": "",
+    "documentationLinks": []
+  },
+  "1841:8472": {
+    "key": "3d24f1dcf0abea7619a27f097535585cb59b6f6c",
+    "name": "Layout Tag",
+    "description": "",
+    "documentationLinks": []
+  },
+  "2949:1508": {
+    "key": "d1cbb1336eb96b13bbd835ac3f6230467fe25f33",
+    "name": "Commissioning roads",
+    "description": "",
+    "documentationLinks": []
+  },
+  "3054:9778": {
+    "key": "5f24db8a3ef022c3c72ee5a1401d16c477bf25a7",
+    "name": "Reflectors",
+    "description": "",
+    "documentationLinks": []
+  },
+  "1810:8563": {
+    "key": "ab6369b60212f82c665cb7b82167aa02170a2616",
+    "name": "Flow handle",
+    "description": "",
+    "documentationLinks": []
+  },
+  "3067:7822": {
+    "key": "ca0c3a723a498dea388c015e9db54df6d81012c5",
+    "name": "Connections",
+    "description": "",
+    "documentationLinks": []
+  },
+  "3093:2814": {
+    "key": "1cc9a0a1449517a3f2c98f134f421d9b180981e5",
+    "name": "Flow arrow",
+    "description": "",
+    "documentationLinks": []
+  },
+  "3093:2880": {
+    "key": "319583b763261196b20824b175a2295701ffd93c",
+    "name": "Flow color modal",
+    "description": "",
+    "documentationLinks": []
+  },
+  "3169:1789": {
+    "key": "425cd601a8f8c84f5d73b35d3d33199b7855b646",
+    "name": "Ruler",
+    "description": "",
+    "documentationLinks": []
+  },
+  "3170:1261": {
+    "key": "d295670fe141a7989fed68017d4708caf18b3ad2",
+    "name": "Large Screenshot",
+    "description": "",
+    "documentationLinks": []
+  },
+  "3223:151232": {
+    "key": "8076765f035ff0b6c65afe8b33b4a05b21412bb5",
+    "name": "Selection point position",
+    "description": "",
+    "documentationLinks": []
+  },
+  "2419:632": {
+    "key": "6b3ccd54bf360c87ad8ff0d79d0bf6875b47adeb",
+    "name": "Scale",
+    "description": "",
+    "documentationLinks": []
+  },
+  "1289:8365": {
+    "key": "2a8822fa0731bcabbb62c63cf40ad6712390e68f",
+    "name": "Simulation card",
+    "description": "",
+    "documentationLinks": []
+  },
+  "1289:8306": {
+    "key": "77e1706307089a9bac042cada43d28a3d9b49909",
+    "name": "Card Tag",
+    "description": "",
+    "documentationLinks": []
+  },
+  "1554:9408": {
+    "key": "f21af955b4204a10d87852782b29f7b70970269f",
+    "name": "Loading Spinner 3",
+    "description": "",
+    "documentationLinks": []
+  },
+  "3797:54257": {
+    "key": "00c64623f94cb40a0170761453b8cd3bd6c7dd74",
+    "name": "cancel",
+    "description": "",
+    "documentationLinks": []
+  },
+  "3838:102251": {
+    "key": "0531e2917fc0f5a484ca006b27f1aacdf90fd9cd",
+    "name": "more_horiz",
+    "description": "",
+    "documentationLinks": []
+  },
+  "2453:1719": {
+    "key": "3da82e296fbccd17ed4dbb50c648d3f78faa157f",
+    "name": "Card load carrier types",
+    "description": "",
+    "documentationLinks": []
+  },
+  "2453:1535": {
+    "key": "d7bc96d7a8ed3311106504bd8ffe178fa246e426",
+    "name": "Load carrier types large",
+    "description": "",
+    "documentationLinks": []
+  },
+  "1754:8350": {
+    "key": "3b5ceb6b91ce335487c58d050fdf6e2dbd374b87",
+    "name": "Checkbox",
+    "description": "",
+    "documentationLinks": []
+  },
+  "3838:102318": {
+    "key": "25c13fdbee6a7833b87144a38b00db5aac3f9910",
+    "name": "check_box_FILL_w",
+    "description": "",
+    "documentationLinks": []
+  },
+  "3838:102291": {
+    "key": "084e165d80e97fb9b984928ee87bdccba3066d7c",
+    "name": "check_box_outline",
+    "description": "",
+    "documentationLinks": []
+  },
+  "2453:1751": {
+    "key": "1690050dbba33488e91905aab9c76467bd7194e3",
+    "name": "Card vehicle models",
+    "description": "",
+    "documentationLinks": []
+  },
+  "2453:1750": {
+    "key": "dd7ff349de4aa86c0cd4f78ea8bb5ce1945ebcc6",
+    "name": "Vehicle models large",
+    "description": "",
+    "documentationLinks": []
+  },
+  "4875:38336": {
+    "key": "50063bff00e1335fae65a2ed41087d1c12594808",
+    "name": "Notification: Information",
+    "description": "",
+    "documentationLinks": []
+  },
+  "3838:101720": {
+    "key": "7786ee3e634ce9b77e428cf45529db3f0ab975f7",
+    "name": "info",
+    "description": "",
+    "documentationLinks": []
+  },
+  "4875:38397": {
+    "key": "0a20d68d8662ab2e207469a46a5c788f511ee9f6",
+    "name": "Notification: Success",
+    "description": "",
+    "documentationLinks": []
+  },
+  "3797:54251": {
+    "key": "1ac38b9f7dd2e7c864d9afdcece57a866e603c64",
+    "name": "check_circle",
+    "description": "",
+    "documentationLinks": []
+  },
+  "4875:38458": {
+    "key": "a16ee2ccd755a88b32820e0d8111a079cc6bf51d",
+    "name": "Notification: Warning",
+    "description": "",
+    "documentationLinks": []
+  },
+  "4971:38657": {
+    "key": "aa7fe03021a5756632c51ebb788ae33c480180f5",
+    "name": "location_on",
+    "description": "",
+    "documentationLinks": []
+  },
+  "4875:38531": {
+    "key": "5282cff3894891791edcf6080f6cebcfcd582823",
+    "name": "Notification: Error",
+    "description": "",
+    "documentationLinks": []
+  },
+  "3838:101796": {
+    "key": "07a15e6007602e7e389a07c08ad6c6c946a987db",
+    "name": "error",
+    "description": "",
+    "documentationLinks": []
+  },
+  "4875:38604": {
+    "key": "d25f4f02179ccaff3150084f59a3db28a774884e",
+    "name": "Notification: Fatal",
+    "description": "",
+    "documentationLinks": []
+  },
+  "4259:36181": {
+    "key": "d3e3af2619b91d407357d4893ce769896ffd47bd",
+    "name": "do_not_disturb_on",
+    "description": "",
+    "documentationLinks": []
+  },
+  "3838:102135": {
+    "key": "e6b5b162837e118a882a0ce36b8286972b7c41e4",
+    "name": "download",
+    "description": "",
+    "documentationLinks": []
+  },
+  "3838:102308": {
+    "key": "224600c711f9471e9407cc4cf0486978e15e03e0",
+    "name": "indeterminate_check_box",
+    "description": "",
+    "documentationLinks": []
+  },
+  "3929:109628": {
+    "key": "169925c64d728a77845419ac18547fbb289035b5",
+    "name": "Radio button",
+    "description": "",
+    "documentationLinks": []
+  },
+  "2451:5": {
+    "key": "efb91bffb0966b519ae53a99ec2940391e1287cf",
+    "name": "Input chips",
+    "description": "",
+    "documentationLinks": []
+  },
+  "1759:8338": {
+    "key": "bf2d1a920f7379b8741c12c0617b8cbe9df14fa5",
+    "name": "Table rows",
+    "description": "",
+    "documentationLinks": []
+  },
+  "1759:8359": {
+    "key": "53242bcf728764f3afb2bc87a5749fb67daf7c71",
+    "name": "Table header",
+    "description": "",
+    "documentationLinks": []
+  },
+  "3838:102194": {
+    "key": "8ee46aadec98cb74d699a8bae852d16bb2b2a861",
+    "name": "arrow_drop_up",
+    "description": "",
+    "documentationLinks": []
+  },
+  "3158:10418": {
+    "key": "39bf5c26cfc1f5f4f1af057e1645941aa6823833",
+    "name": "Table header",
+    "description": "",
+    "documentationLinks": []
+  },
+  "3158:11328": {
+    "key": "b3b9a850ebd1d22a0966a704e2455eaea83617c3",
+    "name": "List section",
+    "description": "",
+    "documentationLinks": []
+  },
+  "1535:9374": {
+    "key": "c1fba6836e0ba856087cb5c1c1408cc9f6d11a98",
+    "name": "input text",
+    "description": "",
+    "documentationLinks": []
+  },
+  "3095:9273": {
+    "key": "372b7b579007292ab6c5b13a9bc007669ff24613",
+    "name": "Order profile modal",
+    "description": "",
+    "documentationLinks": []
+  },
+  "3179:960": {
+    "key": "7523cf065d811815175a6e9db838782b4b0e132c",
+    "name": "Help dialog",
+    "description": "",
+    "documentationLinks": []
+  },
+  "1524:9911": {
+    "key": "75319fa150920aa441bdf60f91a0cce32d2a2d41",
+    "name": "Simulation dialog",
+    "description": "",
+    "documentationLinks": []
+  },
+  "4607:42679": {
+    "key": "f1b99ec3d15c976be11fa1212d77f4a6a4834a3a",
+    "name": "Rack",
+    "description": "",
+    "documentationLinks": []
+  },
+  "1504:9174": {
+    "key": "10daea65f8d87c5987bf0d2b54edb4ed2c35a725",
+    "name": "Width dialog with action",
+    "description": "",
+    "documentationLinks": []
+  },
+  "3797:54262": {
+    "key": "a29ab13bdc1a324422f4f0dd750e928038a8d3e0",
+    "name": "bolt",
+    "description": "",
+    "documentationLinks": []
+  },
+  "3797:54268": {
+    "key": "d3349bdd544f8e7574ba08e587d39b88e8c5fb56",
+    "name": "local_parking",
+    "description": "",
+    "documentationLinks": []
+  },
+  "3838:100635": {
+    "key": "f68c2d3aa03f9d1529f127db2fae833cc742d771",
+    "name": "garage_home",
+    "description": "",
+    "documentationLinks": []
+  },
+  "3838:100640": {
+    "key": "a0a2dc6d0993904cc4c988464ce134084e0a8abe",
+    "name": "shelves",
+    "description": "",
+    "documentationLinks": []
+  },
+  "3838:100645": {
+    "key": "bc3a23124b706ec4ac06583a690f28a0f2c35a31",
+    "name": "ev_charger",
+    "description": "",
+    "documentationLinks": []
+  },
+  "3838:100650": {
+    "key": "7084fd3524eac22cca4e16ebeeacda11f742e020",
+    "name": "local_shipping",
+    "description": "",
+    "documentationLinks": []
+  },
+  "3838:100655": {
+    "key": "9f7d57417623ab3b3f63e6aa33eadf396b9c1c0c",
+    "name": "back_hand",
+    "description": "",
+    "documentationLinks": []
+  },
+  "3838:100660": {
+    "key": "5f4cc49fc45d26dc7bc10c372c90042bc4e6124b",
+    "name": "swipe_right_alt",
+    "description": "",
+    "documentationLinks": []
+  },
+  "3838:100665": {
+    "key": "004470e5bd020429845961c6864bc98f5b593b78",
+    "name": "reply",
+    "description": "",
+    "documentationLinks": []
+  },
+  "3838:100670": {
+    "key": "aedb9feeaf7aed10c7cdc5abafc82c0147459706",
+    "name": "forward",
+    "description": "",
+    "documentationLinks": []
+  },
+  "3838:101673": {
+    "key": "0ec86cd69b82b16777fa0ef16d5fdb5faf12ffd4",
+    "name": "conveyor_belt",
+    "description": "",
+    "documentationLinks": []
+  },
+  "3838:101714": {
+    "key": "ed01095de99fb53b00fc689a653a85c72ec5c6a3",
+    "name": "task_alt",
+    "description": "",
+    "documentationLinks": []
+  },
+  "3838:102037": {
+    "key": "25b326453bc02dda38d1e2bed722d1031715be77",
+    "name": "horizontal_distribute 1",
+    "description": "",
+    "documentationLinks": []
+  },
+  "3838:102047": {
+    "key": "f17a1a039fa0eb85561c192881c2d1dde2ef0e3c",
+    "name": "3d_rotation",
+    "description": "",
+    "documentationLinks": []
+  },
+  "3838:102057": {
+    "key": "e6c999bc6fe431f4c2ab7abc9c8a9978f286e750",
+    "name": "view_module",
+    "description": "",
+    "documentationLinks": []
+  },
+  "3838:102075": {
+    "key": "57c54cc9e8596d55d8baf2cc1f9dab024152456b",
+    "name": "361",
+    "description": "",
+    "documentationLinks": []
+  },
+  "3838:102085": {
+    "key": "a17a69574697b9b7771e837c5fb0827c3afbd1dd",
+    "name": "pause",
+    "description": "",
+    "documentationLinks": []
+  },
+  "3838:102090": {
+    "key": "3428f366f46a5069855843d9f68a9c62897cece7",
+    "name": "keyboard_return",
+    "description": "",
+    "documentationLinks": []
+  },
+  "3838:102119": {
+    "key": "de6fac52d23c19e3ad08e8e312807f5215d5af75",
+    "name": "image",
+    "description": "",
+    "documentationLinks": []
+  },
+  "3838:102147": {
+    "key": "c2ceab5a92e1f93d46a6bda92ee4532b7ff42458",
+    "name": "check",
+    "description": "",
+    "documentationLinks": []
+  },
+  "3838:102152": {
+    "key": "15bc03aadc2df6b46cb4c7c72c4086adc84900f2",
+    "name": "file_copy",
+    "description": "",
+    "documentationLinks": []
+  },
+  "3838:102159": {
+    "key": "9e844c0309d1310b236309ebbcf09453bbf8376d",
+    "name": "search",
+    "description": "",
+    "documentationLinks": []
+  },
+  "3838:102174": {
+    "key": "0780ee24298ef637351f88a11e2726863e86267c",
+    "name": "zoom_in",
+    "description": "",
+    "documentationLinks": []
+  },
+  "3838:102179": {
+    "key": "72d52f0635702e7b63f7c1c1f1e62d78abfb71cd",
+    "name": "zoom_out",
+    "description": "",
+    "documentationLinks": []
+  },
+  "3838:102184": {
+    "key": "8f23fca1554f5b54ce21c84cb1d3f94f563255ab",
+    "name": "pan_tool_alt",
+    "description": "",
+    "documentationLinks": []
+  },
+  "3838:102189": {
+    "key": "8aeae5d183d8ec95bc57e4652e3ac8b8528d589e",
+    "name": "open_in_full",
+    "description": "",
+    "documentationLinks": []
+  },
+  "3838:102210": {
+    "key": "a859d77f9c50250e90daff88c96273a069d6900d",
+    "name": "keyboard_double_arrow_down",
+    "description": "",
+    "documentationLinks": []
+  },
+  "3838:102215": {
+    "key": "19fe5ff962ea9185fd65af8097bc23f6b1164790",
+    "name": "notes",
+    "description": "",
+    "documentationLinks": []
+  },
+  "3838:102226": {
+    "key": "839e01ecf342b95c20fbc94cad90310cdd4d4ec8",
+    "name": "calendar_add_on",
+    "description": "",
+    "documentationLinks": []
+  },
+  "3838:102231": {
+    "key": "7b112fb223fb62b2abf4738e70175e6211d11c47",
+    "name": "keyboard_double_arrow_up",
+    "description": "",
+    "documentationLinks": []
+  },
+  "3838:102236": {
+    "key": "6bdb40da96a6b94fb794fb5a652e66300d4e399d",
+    "name": "vertical_distribute",
+    "description": "",
+    "documentationLinks": []
+  },
+  "3838:102241": {
+    "key": "fa1bc9f43df333b8e123dd2144eb5d130c3f285f",
+    "name": "block",
+    "description": "",
+    "documentationLinks": []
+  },
+  "3838:102246": {
+    "key": "0e6815b93bcf98d9a998d6b1c8d7b28642c1c4e1",
+    "name": "search_off",
+    "description": "",
+    "documentationLinks": []
+  },
+  "3838:102256": {
+    "key": "1d09d7f99b2685420a0e952505b078480c85a259",
+    "name": "more_vert",
+    "description": "",
+    "documentationLinks": []
+  },
+  "3838:102261": {
+    "key": "449806538cb6a35054a4a6401ee8b21a16a7cf2b",
+    "name": "edit",
+    "description": "",
+    "documentationLinks": []
+  },
+  "3838:102266": {
+    "key": "630a09157dd4dd19e672c6c21ad9c5a1d8208403",
+    "name": "grid_view",
+    "description": "",
+    "documentationLinks": []
+  },
+  "3838:102271": {
+    "key": "9dc5b269eb499e58005bc0331199e208a02e5283",
+    "name": "view_list",
+    "description": "",
+    "documentationLinks": []
+  },
+  "3838:102276": {
+    "key": "55ee266f0255f22173f83d93f8b304781a6deba9",
+    "name": "list",
+    "description": "",
+    "documentationLinks": []
+  },
+  "3838:102281": {
+    "key": "017fd0a7c5e18e4664abbd771b243aea65f94bb6",
+    "name": "chevron_right",
+    "description": "",
+    "documentationLinks": []
+  },
+  "3838:102286": {
+    "key": "b3b2c371dfcb4476f9323db82442810886c1d1b1",
+    "name": "chevron_left",
+    "description": "",
+    "documentationLinks": []
+  },
+  "3838:102313": {
+    "key": "a4624ac9a63bccf294bcf636ff3d113e46410730",
+    "name": "person_add",
+    "description": "",
+    "documentationLinks": []
+  },
+  "3838:102331": {
+    "key": "bac0f48bde76b2c4365b7696f558694614c8aaf6",
+    "name": "rotate_right",
+    "description": "",
+    "documentationLinks": []
+  },
+  "3838:102336": {
+    "key": "17ec1546b2ddc03cba2910b268547cc6840458b9",
+    "name": "package_2",
+    "description": "",
+    "documentationLinks": []
+  },
+  "3838:102341": {
+    "key": "cb7e7c78363b7d9ed02f5e34dd94f09a525d9bc8",
+    "name": "insights",
+    "description": "",
+    "documentationLinks": []
+  },
+  "3838:102346": {
+    "key": "4dc4a1c2a78a0b57c0559c3fcce3878de7197c64",
+    "name": "attach_file",
+    "description": "",
+    "documentationLinks": []
+  },
+  "3838:102351": {
+    "key": "4fb3058c8bd2aa1769e17d7af4a89ddd1dd45565",
+    "name": "upload_file",
+    "description": "",
+    "documentationLinks": []
+  },
+  "3838:102356": {
+    "key": "43f26044b72a758f845e81486afa3447483184f3",
+    "name": "straighten",
+    "description": "",
+    "documentationLinks": []
+  },
+  "3838:102374": {
+    "key": "029fac98e2e898fd71a4f195b34745f79b3dfa23",
+    "name": "link",
+    "description": "",
+    "documentationLinks": []
+  },
+  "3838:102379": {
+    "key": "5f8d7e046aeacccd85a4e1a1938415c9188e20eb",
+    "name": "sync",
+    "description": "",
+    "documentationLinks": []
+  },
+  "3838:102384": {
+    "key": "bc49ed920d6665c96ecff36dfa047f4830590ade",
+    "name": "filter_alt",
+    "description": "",
+    "documentationLinks": []
+  },
+  "3838:102389": {
+    "key": "2d608837230365853c84d230bc9f8f98bf80e491",
+    "name": "dashboard",
+    "description": "",
+    "documentationLinks": []
+  },
+  "3838:102394": {
+    "key": "3f415f6427babcd16d1d7faa16171e017487fc10",
+    "name": "balance",
+    "description": "",
+    "documentationLinks": []
+  },
+  "3838:102399": {
+    "key": "b7de50a3dfb3d5453389553a9afe9ba9e9514a20",
+    "name": "signpost",
+    "description": "",
+    "documentationLinks": []
+  },
+  "3838:102404": {
+    "key": "60375ecd2dc15cdf88b7c96cc083543e2c16b95d",
+    "name": "align_horizontal_left",
+    "description": "",
+    "documentationLinks": []
+  },
+  "3838:102409": {
+    "key": "87b0242ad2c23935a5c568f6d0ed7e888aac3ff8",
+    "name": "align_horizontal_center",
+    "description": "",
+    "documentationLinks": []
+  },
+  "3838:102414": {
+    "key": "7349524f4215972515168a138335da006a3b5d03",
+    "name": "align_horizontal_right",
+    "description": "",
+    "documentationLinks": []
+  },
+  "3838:102419": {
+    "key": "ef7141cba61d5cb098ab82e944eac5a116c7efc7",
+    "name": "align_vertical_top",
+    "description": "",
+    "documentationLinks": []
+  },
+  "3838:102433": {
+    "key": "62f50309f1b80b416ea26a088d1aa025dec04624",
+    "name": "align_vertical_bottom",
+    "description": "",
+    "documentationLinks": []
+  },
+  "3838:102438": {
+    "key": "5f011b49fce6fb27bdebf0ac2d9f14578704b412",
+    "name": "folder_open",
+    "description": "",
+    "documentationLinks": []
+  },
+  "3838:102443": {
+    "key": "2a2a8d591d601fba0a51a2a39368befdf093f266",
+    "name": "forklift_",
+    "description": "",
+    "documentationLinks": []
+  },
+  "3838:102448": {
+    "key": "1b66731c3127c51b4943e0f3f090acf213d952b7",
+    "name": "autorenew",
+    "description": "",
+    "documentationLinks": []
+  },
+  "3838:102453": {
+    "key": "35c8673418263494d8662519830741028a039185",
+    "name": "deployed",
+    "description": "",
+    "documentationLinks": []
+  },
+  "3838:102458": {
+    "key": "03351bed2e26fa4255b54cfaaf4834cfd59d3ed8",
+    "name": "ads_click",
+    "description": "",
+    "documentationLinks": []
+  },
+  "3838:102463": {
+    "key": "f217935a154664ef2bf70ea2c48a1422e400715a",
+    "name": "circle",
+    "description": "",
+    "documentationLinks": []
+  },
+  "3838:102468": {
+    "key": "cda1f3df939ecf3c01a7952e3190060e00ac5c0c",
+    "name": "filter_alt_off",
+    "description": "",
+    "documentationLinks": []
+  },
+  "3838:102473": {
+    "key": "0642de3d941be195a5acb506528f7d21dfdd628c",
+    "name": "settings",
+    "description": "",
+    "documentationLinks": []
+  },
+  "3838:102478": {
+    "key": "44cce8dbc53377f682a072498b861025a21b64eb",
+    "name": "smart_toy",
+    "description": "",
+    "documentationLinks": []
+  },
+  "3838:102483": {
+    "key": "5601c346384ad9fa44b20b6ac3788816492336ab",
+    "name": "event_available",
+    "description": "",
+    "documentationLinks": []
+  },
+  "3838:102488": {
+    "key": "8b0bb46fd6d128265bea57c8c58cbd5760f28fbf",
+    "name": "check_small",
+    "description": "",
+    "documentationLinks": []
+  },
+  "3838:102493": {
+    "key": "ad03028c9d719269d3edf28feaa4feb4ec06ab54",
+    "name": "linear_scale",
+    "description": "",
+    "documentationLinks": []
+  },
+  "3838:102498": {
+    "key": "80f0607f8cca080344501989efbed33eefd22faa",
+    "name": "crop",
+    "description": "",
+    "documentationLinks": []
+  },
+  "3838:102503": {
+    "key": "d8c5b53175d9ae204872ed30c14b71e18632cbcb",
+    "name": "open_in_new",
+    "description": "",
+    "documentationLinks": []
+  },
+  "3838:102727": {
+    "key": "3430c1a5d9710d17d144c53faadebc17f2faba28",
+    "name": "near_me_customized",
+    "description": "",
+    "documentationLinks": []
+  },
+  "3838:102745": {
+    "key": "e0d9b2ff5488ffd5191ec813a5a18209d317c661",
+    "name": "highway_customized",
+    "description": "",
+    "documentationLinks": []
+  },
+  "3838:102851": {
+    "key": "44cb9a4726a12a50504ac355727f02c71867bded",
+    "name": "heat_pump",
+    "description": "",
+    "documentationLinks": []
+  },
+  "3838:102871": {
+    "key": "a6d190e687353ed604a5dd69eb82b45713224684",
+    "name": "Load handling",
+    "description": "",
+    "documentationLinks": []
+  },
+  "3838:103038": {
+    "key": "d5c8a9113c4cb4bfb231cf2ca539dad37bff414c",
+    "name": "Mini icons",
+    "description": "",
+    "documentationLinks": []
+  },
+  "3838:103049": {
+    "key": "79298c7d1c6c7a106a042de944f55ebf62d24c6d",
+    "name": "wall_customized",
+    "description": "",
+    "documentationLinks": []
+  },
+  "3838:103079": {
+    "key": "e15e4d2a486feacb1689dfb2d90ef9539a48742c",
+    "name": "obstacle_customized",
+    "description": "",
+    "documentationLinks": []
+  },
+  "3838:103086": {
+    "key": "d335620f2ba75ec46a68845f21e3e417ec573a24",
+    "name": "Duplicate",
+    "description": "",
+    "documentationLinks": []
+  },
+  "3838:103152": {
+    "key": "804f942080deacb18263e3e1c0e59df5b5881827",
+    "name": "3D icon",
+    "description": "",
+    "documentationLinks": []
+  },
+  "3838:103159": {
+    "key": "8d8450ad88ba79d099a84e33c92dfa4ed365188a",
+    "name": "Fishbone",
+    "description": "",
+    "documentationLinks": []
+  },
+  "3838:103172": {
+    "key": "f3aac539d8b816482074e1cdf271ceb14a85c27e",
+    "name": "Vertical",
+    "description": "",
+    "documentationLinks": []
+  },
+  "3838:103185": {
+    "key": "78ca1612d451c2458981234a8de07cba2eb3bb6d",
+    "name": "test more icon",
+    "description": "",
+    "documentationLinks": []
+  },
+  "3838:103204": {
+    "key": "47fec5dac6bb82f47e00b72e9df028e888c3d317",
+    "name": "Rotate2",
+    "description": "",
+    "documentationLinks": []
+  },
+  "3948:34900": {
+    "key": "d60bafadbb371f8cbbce6f612e514c8e2dd198a7",
+    "name": "quick_reorder",
+    "description": "",
+    "documentationLinks": []
+  },
+  "4102:34250": {
+    "key": "bb90632d54340ebd4d1e0191ebb5aaab5ae6fc93",
+    "name": "bookmark",
+    "description": "",
+    "documentationLinks": []
+  },
+  "4181:36469": {
+    "key": "5a75a9c7cf134a7180ee55ee3858f25d8200cc6c",
+    "name": "center_focus_weak",
+    "description": "",
+    "documentationLinks": []
+  },
+  "4181:36476": {
+    "key": "7b25808ae3986ee1bd00ceaed4672c1f4692d697",
+    "name": "pause_circle",
+    "description": "",
+    "documentationLinks": []
+  },
+  "4225:36180": {
+    "key": "b114538dc9052ba5139876fcdc16672e927538fa",
+    "name": "help_center",
+    "description": "",
+    "documentationLinks": []
+  },
+  "4225:36190": {
+    "key": "a5b99e7c7c8770924cf636f881d8d0d3002df4a9",
+    "name": "wifi",
+    "description": "",
+    "documentationLinks": []
+  },
+  "4225:36200": {
+    "key": "63ab4c7e4104d9e4625ab1a788b0d99d8283dca6",
+    "name": "family_history",
+    "description": "",
+    "documentationLinks": []
+  },
+  "4225:36210": {
+    "key": "0034d6dd5a35226d3d3ace5f47f50c241500d679",
+    "name": "logout",
+    "description": "",
+    "documentationLinks": []
+  },
+  "4228:36170": {
+    "key": "7c24540deb89d03a7cb664d47638449ef44fc7a8",
+    "name": "construction",
+    "description": "",
+    "documentationLinks": []
+  },
+  "4228:36186": {
+    "key": "f02342f814def76516de753fb83a9ddb39cc3efd",
+    "name": "help",
+    "description": "",
+    "documentationLinks": []
+  },
+  "4228:36196": {
+    "key": "e8742ebc50d5d8778a3bcddbcbcc61aeb1517d29",
+    "name": "translate",
+    "description": "",
+    "documentationLinks": []
+  },
+  "4247:36170": {
+    "key": "e0414817442e07f02f094d163f8b5cb9e7204bd1",
+    "name": "contrast",
+    "description": "",
+    "documentationLinks": []
+  },
+  "4327:36190": {
+    "key": "317e0df614c6be09c57f10c0576250049ef65f8b",
+    "name": "import_contacts",
+    "description": "",
+    "documentationLinks": []
+  },
+  "4334:39009": {
+    "key": "49475781fd87e9f9ead823d85864c063316d7892",
+    "name": "crossword",
+    "description": "",
+    "documentationLinks": []
+  },
+  "4342:39201": {
+    "key": "8489750349b71211ae09c66d78a1a05577fe2364",
+    "name": "team_dashboard 1",
+    "description": "",
+    "documentationLinks": []
+  },
+  "4802:37868": {
+    "key": "bdd45d544d90e59b2c33b8e63366d856c63f3cb0",
+    "name": "stacked_line_chart",
+    "description": "",
+    "documentationLinks": []
+  },
+  "4822:37875": {
+    "key": "72ad0393a60ab9f225a4f6dbc2c041a3dad9c445",
+    "name": "Manual operation",
+    "description": "",
+    "documentationLinks": []
+  },
+  "5386:27102": {
+    "key": "e7bceca7f9d45a8e71785b4fc9c433be2d987c7d",
+    "name": "heat",
+    "description": "",
+    "documentationLinks": []
+  },
+  "5386:27094": {
+    "key": "e47f7b930735dd52c82b24f8cedd737c75dbd83a",
+    "name": "Pivot",
+    "description": "",
+    "documentationLinks": []
+  },
+  "1728:8539": {
+    "key": "1c7d07e32ad7d150b7c1260525a74ea86568cbf2",
+    "name": "Input – Search",
+    "description": "",
+    "documentationLinks": []
+  },
+  "5246:38437": {
+    "key": "a9475e1aaf674ec1108cfc3994693c12b6e555fe",
+    "name": "Shuttle",
+    "description": "",
+    "documentationLinks": []
+  },
+  "3142:9601": {
+    "key": "d0c6a17180c3b0771dc42ae726da9c263fa30009",
+    "name": "Floorplan card",
+    "description": "",
+    "documentationLinks": []
+  },
+  "3142:9636": {
+    "key": "23b9686617ec9fe07b788de5aa4f90740ea4e4d3",
+    "name": "Title and search",
+    "description": "",
+    "documentationLinks": []
+  },
+  "3140:9436": {
+    "key": "637602b29356588b85248388a6b4c7cf94035993",
+    "name": "Zoom bar",
+    "description": "",
+    "remote": true
+  },
+  "3143:334": {
+    "key": "b2d7c7081873993da35326201756cfbd3fab1b85",
+    "name": "Filter and sort",
+    "description": "",
+    "documentationLinks": []
+  },
+  "3144:486": {
+    "key": "b0cc2145b0c03bdeb750f32ee265aff69112b6c1",
+    "name": "Large Floorplan card section",
+    "description": "",
+    "documentationLinks": []
+  },
+  "3168:10778": {
+    "key": "a74f8016e73db4185a73155818076b8f6dba9d4c",
+    "name": "Keyboard shortcuts section",
+    "description": "",
+    "documentationLinks": []
+  },
+  "3180:1491": {
+    "key": "f3632f88d1c6309d5ae684b476ac423158ea0e50",
+    "name": "Select vehicles/load carrier",
+    "description": "",
+    "documentationLinks": []
+  },
+  "1523:9626": {
+    "key": "d2466b3322bb78b7538c9ae084cb9e41d07eed39",
+    "name": "Dropdown menu item",
+    "description": "",
+    "documentationLinks": []
+  },
+  "2041:7988": {
+    "key": "08720fea301d5c8d9cf6df645e0940504bcd4f33",
+    "name": "Medium - Dropdown menu",
+    "description": "",
+    "documentationLinks": []
+  },
+  "3130:9224": {
+    "key": "6f76fcc955556b38986ece0f5704179a83b1b526",
+    "name": "Large - Dropdown menu",
+    "description": "",
+    "documentationLinks": []
+  },
+  "1554:9439": {
+    "key": "0baa05c4b43c359809c74aba854c942bb9510276",
+    "name": "Loading Bar",
+    "description": "",
+    "documentationLinks": []
+  },
+  "5246:36965": {
+    "key": "27a81599fd417ce2472c6e6cf1ff236672a8977a",
+    "name": "Slider",
+    "description": "",
+    "documentationLinks": []
+  },
+  "1894:8776": {
+    "key": "6d68159702d48b2947494a5726c41ee5aa25ea57",
+    "name": "Switch",
+    "description": "Use switches (not radio buttons) if the items in a list can be independently controlled\nSwitches are the best way to let people adjust settings\nMake sure the switch’s selection (on or off) is visible at a glance\n# Heja\n**asdas**\n~~asasa~~",
+    "documentationLinks": [
+      {
+        "uri": "https://URL"
+      }
+    ]
+  },
+  "1081:6534": {
+    "key": "080018bcee43ffe347b5d8554f992f52ad5cf351",
+    "name": "Tool rail sub",
+    "description": "",
+    "documentationLinks": []
+  },
+  "1081:6457": {
+    "key": "7df7dc94b5d8892f83fafb5424f3af3ec32d2a4f",
+    "name": "Tool rail / sub items",
+    "description": "",
+    "documentationLinks": []
+  },
+  "1081:6441": {
+    "key": "4564dd34d887c3f6cb3b45eef071a96546b99464",
+    "name": "Tool rail / main items",
+    "description": "",
+    "documentationLinks": []
+  },
+  "5338:19519": {
+    "key": "212642083206147eba8424b66eb9e73614277f11",
+    "name": "Tool rail expand menu",
+    "description": "",
+    "documentationLinks": []
+  },
+  "1262:8263": {
+    "key": "74dcf7a2134219564ef48f8deb5f28949e792851",
+    "name": "Explenation tooltip",
+    "description": "",
+    "documentationLinks": []
+  },
+  "1364:9832": {
+    "key": "d6b8da3b3ff8764597aa08eac6c782fbbf8a4910",
+    "name": "Top bars",
+    "description": "",
+    "documentationLinks": []
+  },
+  "2992:2811": {
+    "key": "b63c86839081e31f3ce3030d3a74d7c27c5e94ad",
+    "name": "Reference image",
+    "description": "",
+    "documentationLinks": []
+  },
+  "2992:2842": {
+    "key": "5901f4d27e0f30fd779935b58432b17568291173",
+    "name": "Scale section",
+    "description": "",
+    "documentationLinks": []
+  },
+  "2992:2858": {
+    "key": "b2232731cefae6f19c409e4c2e2c21a84e6bfbc3",
+    "name": "Vehicle and load carrier types",
+    "description": "",
+    "documentationLinks": []
+  },
+  "3003:12698": {
+    "key": "2f76b7259809930eaa296acfa52934e6e50f4e71",
+    "name": "Bars",
+    "description": "",
+    "documentationLinks": []
+  },
+  "3005:10695": {
+    "key": "46468f034220d8d04ba7868ec1dc93db345ab139",
+    "name": "Nothing card",
+    "description": "",
+    "documentationLinks": []
+  },
+  "3023:9527": {
+    "key": "cd6dd08f89b651c9eafefb421075438c4784305c",
+    "name": "Slider list",
+    "description": "",
+    "documentationLinks": []
+  },
+  "3023:9528": {
+    "key": "1742afb1e65b808cd980176f0d3f263e70b66a8c",
+    "name": "Switch list",
+    "description": "",
+    "documentationLinks": []
+  },
+  "5264:22954": {
+    "key": "a8720bc343486df3f058f3c446a1d5bfec9f7a07",
+    "name": "Use range card (simulation)",
+    "description": "",
+    "documentationLinks": []
+  },
+  "3159:9845": {
+    "key": "55e731dcd9e6d6e6ad55d4981cc59b7c2e5f844f",
+    "name": "Building Blocks/Track",
+    "description": "Slider track",
+    "remote": true
+  },
+  "3159:9902": {
+    "key": "b82e3d1f703b7cc96bf525def334556137206455",
+    "name": "Building Blocks/Handle",
+    "description": "Slider handle",
+    "remote": true
+  },
+  "4324:36704": {
+    "key": "b96ab68cbeb36f3b20826dd791edb34800bd0aa1",
+    "name": "Visualization, job card",
+    "description": "",
+    "documentationLinks": []
+  },
+  "3811:36790": {
+    "key": "ae2878eb9e67470306160da20b57596b6aaafcc8",
+    "name": "Input",
+    "description": "",
+    "documentationLinks": []
+  },
+  "3798:55266": {
+    "key": "b734a82ea5d9282952edf5ad67f2f7ffb4536e7f",
+    "name": "Property: Header section",
+    "description": "",
+    "documentationLinks": []
+  },
+  "3798:55167": {
+    "key": "b825712a45b7d9795c9ea449d2b5f29128da4152",
+    "name": "Property: Area Data card",
+    "description": "",
+    "documentationLinks": []
+  },
+  "3786:53774": {
+    "key": "1259054739c4a2c0bb1b5b5d39ad42ae140d03f2",
+    "name": "Atom: Tab",
+    "description": "",
+    "documentationLinks": []
+  },
+  "3832:37439": {
+    "key": "67bd70a4c02b4144097f3659089e2574762f5aa5",
+    "name": "Start new simulation section",
+    "description": "",
+    "documentationLinks": []
+  },
+  "3778:52096": {
+    "key": "6a5defd8b803f87aac919e3f7f40a904284b3866",
+    "name": "Advanced settings",
+    "description": "",
+    "documentationLinks": []
+  },
+  "3376:20430": {
+    "key": "7a660c3c13d1e1ef7dbb82db9a8ed46f7e1e2e26",
+    "name": "Rack illustrations",
+    "description": "",
+    "documentationLinks": []
+  },
+  "3632:22374": {
+    "key": "e30548bb39c242ed055cfb0faf5b1d3bb77968e3",
+    "name": "Area: Margin and gap illustrations",
+    "description": "",
+    "documentationLinks": []
+  },
+  "3778:51872": {
+    "key": "e87c138439dd918f2916400978f5f808d4d9a68d",
+    "name": "Shuttle system AS/RS",
+    "description": "",
+    "documentationLinks": []
+  },
+  "3797:54163": {
+    "key": "6574074672b639c2bd29debb88dcffa4c316ddd5",
+    "name": "Property: Top section with exit",
+    "description": "",
+    "documentationLinks": []
+  },
+  "3797:54209": {
+    "key": "7d944f5887ac9246b09e5a16d8a45202e344203c",
+    "name": "Search",
+    "description": "",
+    "documentationLinks": []
+  },
+  "3799:62003": {
+    "key": "85c3bf69b26a46b5d157d72f1be3dd406de6a6ca",
+    "name": "Expanded header section elements",
+    "description": "",
+    "documentationLinks": []
+  },
+  "3811:47134": {
+    "key": "9fb1eb82534712aab787e569fc4ff734cb3e6080",
+    "name": "Layer components",
+    "description": "",
+    "documentationLinks": []
+  },
+  "3815:56237": {
+    "key": "2ac7762462342b5312140ee37068dac006685619",
+    "name": "Upload",
+    "description": "",
+    "documentationLinks": []
+  },
+  "3832:44802": {
+    "key": "399856f2d09d128233ff706a6f2c5755abb8989c",
+    "name": "Add link field",
+    "description": "",
+    "documentationLinks": []
+  },
+  "3632:22148": {
+    "key": "de34785196faf4d9bcba93d21d834efbf1d97007",
+    "name": "Highway: Margin and gap illustrations",
+    "description": "",
+    "documentationLinks": []
+  },
+  "3815:56560": {
+    "key": "2c8b2c66682bc3c8693b54307bf16b11a6aacc0d",
+    "name": "Property panel",
+    "description": "",
+    "documentationLinks": []
+  },
+  "3837:52127": {
+    "key": "7b5dded4cb5a3c045ec1e77bc88aa14a8b32d0d4",
+    "name": "Notification card: Validation design failed - new tag alert",
+    "description": "",
+    "documentationLinks": []
+  },
+  "3837:52320": {
+    "key": "25a88a05054d1eefc02226e00d96fbaecee68552",
+    "name": "Version history",
+    "description": "",
+    "documentationLinks": []
+  },
+  "3994:34181": {
+    "key": "7bcda571157065f5745d00f21f5ac4e2c391a305",
+    "name": "Racking illustrations: smart survey",
+    "description": "",
+    "remote": false
+  },
+  "4020:34800": {
+    "key": "469cb41d88891e221a823e8d3a15c5c2ea4f1da3",
+    "name": "Francks racking data set",
+    "description": "",
+    "documentationLinks": []
+  },
+  "3101:8806": {
+    "key": "e7bace21d3b71076b72c4f8dc9a88541a9fc8ba2",
+    "name": "Properties - Label",
+    "description": "",
+    "remote": true
+  },
+  "3101:8813": {
+    "key": "fcbc0f0bff3d51a1b3ea080ff9ba4045d55d4746",
+    "name": "Right bar - input row",
+    "description": "",
+    "remote": true
+  },
+  "3101:8830": {
+    "key": "f3a7706c0516b00e4c9cd751b8e1919607b9e3f6",
+    "name": "Right control",
+    "description": "",
+    "remote": true
+  },
+  "5378:15025": {
+    "key": "b7a08ca644d53ac93f55d9ef94048d56c1a3ecaa",
+    "name": "Flow expansion panel",
+    "description": "",
+    "remote": true
+  },
+  "5378:15004": {
+    "key": "fc0e862a337e3690978b7adff4b4ac304d685d98",
+    "name": "event_note",
+    "description": "",
+    "remote": true
+  },
+  "5378:15013": {
+    "key": "691859b6d4baf664bfd0a7e97070a8b398bc434e",
+    "name": "expand_more",
+    "description": "",
+    "remote": true
+  },
+  "5378:19621": {
+    "key": "e7bace21d3b71076b72c4f8dc9a88541a9fc8ba2",
+    "name": "Properties - Label",
+    "description": "",
+    "remote": true
+  },
+  "5378:19867": {
+    "key": "fcbc0f0bff3d51a1b3ea080ff9ba4045d55d4746",
+    "name": "Right bar - input row",
+    "description": "",
+    "remote": true
+  },
+  "5378:20097": {
+    "key": "f3a7706c0516b00e4c9cd751b8e1919607b9e3f6",
+    "name": "Right control",
+    "description": "",
+    "remote": true
+  },
+  "5378:16111": {
+    "key": "2c921e2c5f80beeb269fc9e67ccb4402cd82798d",
+    "name": "Large text input 180px",
+    "description": "",
+    "remote": true
+  },
+  "5378:15183": {
+    "key": "71977ef597dcc8b22365255ca98071daa90c9c2e",
+    "name": "expand_less",
+    "description": "",
+    "remote": true
+  }
+}

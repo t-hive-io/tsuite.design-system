@@ -1,18 +1,18 @@
 <svg width="540" height="152" viewBox="0 0 540 152" fill="none" xmlns="http://www.w3.org/2000/svg">
 <g clip-path="url(#clip0_4407_37760)">
-<rect x="6" y="6" width="528" height="140" fill="var(--colors-areas-highway-background, #F0E0FB)"/>
-<rect width="72" height="30" transform="translate(51 42)" fill="var(--colors-areas-highway-vehicle, var(--colors-areas-highway-vehicle, #DACCE5))"/>
-<rect width="72" height="30" transform="translate(173 42)" fill="var(--colors-areas-highway-vehicle, var(--colors-areas-highway-vehicle, #DACCE5))"/>
-<rect width="72" height="30" transform="translate(295 42)" fill="var(--colors-areas-highway-vehicle, var(--colors-areas-highway-vehicle, #DACCE5))"/>
-<rect width="72" height="30" transform="translate(417 42)" fill="var(--colors-areas-highway-vehicle, var(--colors-areas-highway-vehicle, #DACCE5))"/>
-<rect width="72" height="30" transform="translate(51 80)" fill="var(--colors-areas-highway-vehicle, var(--colors-areas-highway-vehicle, #DACCE5))"/>
-<rect width="72" height="30" transform="translate(173 80)" fill="var(--colors-areas-highway-vehicle, var(--colors-areas-highway-vehicle, #DACCE5))"/>
-<rect width="72" height="30" transform="translate(295 80)" fill="var(--colors-areas-highway-vehicle, var(--colors-areas-highway-vehicle, #DACCE5))"/>
-<rect width="72" height="30" transform="translate(417 80)" fill="var(--colors-areas-highway-vehicle, var(--colors-areas-highway-vehicle, #DACCE5))"/>
+<rect x="6" y="6" width="528" height="140" fill="#F0E0FB"/>
+<rect width="72" height="30" transform="translate(51 42)" fill="#DACCE5"/>
+<rect width="72" height="30" transform="translate(173 42)" fill="#DACCE5"/>
+<rect width="72" height="30" transform="translate(295 42)" fill="#DACCE5"/>
+<rect width="72" height="30" transform="translate(417 42)" fill="#DACCE5"/>
+<rect width="72" height="30" transform="translate(51 80)" fill="#DACCE5"/>
+<rect width="72" height="30" transform="translate(173 80)" fill="#DACCE5"/>
+<rect width="72" height="30" transform="translate(295 80)" fill="#DACCE5"/>
+<rect width="72" height="30" transform="translate(417 80)" fill="#DACCE5"/>
 </g>
-<rect x="5" y="5" width="530" height="142" stroke="var(--colors-primary-primary-700)" stroke-width="2" stroke-dasharray="6 6"/>
-<path d="M270.088 81.6154L269.38 80.9077L273.974 76.3077L269.38 71.7077L270.088 71L275.395 76.3077L270.088 81.6154ZM276.188 81.6154L275.48 80.9077L280.074 76.3077L275.48 71.7077L276.188 71L281.495 76.3077L276.188 81.6154Z" fill="var(--colors-neutral-neutral-800)"/>
-<path d="M263.928 81.6154L258.62 76.3077L263.928 71L264.635 71.7077L260.041 76.3077L264.635 80.9077L263.928 81.6154ZM270.028 81.6154L264.72 76.3077L270.028 71L270.735 71.7077L266.141 76.3077L270.735 80.9077L270.028 81.6154Z" fill="var(--colors-neutral-neutral-800)"/>
+<rect x="5" y="5" width="530" height="142" stroke="#F325A7" stroke-width="2" stroke-dasharray="6 6"/>
+<path d="M270.088 81.6154L269.38 80.9077L273.974 76.3077L269.38 71.7077L270.088 71L275.395 76.3077L270.088 81.6154ZM276.188 81.6154L275.48 80.9077L280.074 76.3077L275.48 71.7077L276.188 71L281.495 76.3077L276.188 81.6154Z" fill="#222222"/>
+<path d="M263.928 81.6154L258.62 76.3077L263.928 71L264.635 71.7077L260.041 76.3077L264.635 80.9077L263.928 81.6154ZM270.028 81.6154L264.72 76.3077L270.028 71L270.735 71.7077L266.141 76.3077L270.735 80.9077L270.028 81.6154Z" fill="#222222"/>
 <defs>
 <clipPath id="clip0_4407_37760">
 <rect x="6" y="6" width="528" height="140" fill="white"/>

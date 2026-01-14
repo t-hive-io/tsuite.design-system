@@ -1,7 +1,7 @@
 <svg width="68" height="48" viewBox="0 0 68 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-<rect width="56" height="36" transform="translate(6 6)" fill="var(--colors-areas-process-one-background, #F3D8CE)"/>
-<rect width="16" height="28" transform="translate(13 10)" fill="var(--colors-areas-delivery-background, #DAC3B8)"/>
-<rect x="13" y="10" width="16" height="16" fill="var(--colors-areas-delivery-load-carrier, #DEA98E)"/>
-<rect width="16" height="28" transform="translate(39 10)" fill="var(--colors-areas-delivery-background, #DAC3B8)"/>
-<rect x="39" y="10" width="16" height="16" fill="var(--colors-areas-delivery-load-carrier, #DEA98E)"/>
+<rect width="56" height="36" transform="translate(6 6)" fill="#F3D8CE"/>
+<rect width="16" height="28" transform="translate(13 10)" fill="#DAC3B8"/>
+<rect x="13" y="10" width="16" height="16" fill="#DEA98E"/>
+<rect width="16" height="28" transform="translate(39 10)" fill="#DAC3B8"/>
+<rect x="39" y="10" width="16" height="16" fill="#DEA98E"/>
 </svg>

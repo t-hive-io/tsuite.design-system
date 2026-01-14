@@ -1,23 +1,23 @@
 <svg width="540" height="152" viewBox="0 0 540 152" fill="none" xmlns="http://www.w3.org/2000/svg">
 <rect width="528" height="140" transform="translate(6 6)" fill="#C6EEF1"/>
-<rect width="32" height="48" transform="translate(38 52)" fill="var(--colors-areas-process-two-vehicle, #B8D8DA)"/>
-<rect x="46" y="52" width="16" height="24" fill="var(--colors-areas-process-two-load-carrier, #6BC3C9)"/>
-<rect width="32" height="48" transform="translate(86 52)" fill="var(--colors-areas-process-two-vehicle, #B8D8DA)"/>
-<rect x="94" y="52" width="16" height="24" fill="var(--colors-areas-process-two-load-carrier, #6BC3C9)"/>
-<rect width="32" height="48" transform="translate(134 52)" fill="var(--colors-areas-process-two-vehicle, #B8D8DA)"/>
-<rect x="142" y="52" width="16" height="24" fill="var(--colors-areas-process-two-load-carrier, #6BC3C9)"/>
-<rect width="32" height="48" transform="translate(182 52)" fill="var(--colors-areas-process-two-vehicle, #B8D8DA)"/>
-<rect x="190" y="52" width="16" height="24" fill="var(--colors-areas-process-two-load-carrier, #6BC3C9)"/>
-<rect width="32" height="48" transform="translate(230 52)" fill="var(--colors-areas-process-two-vehicle, #B8D8DA)"/>
-<rect x="238" y="52" width="16" height="24" fill="var(--colors-areas-process-two-load-carrier, #6BC3C9)"/>
-<rect width="32" height="48" transform="translate(278 52)" fill="var(--colors-areas-process-two-vehicle, #B8D8DA)"/>
-<rect x="286" y="52" width="16" height="24" fill="var(--colors-areas-process-two-load-carrier, #6BC3C9)"/>
-<rect width="32" height="48" transform="translate(326 52)" fill="var(--colors-areas-process-two-vehicle, #B8D8DA)"/>
-<rect x="334" y="52" width="16" height="24" fill="var(--colors-areas-process-two-load-carrier, #6BC3C9)"/>
-<rect width="32" height="48" transform="translate(374 52)" fill="var(--colors-areas-process-two-vehicle, #B8D8DA)"/>
-<rect x="382" y="52" width="16" height="24" fill="var(--colors-areas-process-two-load-carrier, #6BC3C9)"/>
-<rect width="32" height="48" transform="translate(422 52)" fill="var(--colors-areas-process-two-vehicle, #B8D8DA)"/>
-<rect x="430" y="52" width="16" height="24" fill="var(--colors-areas-process-two-load-carrier, #6BC3C9)"/>
-<rect width="32" height="48" transform="translate(470 52)" fill="var(--colors-areas-process-two-vehicle, #B8D8DA)"/>
-<rect x="478" y="52" width="16" height="24" fill="var(--colors-areas-process-two-load-carrier, #6BC3C9)"/>
+<rect width="32" height="48" transform="translate(38 52)" fill="#B8D8DA"/>
+<rect x="46" y="52" width="16" height="24" fill="#6BC3C9"/>
+<rect width="32" height="48" transform="translate(86 52)" fill="#B8D8DA"/>
+<rect x="94" y="52" width="16" height="24" fill="#6BC3C9"/>
+<rect width="32" height="48" transform="translate(134 52)" fill="#B8D8DA"/>
+<rect x="142" y="52" width="16" height="24" fill="#6BC3C9"/>
+<rect width="32" height="48" transform="translate(182 52)" fill="#B8D8DA"/>
+<rect x="190" y="52" width="16" height="24" fill="#6BC3C9"/>
+<rect width="32" height="48" transform="translate(230 52)" fill="#B8D8DA"/>
+<rect x="238" y="52" width="16" height="24" fill="#6BC3C9"/>
+<rect width="32" height="48" transform="translate(278 52)" fill="#B8D8DA"/>
+<rect x="286" y="52" width="16" height="24" fill="#6BC3C9"/>
+<rect width="32" height="48" transform="translate(326 52)" fill="#B8D8DA"/>
+<rect x="334" y="52" width="16" height="24" fill="#6BC3C9"/>
+<rect width="32" height="48" transform="translate(374 52)" fill="#B8D8DA"/>
+<rect x="382" y="52" width="16" height="24" fill="#6BC3C9"/>
+<rect width="32" height="48" transform="translate(422 52)" fill="#B8D8DA"/>
+<rect x="430" y="52" width="16" height="24" fill="#6BC3C9"/>
+<rect width="32" height="48" transform="translate(470 52)" fill="#B8D8DA"/>
+<rect x="478" y="52" width="16" height="24" fill="#6BC3C9"/>
 </svg>
