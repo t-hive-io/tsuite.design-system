@@ -1,10 +1,6 @@
 name: Figma to Storybook Pipeline
 
 on:
-  # Trigger on push to main
-  push:
-    branches: [main]
-
   # Manual trigger
   workflow_dispatch:
 
