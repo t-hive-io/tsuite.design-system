@@ -21,7 +21,7 @@ const Sync = (
 };
 
 const meta = {
-  title: 'Components/Icon/sync',
+  title: 'Components/Icon/❖ Icons',
   component: Sync,
   parameters: {
     layout: 'centered',
@@ -34,7 +34,7 @@ const meta = {
     figma: {
       pageId: '5193:37078',
       componentId: '3838:102379',
-      figmaComponent: 'sync',
+      figmaComponent: '❖ Icons',
       url: 'https://www.figma.com/design/XKxVlFf9TfWBHosOInkJXA/T-Suite-Design-System?node-id=3838-102379',
     },
   },

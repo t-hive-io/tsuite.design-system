@@ -17,7 +17,7 @@ const Radiobutton = (
 };
 
 const meta = {
-  title: 'Components/Checkbox Radio/Radio button',
+  title: 'Components/Checkbox Radio/❖ Checkbox / Radio button',
   component: Radiobutton,
   parameters: {
     layout: 'centered',
@@ -30,7 +30,7 @@ const meta = {
     figma: {
       pageId: '5172:38133',
       componentId: '3929:109628',
-      figmaComponent: 'Radio button',
+      figmaComponent: '❖ Checkbox / Radio button',
       url: 'https://www.figma.com/design/XKxVlFf9TfWBHosOInkJXA/T-Suite-Design-System?node-id=3929-109628',
     },
   },

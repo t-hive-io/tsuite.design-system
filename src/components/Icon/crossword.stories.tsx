@@ -21,7 +21,7 @@ const Crossword = (
 };
 
 const meta = {
-  title: 'Components/Icon/crossword',
+  title: 'Components/Icon/❖ Icons',
   component: Crossword,
   parameters: {
     layout: 'centered',
@@ -34,7 +34,7 @@ const meta = {
     figma: {
       pageId: '5193:37078',
       componentId: '4334:39009',
-      figmaComponent: 'crossword',
+      figmaComponent: '❖ Icons',
       url: 'https://www.figma.com/design/XKxVlFf9TfWBHosOInkJXA/T-Suite-Design-System?node-id=4334-39009',
     },
   },

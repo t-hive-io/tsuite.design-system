@@ -6,7 +6,7 @@ const Zoommenu = () => {
 };
 
 const meta = {
-  title: 'Components/Bottom Bars/Zoom menu',
+  title: 'Components/Bottom Bars/❖ Bottom bars',
   component: Zoommenu,
   parameters: {
     layout: 'centered',
@@ -19,7 +19,7 @@ const meta = {
     figma: {
       pageId: '5168:44729',
       componentId: '1081:6485',
-      figmaComponent: 'Zoom menu',
+      figmaComponent: '❖ Bottom bars',
       url: 'https://www.figma.com/design/XKxVlFf9TfWBHosOInkJXA/T-Suite-Design-System?node-id=1081-6485',
     },
   },

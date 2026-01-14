@@ -19,7 +19,7 @@ const Checkbox = (
 };
 
 const meta = {
-  title: 'Components/Checkbox Radio/Checkbox',
+  title: 'Components/Checkbox Radio/❖ Checkbox / Radio button',
   component: Checkbox,
   parameters: {
     layout: 'centered',
@@ -32,7 +32,7 @@ const meta = {
     figma: {
       pageId: '5172:38133',
       componentId: '1754:8350',
-      figmaComponent: 'Checkbox',
+      figmaComponent: '❖ Checkbox / Radio button',
       url: 'https://www.figma.com/design/XKxVlFf9TfWBHosOInkJXA/T-Suite-Design-System?node-id=1754-8350',
     },
   },

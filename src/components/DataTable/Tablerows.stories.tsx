@@ -35,7 +35,7 @@ const Tablerows = (
 };
 
 const meta = {
-  title: 'Components/Data Table/Table rows',
+  title: 'Components/Data Table/❖ Data table',
   component: Tablerows,
   parameters: {
     layout: 'centered',
@@ -48,7 +48,7 @@ const meta = {
     figma: {
       pageId: '5194:45461',
       componentId: '1759:8338',
-      figmaComponent: 'Table rows',
+      figmaComponent: '❖ Data table',
       url: 'https://www.figma.com/design/XKxVlFf9TfWBHosOInkJXA/T-Suite-Design-System?node-id=1759-8338',
     },
   },

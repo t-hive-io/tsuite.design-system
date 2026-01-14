@@ -21,7 +21,7 @@ const Viewcompact = (
 };
 
 const meta = {
-  title: 'Components/Icon/view_compact',
+  title: 'Components/Icon/❖ Icons',
   component: Viewcompact,
   parameters: {
     layout: 'centered',
@@ -34,7 +34,7 @@ const meta = {
     figma: {
       pageId: '5193:37078',
       componentId: '3838:102052',
-      figmaComponent: 'view_compact',
+      figmaComponent: '❖ Icons',
       url: 'https://www.figma.com/design/XKxVlFf9TfWBHosOInkJXA/T-Suite-Design-System?node-id=3838-102052',
     },
   },

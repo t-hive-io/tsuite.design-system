@@ -23,7 +23,7 @@ const RightbarExpansionpanel2 = (
 };
 
 const meta = {
-  title: 'Components/Accordion/Right bar - Expansion panel - 2',
+  title: 'Components/Accordion/❖ Accordion',
   component: RightbarExpansionpanel2,
   parameters: {
     layout: 'centered',
@@ -36,7 +36,7 @@ const meta = {
     figma: {
       pageId: '5193:36784',
       componentId: '1106:6750',
-      figmaComponent: 'Right bar - Expansion panel - 2',
+      figmaComponent: '❖ Accordion',
       url: 'https://www.figma.com/design/XKxVlFf9TfWBHosOInkJXA/T-Suite-Design-System?node-id=1106-6750',
     },
   },

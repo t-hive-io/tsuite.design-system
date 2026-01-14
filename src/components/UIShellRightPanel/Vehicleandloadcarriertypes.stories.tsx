@@ -18,7 +18,7 @@ const Vehicleandloadcarriertypes = (
 };
 
 const meta = {
-  title: 'Components/U I Shell Right Panel/Vehicle and load carrier types',
+  title: 'Components/U I Shell Right Panel/❖ UI shell right panel',
   component: Vehicleandloadcarriertypes,
   parameters: {
     layout: 'centered',
@@ -31,7 +31,7 @@ const meta = {
     figma: {
       pageId: '5236:21016',
       componentId: '2992:2858',
-      figmaComponent: 'Vehicle and load carrier types',
+      figmaComponent: '❖ UI shell right panel',
       url: 'https://www.figma.com/design/XKxVlFf9TfWBHosOInkJXA/T-Suite-Design-System?node-id=2992-2858',
     },
   },

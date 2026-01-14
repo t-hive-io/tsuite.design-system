@@ -21,7 +21,7 @@ const Notifications = (
 };
 
 const meta = {
-  title: 'Components/Icon/notifications',
+  title: 'Components/Icon/❖ Icons',
   component: Notifications,
   parameters: {
     layout: 'centered',
@@ -34,7 +34,7 @@ const meta = {
     figma: {
       pageId: '5193:37078',
       componentId: '3838:102095',
-      figmaComponent: 'notifications',
+      figmaComponent: '❖ Icons',
       url: 'https://www.figma.com/design/XKxVlFf9TfWBHosOInkJXA/T-Suite-Design-System?node-id=3838-102095',
     },
   },

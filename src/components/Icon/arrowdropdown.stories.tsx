@@ -21,7 +21,7 @@ const Arrowdropdown = (
 };
 
 const meta = {
-  title: 'Components/Icon/arrow_drop_down',
+  title: 'Components/Icon/❖ Icons',
   component: Arrowdropdown,
   parameters: {
     layout: 'centered',
@@ -34,7 +34,7 @@ const meta = {
     figma: {
       pageId: '5193:37078',
       componentId: '3838:101987',
-      figmaComponent: 'arrow_drop_down',
+      figmaComponent: '❖ Icons',
       url: 'https://www.figma.com/design/XKxVlFf9TfWBHosOInkJXA/T-Suite-Design-System?node-id=3838-101987',
     },
   },

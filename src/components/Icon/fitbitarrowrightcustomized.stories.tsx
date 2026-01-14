@@ -21,7 +21,7 @@ const Fitbitarrowrightcustomized = (
 };
 
 const meta = {
-  title: 'Components/Icon/fitbit_arrow_right_customized',
+  title: 'Components/Icon/❖ Icons',
   component: Fitbitarrowrightcustomized,
   parameters: {
     layout: 'centered',
@@ -34,7 +34,7 @@ const meta = {
     figma: {
       pageId: '5193:37078',
       componentId: '3838:102767',
-      figmaComponent: 'fitbit_arrow_right_customized',
+      figmaComponent: '❖ Icons',
       url: 'https://www.figma.com/design/XKxVlFf9TfWBHosOInkJXA/T-Suite-Design-System?node-id=3838-102767',
     },
   },

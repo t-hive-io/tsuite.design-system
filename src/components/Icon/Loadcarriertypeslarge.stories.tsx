@@ -34,7 +34,7 @@ const Loadcarriertypeslarge = (
 };
 
 const meta = {
-  title: 'Components/Icon/Load carrier types large',
+  title: 'Components/Icon/❖ Icons',
   component: Loadcarriertypeslarge,
   parameters: {
     layout: 'centered',
@@ -47,7 +47,7 @@ const meta = {
     figma: {
       pageId: '5193:37078',
       componentId: '2453:1535',
-      figmaComponent: 'Load carrier types large',
+      figmaComponent: '❖ Icons',
       url: 'https://www.figma.com/design/XKxVlFf9TfWBHosOInkJXA/T-Suite-Design-System?node-id=2453-1535',
     },
   },

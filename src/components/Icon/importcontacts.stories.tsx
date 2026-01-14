@@ -21,7 +21,7 @@ const Importcontacts = (
 };
 
 const meta = {
-  title: 'Components/Icon/import_contacts',
+  title: 'Components/Icon/❖ Icons',
   component: Importcontacts,
   parameters: {
     layout: 'centered',
@@ -34,7 +34,7 @@ const meta = {
     figma: {
       pageId: '5193:37078',
       componentId: '4327:36190',
-      figmaComponent: 'import_contacts',
+      figmaComponent: '❖ Icons',
       url: 'https://www.figma.com/design/XKxVlFf9TfWBHosOInkJXA/T-Suite-Design-System?node-id=4327-36190',
     },
   },

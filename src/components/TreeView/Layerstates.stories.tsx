@@ -6,7 +6,7 @@ const Layerstates = () => {
 };
 
 const meta = {
-  title: 'Components/Tree View/Layer states',
+  title: 'Components/Tree View/❖ Tree view',
   component: Layerstates,
   parameters: {
     layout: 'centered',
@@ -19,7 +19,7 @@ const meta = {
     figma: {
       pageId: '5200:798',
       componentId: '1522:9371',
-      figmaComponent: 'Layer states',
+      figmaComponent: '❖ Tree view',
       url: 'https://www.figma.com/design/XKxVlFf9TfWBHosOInkJXA/T-Suite-Design-System?node-id=1522-9371',
     },
   },

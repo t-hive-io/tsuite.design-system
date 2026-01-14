@@ -21,7 +21,7 @@ const Bookmark = (
 };
 
 const meta = {
-  title: 'Components/Icon/bookmark',
+  title: 'Components/Icon/❖ Icons',
   component: Bookmark,
   parameters: {
     layout: 'centered',
@@ -34,7 +34,7 @@ const meta = {
     figma: {
       pageId: '5193:37078',
       componentId: '4102:34250',
-      figmaComponent: 'bookmark',
+      figmaComponent: '❖ Icons',
       url: 'https://www.figma.com/design/XKxVlFf9TfWBHosOInkJXA/T-Suite-Design-System?node-id=4102-34250',
     },
   },

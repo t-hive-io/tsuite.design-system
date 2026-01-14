@@ -21,7 +21,7 @@ const Fitbitarrowupward = (
 };
 
 const meta = {
-  title: 'Components/Icon/fitbit_arrow_upward',
+  title: 'Components/Icon/❖ Icons',
   component: Fitbitarrowupward,
   parameters: {
     layout: 'centered',
@@ -34,7 +34,7 @@ const meta = {
     figma: {
       pageId: '5193:37078',
       componentId: '3838:101855',
-      figmaComponent: 'fitbit_arrow_upward',
+      figmaComponent: '❖ Icons',
       url: 'https://www.figma.com/design/XKxVlFf9TfWBHosOInkJXA/T-Suite-Design-System?node-id=3838-101855',
     },
   },

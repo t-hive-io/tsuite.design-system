@@ -21,7 +21,7 @@ const Duplicate2 = (
 };
 
 const meta = {
-  title: 'Components/Icon/Duplicate 2',
+  title: 'Components/Icon/❖ Icons',
   component: Duplicate2,
   parameters: {
     layout: 'centered',
@@ -34,7 +34,7 @@ const meta = {
     figma: {
       pageId: '5193:37078',
       componentId: '3838:103108',
-      figmaComponent: 'Duplicate 2',
+      figmaComponent: '❖ Icons',
       url: 'https://www.figma.com/design/XKxVlFf9TfWBHosOInkJXA/T-Suite-Design-System?node-id=3838-103086',
     },
   },

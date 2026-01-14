@@ -19,7 +19,7 @@ const Inputchips = (
 };
 
 const meta = {
-  title: 'Components/Chips Tags/Input chips',
+  title: 'Components/Chips Tags/❖ Chips / Tags',
   component: Inputchips,
   parameters: {
     layout: 'centered',
@@ -32,7 +32,7 @@ const meta = {
     figma: {
       pageId: '5172:38144',
       componentId: '2451:5',
-      figmaComponent: 'Input chips',
+      figmaComponent: '❖ Chips / Tags',
       url: 'https://www.figma.com/design/XKxVlFf9TfWBHosOInkJXA/T-Suite-Design-System?node-id=3811-36790',
     },
   },

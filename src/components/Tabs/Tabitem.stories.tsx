@@ -17,7 +17,7 @@ const Tabitem = (
 };
 
 const meta = {
-  title: 'Components/Tabs/Tab item',
+  title: 'Components/Tabs/❖ Tabs',
   component: Tabitem,
   parameters: {
     layout: 'centered',
@@ -30,7 +30,7 @@ const meta = {
     figma: {
       pageId: '5194:45468',
       componentId: '1085:6700',
-      figmaComponent: 'Tab item',
+      figmaComponent: '❖ Tabs',
       url: 'https://www.figma.com/design/XKxVlFf9TfWBHosOInkJXA/T-Suite-Design-System?node-id=1125-8913',
     },
   },

@@ -19,7 +19,7 @@ const Shuttle = (
 };
 
 const meta = {
-  title: 'Components/Illustrations/Shuttle',
+  title: 'Components/Illustrations/❖ Illustrations',
   component: Shuttle,
   parameters: {
     layout: 'centered',
@@ -32,7 +32,7 @@ const meta = {
     figma: {
       pageId: '5246:38377',
       componentId: '5246:38437',
-      figmaComponent: 'Shuttle',
+      figmaComponent: '❖ Illustrations',
       url: 'https://www.figma.com/design/XKxVlFf9TfWBHosOInkJXA/T-Suite-Design-System?node-id=5246-38437',
     },
   },

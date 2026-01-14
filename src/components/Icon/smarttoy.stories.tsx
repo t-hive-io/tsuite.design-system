@@ -21,7 +21,7 @@ const Smarttoy = (
 };
 
 const meta = {
-  title: 'Components/Icon/smart_toy',
+  title: 'Components/Icon/❖ Icons',
   component: Smarttoy,
   parameters: {
     layout: 'centered',
@@ -34,7 +34,7 @@ const meta = {
     figma: {
       pageId: '5193:37078',
       componentId: '3838:102478',
-      figmaComponent: 'smart_toy',
+      figmaComponent: '❖ Icons',
       url: 'https://www.figma.com/design/XKxVlFf9TfWBHosOInkJXA/T-Suite-Design-System?node-id=3838-102478',
     },
   },

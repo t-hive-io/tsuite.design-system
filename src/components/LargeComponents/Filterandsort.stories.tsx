@@ -17,7 +17,7 @@ const Filterandsort = (
 };
 
 const meta = {
-  title: 'Components/Large Components/Filter and sort',
+  title: 'Components/Large Components/❖ Large components',
   component: Filterandsort,
   parameters: {
     layout: 'centered',
@@ -30,7 +30,7 @@ const meta = {
     figma: {
       pageId: '5193:39157',
       componentId: '3143:334',
-      figmaComponent: 'Filter and sort',
+      figmaComponent: '❖ Large components',
       url: 'https://www.figma.com/design/XKxVlFf9TfWBHosOInkJXA/T-Suite-Design-System?node-id=3143-334',
     },
   },

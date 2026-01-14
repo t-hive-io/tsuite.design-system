@@ -17,7 +17,7 @@ const Sliderlist = (
 };
 
 const meta = {
-  title: 'Components/U I Shell Right Panel/Slider list',
+  title: 'Components/U I Shell Right Panel/❖ UI shell right panel',
   component: Sliderlist,
   parameters: {
     layout: 'centered',
@@ -30,7 +30,7 @@ const meta = {
     figma: {
       pageId: '5236:21016',
       componentId: '3023:9527',
-      figmaComponent: 'Slider list',
+      figmaComponent: '❖ UI shell right panel',
       url: 'https://www.figma.com/design/XKxVlFf9TfWBHosOInkJXA/T-Suite-Design-System?node-id=3023-9527',
     },
   },

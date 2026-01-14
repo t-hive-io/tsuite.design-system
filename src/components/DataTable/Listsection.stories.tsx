@@ -17,7 +17,7 @@ const Listsection = (
 };
 
 const meta = {
-  title: 'Components/Data Table/List section',
+  title: 'Components/Data Table/❖ Data table',
   component: Listsection,
   parameters: {
     layout: 'centered',
@@ -30,7 +30,7 @@ const meta = {
     figma: {
       pageId: '5194:45461',
       componentId: '3158:11328',
-      figmaComponent: 'List section',
+      figmaComponent: '❖ Data table',
       url: 'https://www.figma.com/design/XKxVlFf9TfWBHosOInkJXA/T-Suite-Design-System?node-id=3158-11328',
     },
   },

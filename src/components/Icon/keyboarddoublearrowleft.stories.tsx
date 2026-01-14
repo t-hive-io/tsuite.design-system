@@ -21,7 +21,7 @@ const Keyboarddoublearrowleft = (
 };
 
 const meta = {
-  title: 'Components/Icon/keyboard_double_arrow_left',
+  title: 'Components/Icon/❖ Icons',
   component: Keyboarddoublearrowleft,
   parameters: {
     layout: 'centered',
@@ -34,7 +34,7 @@ const meta = {
     figma: {
       pageId: '5193:37078',
       componentId: '3838:102199',
-      figmaComponent: 'keyboard_double_arrow_left',
+      figmaComponent: '❖ Icons',
       url: 'https://www.figma.com/design/XKxVlFf9TfWBHosOInkJXA/T-Suite-Design-System?node-id=3838-102199',
     },
   },

@@ -17,7 +17,7 @@ const Titleandsearch = (
 };
 
 const meta = {
-  title: 'Components/Large Components/Title and search',
+  title: 'Components/Large Components/❖ Large components',
   component: Titleandsearch,
   parameters: {
     layout: 'centered',
@@ -30,7 +30,7 @@ const meta = {
     figma: {
       pageId: '5193:39157',
       componentId: '3142:9636',
-      figmaComponent: 'Title and search',
+      figmaComponent: '❖ Large components',
       url: 'https://www.figma.com/design/XKxVlFf9TfWBHosOInkJXA/T-Suite-Design-System?node-id=3142-9636',
     },
   },

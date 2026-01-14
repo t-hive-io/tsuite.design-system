@@ -28,7 +28,7 @@ const Obstacle = (
 };
 
 const meta = {
-  title: 'Components/Canvas Objects/Obstacle',
+  title: 'Components/Canvas Objects/❖ Canvas objects',
   component: Obstacle,
   parameters: {
     layout: 'centered',
@@ -41,7 +41,7 @@ const meta = {
     figma: {
       pageId: '5170:45525',
       componentId: '2921:846',
-      figmaComponent: 'Obstacle',
+      figmaComponent: '❖ Canvas objects',
       url: 'https://www.figma.com/design/XKxVlFf9TfWBHosOInkJXA/T-Suite-Design-System?node-id=2921-846',
     },
   },

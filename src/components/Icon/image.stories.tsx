@@ -21,7 +21,7 @@ const Image = (
 };
 
 const meta = {
-  title: 'Components/Icon/image',
+  title: 'Components/Icon/❖ Icons',
   component: Image,
   parameters: {
     layout: 'centered',
@@ -34,7 +34,7 @@ const meta = {
     figma: {
       pageId: '5193:37078',
       componentId: '3838:102119',
-      figmaComponent: 'image',
+      figmaComponent: '❖ Icons',
       url: 'https://www.figma.com/design/XKxVlFf9TfWBHosOInkJXA/T-Suite-Design-System?node-id=3838-102119',
     },
   },

@@ -21,7 +21,7 @@ const Lockopen = (
 };
 
 const meta = {
-  title: 'Components/Icon/lock_open',
+  title: 'Components/Icon/❖ Icons',
   component: Lockopen,
   parameters: {
     layout: 'centered',
@@ -34,7 +34,7 @@ const meta = {
     figma: {
       pageId: '5193:37078',
       componentId: '3838:100847',
-      figmaComponent: 'lock_open',
+      figmaComponent: '❖ Icons',
       url: 'https://www.figma.com/design/XKxVlFf9TfWBHosOInkJXA/T-Suite-Design-System?node-id=3838-100842',
     },
   },

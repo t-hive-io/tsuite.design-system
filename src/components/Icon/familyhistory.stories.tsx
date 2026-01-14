@@ -21,7 +21,7 @@ const Familyhistory = (
 };
 
 const meta = {
-  title: 'Components/Icon/family_history',
+  title: 'Components/Icon/❖ Icons',
   component: Familyhistory,
   parameters: {
     layout: 'centered',
@@ -34,7 +34,7 @@ const meta = {
     figma: {
       pageId: '5193:37078',
       componentId: '4225:36200',
-      figmaComponent: 'family_history',
+      figmaComponent: '❖ Icons',
       url: 'https://www.figma.com/design/XKxVlFf9TfWBHosOInkJXA/T-Suite-Design-System?node-id=4225-36200',
     },
   },

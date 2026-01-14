@@ -58,7 +58,7 @@ jobs:
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          git add src/styles/tokens.css src/tokens/ src/figma-docs.json
+          git add src/styles/tokens.css src/tokens/ src/figma-docs.json src/**/*.stories.tsx
           git commit -m "chore: sync design tokens and docs from Figma [skip ci]"
           git push
 

@@ -25,7 +25,7 @@ const Layerlefticon = (
 };
 
 const meta = {
-  title: 'Components/Tree View/Layer left icon',
+  title: 'Components/Tree View/❖ Tree view',
   component: Layerlefticon,
   parameters: {
     layout: 'centered',
@@ -38,7 +38,7 @@ const meta = {
     figma: {
       pageId: '5200:798',
       componentId: '1522:9585',
-      figmaComponent: 'Layer left icon',
+      figmaComponent: '❖ Tree view',
       url: 'https://www.figma.com/design/XKxVlFf9TfWBHosOInkJXA/T-Suite-Design-System?node-id=1522-9585',
     },
   },

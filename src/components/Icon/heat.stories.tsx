@@ -23,7 +23,7 @@ const Heat = (
 };
 
 const meta = {
-  title: 'Components/Icon/heat',
+  title: 'Components/Icon/❖ Icons',
   component: Heat,
   parameters: {
     layout: 'centered',
@@ -36,7 +36,7 @@ const meta = {
     figma: {
       pageId: '5193:37078',
       componentId: '5386:27102',
-      figmaComponent: 'heat',
+      figmaComponent: '❖ Icons',
       url: 'https://www.figma.com/design/XKxVlFf9TfWBHosOInkJXA/T-Suite-Design-System?node-id=5386-27102',
     },
   },

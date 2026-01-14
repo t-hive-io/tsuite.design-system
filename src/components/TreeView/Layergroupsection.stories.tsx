@@ -6,7 +6,7 @@ const Layergroupsection = () => {
 };
 
 const meta = {
-  title: 'Components/Tree View/Layer/Layer/group section',
+  title: 'Components/Tree View/Layer/Layer/❖ Tree view',
   component: Layergroupsection,
   parameters: {
     layout: 'centered',
@@ -19,7 +19,7 @@ const meta = {
     figma: {
       pageId: '5200:798',
       componentId: '3222:148974',
-      figmaComponent: 'Layer/group section',
+      figmaComponent: '❖ Tree view',
       url: 'https://www.figma.com/design/XKxVlFf9TfWBHosOInkJXA/T-Suite-Design-System?node-id=3222-148974',
     },
   },

@@ -21,7 +21,7 @@ const Rotateright = (
 };
 
 const meta = {
-  title: 'Components/Icon/rotate_right',
+  title: 'Components/Icon/❖ Icons',
   component: Rotateright,
   parameters: {
     layout: 'centered',
@@ -34,7 +34,7 @@ const meta = {
     figma: {
       pageId: '5193:37078',
       componentId: '3838:102331',
-      figmaComponent: 'rotate_right',
+      figmaComponent: '❖ Icons',
       url: 'https://www.figma.com/design/XKxVlFf9TfWBHosOInkJXA/T-Suite-Design-System?node-id=3838-102331',
     },
   },

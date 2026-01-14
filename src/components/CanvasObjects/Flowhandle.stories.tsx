@@ -19,7 +19,7 @@ const Flowhandle = (
 };
 
 const meta = {
-  title: 'Components/Canvas Objects/Flow handle',
+  title: 'Components/Canvas Objects/❖ Canvas objects',
   component: Flowhandle,
   parameters: {
     layout: 'centered',
@@ -32,7 +32,7 @@ const meta = {
     figma: {
       pageId: '5170:45525',
       componentId: '1810:8563',
-      figmaComponent: 'Flow handle',
+      figmaComponent: '❖ Canvas objects',
       url: 'https://www.figma.com/design/XKxVlFf9TfWBHosOInkJXA/T-Suite-Design-System?node-id=1810-8563',
     },
   },

@@ -23,7 +23,7 @@ const Locationon = (
 };
 
 const meta = {
-  title: 'Components/Icon/location_on',
+  title: 'Components/Icon/❖ Icons',
   component: Locationon,
   parameters: {
     layout: 'centered',
@@ -36,7 +36,7 @@ const meta = {
     figma: {
       pageId: '5193:37078',
       componentId: '4971:38657',
-      figmaComponent: 'location_on',
+      figmaComponent: '❖ Icons',
       url: 'https://www.figma.com/design/XKxVlFf9TfWBHosOInkJXA/T-Suite-Design-System?node-id=4971-38657',
     },
   },

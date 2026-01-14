@@ -21,7 +21,7 @@ const Orderprofilemodal = (
 };
 
 const meta = {
-  title: 'Components/Dialogs/Order profile modal',
+  title: 'Components/Dialogs/❖ Dialogs',
   component: Orderprofilemodal,
   parameters: {
     layout: 'centered',
@@ -34,7 +34,7 @@ const meta = {
     figma: {
       pageId: '5175:37036',
       componentId: '3095:9273',
-      figmaComponent: 'Order profile modal',
+      figmaComponent: '❖ Dialogs',
       url: 'https://www.figma.com/design/XKxVlFf9TfWBHosOInkJXA/T-Suite-Design-System?node-id=3095-9273',
     },
   },

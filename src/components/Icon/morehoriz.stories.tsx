@@ -21,7 +21,7 @@ const Morehoriz = (
 };
 
 const meta = {
-  title: 'Components/Icon/more_horiz',
+  title: 'Components/Icon/❖ Icons',
   component: Morehoriz,
   parameters: {
     layout: 'centered',
@@ -34,7 +34,7 @@ const meta = {
     figma: {
       pageId: '5193:37078',
       componentId: '3838:102251',
-      figmaComponent: 'more_horiz',
+      figmaComponent: '❖ Icons',
       url: 'https://www.figma.com/design/XKxVlFf9TfWBHosOInkJXA/T-Suite-Design-System?node-id=3838-102251',
     },
   },

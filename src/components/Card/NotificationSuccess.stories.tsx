@@ -28,7 +28,7 @@ const NotificationSuccess = (
 };
 
 const meta = {
-  title: 'Components/Card/Notification: Success',
+  title: 'Components/Card/❖ Cards',
   component: NotificationSuccess,
   parameters: {
     layout: 'centered',
@@ -41,7 +41,7 @@ const meta = {
     figma: {
       pageId: '5171:45784',
       componentId: '4875:38397',
-      figmaComponent: 'Notification: Success',
+      figmaComponent: '❖ Cards',
       url: 'https://www.figma.com/design/XKxVlFf9TfWBHosOInkJXA/T-Suite-Design-System?node-id=4875-38397',
     },
   },

@@ -50,6 +50,9 @@ function updateStoryFile(filePath) {
   }
 
   const [figmaName, figmaData] = figmaComponent;
+  
+  // Use page name if available, otherwise fall back to component name
+  const displayName = figmaData.pageName || figmaName;
 
   // Extract current title from meta
   const titleMatch = content.match(/title:\s*['"]([^'"]+)['"]/);
@@ -64,8 +67,8 @@ function updateStoryFile(filePath) {
   const titleParts = currentTitle.split('/');
   const currentComponentName = titleParts[titleParts.length - 1];
 
-  // Build new title with Figma name
-  const newTitle = [...titleParts.slice(0, -1), figmaName].join('/');
+  // Build new title with Figma page name (or component name as fallback)
+  const newTitle = [...titleParts.slice(0, -1), displayName].join('/');
 
   // Update title in meta
   if (currentTitle !== newTitle) {
@@ -76,12 +79,12 @@ function updateStoryFile(filePath) {
     updated = true;
   }
 
-  // Update figmaComponent field
+  // Update figmaComponent field with display name
   const figmaComponentMatch = content.match(/figmaComponent:\s*['"]([^'"]+)['"]/);
-  if (figmaComponentMatch && figmaComponentMatch[1] !== figmaName) {
+  if (figmaComponentMatch && figmaComponentMatch[1] !== displayName) {
     content = content.replace(
       /figmaComponent:\s*['"]([^'"]+)['"]/,
-      `figmaComponent: '${figmaName}'`
+      `figmaComponent: '${displayName}'`
     );
     updated = true;
   }
@@ -91,7 +94,7 @@ function updateStoryFile(filePath) {
     return {
       updated: true,
       oldName: currentComponentName,
-      newName: figmaName,
+      newName: displayName,
       file: path.relative(process.cwd(), filePath),
     };
   }

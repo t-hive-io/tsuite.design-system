@@ -19,7 +19,7 @@ const _3Dmenu = (
 };
 
 const meta = {
-  title: 'Components/Bottom Bars/3D menu',
+  title: 'Components/Bottom Bars/❖ Bottom bars',
   component: _3Dmenu,
   parameters: {
     layout: 'centered',
@@ -32,7 +32,7 @@ const meta = {
     figma: {
       pageId: '5168:44729',
       componentId: '1570:9691',
-      figmaComponent: '3D menu',
+      figmaComponent: '❖ Bottom bars',
       url: 'https://www.figma.com/design/XKxVlFf9TfWBHosOInkJXA/T-Suite-Design-System?node-id=1570-9691',
     },
   },

@@ -21,7 +21,7 @@ const Translate = (
 };
 
 const meta = {
-  title: 'Components/Icon/translate',
+  title: 'Components/Icon/❖ Icons',
   component: Translate,
   parameters: {
     layout: 'centered',
@@ -34,7 +34,7 @@ const meta = {
     figma: {
       pageId: '5193:37078',
       componentId: '4228:36196',
-      figmaComponent: 'translate',
+      figmaComponent: '❖ Icons',
       url: 'https://www.figma.com/design/XKxVlFf9TfWBHosOInkJXA/T-Suite-Design-System?node-id=4228-36196',
     },
   },

@@ -21,7 +21,7 @@ const Keyboarddoublearrowup = (
 };
 
 const meta = {
-  title: 'Components/Icon/keyboard_double_arrow_up',
+  title: 'Components/Icon/❖ Icons',
   component: Keyboarddoublearrowup,
   parameters: {
     layout: 'centered',
@@ -34,7 +34,7 @@ const meta = {
     figma: {
       pageId: '5193:37078',
       componentId: '3838:102231',
-      figmaComponent: 'keyboard_double_arrow_up',
+      figmaComponent: '❖ Icons',
       url: 'https://www.figma.com/design/XKxVlFf9TfWBHosOInkJXA/T-Suite-Design-System?node-id=3838-102231',
     },
   },

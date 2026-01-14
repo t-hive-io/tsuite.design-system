@@ -17,7 +17,7 @@ const Topbars = (
 };
 
 const meta = {
-  title: 'Components/U I Shell Header/Top bars',
+  title: 'Components/U I Shell Header/❖ UI shell header',
   component: Topbars,
   parameters: {
     layout: 'centered',
@@ -30,7 +30,7 @@ const meta = {
     figma: {
       pageId: '5236:21014',
       componentId: '1364:9832',
-      figmaComponent: 'Top bars',
+      figmaComponent: '❖ UI shell header',
       url: 'https://www.figma.com/design/XKxVlFf9TfWBHosOInkJXA/T-Suite-Design-System?node-id=1364-9832',
     },
   },

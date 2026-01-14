@@ -21,7 +21,7 @@ const Backhand = (
 };
 
 const meta = {
-  title: 'Components/Icon/back_hand',
+  title: 'Components/Icon/❖ Icons',
   component: Backhand,
   parameters: {
     layout: 'centered',
@@ -34,7 +34,7 @@ const meta = {
     figma: {
       pageId: '5193:37078',
       componentId: '3838:100655',
-      figmaComponent: 'back_hand',
+      figmaComponent: '❖ Icons',
       url: 'https://www.figma.com/design/XKxVlFf9TfWBHosOInkJXA/T-Suite-Design-System?node-id=3838-100655',
     },
   },

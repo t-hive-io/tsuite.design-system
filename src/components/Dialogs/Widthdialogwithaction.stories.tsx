@@ -17,7 +17,7 @@ const Widthdialogwithaction = (
 };
 
 const meta = {
-  title: 'Components/Dialogs/Width dialog with action',
+  title: 'Components/Dialogs/❖ Dialogs',
   component: Widthdialogwithaction,
   parameters: {
     layout: 'centered',
@@ -30,7 +30,7 @@ const meta = {
     figma: {
       pageId: '5175:37036',
       componentId: '1504:9174',
-      figmaComponent: 'Width dialog with action',
+      figmaComponent: '❖ Dialogs',
       url: 'https://www.figma.com/design/XKxVlFf9TfWBHosOInkJXA/T-Suite-Design-System?node-id=1504-9174',
     },
   },

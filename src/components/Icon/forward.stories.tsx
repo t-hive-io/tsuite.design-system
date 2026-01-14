@@ -21,7 +21,7 @@ const Forward = (
 };
 
 const meta = {
-  title: 'Components/Icon/forward',
+  title: 'Components/Icon/❖ Icons',
   component: Forward,
   parameters: {
     layout: 'centered',
@@ -34,7 +34,7 @@ const meta = {
     figma: {
       pageId: '5193:37078',
       componentId: '3838:100670',
-      figmaComponent: 'forward',
+      figmaComponent: '❖ Icons',
       url: 'https://www.figma.com/design/XKxVlFf9TfWBHosOInkJXA/T-Suite-Design-System?node-id=3838-100670',
     },
   },

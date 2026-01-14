@@ -21,7 +21,7 @@ const Horizontaldistribute1 = (
 };
 
 const meta = {
-  title: 'Components/Icon/horizontal_distribute 1',
+  title: 'Components/Icon/❖ Icons',
   component: Horizontaldistribute1,
   parameters: {
     layout: 'centered',
@@ -34,7 +34,7 @@ const meta = {
     figma: {
       pageId: '5193:37078',
       componentId: '3838:102037',
-      figmaComponent: 'horizontal_distribute 1',
+      figmaComponent: '❖ Icons',
       url: 'https://www.figma.com/design/XKxVlFf9TfWBHosOInkJXA/T-Suite-Design-System?node-id=3838-102037',
     },
   },

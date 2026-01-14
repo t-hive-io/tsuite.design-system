@@ -21,7 +21,7 @@ const Uploadfile = (
 };
 
 const meta = {
-  title: 'Components/Icon/upload_file',
+  title: 'Components/Icon/❖ Icons',
   component: Uploadfile,
   parameters: {
     layout: 'centered',
@@ -34,7 +34,7 @@ const meta = {
     figma: {
       pageId: '5193:37078',
       componentId: '3838:102351',
-      figmaComponent: 'upload_file',
+      figmaComponent: '❖ Icons',
       url: 'https://www.figma.com/design/XKxVlFf9TfWBHosOInkJXA/T-Suite-Design-System?node-id=3838-102351',
     },
   },

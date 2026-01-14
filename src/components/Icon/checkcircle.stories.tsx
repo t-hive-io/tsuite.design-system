@@ -21,7 +21,7 @@ const Checkcircle = (
 };
 
 const meta = {
-  title: 'Components/Icon/check_circle',
+  title: 'Components/Icon/❖ Icons',
   component: Checkcircle,
   parameters: {
     layout: 'centered',
@@ -34,7 +34,7 @@ const meta = {
     figma: {
       pageId: '5193:37078',
       componentId: '3797:54251',
-      figmaComponent: 'check_circle',
+      figmaComponent: '❖ Icons',
       url: 'https://www.figma.com/design/XKxVlFf9TfWBHosOInkJXA/T-Suite-Design-System?node-id=3838-102463',
     },
   },

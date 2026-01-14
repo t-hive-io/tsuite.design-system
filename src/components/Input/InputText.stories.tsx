@@ -168,7 +168,7 @@ const InputText = (
 };
 
 const meta = {
-  title: 'Components/Input/Input – Text',
+  title: 'Components/Input/❖ Inputs',
   component: InputText,
   parameters: {
     layout: 'centered',
@@ -181,7 +181,7 @@ const meta = {
     figma: {
       pageId: '5193:38949',
       componentId: '1728:8340',
-      figmaComponent: 'Input – Text',
+      figmaComponent: '❖ Inputs',
       url: 'https://www.figma.com/design/XKxVlFf9TfWBHosOInkJXA/T-Suite-Design-System?node-id=3811-36790',
     },
   },

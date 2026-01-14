@@ -275,7 +275,7 @@ const Dropdownmenuitem = (
 };
 
 const meta = {
-  title: 'Components/Menus/Dropdown menu item',
+  title: 'Components/Menus/❖ Menus',
   component: Dropdownmenuitem,
   parameters: {
     layout: 'centered',
@@ -288,7 +288,7 @@ const meta = {
     figma: {
       pageId: '5193:45251',
       componentId: '1523:9626',
-      figmaComponent: 'Dropdown menu item',
+      figmaComponent: '❖ Menus',
       url: 'https://www.figma.com/design/XKxVlFf9TfWBHosOInkJXA/T-Suite-Design-System?node-id=1523-9626',
     },
   },

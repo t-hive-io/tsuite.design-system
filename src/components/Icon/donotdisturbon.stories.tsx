@@ -21,7 +21,7 @@ const Donotdisturbon = (
 };
 
 const meta = {
-  title: 'Components/Icon/do_not_disturb_on',
+  title: 'Components/Icon/❖ Icons',
   component: Donotdisturbon,
   parameters: {
     layout: 'centered',
@@ -34,7 +34,7 @@ const meta = {
     figma: {
       pageId: '5193:37078',
       componentId: '4259:36181',
-      figmaComponent: 'do_not_disturb_on',
+      figmaComponent: '❖ Icons',
       url: 'https://www.figma.com/design/XKxVlFf9TfWBHosOInkJXA/T-Suite-Design-System?node-id=4259-36181',
     },
   },

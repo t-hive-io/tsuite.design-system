@@ -46,7 +46,7 @@ const Simulationcard = (
 };
 
 const meta = {
-  title: 'Components/Card/Simulation card',
+  title: 'Components/Card/❖ Cards',
   component: Simulationcard,
   parameters: {
     layout: 'centered',
@@ -59,7 +59,7 @@ const meta = {
     figma: {
       pageId: '5171:45784',
       componentId: '1289:8365',
-      figmaComponent: 'Simulation card',
+      figmaComponent: '❖ Cards',
       url: 'https://www.figma.com/design/XKxVlFf9TfWBHosOInkJXA/T-Suite-Design-System?node-id=1289-8365',
     },
   },

@@ -21,7 +21,7 @@ const Helpcenter = (
 };
 
 const meta = {
-  title: 'Components/Icon/help_center',
+  title: 'Components/Icon/❖ Icons',
   component: Helpcenter,
   parameters: {
     layout: 'centered',
@@ -34,7 +34,7 @@ const meta = {
     figma: {
       pageId: '5193:37078',
       componentId: '4225:36180',
-      figmaComponent: 'help_center',
+      figmaComponent: '❖ Icons',
       url: 'https://www.figma.com/design/XKxVlFf9TfWBHosOInkJXA/T-Suite-Design-System?node-id=4228-36186',
     },
   },

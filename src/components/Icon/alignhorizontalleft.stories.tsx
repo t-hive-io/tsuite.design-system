@@ -21,7 +21,7 @@ const Alignhorizontalleft = (
 };
 
 const meta = {
-  title: 'Components/Icon/align_horizontal_left',
+  title: 'Components/Icon/❖ Icons',
   component: Alignhorizontalleft,
   parameters: {
     layout: 'centered',
@@ -34,7 +34,7 @@ const meta = {
     figma: {
       pageId: '5193:37078',
       componentId: '3838:102404',
-      figmaComponent: 'align_horizontal_left',
+      figmaComponent: '❖ Icons',
       url: 'https://www.figma.com/design/XKxVlFf9TfWBHosOInkJXA/T-Suite-Design-System?node-id=3838-102404',
     },
   },

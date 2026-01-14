@@ -17,7 +17,7 @@ const MediumDropdownmenu = (
 };
 
 const meta = {
-  title: 'Components/Menus/Medium - Dropdown menu',
+  title: 'Components/Menus/❖ Menus',
   component: MediumDropdownmenu,
   parameters: {
     layout: 'centered',
@@ -30,7 +30,7 @@ const meta = {
     figma: {
       pageId: '5193:45251',
       componentId: '2041:7988',
-      figmaComponent: 'Medium - Dropdown menu',
+      figmaComponent: '❖ Menus',
       url: 'https://www.figma.com/design/XKxVlFf9TfWBHosOInkJXA/T-Suite-Design-System?node-id=2041-7988',
     },
   },

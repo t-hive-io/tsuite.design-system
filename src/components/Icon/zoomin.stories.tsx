@@ -21,7 +21,7 @@ const Zoomin = (
 };
 
 const meta = {
-  title: 'Components/Icon/zoom_in',
+  title: 'Components/Icon/❖ Icons',
   component: Zoomin,
   parameters: {
     layout: 'centered',
@@ -34,7 +34,7 @@ const meta = {
     figma: {
       pageId: '5193:37078',
       componentId: '3838:102174',
-      figmaComponent: 'zoom_in',
+      figmaComponent: '❖ Icons',
       url: 'https://www.figma.com/design/XKxVlFf9TfWBHosOInkJXA/T-Suite-Design-System?node-id=3838-102174',
     },
   },

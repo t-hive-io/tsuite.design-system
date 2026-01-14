@@ -21,7 +21,7 @@ const Heatpump = (
 };
 
 const meta = {
-  title: 'Components/Icon/heat_pump',
+  title: 'Components/Icon/❖ Icons',
   component: Heatpump,
   parameters: {
     layout: 'centered',
@@ -34,7 +34,7 @@ const meta = {
     figma: {
       pageId: '5193:37078',
       componentId: '3838:102851',
-      figmaComponent: 'heat_pump',
+      figmaComponent: '❖ Icons',
       url: 'https://www.figma.com/design/XKxVlFf9TfWBHosOInkJXA/T-Suite-Design-System?node-id=5386-27102',
     },
   },

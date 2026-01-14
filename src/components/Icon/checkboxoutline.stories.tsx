@@ -21,7 +21,7 @@ const Checkboxoutline = (
 };
 
 const meta = {
-  title: 'Components/Icon/check_box_outline',
+  title: 'Components/Icon/❖ Icons',
   component: Checkboxoutline,
   parameters: {
     layout: 'centered',
@@ -34,7 +34,7 @@ const meta = {
     figma: {
       pageId: '5193:37078',
       componentId: '3838:102291',
-      figmaComponent: 'check_box_outline',
+      figmaComponent: '❖ Icons',
       url: 'https://www.figma.com/design/XKxVlFf9TfWBHosOInkJXA/T-Suite-Design-System?node-id=3838-102147',
     },
   },

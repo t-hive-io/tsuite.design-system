@@ -21,7 +21,7 @@ const Swiperightalt = (
 };
 
 const meta = {
-  title: 'Components/Icon/swipe_right_alt',
+  title: 'Components/Icon/❖ Icons',
   component: Swiperightalt,
   parameters: {
     layout: 'centered',
@@ -34,7 +34,7 @@ const meta = {
     figma: {
       pageId: '5193:37078',
       componentId: '3838:100660',
-      figmaComponent: 'swipe_right_alt',
+      figmaComponent: '❖ Icons',
       url: 'https://www.figma.com/design/XKxVlFf9TfWBHosOInkJXA/T-Suite-Design-System?node-id=3838-100660',
     },
   },

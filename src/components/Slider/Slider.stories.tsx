@@ -17,7 +17,7 @@ const Slider = (
 };
 
 const meta = {
-  title: 'Components/Slider/Slider',
+  title: 'Components/Slider/❖ Slider',
   component: Slider,
   parameters: {
     layout: 'centered',
@@ -30,7 +30,7 @@ const meta = {
     figma: {
       pageId: '5194:45447',
       componentId: '5246:36965',
-      figmaComponent: 'Slider',
+      figmaComponent: '❖ Slider',
       url: 'https://www.figma.com/design/XKxVlFf9TfWBHosOInkJXA/T-Suite-Design-System?node-id=5246-36965',
     },
   },

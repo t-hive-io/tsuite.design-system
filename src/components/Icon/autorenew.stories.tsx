@@ -21,7 +21,7 @@ const Autorenew = (
 };
 
 const meta = {
-  title: 'Components/Icon/autorenew',
+  title: 'Components/Icon/❖ Icons',
   component: Autorenew,
   parameters: {
     layout: 'centered',
@@ -34,7 +34,7 @@ const meta = {
     figma: {
       pageId: '5193:37078',
       componentId: '3838:102448',
-      figmaComponent: 'autorenew',
+      figmaComponent: '❖ Icons',
       url: 'https://www.figma.com/design/XKxVlFf9TfWBHosOInkJXA/T-Suite-Design-System?node-id=3838-102448',
     },
   },

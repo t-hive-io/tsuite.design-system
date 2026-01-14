@@ -58,7 +58,7 @@ const Road = (
 };
 
 const meta = {
-  title: 'Components/Canvas Objects/Road',
+  title: 'Components/Canvas Objects/❖ Canvas objects',
   component: Road,
   parameters: {
     layout: 'centered',
@@ -71,7 +71,7 @@ const meta = {
     figma: {
       pageId: '5170:45525',
       componentId: '2921:1631',
-      figmaComponent: 'Road',
+      figmaComponent: '❖ Canvas objects',
       url: 'https://www.figma.com/design/XKxVlFf9TfWBHosOInkJXA/T-Suite-Design-System?node-id=2921-1631',
     },
   },

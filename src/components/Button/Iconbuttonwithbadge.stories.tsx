@@ -33,7 +33,7 @@ const Iconbuttonwithbadge = (
 };
 
 const meta = {
-  title: 'Components/Button/Icon button with badge',
+  title: 'Components/Button/❖ Buttons',
   component: Iconbuttonwithbadge,
   parameters: {
     layout: 'centered',
@@ -46,7 +46,7 @@ const meta = {
     figma: {
       pageId: '5170:45280',
       componentId: '1257:8856',
-      figmaComponent: 'Icon button with badge',
+      figmaComponent: '❖ Buttons',
       url: 'https://www.figma.com/design/XKxVlFf9TfWBHosOInkJXA/T-Suite-Design-System?node-id=1257-8856',
     },
   },

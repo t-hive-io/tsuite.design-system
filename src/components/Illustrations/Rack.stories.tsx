@@ -46,7 +46,7 @@ const Rack = (
 };
 
 const meta = {
-  title: 'Components/Illustrations/Rack',
+  title: 'Components/Illustrations/❖ Illustrations',
   component: Rack,
   parameters: {
     layout: 'centered',
@@ -59,7 +59,7 @@ const meta = {
     figma: {
       pageId: '5246:38377',
       componentId: '4607:42679',
-      figmaComponent: 'Rack',
+      figmaComponent: '❖ Illustrations',
       url: 'https://www.figma.com/design/XKxVlFf9TfWBHosOInkJXA/T-Suite-Design-System?node-id=4607-42679',
     },
   },

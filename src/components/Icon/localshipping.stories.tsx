@@ -21,7 +21,7 @@ const Localshipping = (
 };
 
 const meta = {
-  title: 'Components/Icon/local_shipping',
+  title: 'Components/Icon/❖ Icons',
   component: Localshipping,
   parameters: {
     layout: 'centered',
@@ -34,7 +34,7 @@ const meta = {
     figma: {
       pageId: '5193:37078',
       componentId: '3838:100650',
-      figmaComponent: 'local_shipping',
+      figmaComponent: '❖ Icons',
       url: 'https://www.figma.com/design/XKxVlFf9TfWBHosOInkJXA/T-Suite-Design-System?node-id=3838-100650',
     },
   },

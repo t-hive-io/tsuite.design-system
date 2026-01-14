@@ -36,7 +36,7 @@ const Gapandmargin = (
 };
 
 const meta = {
-  title: 'Components/Icon/Gap and margin',
+  title: 'Components/Icon/❖ Icons',
   component: Gapandmargin,
   parameters: {
     layout: 'centered',
@@ -49,7 +49,7 @@ const meta = {
     figma: {
       pageId: '5193:37078',
       componentId: '5311:73039',
-      figmaComponent: 'Gap and margin',
+      figmaComponent: '❖ Icons',
       url: 'https://www.figma.com/design/XKxVlFf9TfWBHosOInkJXA/T-Suite-Design-System?node-id=5311-73039',
     },
   },

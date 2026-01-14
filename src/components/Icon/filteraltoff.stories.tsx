@@ -21,7 +21,7 @@ const Filteraltoff = (
 };
 
 const meta = {
-  title: 'Components/Icon/filter_alt_off',
+  title: 'Components/Icon/❖ Icons',
   component: Filteraltoff,
   parameters: {
     layout: 'centered',
@@ -34,7 +34,7 @@ const meta = {
     figma: {
       pageId: '5193:37078',
       componentId: '3838:102468',
-      figmaComponent: 'filter_alt_off',
+      figmaComponent: '❖ Icons',
       url: 'https://www.figma.com/design/XKxVlFf9TfWBHosOInkJXA/T-Suite-Design-System?node-id=3838-102468',
     },
   },

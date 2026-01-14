@@ -111,7 +111,7 @@ const Layers = (
 };
 
 const meta = {
-  title: 'Components/Tree View/Layers',
+  title: 'Components/Tree View/❖ Tree view',
   component: Layers,
   parameters: {
     layout: 'centered',
@@ -124,7 +124,7 @@ const meta = {
     figma: {
       pageId: '5200:798',
       componentId: '1521:9120',
-      figmaComponent: 'Layers',
+      figmaComponent: '❖ Tree view',
       url: 'https://www.figma.com/design/XKxVlFf9TfWBHosOInkJXA/T-Suite-Design-System?node-id=1521-9120',
     },
   },

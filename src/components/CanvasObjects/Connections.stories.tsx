@@ -19,7 +19,7 @@ const Connections = (
 };
 
 const meta = {
-  title: 'Components/Canvas Objects/Connections',
+  title: 'Components/Canvas Objects/❖ Canvas objects',
   component: Connections,
   parameters: {
     layout: 'centered',
@@ -32,7 +32,7 @@ const meta = {
     figma: {
       pageId: '5170:45525',
       componentId: '3067:7822',
-      figmaComponent: 'Connections',
+      figmaComponent: '❖ Canvas objects',
       url: 'https://www.figma.com/design/XKxVlFf9TfWBHosOInkJXA/T-Suite-Design-System?node-id=3067-7822',
     },
   },

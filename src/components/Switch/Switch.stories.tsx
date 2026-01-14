@@ -50,7 +50,7 @@ const InteractiveSwitch = () => {
 };
 
 const meta = {
-  title: 'Components/Switch/Switch',
+  title: 'Components/Switch/❖ Switch',
   component: Switch,
   parameters: {
     layout: 'centered',
@@ -63,7 +63,7 @@ const meta = {
     figma: {
       pageId: '5194:45454',
       componentId: '1894:8776',
-      figmaComponent: 'Switch',
+      figmaComponent: '❖ Switch',
       url: 'https://www.figma.com/design/XKxVlFf9TfWBHosOInkJXA/T-Suite-Design-System?node-id=1894-8776',
     },
   },

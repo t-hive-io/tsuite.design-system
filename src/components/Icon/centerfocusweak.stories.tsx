@@ -21,7 +21,7 @@ const Centerfocusweak = (
 };
 
 const meta = {
-  title: 'Components/Icon/center_focus_weak',
+  title: 'Components/Icon/❖ Icons',
   component: Centerfocusweak,
   parameters: {
     layout: 'centered',
@@ -34,7 +34,7 @@ const meta = {
     figma: {
       pageId: '5193:37078',
       componentId: '4181:36469',
-      figmaComponent: 'center_focus_weak',
+      figmaComponent: '❖ Icons',
       url: 'https://www.figma.com/design/XKxVlFf9TfWBHosOInkJXA/T-Suite-Design-System?node-id=4181-36469',
     },
   },

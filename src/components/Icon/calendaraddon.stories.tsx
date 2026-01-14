@@ -21,7 +21,7 @@ const Calendaraddon = (
 };
 
 const meta = {
-  title: 'Components/Icon/calendar_add_on',
+  title: 'Components/Icon/❖ Icons',
   component: Calendaraddon,
   parameters: {
     layout: 'centered',
@@ -34,7 +34,7 @@ const meta = {
     figma: {
       pageId: '5193:37078',
       componentId: '3838:102226',
-      figmaComponent: 'calendar_add_on',
+      figmaComponent: '❖ Icons',
       url: 'https://www.figma.com/design/XKxVlFf9TfWBHosOInkJXA/T-Suite-Design-System?node-id=3838-102226',
     },
   },

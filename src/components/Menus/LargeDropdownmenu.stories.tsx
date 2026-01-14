@@ -17,7 +17,7 @@ const LargeDropdownmenu = (
 };
 
 const meta = {
-  title: 'Components/Menus/Large - Dropdown menu',
+  title: 'Components/Menus/❖ Menus',
   component: LargeDropdownmenu,
   parameters: {
     layout: 'centered',
@@ -30,7 +30,7 @@ const meta = {
     figma: {
       pageId: '5193:45251',
       componentId: '3130:9224',
-      figmaComponent: 'Large - Dropdown menu',
+      figmaComponent: '❖ Menus',
       url: 'https://www.figma.com/design/XKxVlFf9TfWBHosOInkJXA/T-Suite-Design-System?node-id=3130-9224',
     },
   },

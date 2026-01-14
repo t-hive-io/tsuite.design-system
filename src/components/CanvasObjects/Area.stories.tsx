@@ -109,7 +109,7 @@ const Area = (
 };
 
 const meta = {
-  title: 'Components/Canvas Objects/Area',
+  title: 'Components/Canvas Objects/❖ Canvas objects',
   component: Area,
   parameters: {
     layout: 'centered',
@@ -122,7 +122,7 @@ const meta = {
     figma: {
       pageId: '5170:45525',
       componentId: '1843:8669',
-      figmaComponent: 'Area',
+      figmaComponent: '❖ Canvas objects',
       url: 'https://www.figma.com/design/XKxVlFf9TfWBHosOInkJXA/T-Suite-Design-System?node-id=1843-8669',
     },
   },

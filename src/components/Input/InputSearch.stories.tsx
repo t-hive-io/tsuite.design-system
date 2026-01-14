@@ -31,7 +31,7 @@ const InputSearch = (
 };
 
 const meta = {
-  title: 'Components/Input/Input – Search',
+  title: 'Components/Input/❖ Inputs',
   component: InputSearch,
   parameters: {
     layout: 'centered',
@@ -44,7 +44,7 @@ const meta = {
     figma: {
       pageId: '5193:38949',
       componentId: '1728:8539',
-      figmaComponent: 'Input – Search',
+      figmaComponent: '❖ Inputs',
       url: 'https://www.figma.com/design/XKxVlFf9TfWBHosOInkJXA/T-Suite-Design-System?node-id=3797-54209',
     },
   },

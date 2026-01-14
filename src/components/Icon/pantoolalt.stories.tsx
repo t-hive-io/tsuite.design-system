@@ -21,7 +21,7 @@ const Pantoolalt = (
 };
 
 const meta = {
-  title: 'Components/Icon/pan_tool_alt',
+  title: 'Components/Icon/❖ Icons',
   component: Pantoolalt,
   parameters: {
     layout: 'centered',
@@ -34,7 +34,7 @@ const meta = {
     figma: {
       pageId: '5193:37078',
       componentId: '3838:102184',
-      figmaComponent: 'pan_tool_alt',
+      figmaComponent: '❖ Icons',
       url: 'https://www.figma.com/design/XKxVlFf9TfWBHosOInkJXA/T-Suite-Design-System?node-id=3838-102184',
     },
   },

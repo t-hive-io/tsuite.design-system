@@ -17,7 +17,7 @@ const Selectionpointposition = (
 };
 
 const meta = {
-  title: 'Components/Canvas Objects/Selection point position',
+  title: 'Components/Canvas Objects/❖ Canvas objects',
   component: Selectionpointposition,
   parameters: {
     layout: 'centered',
@@ -30,7 +30,7 @@ const meta = {
     figma: {
       pageId: '5170:45525',
       componentId: '3223:151232',
-      figmaComponent: 'Selection point position',
+      figmaComponent: '❖ Canvas objects',
       url: 'https://www.figma.com/design/XKxVlFf9TfWBHosOInkJXA/T-Suite-Design-System?node-id=3223-151232',
     },
   },

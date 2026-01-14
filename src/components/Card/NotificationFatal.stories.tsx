@@ -28,7 +28,7 @@ const NotificationFatal = (
 };
 
 const meta = {
-  title: 'Components/Card/Notification: Fatal',
+  title: 'Components/Card/❖ Cards',
   component: NotificationFatal,
   parameters: {
     layout: 'centered',
@@ -41,7 +41,7 @@ const meta = {
     figma: {
       pageId: '5171:45784',
       componentId: '4875:38604',
-      figmaComponent: 'Notification: Fatal',
+      figmaComponent: '❖ Cards',
       url: 'https://www.figma.com/design/XKxVlFf9TfWBHosOInkJXA/T-Suite-Design-System?node-id=4875-38604',
     },
   },

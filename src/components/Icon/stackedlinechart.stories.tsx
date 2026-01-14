@@ -21,7 +21,7 @@ const Stackedlinechart = (
 };
 
 const meta = {
-  title: 'Components/Icon/stacked_line_chart',
+  title: 'Components/Icon/❖ Icons',
   component: Stackedlinechart,
   parameters: {
     layout: 'centered',
@@ -34,7 +34,7 @@ const meta = {
     figma: {
       pageId: '5193:37078',
       componentId: '4802:37868',
-      figmaComponent: 'stacked_line_chart',
+      figmaComponent: '❖ Icons',
       url: 'https://www.figma.com/design/XKxVlFf9TfWBHosOInkJXA/T-Suite-Design-System?node-id=4802-37868',
     },
   },

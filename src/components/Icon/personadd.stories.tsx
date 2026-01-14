@@ -21,7 +21,7 @@ const Personadd = (
 };
 
 const meta = {
-  title: 'Components/Icon/person_add',
+  title: 'Components/Icon/❖ Icons',
   component: Personadd,
   parameters: {
     layout: 'centered',
@@ -34,7 +34,7 @@ const meta = {
     figma: {
       pageId: '5193:37078',
       componentId: '3838:102313',
-      figmaComponent: 'person_add',
+      figmaComponent: '❖ Icons',
       url: 'https://www.figma.com/design/XKxVlFf9TfWBHosOInkJXA/T-Suite-Design-System?node-id=3838-102313',
     },
   },

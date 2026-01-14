@@ -22,7 +22,7 @@ const Inputtext = (
 };
 
 const meta = {
-  title: 'Components/U I Shell Right Panel/input text',
+  title: 'Components/U I Shell Right Panel/❖ UI shell right panel',
   component: Inputtext,
   parameters: {
     layout: 'centered',
@@ -35,7 +35,7 @@ const meta = {
     figma: {
       pageId: '5236:21016',
       componentId: '1535:9374',
-      figmaComponent: 'input text',
+      figmaComponent: '❖ UI shell right panel',
       url: 'https://www.figma.com/design/XKxVlFf9TfWBHosOInkJXA/T-Suite-Design-System?node-id=1535-9374',
     },
   },

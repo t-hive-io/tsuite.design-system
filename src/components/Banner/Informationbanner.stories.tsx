@@ -6,7 +6,7 @@ const Informationbanner = () => {
 };
 
 const meta = {
-  title: 'Components/Banner/Information banner',
+  title: 'Components/Banner/❖ Banner',
   component: Informationbanner,
   parameters: {
     layout: 'centered',
@@ -19,7 +19,7 @@ const meta = {
     figma: {
       pageId: '5248:20526',
       componentId: '1325:9049',
-      figmaComponent: 'Information banner',
+      figmaComponent: '❖ Banner',
       url: 'https://www.figma.com/design/XKxVlFf9TfWBHosOInkJXA/T-Suite-Design-System?node-id=1325-9049',
     },
   },

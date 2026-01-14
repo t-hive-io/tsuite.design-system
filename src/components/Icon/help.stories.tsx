@@ -21,7 +21,7 @@ const Help = (
 };
 
 const meta = {
-  title: 'Components/Icon/help',
+  title: 'Components/Icon/❖ Icons',
   component: Help,
   parameters: {
     layout: 'centered',
@@ -34,7 +34,7 @@ const meta = {
     figma: {
       pageId: '5193:37078',
       componentId: '4228:36186',
-      figmaComponent: 'help',
+      figmaComponent: '❖ Icons',
       url: 'https://www.figma.com/design/XKxVlFf9TfWBHosOInkJXA/T-Suite-Design-System?node-id=4228-36186',
     },
   },

@@ -33,7 +33,7 @@ const Cardloadcarriertypes = (
 };
 
 const meta = {
-  title: 'Components/Card/Card load carrier types',
+  title: 'Components/Card/❖ Cards',
   component: Cardloadcarriertypes,
   parameters: {
     layout: 'centered',
@@ -46,7 +46,7 @@ const meta = {
     figma: {
       pageId: '5171:45784',
       componentId: '2453:1719',
-      figmaComponent: 'Card load carrier types',
+      figmaComponent: '❖ Cards',
       url: 'https://www.figma.com/design/XKxVlFf9TfWBHosOInkJXA/T-Suite-Design-System?node-id=3180-1491',
     },
   },

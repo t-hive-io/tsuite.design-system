@@ -21,7 +21,7 @@ const Remove = (
 };
 
 const meta = {
-  title: 'Components/Icon/remove',
+  title: 'Components/Icon/❖ Icons',
   component: Remove,
   parameters: {
     layout: 'centered',
@@ -34,7 +34,7 @@ const meta = {
     figma: {
       pageId: '5193:37078',
       componentId: '3838:100746',
-      figmaComponent: 'remove',
+      figmaComponent: '❖ Icons',
       url: 'https://www.figma.com/design/XKxVlFf9TfWBHosOInkJXA/T-Suite-Design-System?node-id=3838-100746',
     },
   },

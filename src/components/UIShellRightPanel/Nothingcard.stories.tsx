@@ -18,7 +18,7 @@ const Nothingcard = (
 };
 
 const meta = {
-  title: 'Components/U I Shell Right Panel/Nothing card',
+  title: 'Components/U I Shell Right Panel/❖ UI shell right panel',
   component: Nothingcard,
   parameters: {
     layout: 'centered',
@@ -31,7 +31,7 @@ const meta = {
     figma: {
       pageId: '5236:21016',
       componentId: '3005:10695',
-      figmaComponent: 'Nothing card',
+      figmaComponent: '❖ UI shell right panel',
       url: 'https://www.figma.com/design/XKxVlFf9TfWBHosOInkJXA/T-Suite-Design-System?node-id=3005-10695',
     },
   },

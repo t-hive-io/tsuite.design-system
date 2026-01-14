@@ -21,7 +21,7 @@ const Lock = (
 };
 
 const meta = {
-  title: 'Components/Icon/lock',
+  title: 'Components/Icon/❖ Icons',
   component: Lock,
   parameters: {
     layout: 'centered',
@@ -34,7 +34,7 @@ const meta = {
     figma: {
       pageId: '5193:37078',
       componentId: '3838:100842',
-      figmaComponent: 'lock',
+      figmaComponent: '❖ Icons',
       url: 'https://www.figma.com/design/XKxVlFf9TfWBHosOInkJXA/T-Suite-Design-System?node-id=3838-100842',
     },
   },

@@ -21,7 +21,7 @@ const Manualoperation = (
 };
 
 const meta = {
-  title: 'Components/Icon/Manual operation',
+  title: 'Components/Icon/❖ Icons',
   component: Manualoperation,
   parameters: {
     layout: 'centered',
@@ -34,7 +34,7 @@ const meta = {
     figma: {
       pageId: '5193:37078',
       componentId: '4822:37875',
-      figmaComponent: 'Manual operation',
+      figmaComponent: '❖ Icons',
       url: 'https://www.figma.com/design/XKxVlFf9TfWBHosOInkJXA/T-Suite-Design-System?node-id=4822-37875',
     },
   },

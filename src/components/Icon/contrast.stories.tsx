@@ -21,7 +21,7 @@ const Contrast = (
 };
 
 const meta = {
-  title: 'Components/Icon/contrast',
+  title: 'Components/Icon/❖ Icons',
   component: Contrast,
   parameters: {
     layout: 'centered',
@@ -34,7 +34,7 @@ const meta = {
     figma: {
       pageId: '5193:37078',
       componentId: '4247:36170',
-      figmaComponent: 'contrast',
+      figmaComponent: '❖ Icons',
       url: 'https://www.figma.com/design/XKxVlFf9TfWBHosOInkJXA/T-Suite-Design-System?node-id=4247-36170',
     },
   },

@@ -22,7 +22,7 @@ const Smallbadge = (
 };
 
 const meta = {
-  title: 'Components/Badge/Small badge',
+  title: 'Components/Badge/❖ Badge',
   component: Smallbadge,
   parameters: {
     layout: 'centered',
@@ -35,7 +35,7 @@ const meta = {
     figma: {
       pageId: '5168:44095',
       componentId: '1570:9638',
-      figmaComponent: 'Small badge',
+      figmaComponent: '❖ Badge',
       url: 'https://www.figma.com/design/XKxVlFf9TfWBHosOInkJXA/T-Suite-Design-System?node-id=1570-9638',
     },
   },

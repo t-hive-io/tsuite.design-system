@@ -25,11 +25,33 @@ async function exportComponentDocs() {
     const fileData = response.data;
     const componentSets = fileData.componentSets || {};
 
+    // Build a map of component IDs to their page names
+    const componentToPageMap = {};
+    if (fileData.document && fileData.document.children) {
+      fileData.document.children.forEach((page) => {
+        if (page.type === 'CANVAS' && page.children) {
+          // Recursively find all component sets in this page
+          const findComponentSets = (node, pageName) => {
+            if (node.type === 'COMPONENT_SET') {
+              componentToPageMap[node.id] = pageName;
+            }
+            if (node.children) {
+              node.children.forEach((child) => findComponentSets(child, pageName));
+            }
+          };
+          page.children.forEach((child) => findComponentSets(child, page.name));
+        }
+      });
+    }
+
     // Map component IDs to documentation
     const componentDocs = {};
     let withDescriptionCount = 0;
 
     Object.entries(componentSets).forEach(([id, data]) => {
+      // Get page name for this component (if available)
+      const pageName = componentToPageMap[id];
+      
       // Generate Figma URL for this component
       const figmaUrl = `https://www.figma.com/design/${FIGMA_FILE_KEY}/T-Suite-Design-System?node-id=${id.replace(
         ':',
@@ -39,6 +61,7 @@ async function exportComponentDocs() {
       componentDocs[data.name] = {
         id: id,
         name: data.name,
+        pageName: pageName || null,
         description:
           data.description ||
           '⚠️ **Figma Description Missing** - Please add a description in Figma for this component.',
