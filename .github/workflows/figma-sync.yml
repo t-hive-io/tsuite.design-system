@@ -42,6 +42,9 @@ jobs:
         run: npm run figma:export
 
       - name: Sync components (detect new/changed/removed)
+        env:
+          FIGMA_FILE_KEY: ${{ secrets.FIGMA_FILE_KEY }}
+          FIGMA_ACCESS_TOKEN: ${{ secrets.FIGMA_ACCESS_TOKEN }}
         run: npm run figma:sync
 
       - name: Transform tokens
