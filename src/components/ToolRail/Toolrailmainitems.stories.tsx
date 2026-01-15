@@ -42,7 +42,7 @@ const meta = {
       pageId: '5194:45487',
       componentId: '1081:6441',
       figmaComponent: 'Tool rail',
-      url: 'https://www.figma.com/design/XKxVlFf9TfWBHosOInkJXA/T-Suite-Design-System?node-id=1125-8913',
+      url: 'https://www.figma.com/design/XKxVlFf9TfWBHosOInkJXA/T-Suite-Design-System?node-id=1081-6441',
     },
   },
   tags: ['autodocs'],

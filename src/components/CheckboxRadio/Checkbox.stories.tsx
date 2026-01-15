@@ -20,7 +20,7 @@ const Checkbox = (
 
 const meta = {
   title:
-    'Components/Checkbox / Radio button/ Radio button/ Radio button/Checkbox',
+    'Components/Checkbox / Radio button/ Radio button/ Radio button/ Radio button/Checkbox',
   component: Checkbox,
   parameters: {
     layout: 'centered',

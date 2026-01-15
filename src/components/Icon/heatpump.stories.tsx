@@ -35,7 +35,7 @@ const meta = {
       pageId: '5193:37078',
       componentId: '3838:102851',
       figmaComponent: 'Icons',
-      url: 'https://www.figma.com/design/XKxVlFf9TfWBHosOInkJXA/T-Suite-Design-System?node-id=5386-27102',
+      url: 'https://www.figma.com/design/XKxVlFf9TfWBHosOInkJXA/T-Suite-Design-System?node-id=3838-102851',
     },
   },
   tags: ['autodocs'],

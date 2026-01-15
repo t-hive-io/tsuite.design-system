@@ -45,7 +45,7 @@ const meta = {
       pageId: '5193:38949',
       componentId: '1728:8539',
       figmaComponent: 'Input',
-      url: 'https://www.figma.com/design/XKxVlFf9TfWBHosOInkJXA/T-Suite-Design-System?node-id=3797-54209',
+      url: 'https://www.figma.com/design/XKxVlFf9TfWBHosOInkJXA/T-Suite-Design-System?node-id=1728-8539',
     },
   },
   tags: ['autodocs'],

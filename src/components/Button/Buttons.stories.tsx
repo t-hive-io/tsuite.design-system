@@ -111,7 +111,7 @@ const meta = {
     docs: {
       description: {
         component:
-          'Primary button for user actions. Use primary for main CTAs, secondary for supporting actions. Available in multiple states.',
+          'Primary button for user actions. Use primary for main CTAs, \nsecondary for supporting actions. Available in multiple states.',
       },
     },
     figma: {

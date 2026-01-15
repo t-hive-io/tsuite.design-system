@@ -47,7 +47,7 @@ const meta = {
       pageId: '5171:45784',
       componentId: '2453:1719',
       figmaComponent: 'Cards',
-      url: 'https://www.figma.com/design/XKxVlFf9TfWBHosOInkJXA/T-Suite-Design-System?node-id=3180-1491',
+      url: 'https://www.figma.com/design/XKxVlFf9TfWBHosOInkJXA/T-Suite-Design-System?node-id=2453-1719',
     },
   },
   tags: ['autodocs'],

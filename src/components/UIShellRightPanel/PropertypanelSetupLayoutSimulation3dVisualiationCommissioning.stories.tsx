@@ -134,7 +134,7 @@ const meta = {
       pageId: '5236:21016',
       componentId: '2992:2230',
       figmaComponent: 'UI shell right panel',
-      url: 'https://www.figma.com/design/XKxVlFf9TfWBHosOInkJXA/T-Suite-Design-System?node-id=3815-56560',
+      url: 'https://www.figma.com/design/XKxVlFf9TfWBHosOInkJXA/T-Suite-Design-System?node-id=2992-2230',
     },
   },
   tags: ['autodocs'],

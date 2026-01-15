@@ -19,7 +19,7 @@ const Inputchips = (
 };
 
 const meta = {
-  title: 'Components/Chips / Tags/ Tags/ Tags/Input chips',
+  title: 'Components/Chips / Tags/ Tags/ Tags/ Tags/Input chips',
   component: Inputchips,
   parameters: {
     layout: 'centered',
@@ -33,7 +33,7 @@ const meta = {
       pageId: '5172:38144',
       componentId: '2451:5',
       figmaComponent: 'Chips / Tags',
-      url: 'https://www.figma.com/design/XKxVlFf9TfWBHosOInkJXA/T-Suite-Design-System?node-id=3811-36790',
+      url: 'https://www.figma.com/design/XKxVlFf9TfWBHosOInkJXA/T-Suite-Design-System?node-id=2451-5',
     },
   },
   tags: ['autodocs'],
