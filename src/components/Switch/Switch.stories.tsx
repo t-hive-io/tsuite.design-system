@@ -57,7 +57,7 @@ const meta = {
     docs: {
       description: {
         component:
-          "Use switches (not radio buttons) if the items in a list can be independently controlled\nSwitches are the best way to let people adjust settings\nMake sure the switch's selection (on or off) is visible at a glance\n# Heja\n**asdas**\n~~asasa~~",
+          'Use switches (not radio buttons) if the items in a list can be independently controlled\nSwitches are the best way to let people adjust settings\nMake sure the switch’s selection (on or off) is visible at a glance\n# Heja\n**asdas**\n~~asasa~~',
       },
     },
     figma: {

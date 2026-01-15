@@ -19,7 +19,7 @@ const Inputchips = (
 };
 
 const meta = {
-  title: 'Components/Chips / Tags/ Tags/ Tags/ Tags/Input chips',
+  title: 'Components/Chips / Tags/ Tags/ Tags/ Tags/ Tags/Input chips',
   component: Inputchips,
   parameters: {
     layout: 'centered',

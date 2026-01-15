@@ -229,18 +229,22 @@ function updateStoryFile(storyPath, component) {
   }
   
   // Update description
-  const descMatch = content.match(/component:\s*['"][^'"]*['"]/m);
-  if (descMatch && description) {
-    const currentDesc = descMatch[0];
+  if (description) {
     const descValue = description || '⚠️ **Figma Description Missing** - Please add a description in Figma for this component.';
-    const newDesc = `component: ${JSON.stringify(descValue)}`;
+    const newDescValue = JSON.stringify(descValue);
     
-    if (currentDesc !== newDesc) {
-      content = content.replace(
-        /component:\s*['"][^'"]*['"]/m,
-        newDesc
-      );
-      updated = true;
+    // Match component description with proper multiline string support
+    const descRegex = /component:\s*["'][\s\S]*?["'](?=,?\s*\n\s*})/;
+    const descMatch = content.match(descRegex);
+    
+    if (descMatch) {
+      const newDesc = `component:\n          ${newDescValue}`;
+      const currentDescValue = descMatch[0].match(/["']([\s\S]*?)["'](?=,?\s*\n\s*})/)?.[1];
+      
+      if (currentDescValue !== descValue) {
+        content = content.replace(descRegex, newDesc);
+        updated = true;
+      }
     }
   }
   
