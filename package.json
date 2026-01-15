@@ -9,6 +9,7 @@
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
     "figma:export": "node scripts/figma-export.cjs && node scripts/export-component-docs.cjs && node scripts/inject-figma-urls.cjs && node scripts/sync-figma-names-to-stories.cjs",
+    "figma:sync": "node scripts/export-component-docs.cjs && node scripts/sync-from-figma.cjs",
     "figma:docs": "node scripts/export-component-docs.cjs",
     "figma:inject-urls": "node scripts/inject-figma-urls.cjs",
     "figma:analyze": "node scripts/analyze-figma-coverage.cjs",
