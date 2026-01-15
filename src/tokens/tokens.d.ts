@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Thu, 15 Jan 2026 07:01:33 GMT
+ * Generated on Thu, 15 Jan 2026 11:20:34 GMT
  */
 
 export const ColorsBrandColorBrand700 : string;
