@@ -18,7 +18,7 @@ const Radiobutton = (
 
 const meta = {
   title:
-    'Components/Checkbox / Radio button/ Radio button/ Radio button/ Radio button/ Radio button/Radio button',
+    'Components/Checkbox / Radio button/ Radio button/ Radio button/ Radio button/ Radio button/ Radio button/Radio button',
   component: Radiobutton,
   parameters: {
     layout: 'centered',
