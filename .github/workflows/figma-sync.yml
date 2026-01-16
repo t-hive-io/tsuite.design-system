@@ -67,6 +67,10 @@ jobs:
           git add src/styles/tokens.css src/tokens/ src/figma-docs.json src/**/*.stories.tsx
           git commit -m "chore: sync design tokens and docs from Figma [skip ci]"
           git push
+          
+      - name: Checkout latest (after sync commit)
+        if: steps.changes.outputs.changes == 'true'
+        run: git pull origin main
 
       - name: Build Storybook
         run: npm run build-storybook
