@@ -531,7 +531,7 @@ async function generateComponents() {
   
   let generated = 0;
   let skipped = 0;
-  const FILTER_PAGE = null; // Set to page name to test specific page, null for all
+  const FILTER_PAGE = '❖ Tooltips'; // Keep only Tooltips for now
   
   // Process each component
   for (const [name, data] of Object.entries(figmaDocs)) {
