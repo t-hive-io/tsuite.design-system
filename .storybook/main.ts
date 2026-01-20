@@ -4,9 +4,13 @@ import svgr from 'vite-plugin-svgr';
 const config: StorybookConfig = {
   /**
    * Story sources
-   * Supports MDX and CSF3 stories
+   * Only load stories from generated-stories and foundation
    */
-  stories: ['../src/**/*.mdx', '../src/**/*.stories.@(js|jsx|mjs|ts|tsx)'],
+  stories: [
+    '../src/generated-stories/**/*.stories.@(js|jsx|mjs|ts|tsx)',
+    '../src/foundation/**/*.stories.@(js|jsx|mjs|ts|tsx)',
+    '../src/**/*.mdx',
+  ],
 
   /**
    * Official Storybook addons
