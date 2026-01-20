@@ -20,7 +20,7 @@ const FIGMA_FILE_KEY = process.env.FIGMA_FILE_KEY;
 const FIGMA_ACCESS_TOKEN = process.env.FIGMA_ACCESS_TOKEN;
 
 // Only generate stories from this page (or null for all pages)
-const FILTER_PAGE = '❖ Tooltips'; // Generate only Tooltips
+const FILTER_PAGE = null; // Set to page name to test specific page, null for all
 
 /**
  * Fetch Figma file structure
