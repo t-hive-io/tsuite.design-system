@@ -39,6 +39,7 @@ jobs:
         env:
           FIGMA_FILE_KEY: ${{ secrets.FIGMA_FILE_KEY }}
           FIGMA_ACCESS_TOKEN: ${{ secrets.FIGMA_ACCESS_TOKEN }}
+          FIGMA_ACCESS_TOKEN: ${{ secrets.FIGMA_ACCESS_TOKEN }}
         run: npm run figma:export
 
       - name: Sync components (detect new/changed/removed)
@@ -73,6 +74,9 @@ jobs:
         run: git pull origin main
 
       - name: Build Storybook
+        env:
+          FIGMA_FILE_KEY: ${{ secrets.FIGMA_FILE_KEY }}
+          FIGMA_ACCESS_TOKEN: ${{ secrets.FIGMA_ACCESS_TOKEN }}
         run: npm run build-storybook
 
       - name: Deploy Storybook to GitHub Pages

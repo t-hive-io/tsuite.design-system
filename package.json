@@ -7,8 +7,8 @@
   "types": "dist/index.d.ts",
   "scripts": {
     "setup": "node scripts/setup-first-time.cjs",
-    "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build",
+    "storybook": "npm run figma:generate-stories && storybook dev -p 6006",
+    "build-storybook": "npm run figma:generate-stories && storybook build",
     "figma:export": "node scripts/figma-export.cjs && node scripts/export-component-docs.cjs && node scripts/inject-figma-urls.cjs && node scripts/sync-figma-names-to-stories.cjs",
     "figma:sync": "node scripts/export-component-docs.cjs && node scripts/sync-from-figma.cjs",
     "figma:generate-components": "node scripts/generate-components-from-figma.cjs",

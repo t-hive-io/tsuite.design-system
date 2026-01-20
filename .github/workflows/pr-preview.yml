@@ -30,6 +30,9 @@ jobs:
         run: npm run tokens:build
 
       - name: Build Storybook
+        env:
+          FIGMA_FILE_KEY: ${{ secrets.FIGMA_FILE_KEY }}
+          FIGMA_ACCESS_TOKEN: ${{ secrets.FIGMA_ACCESS_TOKEN }}
         run: npm run build-storybook
 
       - name: Deploy Preview
