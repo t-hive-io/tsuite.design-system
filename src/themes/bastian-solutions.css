@@ -1,0 +1,60 @@
+/**
+ * Bastian Solutions Brand Theme
+ * CSS Custom Properties from brand tokens
+ */
+
+:root {
+  /* Brand Colors */
+  --color-brand-800: #002052;
+  --color-brand-700: #002D72;
+  --color-brand-600: #004DC2;
+  --color-brand-500: #B2D1FF;
+  --color-brand-400: #DBE9FF;
+  --color-brand-100: #F5F9FF;
+
+  /* Primary Colors */
+  --color-primary-800: #004485;
+  --color-primary-700: #005EB8;
+  --color-primary-600: #0078EB;
+  --color-primary-500: #1F91FF;
+  --color-primary-400: #85C3FF;
+  --color-primary-300: #DBEDFF;
+  --color-primary-200: #F5FAFF;
+
+  /* Neutral Colors */
+  --color-neutral-800: #222222;
+  --color-neutral-700: #808080;
+  --color-neutral-600: #B3B3B3;
+  --color-neutral-500: #D9D9D9;
+  --color-neutral-400: #E6E6E6;
+  --color-neutral-300: #F7F7F7;
+  --color-neutral-200: #FCFCFC;
+  --color-neutral-100: #FFFFFF;
+  --color-neutral-50: #222222;
+
+  /* Border Radius */
+  --radius-sm: 2px;
+  --radius-md: 4px;
+
+  /* Typography - Font Families */
+  --font-family-title: 'Inter', sans-serif;
+  --font-family-body: 'Inter', sans-serif;
+
+  /* Typography - Font Weights */
+  --font-weight-regular: 400;
+  --font-weight-normal: 400;
+  --font-weight-medium: 500;
+  --font-weight-semibold: 600;
+
+  /* Typography - Font Sizes */
+  --font-size-xxxs: 10px;
+  --font-size-xxs: 12px;
+  --font-size-xs: 14px;
+  --font-size-sm: 16px;
+  --font-size-md: 18px;
+  --font-size-lg: 28px;
+
+  /* Typography - Semantic mappings */
+  --font-size-body: var(--font-size-xxs);
+  --line-height-body: 1.5;
+}

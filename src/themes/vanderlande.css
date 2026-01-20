@@ -1,0 +1,60 @@
+/**
+ * Vanderlande Brand Theme
+ * CSS Custom Properties from brand tokens
+ */
+
+:root {
+  /* Brand Colors */
+  --color-brand-800: #5E000F;
+  --color-brand-700: #8C0017;
+  --color-brand-600: #BB001E;
+  --color-brand-500: #CC4056;
+  --color-brand-400: #DD808F;
+  --color-brand-100: #EEBFC7;
+
+  /* Primary Colors */
+  --color-primary-800: #BF620D;
+  --color-primary-700: #EF7B10;
+  --color-primary-600: #F29540;
+  --color-primary-500: #F8C596;
+  --color-primary-400: #FCE5CF;
+  --color-primary-300: #FDEDDE;
+  --color-primary-200: #FEFAF5;
+
+  /* Neutral Colors */
+  --color-neutral-800: #222222;
+  --color-neutral-700: #808080;
+  --color-neutral-600: #B3B3B3;
+  --color-neutral-500: #D9D9D9;
+  --color-neutral-400: #E6E6E6;
+  --color-neutral-300: #F7F7F7;
+  --color-neutral-200: #FCFCFC;
+  --color-neutral-100: #FFFFFF;
+  --color-neutral-50: #222222;
+
+  /* Border Radius */
+  --radius-sm: 2px;
+  --radius-md: 4px;
+
+  /* Typography - Font Families */
+  --font-family-title: 'Inter', sans-serif;
+  --font-family-body: 'Inter', sans-serif;
+
+  /* Typography - Font Weights */
+  --font-weight-regular: 400;
+  --font-weight-normal: 400;
+  --font-weight-medium: 500;
+  --font-weight-semibold: 600;
+
+  /* Typography - Font Sizes */
+  --font-size-xxxs: 10px;
+  --font-size-xxs: 12px;
+  --font-size-xs: 14px;
+  --font-size-sm: 16px;
+  --font-size-md: 18px;
+  --font-size-lg: 28px;
+
+  /* Typography - Semantic mappings */
+  --font-size-body: var(--font-size-xxs);
+  --line-height-body: 1.5;
+}

@@ -92,6 +92,38 @@ function applyThemeToDOM(theme: BrandTheme) {
     });
   }
 
+  // Apply font size tokens
+  if (tokens.font?.size) {
+    Object.entries(tokens.font.size).forEach(([key, value]) => {
+      const cssVarName = `--font-size-${key}`;
+      root.style.setProperty(cssVarName, `${value}px`);
+    });
+    // Semantic mapping for body text
+    root.style.setProperty('--font-size-body', `${tokens.font.size.xxs}px`);
+  }
+
+  // Apply font weight tokens
+  if (tokens.font?.weight) {
+    Object.entries(tokens.font.weight).forEach(([key, value]) => {
+      const cssVarName = `--font-weight-${key.toLowerCase()}`;
+      // Extract numeric weight or keep string value
+      const weightValue =
+        typeof value === 'string' && !isNaN(parseInt(value))
+          ? parseInt(value)
+          : value === 'Regular' || value === 'Normal'
+          ? '400'
+          : value === 'Medium'
+          ? '500'
+          : value === 'Semibold'
+          ? '600'
+          : value;
+      root.style.setProperty(cssVarName, weightValue.toString());
+    });
+  }
+
+  // Set line-height for body text
+  root.style.setProperty('--line-height-body', '1.5');
+
   // Set theme data attribute for CSS selectors
   root.setAttribute('data-theme', theme);
 }
